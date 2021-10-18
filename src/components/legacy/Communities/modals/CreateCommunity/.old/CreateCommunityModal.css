@@ -1,0 +1,1030 @@
+.modalCreateCommunityModal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal .create-community-modal {
+  align-items: flex-start;
+  max-height: calc(85vh - 50px);
+  overflow-y: auto;
+  scrollbar-width: none;
+  overflow-x: hidden;
+  padding-bottom: 0;
+}
+
+.modal .create-community-modal .flexRowInputsCommunitiesModal {
+  display: flex;
+}
+
+.modal .create-community-modal .selectCreateCommunity,
+.modal .create-community-modal .textFieldCreateCommunity {
+  height: 49px;
+  padding-right: 0px !important;
+  border-radius: 8px;
+  border: 1px solid #e0e4f3;
+  background: #f7f9fe;
+  box-sizing: border-box;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.modal .create-community-modal .infoIconCreateCommunity {
+  width: 12px;
+  height: 12px;
+}
+
+.modal .create-community-modal .textFieldCreateCommunity {
+  height: 46px;
+  background-color: #f6f6f6;
+  border-radius: 16px;
+  border: 1px solid #b6b6b6;
+  margin-top: 8px;
+  color: rgb(101, 110, 126);
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 20px;
+  margin-bottom: 19px;
+}
+.modal .create-community-modal .textFieldCreateCommunity:focus {
+  outline: none;
+}
+
+.modal .create-community-modal .textFieldCreateCommunity::placeholder {
+  outline: none;
+  color: rgba(101, 110, 126, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.modal .create-community-modal .textAreaCreateCommunity {
+  font-family: "Agrandir";
+  width: 100%;
+  height: 140px;
+  padding-top: 17px;
+  background-color: #f6f6f6;
+  border-radius: 16px;
+  border: 1px solid #b6b6b6;
+  margin-top: 8px;
+  color: rgb(101, 110, 126);
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 20px;
+  text-transform: none;
+}
+.modal .create-community-modal .textAreaCreateCommunity:focus {
+  outline: none;
+}
+
+.modal .create-community-modal .textAreaCreateCommunity::placeholder {
+  outline: none;
+  color: rgba(101, 110, 126, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.modal .create-community-modal .imageCreateCommunityDiv {
+  position: relative;
+  margin-top: 8px;
+}
+.modal .create-community-modal .imageCreateCommunity {
+  width: 100% !important;
+  height: calc(200px - 17px) !important;
+  border-radius: 16px;
+}
+.modal .create-community-modal .removeImageButton {
+  position: absolute;
+  top: 10px;
+  right: 80px;
+  font-size: 18px;
+  cursor: pointer;
+  color: rgb(100, 200, 158) !important;
+}
+
+.modal .create-community-modal .dragImageHereCreateCommunity {
+  border-radius: 16px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background: #f6f6f6;
+  border: 1px dashed #b6b6b6;
+  box-sizing: border-box;
+  margin-top: 8px;
+}
+.modal .create-community-modal .dragImageHereIcon {
+  width: 40px;
+  height: 32px;
+  margin-bottom: 16px;
+}
+.modal .create-community-modal .dragImageHereLabel {
+  font-weight: 400;
+  color: rgba(101, 110, 126, 0.719);
+  font-size: 14px;
+}
+
+.modal .create-community-modal .option-buttons {
+  width: fit-content !important;
+  padding: 0px 2px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  display: flex;
+}
+.modal .create-community-modal .option-buttons .selected {
+  background: black !important;
+}
+
+.modal .create-community-modal .option-buttons button {
+  width: auto !important;
+  white-space: nowrap !important;
+  padding: 2px 20px 0px 20px !important;
+  border: 1px solid #707582;
+  margin-left: 10px;
+}
+
+.modal .create-community-modal .imageCreateCommunity,
+.modal .create-community-modal .dragImageHereCreateCommunity {
+  width: 400px !important;
+}
+
+.modal .create-community-modal .community-token {
+  margin: 0;
+}
+
+.modal .create-community-modal .social {
+  flex-wrap: wrap;
+}
+.modal .create-community-modal .social:first-child input {
+  margin-right: 10px;
+}
+
+.modal .create-community-modal .collateral-options {
+  align-items: flex-end;
+}
+
+.modal .create-community-modal .collateral-options input {
+  margin: 20px 10px;
+}
+
+.modal .create-community-modal .required-tokens .flexRowInputs {
+  align-items: center;
+  padding-top: 10px;
+}
+
+.modal .create-community-modal .required-tokens .flexRowInputs .textFieldCreateCommunity {
+  margin: 0;
+}
+
+.modal .create-community-modal .required-tokens .flexRowInputs .selectCreateCommunity {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.modal .create-community-modal .create-hashtag-button-mobile {
+  display: none;
+}
+
+.modal .create-community-modal .createHashtagButton {
+  min-height: 40px;
+  margin-top: 9px;
+}
+
+.modal .create-community-modal .addTokenButton {
+  min-height: 40px;
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  border-radius: 16px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.modal .create-community-modal .addTokenButton .addTokenButtonIcon {
+  width: 14px;
+  height: 14px;
+}
+
+.adminsMailLabelCommunity {
+  margin-bottom: 19px;
+  display: flex;
+}
+.adminsNameMailLabelCommunity {
+  padding-left: 20px;
+  padding-right: 15px;
+  height: 40px;
+  border-radius: 16px;
+  background-color: rgb(227, 233, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 14px;
+  color: rgb(8, 24, 49);
+  font-weight: 600;
+}
+.adminsStatusLabelCommunity {
+  border-radius: 16px;
+  height: 40px;
+  background-color: rgb(227, 233, 239);
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(101, 110, 126);
+}
+.pendingStatusLabelCommunity {
+  background-color: rgb(100, 200, 158) !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+.insurerRowCreateCommunity {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 263px;
+  height: 50px;
+  background-color: rgb(227, 233, 239);
+  border-radius: 16px;
+  margin-bottom: 10px;
+  padding: 0px 5px;
+}
+
+.photoInsurerRowCommunity {
+  margin: 5px !important;
+  width: 35px;
+  height: 35px;
+  background-color: rgb(101, 110, 126);
+  border-radius: 50%;
+}
+.nameInsurerRowCommunity {
+  margin-left: 9px !important;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(8, 24, 49);
+  width: 160px;
+  padding-right: 10px;
+}
+.closeButtonInsurerRowCommunity {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+  height: 16px;
+  width: 16px;
+  color: rgb(101, 110, 126);
+  cursor: pointer;
+}
+
+.deleteItemButton {
+  color: white;
+  background-color: transparent;
+  padding: 0;
+  margin-top: 4px;
+  margin-left: 8px;
+}
+
+.modal .create-community-modal .required-tokens .flexRowInputs .removeCommunityButton {
+  background-color: rgb(101, 110, 126) !important;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px !important;
+  margin-bottom: 35px !important;
+}
+
+.modal .create-community-modal .price-directions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px 0px;
+}
+
+.modal .create-community-modal .price-direction-container {
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  background-color: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 140px;
+  flex-grow: 1;
+  min-width: 180px;
+  max-width: 250px;
+  border-radius: 16px;
+  border: 1px solid #8097b34d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.modal .create-community-modal .price-direction-container:last-child {
+  margin-right: 0px;
+}
+
+.modal .create-community-modal .price-directions .selected {
+  border: 2px solid #3cafd4;
+}
+
+.modal .create-community-modal .price-directions .graph {
+  max-height: 100px;
+}
+
+.modal .create-community-modal .createHashtagButton-inner__text {
+  margin-left: auto;
+  color: white;
+  background-color: black;
+  padding: 9.5px 28px;
+  height: 40px;
+  font-size: 14px;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+  font-family: "Agrandir";
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+}
+.modal .create-community-modal .level .number {
+  font-size: 14px;
+  color: #333333;
+  background-color: #f7f9fe;
+  border-radius: 8px;
+  border: 1px solid#E0E4F3;
+  width: 49px;
+  height: 49px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.modal .create-community-modal .level {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: "10px !important";
+}
+
+.modal .create-community-modal .level input {
+  margin-left: 24px;
+  margin-right: 24px;
+  height: 49px;
+}
+
+.modal .create-community-modal .level input:last-child {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.modal .create-community-modal .community-apps {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.modal .create-community-modal .community-apps .community-container {
+  background-color: hsla(210, 27%, 91%, 0.3);
+  border: 1px hsla(212, 25%, 60%, 0.3) solid;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-width: 190px;
+  max-width: 274px;
+  margin: 10px 10px 10px 0;
+  width: 30%;
+}
+
+.modal .create-community-modal .community-apps .community-container:last-child {
+  margin-right: 0px;
+}
+
+.modal .create-community-modal .community-apps .community-container .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 10px 0;
+  width: 100%;
+  background: transparent;
+  border: none;
+  height: 42px;
+}
+
+.modal .create-community-modal .community-apps .community-container .header b {
+  margin: 0;
+  width: 100px;
+  flex-grow: 1;
+}
+
+.modal .create-community-modal .community-apps .community-container .header .option-buttons {
+  height: 30px;
+  width: 50px;
+  background-color: white;
+  margin: 0;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.modal .create-community-modal .community-apps .community-container .header b {
+  font-size: 18px;
+}
+
+.modal .create-community-modal .community-apps .community-container .header .unselected {
+  color: #656e7e;
+}
+
+.modal .create-community-modal .community-apps .community-container .header .option-buttons button {
+  height: 24px;
+  width: 24px !important;
+  padding: 0 !important;
+  background-color: white !important;
+}
+
+.modal .create-community-modal .community-apps .community-container .header .option-buttons .selected {
+  background-color: #ffffff !important;
+}
+
+.modal .create-community-modal .community-apps .community-container .header .option-buttons .selected:hover {
+  background-color: #56ad89 !important;
+}
+
+.modal .create-community-modal .community-apps .community-container .header .option-buttons .selectedFalse {
+  background-color: #656e7e !important;
+}
+
+.modal .create-community-modal .community-apps .community-container .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.modal .create-community-modal .community-apps .community-container .row .checkBox {
+  padding: 0 5px;
+}
+
+.modal .create-community-modal .community-apps .community-container .app {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.modal .create-community-modal .community-apps .community-container .app img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+/**CheckBox**/
+
+.community-apps .community-container .row .icon {
+  width: 26px !important;
+  height: 26px !important;
+  border: hsla(212, 25%, 60%, 0.5) 1px solid;
+  border-radius: 4px;
+  background: #e3e9ef;
+}
+
+/*admins*/
+.modal .create-community-modal .userManagementCreatePod {
+  margin-top: 10px;
+  width: 100%;
+  /* margin-left: -30px; */
+  padding-bottom: 0px;
+  padding: 0;
+}
+
+.modal .create-community-modal .userManagementCreatePod .createHashtagButton {
+  align-self: flex-end;
+  margin-left: 24px;
+  margin-bottom: 12px;
+}
+
+.modal .create-community-modal .userManagementCreatePod .selectCreateCommunity {
+  margin-left: 10px;
+  background: #f7f8fa;
+}
+
+.modal .create-community-modal .buttonCreatePodRow {
+  align-self: center;
+}
+
+.modal .create-community-modal .buttonCreatePodRow button {
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+  width: auto !important;
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+
+.modal .create-community-modal .selector-with-token {
+  margin-right: 10px;
+}
+
+.modal .create-community-modal .selector-with-token .selectCreateCommunity {
+  margin-bottom: 0px;
+}
+
+.modal .create-community-modal .filters {
+  background-color: #e3e9ef75;
+  width: calc(100% - 40px);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal .create-community-modal .filters label:first-child img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.modal .create-community-modal .filters label,
+.modal .create-community-modal .dropdown {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.modal .create-community-modal .filters p {
+  font-size: 14px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.modal .create-community-modal .filters label:first-child {
+  flex-direction: row;
+  width: calc(100% - 30px);
+  margin-top: 8px;
+  padding: 15px;
+  background-color: hsla(210, 27%, 91%, 0.3);
+  border: hsla(212, 25%, 60%, 0.3) 1px solid;
+  border-radius: 16px;
+}
+
+.modal .create-community-modal .filters label {
+  color: #081831;
+}
+
+.modal .create-community-modal .filters label:first-child input {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+.modal .create-community-modal .filters label:nth-child(3) input {
+  width: 100%;
+  margin-left: 10px;
+}
+.modal .create-community-modal .filters .slider {
+  padding: 0px;
+}
+
+.modal .create-community-modal .filters .slider p {
+  margin: 0;
+}
+.modal .create-community-modal .filters .slider p:nth-child(2) {
+  color: #656e7e;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.modal .create-community-modal .filters .blue-underline {
+  border-bottom: 3px solid #45cfea;
+  width: calc(100% -30px);
+}
+
+.modal .create-community-modal .filters .flexRowInputs .dropdown {
+  margin-right: 20px;
+}
+
+.modal .create-community-modal .filters .flexRowInputs .dropdown p {
+  white-space: nowrap;
+}
+
+.modal .create-community-modal .filters .flexRowInputs label input {
+  margin-left: 10px;
+  width: calc(100% - 24px);
+}
+
+.modal .create-community-modal .filters .selector-with-token {
+  margin-right: 0 !important;
+  max-width: none;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.modal .create-community-modal .filters .selector-with-token div {
+  width: 100%;
+  margin: 0;
+  display: flex;
+}
+
+.modal .create-community-modal .filters .textFieldCreateCommunity {
+  width: calc(100% - 24px);
+}
+
+.modal .create-community-modal .title {
+  padding: 0;
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  margin: 10px 0 10px 0;
+}
+
+.modal .create-community-modal .title h4 {
+  margin: 0;
+}
+
+.modal .create-community-modal .title .option-buttons {
+  margin: 0;
+  display: flex;
+}
+
+.modal .create-community-modal .users {
+  width: 100%;
+}
+
+.modal .create-community-modal .user-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #656e7e;
+}
+
+.modal .create-community-modal .MuiTableRow-root.Mui-selected,
+.MuiTableRow-root.Mui-selected {
+  background-color: hsla(155, 35%, 51%, 0.1);
+}
+
+.modal .create-community-modal .cards-options-small {
+  padding: 10px 0px;
+  display: flex;
+  width: 100%;
+}
+
+.modal .create-community-modal .cards-options-small button {
+  background-color: hsla(210, 27%, 91%, 0.5);
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 16px;
+  color: rgb(101, 110, 126);
+}
+
+.modal .create-community-modal .cards-options-small button.selected {
+  background-color: hsla(155, 48%, 59%, 0.75);
+  border: 2px solid #081831e1;
+  color: white;
+}
+
+.modal .create-community-modal h5:first-child {
+  justify-content: flex-end;
+  width: 100%;
+  margin-bottom: -10px;
+  z-index: 1500;
+  padding: 5px 0px;
+}
+
+.modal .create-community-modal h5 {
+  margin-top: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.modal .create-community-modal h5 span {
+  width: 50%;
+}
+.modal .create-community-modal h5 span:last-child {
+  padding-left: 40px;
+}
+
+.modal .create-community-modal .flexRowInputs.tokenomics div:first-child {
+  margin-right: 20px;
+}
+
+.modal .create-community-modal .buttonCreatePodRow {
+  background-color: white;
+  width: 100%;
+  margin-left: 00px;
+  padding: 30px 0px;
+}
+/*------------ assistance modal ----------------*/
+
+.modal .assistance-modal .selector-with-token div {
+  width: 100%;
+}
+
+.modal .assistance-modal .textFieldCreateCommunity {
+  width: calc(100% - 24px);
+}
+
+.modal .assistance-modal .disabled {
+  height: 46px;
+  background-color: rgb(227, 233, 239);
+  border-radius: 16px;
+  border: 1px solid hsla(212, 25%, 60%, 0.3);
+  margin-top: 8px;
+  color: rgb(101, 110, 126);
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 10px;
+  margin-bottom: 19px;
+  display: flex;
+  align-items: center;
+}
+
+.modal .assistance-modal .disabled .user-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.modal .create-community-modal > .cards-options-container {
+  scroll-behavior: smooth;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal .create-community-modal > .cards-options-container .cards-options-title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 104.5%;
+}
+
+.modal .create-community-modal > .cards-options-container .wrapper-btn-community {
+  margin: 10px;
+}
+
+.modal .create-community-modal .cards-options_sub-title {
+  margin-top: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 104.5%;
+}
+
+.modal .create-community-tokenomics-tab .flexRowInputs {
+  flex-wrap: wrap;
+}
+
+.dividerCreateCommunity {
+  color: rgb(238, 241, 244);
+  height: 1px;
+  width: 107% !important;
+  margin-top: 21px !important;
+  margin-bottom: 32px !important;
+  margin-left: -30px !important;
+}
+
+.flex {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .modal .create-community-modal {
+    width: 576px !important;
+  }
+
+  .modal .create-community-modal > .cards-options-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .modal .create-community-modal > .cards-options-container .cards-options-title {
+    font-size: 18px;
+  }
+
+  .modal .create-community-modal > .cards-options-container .wrapper-btn-community {
+    margin-left: 0;
+  }
+
+  .modal .create-community-modal .cards-options_sub-title {
+    font-size: 14px;
+    margin: 20px 0 0 0;
+  }
+
+  .modal .create-community-modal .create-hashtag-button-mobile {
+    display: flex;
+    padding-right: 0 !important;
+  }
+
+  .modal .create-community-modal .create-hashtag-button-desktop {
+    display: none;
+  }
+
+  .modal .create-community-modal .option-buttons.privacy {
+    width: 250px !important;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: auto;
+  }
+
+  #publicButtonCreatePod {
+    margin-bottom: 10px !important;
+    margin-left: 10px !important;
+  }
+
+  .modal .create-community-modal .flexRowInputs.level .level-name {
+    width: 200px !important;
+  }
+
+  .modal .create-community-modal .flexRowInputs.level .level-description {
+    width: 240px !important;
+  }
+
+  .modal .userManagementCreatePod .flexRowInputs > .MuiGrid-container:nth-child(even) {
+    padding-left: 15px !important;
+  }
+
+  .modal .userManagementCreatePod .selectorFormControlCommunity {
+    padding-left: 0 !important;
+  }
+
+  .modal .allow-payment-community.flexRowInputs {
+    display: inline;
+    white-space: pre-wrap;
+  }
+
+  .modal .allow-payment-community.flexRowInputs .infoHeaderCreateCommunity {
+    display: inline;
+  }
+
+  .modal .allow-payment-community.flexRowInputs .hashtagsRowCreatePod {
+    display: flex;
+    height: 40px;
+    min-height: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    overflow-y: auto;
+    scrollbar-width: none;
+  }
+
+  .modal .allow-payment-community.flexRowInputs img {
+    transform: translateY(0px);
+  }
+
+  .create-community-tokenomics-tab {
+    padding: 0 !important;
+  }
+
+  .modal .create-community-tokenomics-tab .textAreaCreateCommunity {
+    width: 100% !important;
+  }
+
+  .modal .create-community-tokenomics-tab .community-token-content > div > div {
+    width: 100%;
+  }
+
+  .modal .create-community-tokenomics-tab .target-spread-price div,
+  .modal .create-community-tokenomics-tab .target-spread-price div input.textFieldCreateCommunity,
+  .modal .create-community-tokenomics-tab .MuiGrid-grid-xs-12 > div .selectFormControlCreatePod,
+  .modal .create-community-tokenomics-tab .MuiGrid-grid-xs-12 .selectCreateCommunity {
+    width: 100% !important;
+  }
+  .modal .request-assistance-on .filters {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .modal .create-community-modal {
+    width: 343px !important;
+  }
+
+  .modal .create-community-modal .textAreaCommunityDescription {
+    width: 100% !important;
+    background: #f7f9fe;
+    border: 1px solid #e0e4f3;
+    border-radius: 8px;
+    padding: 16px;
+  }
+
+  .modal .create-community-modal > .cards-options-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .modal .create-community-modal > .cards-options-container .cards-options-title {
+    font-size: 18px;
+  }
+
+  .modal .create-community-modal > .cards-options-container .wrapper-btn-community {
+    margin-left: 0;
+  }
+
+  .modal .create-community-modal .cards-options_sub-title {
+    font-size: 14px;
+    margin: 20px 0 0 0;
+    padding-bottom: 16px;
+  }
+
+  .modal .create-community-modal .create-hashtag-button-mobile {
+    display: flex;
+    padding-right: 0 !important;
+  }
+
+  .modal .create-community-modal .create-hashtag-button-desktop {
+    display: none;
+  }
+
+  .modal .create-community-modal .option-buttons.privacy {
+    width: 250px !important;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: auto;
+  }
+
+  #publicButtonCreatePod {
+    margin-bottom: 10px !important;
+    margin-left: 10px !important;
+  }
+
+  .modal .create-community-modal .flexRowInputs.level .level-name {
+    width: 225px !important;
+  }
+
+  .modal .create-community-modal .flexRowInputs.level .level-description {
+    width: 100% !important;
+    margin-top: 8px !important;
+  }
+
+  .modal .userManagementCreatePod .flexRowInputs > .MuiGrid-container:nth-child(even) {
+    padding-left: 15px !important;
+  }
+
+  .modal .userManagementCreatePod .selectorFormControlCommunity {
+    padding-left: 0 !important;
+  }
+
+  .modal .allow-payment-community.flexRowInputs {
+    display: inline;
+    white-space: pre-wrap;
+  }
+
+  .modal .allow-payment-community.flexRowInputs .infoHeaderCreateCommunity {
+    display: inline;
+  }
+
+  .modal .allow-payment-community.flexRowInputs img {
+    transform: translateY(0px);
+  }
+
+  .create-community-tokenomics-tab {
+    padding: 0 !important;
+  }
+
+  .modal .create-community-tokenomics-tab .textAreaCreateCommunity {
+    width: 100% !important;
+    background: #f7f9fe;
+    border: 1px solid #e0e4f3;
+    border-radius: 8px;
+  }
+
+  .modal .create-community-tokenomics-tab .community-token-content > div > div {
+    width: 100%;
+  }
+
+  .modal .create-community-tokenomics-tab .target-spread-price div,
+  .modal .create-community-tokenomics-tab .target-spread-price div input.textFieldCreateCommunity,
+  .modal .create-community-tokenomics-tab .MuiGrid-grid-xs-12 > div .selectFormControlCreatePod,
+  .modal .create-community-tokenomics-tab .MuiGrid-grid-xs-12 .selectCreateCommunity {
+    width: 100% !important;
+  }
+  .modal .request-assistance-on .filters {
+    width: 100%;
+  }
+  .modal .create-community-modal .dragImageHereCreateCommunity {
+    width: 311px !important;
+    background: #f7f9fe;
+    border: 1px solid #e0e4f3;
+    border-radius: 8px;
+  }
+  .modal .create-community-modal .createHashtagButton {
+    text-align: right;
+  }
+  .modal .create-community-modal .createCommunity {
+    width: 100%;
+  }
+}

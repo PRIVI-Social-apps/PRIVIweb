@@ -1,0 +1,284 @@
+.growth-page .leaderboard,
+.leaderboard-modal .leaderboard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.growth-page .leaderboard .rewards,
+.leaderboard-modal .leaderboard .rewards {
+  margin-top: 25px;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.growth-page .leaderboard .rewards .column,
+.leaderboard-modal .leaderboard .rewards .column {
+  margin-right: 80px;
+}
+.growth-page .leaderboard .rewards .column span,
+.leaderboard-modal .leaderboard .rewards .column span {
+  font-size: 14px;
+  color: #656e7e;
+}
+
+.growth-page .leaderboard .rewards .column p,
+.leaderboard-modal .leaderboard .rewards .column p {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.growth-page .leaderboard .leaderboard-list,
+.leaderboard-modal .leaderboard .leaderboard-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.growth-page .leaderboard .leaderboard-list .header,
+.leaderboard-modal .leaderboard .leaderboard-list .header {
+  width: calc(100% - 50px);
+  margin: 0;
+  padding: 5px 25px 0px 25px;
+  height: auto;
+  border: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  border-bottom: 1px solid #eef1f4;
+}
+
+.growth-page .leaderboard .leaderboard-list p,
+.leaderboard-modal .leaderboard .leaderboard-list .header {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 75px;
+  min-width: 75px;
+  max-width: 75px;
+  text-align: right;
+}
+
+.growth-page .leaderboard .leaderboard-list .item p,
+.leaderboard-modal .leaderboard .leaderboard-list .item p {
+  width: 18px;
+  min-width: 18px;
+  max-width: 18px;
+}
+
+.growth-page .leaderboard .leaderboard-list .item,
+.leaderboard-modal .leaderboard .leaderboard-list .item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: right;
+}
+
+.growth-page .leaderboard .leaderboard-list .row .item .item-image,
+.leaderboard-modal .leaderboard .leaderboard-list .row .item .item-image {
+  background-color: #656e7e;
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin: 0px 10px;
+  margin-left: 15px;
+}
+
+.growth-page .leaderboard .leaderboard-list .row .item p,
+.leaderboard-modal .leaderboard .leaderboard-list .row .item p {
+  text-align: left !important;
+  width: 15px;
+  min-width: 15px;
+  margin-right: 0 !important;
+}
+
+.growth-page .leaderboard .leaderboard-list .row .item p:last-child,
+.leaderboard-modal .leaderboard .leaderboard-list .row .item p:last-child {
+  min-width: 100%;
+  width: 100%;
+}
+
+.growth-page .leaderboard .leaderboard-list .header p,
+.leaderboard-modal .leaderboard .leaderboard-list .header p {
+  font-size: 10px;
+  color: #656e7e;
+  width: 75px;
+  max-width: 75px;
+}
+
+.growth-page .leaderboard .leaderboard-list .row:first-child .item p,
+.leaderboard-modal .leaderboard .leaderboard-list .row:first-child .item p {
+  font-size: 20px;
+}
+
+.growth-page .leaderboard .leaderboard-list .row:first-child .item .item-image,
+.leaderboard-modal
+  .leaderboard
+  .leaderboard-list
+  .row:first-child
+  .item
+  .item-image {
+  width: 46px;
+  height: 46px;
+  min-width: 46px;
+  border-radius: 23px;
+  margin-left: 8px;
+}
+
+.growth-page .leaderboard .leaderboard-list .row:nth-child(2) .item p,
+.leaderboard-modal .leaderboard .leaderboard-list .row:nth-child(2) .item p {
+  font-size: 16px;
+}
+
+.growth-page .leaderboard .leaderboard-list .row:nth-child(2) .item .item-image,
+.leaderboard-modal
+  .leaderboard
+  .leaderboard-list
+  .row:nth-child(2)
+  .item
+  .item-imag {
+  width: 38px;
+  height: 38px;
+  min-width: 38px;
+  border-radius: 19px;
+  margin-left: 12px;
+}
+
+.growth-page .leaderboard .leaderboard-list .row,
+.leaderboard-modal .leaderboard .leaderboard-list .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 50px);
+  padding: 5px 25px;
+  border-bottom: 1px solid #eef1f4;
+}
+
+.growth-page .leaderboard .leaderboard-list .row p,
+.leaderboard-modal .leaderboard .leaderboard-list .row p {
+  font-size: 12px;
+  text-align: right;
+}
+
+.growth-page .leaderboard .leaderboard-list .buttons button,
+.leaderboard-modal .leaderboard .leaderboard-list .buttons button {
+  background-color: white;
+  border: 1px solid rgba(100, 201, 159, 0.3);
+  color: #64c89e;
+}
+
+.growth-page .leaderboard .leaderboard-list .buttons button:hover,
+.leaderboard-modal .leaderboard .leaderboard-list .buttons button:hover {
+  background-color: rgba(100, 201, 159, 0.1);
+}
+
+.growth-page .leaderboard .expand,
+.leaderboard-modal .leaderboard .expand {
+  background-color: rgb(238, 241, 244, 0.3);
+  color: #656e7e;
+  padding: 10px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: -10px;
+  margin-bottom: -20px;
+  font-size: 14px;
+}
+
+.growth-page .leaderboard .leaderboard-list .row .green,
+.leaderboard-modal .leaderboard .leaderboard-list .row .green {
+  color: #15a468;
+}
+
+/*MODAL*/
+
+.leaderboard-modal {
+  justify-content: flex-start;
+  width: 60%;
+}
+
+.leaderboard-modal .leaderboard {
+  margin-bottom: 0;
+}
+
+.leaderboard-modal .leaderboard .appBarTabsToken {
+  margin-left: 0;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  max-width: 920px;
+  border-bottom: 1px solid #99a2b3;
+}
+
+.leaderboard-modal .leaderboard .appBarTabsToken .Mui-selected {
+  min-width: auto !important;
+  color: rgb(8, 24, 49) !important;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: none;
+  z-index: 100;
+}
+.leaderboard-modal .leaderboard .appBarTabsToken .MuiTab-root {
+  min-width: auto !important;
+  color: #656e7e;
+  text-transform: none;
+  padding: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: 'Agrandir';
+}
+.leaderboard-modal .leaderboard .appBarTabsToken .MuiTab-root:first-child {
+  margin-left: 0;
+}
+.leaderboard-modal .leaderboard .appBarTabsToken .MuiTab-root:hover {
+  background-color: transparent !important;
+}
+
+.leaderboard-modal .leaderboard h3 {
+  margin: 0;
+}
+
+.leaderboard-modal .leaderboard .rewards {
+  margin-left: 0;
+  margin-top: 10px;
+}
+
+.leaderboard-modal .leaderboard .leaderboard-list {
+  width: calc(100% + 60px);
+  margin-left: -30px;
+  margin-bottom: -30px;
+}
+
+.leaderboard-modal .leaderboard .leaderboard-list .header {
+  width: calc(100% - 60px);
+  min-width: calc(100% - 60px);
+  padding: 5px 30px 0px 30px;
+}
+
+.leaderboard-modal .leaderboard .leaderboard-list .row {
+  padding: 5px 30px;
+  width: calc(100% - 60px);
+}
+
+.leaderboard-modal .leaderboard .leaderboard-list .row:last-child {
+  border-bottom: none;
+}
+
+.leaderboard-modal .leaderboard .leaderboard-list .row p {
+  min-width: 75px;
+}

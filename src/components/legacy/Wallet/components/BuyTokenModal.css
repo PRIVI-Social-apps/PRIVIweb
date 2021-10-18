@@ -1,0 +1,116 @@
+.modal .modal-content .title .balance {
+  background-color: #656e7e;
+  padding: 12px 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+}
+
+.modal .modal-content .title .balance p {
+  margin: 0;
+  color: white;
+}
+
+.modal .modal-content .title .balance span {
+  margin-right: 15px;
+}
+
+.modal .modal-content .title .balance span:last-child {
+  margin-right: 0px;
+}
+
+.modal .buy-send-tokens-modal .select-tokens {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.modal .buy-send-tokens-modal .select-tokens button {
+  background-color: white;
+  padding: 27px 0;
+  width: calc(25%);
+  margin: 0;
+  margin-right: 10px;
+  color: #424955;
+  font-weight: normal;
+}
+
+.modal .buy-send-tokens-modal .select-tokens button:last-child {
+  margin-right: 0px;
+}
+
+.modal .buy-send-tokens-modal .select-tokens .disabled {
+  border: 1px solid hsla(212, 25%, 60%, 0.2);
+  color: hsla(217, 72%, 11%, 0.5);
+}
+
+.modal .buy-send-tokens-modal .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.modal .buy-send-tokens-modal .buttons .disabled {
+  border: 1px solid hsla(212, 25%, 60%, 0.2);
+  color: hsla(217, 72%, 11%, 0.5);
+  border-radius: 16px;
+  width: 70%;
+  padding: 0 15px;
+}
+
+.modal .buy-send-tokens-modal .buttons .disabled p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal .buy-send-tokens-modal .buttons button {
+  margin-right: 0;
+  padding: 27px 0;
+  padding: 15px;
+  width: 30%;
+}
+
+.modal .modal-content .buttons-single {
+  justify-content: center !important;
+}
+
+.modal .buy-send-tokens-modal .input {
+  display: flex;
+  margin-top: 8px;
+  padding: 15px;
+  background-color: white;
+  border: hsla(212, 25%, 60%, 0.3) 1px solid;
+  border-radius: 16px;
+  margin-right: 10px;
+}
+
+.modal .buy-send-tokens-modal .input img {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.modal .buy-send-tokens-modal .input input {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.modal .buy-send-tokens-modal .autocomplete {
+  width: 100%;
+  flex-grow: 1;
+}
+.modal .buy-send-tokens-modal .autocomplete input,
+.modal .buy-send-tokens-modal .autocomplete div {
+  width: 100%;
+}

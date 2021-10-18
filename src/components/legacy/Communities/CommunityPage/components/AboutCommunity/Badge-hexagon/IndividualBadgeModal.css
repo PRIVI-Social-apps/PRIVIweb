@@ -1,0 +1,165 @@
+.modal .badge-modal {
+  display: flex;
+  flex-direction: row;
+  height: 75vh;
+  overflow-y: autp;
+  max-width: 75vw;
+  width: 60vw;
+}
+
+.modal .badge-modal .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -30px;
+  margin-top: -30px;
+  margin-bottom: -30px;
+  background-color: #eef1f4;
+  width: 40%;
+  height: calc(75vh + 35px + 35px);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.modal .badge-modal .left .hex {
+  width: 193px;
+  height: 215px;
+  border-radius: 10px;
+  margin-top: 20%;
+  margin-right: 0;
+}
+
+.modal .badge-modal .left .share-buttons .share-box {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 13.333px;
+  padding: 8px 10px;
+  color: #656e7e;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  max-width: 280px;
+  width: 100%;
+  margin-right: 0;
+}
+
+.modal .badge-modal .left .share-buttons .share-box img {
+  height: 32px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.modal .badge-modal .left .share-buttons .share-box:last-child {
+  margin-bottom: 30px;
+}
+
+.modal .badge-modal .right .exit {
+  width: calc(100% + 10px);
+}
+
+.modal .badge-modal .right {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 75vh;
+  padding-left: 40px;
+}
+
+.modal .badge-modal .right .header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.modal .badge-modal .right .header h2 {
+  font-size: 24px;
+  font-weight: normal;
+  max-width: 80%;
+  margin: 0;
+}
+
+.modal .badge-modal .right .header .level {
+  background-color: #eef1f4;
+  border-radius: 12px;
+  font-size: 10px;
+  color: #08173080;
+  padding: 6px 12px;
+}
+
+.modal .badge-modal .right .type {
+  background-color: #656e7e;
+  border-radius: 12px;
+  font-size: 10px;
+  color: white;
+  width: fit-content;
+  padding: 6px 12px;
+}
+
+.modal .badge-modal .right .fake-appbar {
+  border-bottom: 1px solid #99a2b3;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.modal .badge-modal .right .fake-appbar p {
+  border-bottom: 3px solid #64c89e;
+  color: #081831;
+  margin: 0;
+  padding-bottom: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: -1px;
+  width: fit-content;
+}
+
+.modal .badge-modal .right p {
+  color: #656e7e;
+  line-height: 25px;
+}
+
+.modal .badge-modal .right .row {
+  display: flex;
+  width: 100%;
+}
+
+.modal .badge-modal .right .row .column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.modal .badge-modal .right .row span {
+  color: #656e7e;
+  font-size: 14px;
+}
+
+.modal .badge-modal .right .users-list {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  scrollbar-width: none;
+  margin-bottom: -35px;
+}
+
+.modal .badge-modal .right .users-list .user-row {
+  display: flex;
+  width: calc(100% - 40px);
+  padding: 15px;
+  background-color: #eef1f4;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.modal .badge-modal .right .users-list .user-row .user-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 20px;
+  background-color: #656e7e;
+}

@@ -1,0 +1,160 @@
+.growth-page {
+  width: calc(100vw - 80px) !important;
+  min-width: calc(100vw - 80px) !important;
+  max-width: calc(100vw - 80px) !important;
+  height: 100vh !important;
+  min-height: 100vh !important;
+  max-height: 100vh !important;
+  background: rgb(227, 233, 239);
+  background: linear-gradient(
+    180deg,
+    rgba(227, 233, 239, 1) 155px,
+    rgba(238, 241, 244, 1) 155px,
+    rgba(238, 241, 244, 1) 100%
+  );
+  display: flex;
+  flex-direction: row;
+}
+
+.growth-page .content-wrapper {
+  min-width: calc(100vw - 80px);
+  max-width: calc(100vw - 80px);
+}
+
+.growth-page .content-wrapper-sidebar {
+  min-width: calc(100vw - 80px - 300px) !important;
+  max-width: calc(100vw - 80px - 300px) !important;
+}
+
+.growth-page .header-wrapper {
+  background: white;
+  padding-right: 72px;
+}
+
+.growth-page .title {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Header */
+
+.growth-page .header {
+  padding: 20px 30px 0 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 80px;
+  max-height: 80px;
+  min-width: 80px;
+}
+
+.growth-page .header .left,
+.growth-page .header .buttons,
+.growth-page .header .buttons button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.growth-page .header .growth-image {
+  width: 80px;
+  height: 80px;
+  min-width: 80px;
+  border-radius: 20px;
+  margin-right: 20px;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  background-color: #656e7e;
+}
+
+.growth-page .header .info h2 {
+  margin-top: 5px;
+}
+
+.growth-page .header .info h2 span {
+  color: #656e7e;
+  margin-left: 5px;
+  font-weight: normal;
+}
+
+.growth-page .header .info p {
+  color: #656e7e;
+}
+
+.growth-page .header .info p span {
+  color: #081831;
+
+  margin-left: 5px;
+}
+
+/** Header > Buttons **/
+
+.growth-page .header .buttons .follow {
+  background-color: #081831;
+  font-weight: bold;
+  margin: 0px 10px 0px 0px;
+}
+
+.growth-page .header .buttons .follow:hover {
+  background-color: #071327;
+}
+
+/** growth Page > Content (tabs) **/
+
+.growth-page .content {
+  height: calc(100vh - 158px);
+  overflow-y: auto;
+  scrollbar-width: none;
+  padding-left: 70px;
+}
+
+.growth-page .appbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.growth-page .appbar-container .create {
+  background-color: #656e7e;
+  flex-grow: 0;
+  height: 40px;
+  margin-top: 5px;
+  margin-right: 40px;
+}
+
+.growth-page .appBarTabsToken {
+  padding-left: 70px;
+  margin-left: 0;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  margin-top: 10px;
+  max-width: 920px;
+}
+
+.growth-page .appBarTabsToken .Mui-selected {
+  min-width: auto !important;
+  color: rgb(8, 24, 49) !important;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: none;
+  z-index: 100;
+}
+.growth-page .appBarTabsToken .MuiTab-root {
+  min-width: auto !important;
+  color: #656e7e;
+  text-transform: none;
+  padding: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: 'Agrandir';
+}
+.growth-page .appBarTabsToken .MuiTab-root:first-child {
+  margin-left: 0;
+}
+.growth-page .appBarTabsToken .MuiTab-root:hover {
+  background-color: transparent !important;
+}

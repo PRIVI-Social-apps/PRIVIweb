@@ -1,0 +1,285 @@
+/** Pod Data > Wall **/
+
+.media-pod-page .pod-data .discussions-tab {
+  margin: 48px 0px;
+}
+
+.media-pod-page .pod-data .discussions-tab .loaderDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.media-pod-page .pod-data .discussions-tab .wall {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+}
+
+.media-pod-page .pod-data .discussions-tab > div > .title,
+.media-pod-page .pod-data .discussions-tab > .lower-section > div > .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+  justify-content: flex-start;
+  width: 100%;
+  height: 36px;
+}
+
+.media-pod-page .pod-data .discussions-tab > div > .title h3,
+.media-pod-page .pod-data .discussions-tab > .lower-section > div > .title h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 104.5%;
+  margin: 0;
+}
+
+.media-pod-page .pod-data .discussions-tab > div > .title button,
+.media-pod-page .pod-data .discussions-tab > .lower-section > div > .title button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 26px;
+  background: #181818;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.media-pod-page .pod-data .discussions-tab > div > .title .view-all {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  background: linear-gradient(97.4deg, #23d0c6 14.43%, #00cc8f 85.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+}
+
+.media-pod-page .pod-data .discussions-tab > div > .content {
+  background: #eff2f8;
+  border-radius: 20px;
+  display: flex;
+  margin-bottom: 64px;
+}
+.media-pod-page .pod-data .discussions-tab > .lower-section > div > .content {
+  background: #eff2f8;
+  border-radius: 20px;
+  display: flex;
+}
+
+/*------------ WALL -----------*/
+.media-pod-page .pod-data .discussions-tab .wall > .content {
+  flex-direction: row;
+  width: 100%;
+  padding: 28px 2px 8px 22px;
+  flex-wrap: wrap;
+  min-height: 195px;
+}
+
+.media-pod-page .pod-data .discussions-tab .wall .wall-item {
+  width: calc(100% / 5 - 20px);
+  height: 100%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  min-height: 252px;
+  max-height: 252px;
+}
+
+/*------- LOWER SECTION: DISCUSSIONS AND VOTING ----------*/
+.media-pod-page .pod-data .discussions-tab .lower-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.media-pod-page .pod-data .discussions-tab .lower-section .discussions {
+  width: calc(70% - 28px);
+  margin-right: 28px;
+}
+.media-pod-page .pod-data .discussions-tab .lower-section .voting {
+  width: 30%;
+}
+
+.media-pod-page .pod-data .discussions-tab .lower-section .content {
+  height: 610px;
+  max-height: 610px;
+  min-height: 610px;
+  padding: 20px 14px 14px 14px;
+  flex-direction: column;
+}
+
+.media-pod-page .pod-data .discussions-tab .lower-section .content > div {
+  width: 100%;
+  height: 100%;
+}
+
+.media-pod-page .pod-data .discussions-tab .lower-section .content > div > .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+
+.media-pod-page .pod-data .discussions-tab .lower-section .content > div > .buttons div {
+  display: flex;
+  align-items: center;
+}
+
+.media-pod-page .pod-data .discussions-tab .lower-section .content > div > .buttons h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 104.5%;
+  color: #181818;
+  margin: 0;
+}
+
+.media-pod-page .pod-data .discussions-tab .lower-section .content > div > .buttons div button {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14.5px;
+  line-height: 104.5%;
+  text-align: center;
+  color: #707582;
+  padding: 6px 12px;
+  margin: 8px 0px;
+  margin-right: 8px;
+  border: 1px solid #707582;
+  box-sizing: border-box;
+  border-radius: 36px;
+  background: transparent;
+}
+
+.media-pod-page .pod-data .discussions-tab .lower-section .voting .content .polls {
+  overflow-y: auto;
+  scrollbar-width: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: calc(610px - 130px);
+}
+
+.media-pod-page .pod-data .discussions-tab .lower-section .content > div > .buttons div button.selected {
+  color: #ffffff;
+  background: black;
+  border-color: black;
+}
+
+.media-pod-page .pod-data .discussions-tab .lower-section .content > div > .buttons button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #151414;
+  height: auto;
+  border: 1.5px solid #707582;
+  box-sizing: border-box;
+  backdrop-filter: blur(10px);
+  border-radius: 6px;
+  background: transparent;
+  padding: 9.5px 26px;
+}
+
+.no-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.no-content-container span {
+  font-weight: 30px;
+}
+
+.no-content-container h4 {
+  margin: 16px 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 104.5%;
+  color: #000000;
+}
+
+.no-content-container button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 26px;
+  background: #181818;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  height: auto;
+}
+
+@media (max-width: 1440px) {
+  .media-pod-page .pod-data .discussions-tab .wall .wall-item {
+    width: calc(100% / 4 - 20px);
+  }
+}
+@media (max-width: 1200px) {
+  .media-pod-page .pod-data .discussions-tab .wall .wall-item {
+    width: calc(100% / 3 - 20px);
+  }
+}
+
+@media (max-width: 900px) {
+  .media-pod-page .pod-data .discussions-tab .wall .wall-item {
+    width: calc(100% / 2 - 20px);
+  }
+}
+
+@media (max-width: 600px) {
+  .media-pod-page .pod-data .discussions-tab .wall .wall-item {
+    width: calc(100% - 20px);
+  }
+}
+
+@media (max-width: 767px) {
+  .media-pod-page .pod-data .discussions-tab .lower-section {
+    flex-direction: column;
+  }
+
+  .media-pod-page .pod-data .discussions-tab .lower-section .discussions {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .media-pod-page .pod-data .discussions .lower-section .voting {
+    margin-top: 16px;
+    width: 100%;
+    padding-bottom: 48px;
+  }
+  /*   
+  .media-pod-page .pod-data .discussions-tab .lower-section .content {
+    height: 610px;
+    max-height: 610px;
+    min-height: 610px;
+    padding: 20px 14px 14px 14px;
+    flex-direction: column;
+  } */
+}

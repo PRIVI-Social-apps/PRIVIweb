@@ -1,0 +1,112 @@
+.buy-sell-modal {
+  padding: 30px 40px 76px !important;
+  position: relative;
+}
+
+.buy-sell-modal .close {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  cursor: pointer;
+}
+
+.buy-sell-modal .title {
+  font-weight: bold;
+  font-size: 22px;
+  color: #181818;
+  margin-bottom: 52px !important;
+}
+
+.buy-sell-modal .square-container {
+  padding: 20px 0;
+  background: none;
+  margin: 0;
+  height: auto !important;
+}
+
+.buy-sell-modal .square-container > div {
+  flex: 1;
+  position: relative;
+}
+
+.buy-sell-modal .square-container > div input {
+  width: 100%;
+  position: relative;
+  border: 2px solid #949bab;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 20px 20px 15px;
+}
+
+.buy-sell-modal .square-container .input {
+  position: relative;
+}
+
+.buy-sell-modal .square-container .input > img {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.buy-sell-modal .square-container > div input:focus {
+  outline: none;
+}
+
+.buy-sell-modal .square-container > div .image-input {
+  padding-left: 45px;
+}
+
+.buy-sell-modal .square-container .balance {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 12px;
+  font-size: 11px;
+  color: #000000;
+}
+
+.buy-sell-modal .square-container .label {
+  font-size: 18px;
+  color: #181818;
+}
+
+.buy-sell-modal .square-container {
+  display: flex;
+  width: 100%;
+  column-gap: 20px;
+}
+
+.buy-sell-modal .square-container.footer {
+  align-items: flex-end;
+  margin-top: 30px;
+}
+
+.buy-sell-modal .square-container > .submit {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buy-sell-modal .square-container .submit button {
+  padding: 9px 45px !important;
+  font-size: 16px;
+}
+
+.buy-sell-modal .swap-button {
+  width: 100%;
+  font-size: 16px;
+  margin: 30px 0 10px;
+}
+
+.buy-sell-modal .swap-button > img {
+  width: 14px;
+  height: 14px;
+  margin-left: 4px;
+}
+
+.iconModalSwapDiv img {
+  width: 80px;
+  height: 80px;
+  background-color: #64c89e;
+}

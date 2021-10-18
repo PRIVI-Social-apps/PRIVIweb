@@ -1,0 +1,129 @@
+.creditPools {
+  overflow-y: auto;
+  scrollbar-width: none;
+  height: calc(100vh - 80px);
+}
+
+.insurancePools {
+  background-color: rgb(238, 241, 244);
+  width: calc(100% - 140px);
+  padding-left: 70px;
+  padding-right: 70px;
+  /*padding-bottom: 100px;*/
+}
+
+.insurancePoolsHeader {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: rgb(8, 24, 49);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.insurancePoolsBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.poolsCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.insurancePools .filters {
+  width: 290px;
+  min-width: 290px;
+  max-height: 430px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  margin-bottom: 20px;
+}
+
+.insurancePools .filters h4 {
+  padding: 0 1.2rem;
+  font-size: 14px;
+  margin-top: 27px;
+  margin-bottom: 27px;
+}
+
+.insurancePools .filters label,
+.insurancePools .filters .dropdown,
+.insurancePools .filters .slider {
+  border: 0;
+  border-top: #eef1f4 1px solid;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.insurancePools .filters label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.insurancePools .filters label img {
+  width: 20px;
+  margin-right: 9px;
+}
+
+.insurancePools .filters label input {
+  border: 0;
+}
+
+.insurancePools .filters label input:focus,
+.insurancePools .display-filter select:focus,
+.insurancePools .filters select:focus {
+  outline: none;
+}
+
+.insurancePools .filters select {
+  font-weight: 600;
+  border: 0;
+  width: 115px;
+  -webkit-appearance: none;
+  background-position-x: 95px;
+}
+
+.insurancePools .filters .labels,
+.insurancePools .filters .dropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.insurancePools .filters .labels p {
+  margin-top: 13px !important;
+  margin-bottom: 13px !important;
+}
+
+.insurancePools .title {
+  padding: 20px 0px 10px 0px !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.insurancePools .title button {
+  margin-left: 10px;
+}
+
+.loaderDivInfiniteScroll {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}

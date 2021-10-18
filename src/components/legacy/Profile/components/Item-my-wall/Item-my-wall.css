@@ -1,0 +1,136 @@
+.flexMyWallRow {
+  display: flex;
+}
+
+.flexMyWallRow.newRow {
+  margin-top: -20px;
+}
+
+.myWallPhoto {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  min-height: 48px;
+  margin-right: 15px;
+  background-color: #5a5a5a;
+  background-size: cover;
+  filter: drop-shadow(0px 0px 6px #FD70D5);
+  border: 2px solid #f630ca;
+}
+.myWallMessage {
+  display: flex;
+  align-items: center;
+  color: #4F4F4F;
+  text-align: left;
+  width: calc(100% - 35px - 30px - 18px);
+  padding-right: 10px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+.myWallMessage b {
+  font-weight: 400;
+}
+.myWallMessageHighlight {
+  color: rgb(8, 24, 49);
+  line-height: 20px;
+  font-size: 14px;
+}
+.dividerMyWall {
+  color: rgba(101, 110, 126, 0.2);
+  margin-top: 20px !important;
+}
+.infoMyWall {
+  margin-top: 10px;
+}
+.greenMyWallButton {
+  border-radius: 10px;
+  height: 34px;
+  background-color: rgb(100, 200, 158);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: none !important;
+  border: 0;
+  margin: 0 !important;
+
+  margin-top: 10px !important;
+  margin-left: 55px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.viewPodMyWallButton {
+  width: 90px;
+}
+.acceptMyWallButton {
+  width: 80px;
+}
+.declineMyWallButton {
+  margin-left: 10px !important;
+  width: 80px;
+  background-color: rgb(101, 110, 126) !important;
+}
+.infoMyWallButton {
+  width: 120px;
+  background-color: rgb(255, 255, 255) !important;
+  color: #5a5a5a;
+}
+.postReplyMyWallButton {
+  width: 96px;
+}
+.commentMyWall {
+  margin-top: 10px;
+  border-left: 4px solid rgba(101, 110, 126, 0.2);
+  padding-left: 10px;
+  margin-left: 55px;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  color: rgb(101, 110, 126);
+  line-height: 20px;
+}
+.imagePostShow {
+  width: 100% !important;
+  height: 150px !important;
+  border-radius: 16px;
+}
+.likesRowMyWall {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 60px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgb(8, 24, 49);
+}
+.myWallMessage b {
+  cursor: pointer;
+}
+.myWallMessage .noPointer {
+  cursor: auto;
+}
+.commentInNotification {
+  border-left: 2px solid grey;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: grey;
+  min-height: 30px;
+  margin-left: 55px;
+}
+.removeNotificationIcon {
+  font-size: 20px;
+  color: #363636;
+  margin-top: 3px;
+  font-weight: bold;
+  margin-right: 3px;
+  cursor: pointer;
+}
+.marginLeftOptionWall {
+  margin-left: 55px;
+}

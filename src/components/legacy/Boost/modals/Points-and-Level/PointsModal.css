@@ -1,0 +1,214 @@
+.modal.pointsModal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal .points-modal {
+  align-items: flex-start;
+}
+
+.modal .points-modal .exit {
+  width: calc(100% + 15px);
+}
+
+.modal .points-modal span {
+  color: #656e7e;
+  font-size: 14px;
+}
+
+.modal .points-modal .row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.modal .points-modal .row .column {
+  margin-right: 50px;
+}
+
+.modal .points-modal .row h2 {
+  margin: 0;
+  font-size: 64px;
+}
+
+.modal .points-modal .row h5 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.modal .points-modal .user-points-list {
+  background-color: #eef1f4;
+  width: 100%;
+  padding: 20px 30px 0px 30px;
+  background-color: #eef1f4;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-left: -30px;
+  margin-bottom: -35px;
+}
+
+.modal .points-modal .user-points-list .buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0;
+}
+
+.modal .points-modal .user-points-list .buttons button {
+  background-color: transparent;
+  color: #99a2b3;
+  font-size: 12px;
+  border: 0px;
+  padding: 5px 10px;
+  margin: 0;
+  margin-right: 5px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.modal .points-modal .user-points-list .buttons button.selected {
+  border: 1px solid #99a2b3;
+  color: #081831;
+  border-radius: 12.5;
+}
+
+.modal .points-modal .user-points-list .buttons button:last-child {
+  margin-right: 0;
+}
+
+.modal .points-modal .users-list {
+  max-height: 45vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal .points-modal .users-list .top-user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.modal .points-modal .users-list .top-user:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.modal .points-modal .users-list .top-user .bubble {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.modal .points-modal .users-list .top-user .bubble .image {
+  background-color: #656e7e;
+}
+
+.modal .points-modal .users-list .top-user:first-child .bubble .image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.modal .points-modal .users-list .top-user .bubble .image {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+
+.modal .points-modal .users-list .top-user:nth-child(3) .bubble .image {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.modal .points-modal .users-list .top-user:nth-child(3) {
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.modal .points-modal .users-list .top-user .bubble .number {
+  background-color: white;
+  font-size: 16px;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -20px;
+  color: #656e7e;
+  font-weight: bold;
+}
+
+.modal .points-modal .users-list .top-user:nth-child(3) .bubble .number {
+  margin-top: 35px;
+}
+
+.modal .points-modal .users-list .top-user .column {
+  align-self: auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.modal .points-modal .users-list .top-user:nth-child(2) .column {
+  align-items: flex-end;
+}
+
+.modal .points-modal .users-list .top-user .column p,
+.modal .points-modal .users-list .top-user span {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.modal .points-modal .users-list .user-row {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 30px);
+  padding: 15px;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.modal .points-modal .users-list .user-row .left,
+.modal .points-modal .users-list .user-row .right {
+  display: flex;
+  align-items: center;
+}
+
+.modal .points-modal .users-list .user-row .number {
+  width: 20px;
+  margin-right: 20px;
+}
+
+.modal .points-modal .users-list .user-row .user-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.modal .points-modal .users-list .right span {
+  margin-right: 30px;
+  color: #081831;
+}
+
+.modal .points-modal .users-list button {
+  border: 1px solid #64c89e;
+  height: 32px;
+  width: 100px;
+  background-color: transparent;
+  color: #44af82;
+  padding: 0;
+  margin: 0;
+}

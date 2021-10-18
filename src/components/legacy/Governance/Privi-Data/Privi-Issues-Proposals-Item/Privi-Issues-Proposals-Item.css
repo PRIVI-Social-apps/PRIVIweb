@@ -1,0 +1,82 @@
+.priviIssuesProposalsItem{
+    padding: 20px;
+}
+.firstRowIssuesProposalsItem{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.imgIssuesProposalsItem{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    padding-top: 3px;
+}
+.labelIssuesProposalsItem{
+    width: calc(100% - 40px);
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(8, 24, 49);
+}
+.secondRowIssuesProposalsItem{
+    margin-top: 6px;
+    margin-left: 40px;
+    width: calc(100% - 40px);
+}
+.itemIssuesProposalsItem{
+    border-radius: 10px;
+    background-color: rgba(216, 216, 216, 0.2);
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.responsesDateIssuesProposalsItem{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+}
+.iconResponsesIssuesProposalsItem{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.labelResponsesIssuesProposalsItem{
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(8, 24, 49);
+}
+.labelResponsesDateIssuesProposalsItem{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(101, 110, 126);
+    width: 60%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 20px;
+}
+.labelTimeDateIssuesProposalsItem{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(101, 110, 126);
+    width: 40%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 20px;
+}
+.chatResponsesIssuesProposalsItem{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+.rightTextAlignIssuesProposalsItem{
+    text-align: right;
+}

@@ -1,0 +1,105 @@
+.modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modal .modalContent {
+  background-color: white;
+  padding: 35px 30px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 150px;
+  width: 600px;
+  max-width: 85vw;
+  outline: none;
+  max-height: 85vh;
+  overflow-y: auto;scrollbar-width: none;
+}
+
+.modal .modalContent .exit {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: -15px;
+  margin-right: -10px;
+}
+
+.modal .modalContent .content .inputContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal .modalContent .content .inputContainer label {
+  margin-right: 8px;
+  padding: 6px 0px 7px;
+}
+
+.modal .modalContent .content .usersDisplay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  border-radius: 5px;
+  margin: 15px 0px;
+}
+
+.modal .modalContent .content .usersDisplay div {
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  background-color: #d9dcdf;
+  margin: 0px 8px 8px 0px;
+}
+
+.modal .modalContent .content .usersDisplay div span {
+  margin-left: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal .modalContent .content .usersDisplay div span svg {
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+}
+
+.modal .modalContent button {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 16px;
+}
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,101 @@
+.message-profile-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+.name {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 104.5%;
+  color: #181818;
+  margin-bottom: 10px;
+}
+.slug-container {
+  display: flex;
+  align-stats: center;
+  margin-bottom: 40px;
+}
+.slug-container .slug-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 104.5%;
+  color: #ff79d1;
+  margin-right: 10px;
+}
+.slug-container .verified-label {
+}
+.slug-container .profile-level {
+  width: 52px;
+  height: 19px;
+  margin-left: 10px;
+  /* Text */
+
+  border: 1px solid #707582;
+  box-sizing: border-box;
+  border-radius: 38.6667px;
+  color: #707582;
+  font-size: 11px;
+  line-height: 16px;
+  padding: 3px 9px 3px 9px;
+}
+.top-stats {
+  margin-bottom: 30px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.badges {
+  border-bottom: 1px solid #707582;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+.badges .title {
+  font-size: 14px;
+  line-height: 104.5%;
+  /* identical to box height, or 15px */
+  padding: 0px;
+
+  /* Text */
+
+  color: #707582;
+}
+.top-stats .title {
+  padding: 0px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #707582;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 104.5%;
+}
+
+.top-stats .stats {
+  display: flex;
+  border-bottom: 1px solid #707582;
+  padding-bottom: 15px;
+}
+.top-stats .stats .state {
+  margin-right: 40px;
+}
+.top-stats .stats .state .state-title {
+  margin-bottom: 10px;
+}
+.top-stats .stats .state .state-title div {
+  font-size: 14px;
+  line-height: 104.5%;
+  /* identical to box height, or 15px */
+
+  /* Text */
+
+  color: #707582;
+}
+.top-stats .stats .state .state-value {
+  color: #181818;
+  font-size: 22px;
+  line-height: 104.5%;
+}

@@ -1,0 +1,173 @@
+.select-wallet {
+  border-radius: 16px;
+  background-color: #656e7e;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-wallet .MuiSelect-select {
+  border: 0;
+  padding-left: 10px;
+  color: white;
+}
+
+.investModal .loaderDiv,
+.buyModal .loaderDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.square-container {
+  background-color: rgb(238, 241, 244);
+  border-radius: 15px;
+  height: calc(100px);
+  width: calc(100% - 40px);
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.square-container .left-item {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.square-container .left-item-no-label {
+  margin-top: 32px;
+}
+
+.square-container .left-item .select-wrapper {
+  border-radius: 16px;
+  background-color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square-container .disabled {
+  border: #cfcfcfd3 1px solid;
+}
+
+.square-container .disabled input {
+  border: 0;
+  background-color: white;
+}
+
+.square-container .left-item .select-wrapper .img,
+.square-container .left-item .select-wrapper img {
+  min-width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  background-color: white;
+  padding-left: 0 !important;
+}
+
+.square-container .left-item .select-wrapper select {
+  height: 50px;
+  background-color: transparent;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 0;
+}
+
+.square-container .left-item .balance {
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgb(66, 73, 85);
+}
+
+.square-container .right-item {
+  flex-grow: 1;
+}
+
+.square-container .label {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(66, 73, 85);
+  margin-bottom: 8px;
+  margin-top: 6px;
+}
+
+.square-container .right-item .input-wrapper {
+  border-radius: 16px;
+  background-color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.square-container .right-item .input-wrapper input {
+  width: 100%;
+  min-width: 100%;
+  border: 0px !important;
+  outline: none;
+}
+
+.iconPodInvestModalSwapDiv {
+  margin-top: 20px;
+}
+
+.iconPodInvestModalSwapDiv img {
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  background-color: #64c89e;
+  border: 10px solid white;
+}
+
+.footerPodInvest {
+  width: calc(100% - 40px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.firstColFooterPodInvest {
+  width: 100%;
+  padding-right: 10px;
+}
+.secondColFooterPodInvest {
+  margin-left: 10px;
+}
+.estimateGasFeePodInvest {
+  height: 50px;
+  border-radius: 20px;
+  border: 1px solid hsla(212, 25%, 60%, 0.3);
+  background-color: rgba(227, 233, 239, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(101, 110, 126);
+}
+.estimateGasFeeLabelPodInvest {
+  width: calc(50% - 20px);
+  text-align: left;
+}
+.estimateGasFeeValuePodInvest {
+  width: calc(50% - 20px);
+  text-align: right;
+  padding-right: 20px;
+}

@@ -1,0 +1,210 @@
+.poolCard {
+  width: calc(290px - 40px) !important;
+  min-width: calc(290px - 40px) !important;
+  height: calc(310px - 36px) !important;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 3px 16px rgba(101, 112, 129, 0.06);
+  padding: 18px 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.trendingColorPoolCard {
+  background-color: rgb(101, 110, 126);
+  color: white;
+}
+.trendingColorPool {
+  color: white !important;
+}
+.poolProfilePhoto {
+  border-radius: 50%;
+  height: 87px;
+  width: 87px;
+  background-color: white;
+}
+.firstRowPoolCard {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.secondRowPoolCard {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 26px;
+  margin-top: 15px;
+}
+.nameScoresPool {
+  width: calc(100% - 87px - 20px);
+  height: calc(87px - 14px);
+  color: rgb(8, 24, 49);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 20px;
+  padding-top: 14px;
+}
+.flexRow {
+  display: flex;
+}
+.trustScorePoolCard {
+  width: 34px;
+  color: rgb(8, 24, 49);
+  margin-top: 7px;
+}
+.endorsementScorePoolCard {
+  width: 34px;
+  margin-left: 30px;
+  margin-top: 7px;
+}
+.valueScorePoolCard {
+  font-size: 16px;
+  font-weight: 400;
+}
+.labelScorePoolCard {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 0.5;
+}
+.labelTokensRequiredPoolCard {
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  color: rgb(8, 24, 49);
+  width: 87px;
+  margin-right: 20px;
+}
+.thirdRowPoolCard {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 26px;
+  margin-top: 15px;
+}
+
+.labelColPoolCard {
+  color: rgb(8, 24, 49);
+  width: 87px;
+  margin-right: 20px;
+}
+.valueThirdRowPoolCard {
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.labelThirdRowPoolCard {
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}
+
+.fourthRowPoolCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-top: 24px;
+}
+
+.buttonsContainerPoolCardTrending {
+  display: flex;
+}
+
+.buttonsContainerPoolCard {
+  display: flex;
+}
+
+.borrowButtonPoolCard {
+  cursor: pointer;
+  background-color: rgb(100, 200, 158);
+  height: 50px;
+  width: 100px;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.borrowButtonPoolCardTrending {
+  cursor: pointer;
+  background-color: white;
+  height: 50px;
+  width: 100px;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(8, 24, 49);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.lendButtonPoolCard {
+  cursor: pointer;
+  background-color: rgb(100, 200, 158);
+  height: 50px;
+  width: 100px;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.lendButtonPoolCardTrending {
+  cursor: pointer;
+  background-color: white;
+  height: 50px;
+  width: 100px;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(8, 24, 49);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.fifthRowPoolCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 19px;
+}
+.lendersBorrowersPoolCard {
+  width: 190px;
+  height: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.labelLendersBorrowersPoolCardTrending {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 0.5;
+  color: rgb(224, 226, 229);
+}
+.valueLendersBorrowersPoolCardTrending {
+  color: white;
+}
+.labelLendersBorrowersPoolCard {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 0.5;
+  color: rgba(8, 24, 49, 0.7);
+}
+.valueLendersBorrowersPoolCard {
+  color: rgb(8, 24, 49);
+}
+#lendersValuesPoolCard {
+  margin-right: 20px;
+}

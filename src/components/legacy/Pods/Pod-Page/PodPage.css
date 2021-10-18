@@ -1,0 +1,368 @@
+.pod-page {
+  width: calc(100vw - 80px);
+  min-width: calc(100vw - 80px);
+  max-width: calc(100vw - 80px);
+  height: 100vh !important;
+  min-height: 100vh !important;
+  max-height: 100vh !important;
+  background: rgb(227, 233, 239);
+  background: linear-gradient(
+    180deg,
+    rgba(227, 233, 239, 1) 510px,
+    rgba(238, 241, 244, 1) 510px,
+    rgba(238, 241, 244, 1) 100%
+  );
+}
+
+.pod-page .loaderDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.pod-page > .title {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Header */
+
+.pod-page > .header {
+  padding: 0px 30px 0 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  max-height: 80px;
+  min-width: 80px;
+  border-bottom: 1px #cfdae5 solid;
+}
+
+.pod-page .header .main-info,
+.pod-page .header .main-info div,
+.pod-page .header .connections,
+.pod-page .header .buttons,
+.pod-page .header .buttons button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pod-page .header .main-info div:first-child {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pod-page .header .main-info h2 {
+  margin: 0;
+}
+
+.pod-page .header .main-info div span {
+  color: #656e7e;
+  font-size: 14px;
+}
+
+/**Header > Main Info **/
+/*** Header > Main Info > Coverage ***/
+
+.pod-page .header .coverage {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 4px 6px;
+  margin: 0 13px;
+}
+
+.pod-page .header .coverage img {
+  height: 12px;
+  margin-right: 6px;
+}
+
+.pod-page .header .coverage span {
+  font-size: 14px;
+  color: #081831;
+  font-weight: bold;
+}
+
+/*** Header > Main Info > Private ***/
+
+.pod-page .header .private {
+  background-color: #d7dfe7;
+  border-radius: 20px;
+  padding: 4px 6px;
+}
+
+.pod-page .header .private img {
+  height: 14px;
+  margin-right: 6px;
+}
+
+.pod-page .header .private span {
+  font-size: 14px;
+  color: #081831;
+}
+
+/** Header > Connections **/
+
+.pod-page .header .connections p {
+  font-weight: normal;
+  margin-right: 20px;
+  color: #656e7e;
+}
+
+.pod-page .header .connections span {
+  color: #081831;
+  font-weight: bold;
+  margin-left: 9px;
+}
+
+/** Header > Buttons **/
+
+.pod-page .header .buttons .chat {
+  background-color: #656e7e;
+  font-weight: bold;
+  margin: 0px 10px 0px 0px;
+}
+
+.pod-page .header .buttons .chat:hover {
+  background-color: #5b6372;
+}
+
+.pod-page .header .buttons .chat img {
+  height: 16px;
+  margin-right: 8px;
+}
+
+/* Pod Data */
+
+.pod-page .pod-data {
+  overflow-y: auto;
+  scrollbar-width: none;
+  overflow-x: hidden;
+  height: calc(100vh - 80px) !important;
+  min-height: calc(100vh - 80px) !important;
+  max-height: calc(100vh - 80px) !important;
+  padding: 0px 40px 0 70px;
+}
+
+.pod-page .pod-data .main-info,
+.pod-page .pod-data .main-info .pod-info .top,
+.pod-page .pod-data .main-info .pod-info .scores,
+.pod-page .pod-data .main-info .pod-info .bottom,
+.pod-page .pod-data .main-info .pools,
+.pod-page .pod-data .main-info .pools .pools-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/** Pod Data > Main info **/
+
+.pod-page .pod-data .main-info {
+  margin: 32.5px 0 30px 0;
+}
+
+.pod-page .pod-data .main-info .pod-image {
+  background-color: white;
+  width: 300px;
+  min-width: 300px;
+  min-height: 172px;
+  height: 172px;
+  border-radius: 16px;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+}
+
+.pod-page .pod-data .main-info p {
+  color: #656e7e;
+  white-space: nowrap;
+}
+
+.pod-page .pod-data .main-info h3 {
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.pod-page .pod-data .main-info h2 {
+  white-space: nowrap;
+}
+
+/*** Pod Data > Main info > Pod Info ***/
+
+.pod-page .pod-data .main-info .pod-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 40px;
+  justify-content: space-between;
+  min-height: 172px;
+  width: 100%;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.pod-page .pod-data .main-info .pod-info h3,
+.pod-page .pod-data .main-info .pod-info h2 {
+  margin: 0px;
+}
+
+/**** Pod Data > Main info > Pod Info > Top ****/
+
+.pod-page .pod-data .main-info .pod-info .top p {
+  margin: 0px 0px 9px 0px;
+}
+
+.pod-page .pod-data .main-info .pod-info .top,
+.pod-page .pod-data .main-info .pod-info .bottom {
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.pod-page .pod-data .main-info .pod-info .top .pod-detail {
+  align-items: flex-start;
+}
+
+/***** Pod Data > Main info > Pod Info > Top > Scores *****/
+
+.pod-page .pod-data .main-info .pod-info .scores .pod-detail {
+  margin: 0 20px 0 20px;
+}
+
+.pod-page .pod-data .main-info .pod-info .scores span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pod-page .pod-data .main-info .pod-info .scores span img {
+  margin-right: 9px;
+}
+
+/***** Pod Data > Main info > Pod Info > Top > Buttons *****/
+
+.pod-page .pod-data .main-info .pod-info .buttons .invest {
+  background-color: #081831;
+}
+
+.pod-page .pod-data .main-info .pod-info .buttons .invest:hover {
+  background-color: #1a2a44;
+}
+
+.pod-page .pod-data .main-info .pod-info .buttons .deploy {
+  background-color: #081831;
+}
+
+.pod-page .pod-data .main-info .pod-info .buttons .deploy:hover {
+  background-color: #1a2a44;
+}
+
+.pod-page .pod-data .main-info .pod-info .buttons .deploy-inactive {
+  background-color: #49515e;
+}
+
+.pod-page .pod-data .main-info .pod-info .buttons .deploy-inactive:hover {
+  background-color: #353f50;
+}
+
+/**** Pod Data > Main info > Pod Info > Bottom ****/
+/***** Pod Data > Main info > Pod Info > Bottom > Description *****/
+
+.pod-page .pod-data .main-info .pod-info .bottom {
+  align-items: center;
+}
+
+.pod-page .pod-data .main-info .pod-info .bottom .description {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pod-page .pod-data .main-info .pod-info .bottom .description p {
+  min-height: 14px;
+  margin: 0;
+  text-overflow: ellipsis;
+  overflow: auto;
+  white-space: normal;
+  margin-bottom: 10px;
+}
+
+/***** Pod Data > Main info > Pod Info > Bottom > Pools *****/
+
+.pod-page .pod-data .main-info .pod-info .bottom .pools {
+  padding: 18px;
+  border: hsla(218, 11%, 45%, 0.2) solid 1px;
+  border-radius: 20px;
+}
+
+.pod-page .pod-data .main-info .pod-info .bottom .pools p {
+  margin: 0px 16px 0px 0px;
+}
+
+.pod-page .pod-data .main-info .pod-info .bottom .pools .pool-image {
+  min-height: 40px;
+  height: 40px;
+  max-height: 40px;
+  min-width: 40px;
+  width: 40px;
+  max-width: 40px;
+  border-radius: 20px;
+  background-color: #656e7e;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pod-page .pod-data .main-info .pod-info .bottom .pools .pool-image span {
+  color: white;
+  font-size: 18px;
+}
+
+/*tabs*/
+
+.pod-page .appbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pod-page .appBarTabsToken {
+  margin-left: 0;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-bottom: #99a2b3 1px solid;
+}
+
+.pod-page .appBarTabsToken .Mui-selected {
+  min-width: auto !important;
+  color: rgb(8, 24, 49) !important;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: none;
+  z-index: 100;
+}
+.pod-page .appBarTabsToken .MuiTab-root {
+  min-width: auto !important;
+  color: #656e7e;
+  text-transform: none;
+  padding: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: "Agrandir";
+}
+.pod-page .appBarTabsToken .MuiTab-root:first-child {
+  margin-left: 0;
+}
+.pod-page .appBarTabsToken .MuiTab-root:hover {
+  background-color: transparent !important;
+}

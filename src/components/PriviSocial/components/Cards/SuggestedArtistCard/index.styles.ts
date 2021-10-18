@@ -1,0 +1,55 @@
+import { makeStyles } from "@material-ui/core";
+
+export const suggestedArtistCardStyles = makeStyles(theme => ({
+  suggestedArtistCard: {
+    width: "100%",
+    display: "flex",
+    alignItems: "flex-end",
+    minWidth: 270,
+    height: 360,
+    borderRadius: 16,
+    color: "white",
+    fontSize: "14px",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    cursor: 'pointer',
+    "& h4": {
+      margin: 0,
+      fontSize: 14,
+    },
+    "& button": {
+      fontWeight: 800,
+      fontSize: 14,
+      color: "#181818",
+      border: "none",
+    },
+  },
+  gradient: {
+    height: 180,
+    bottom: 0,
+    width: "100%",
+    background: "linear-gradient(180deg, rgba(24, 24, 24, 0) 0%, #181818 100%)",
+    borderRadius: "0px 0px 16px 16px",
+    padding: 16,
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-end",
+  },
+  tokenImageContainer: {
+    background: "#ffffff",
+    width: 121,
+    height: 121,
+    boxShadow: "0px 2px 8px rgba(0, 0, 0, 0.12)",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: "50%",
+    "& img": {
+      objectFit: "cover",
+      borderRadius: "50%",
+      width: 58,
+      height: 58,
+    },
+  },
+}));

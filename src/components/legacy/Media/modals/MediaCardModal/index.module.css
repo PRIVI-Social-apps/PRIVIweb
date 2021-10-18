@@ -1,0 +1,362 @@
+.modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modal .modalContent {
+  background-color: white;
+  padding: 35px 30px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 150px;
+  width: 960px;
+  max-width: 85vw;
+  outline: none;
+  max-height: 85vh;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.modal .modalContent .exit {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: -15px;
+  margin-right: -10px;
+  z-index: 2;
+}
+
+.modal .modalContent .image {
+  margin-top: -40px;
+  width: calc(100% + 60px);
+  min-height: 350px;
+  margin-left: -30px;
+  background-color: #eef1f4 !important;
+  z-index: 1;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  margin-bottom: 10px;
+  background-size: contain !important;
+}
+
+.modal .modalContent .tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -25px;
+  margin-bottom: 20px;
+  z-index: 2;
+}
+
+.modal .modalContent .tags .tagContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal .modalContent .tags .tagContainer span {
+  font-size: 16px;
+  background-color: #45cfea;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-right: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal .modalContent .tags .tagContainer span:last-child {
+  margin-right: 0;
+}
+
+.modal .modalContent .tags .tagContainer span svg {
+  margin-right: 5px;
+}
+
+.modal .modalContent .tags .tagContainer:last-child span {
+  background-color: #081831;
+}
+
+.modal .modalContent .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.modal .modalContent .content section {
+  width: calc(50% - 10px);
+  margin-right: 20px;
+}
+
+.modal .modalContent .content section:last-child {
+  margin: 0;
+}
+
+.modal .modalContent .content section h5,
+.modal .modalContent .content section h2 {
+  margin-bottom: 10px;
+}
+
+.modal .modalContent .content section p {
+  color: #656e7e;
+  line-height: 20px;
+  text-align: justify;
+  white-space: pre-line;
+}
+
+.modal .modalContent .content section .creator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal .modalContent .content section .creator .img {
+  min-width: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.modal .modalContent .content section .creator p {
+  color: #081831;
+  font-size: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.modal .modalContent .content section .owner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal .modalContent .content section .owner .img {
+  min-width: 35px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.modal .modalContent .comments {
+  background-color: #eef1f4;
+  width: calc(100% + 60px);
+  max-height: 350px;
+  min-height: 100px;
+  margin-left: -30px;
+  margin-bottom: -35px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.modal .modalContent .comments p {
+  margin-left: 30px;
+}
+
+.modal .modalContent .comments .commentsContainer .loader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  margin-bottom: 20px;
+}
+
+.modal .modalContent .comments .commentsContainer .addResponse {
+  margin-left: 30px;
+  width: calc(100% - 100px);
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal .modalContent .comments .commentsContainer .addResponse .inputResponse {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.modal .modalContent .comments .commentsContainer .addResponse .inputResponse input {
+  color: #656e7e;
+  font-size: 14px;
+  font-weight: 400;
+  border: none !important;
+  width: 100%;
+}
+
+.modal .modalContent .comments .commentsContainer .addResponse .inputResponse input:focus {
+  outline: none;
+}
+
+.modal .modalContent .comments .commentsContainer .addResponse .inputResponse input::-webkit-input-placeholder {
+  outline: none;
+  color: rgba(101, 110, 126, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.modal .modalContent .comments .commentsContainer .addResponse .inputResponse input:-ms-input-placeholder {
+  outline: none;
+  color: rgba(101, 110, 126, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.modal .modalContent .comments .commentsContainer .addResponse .inputResponse input::-ms-input-placeholder {
+  outline: none;
+  color: rgba(101, 110, 126, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.modal .modalContent .comments .commentsContainer .addResponse .inputResponse input::placeholder {
+  outline: none;
+  color: rgba(101, 110, 126, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.modal .modalContent .comments .commentsContainer .addResponse .arrow {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  cursor: pointer;
+}
+
+.modal .modalContent .comments .commentsContainer .addResponse .arrow img {
+  width: 20px;
+  height: 20px;
+}
+
+.modal .modalContent .comments .commentsContainer .responseItem {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.modal .modalContent .comments .commentsContainer .responseItem.borderBottom {
+  border-bottom: 1px solid #cfdae5;
+}
+
+.modal .modalContent .comments .commentsContainer .responseItem .firstRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.modal .modalContent .comments .commentsContainer .responseItem .firstRow .column {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal .modalContent .comments .commentsContainer .responseItem .firstRow .column:last-child {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #656e7e;
+}
+
+.modal .modalContent .comments .commentsContainer .responseItem .firstRow .column .userImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: grey;
+  margin-right: 8px;
+}
+
+.modal .modalContent .comments .commentsContainer .responseItem .firstRow .column .label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #081831;
+}
+
+.modal .modalContent .comments .commentsContainer .responseItem .firstRow .response {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #081831;
+  padding-bottom: 30px;
+}
+/*# sourceMappingURL=index.module.css.map */

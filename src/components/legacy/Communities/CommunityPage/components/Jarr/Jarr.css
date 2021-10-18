@@ -1,0 +1,26 @@
+.joinCommunityLabel {
+  font-size: 14px;
+  color: #5a5a5a;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.community-page .content .discordFullPage {
+  width: 100%;
+  border-radius: 0;
+  margin-bottom: 0;
+  height: calc(100vh - 178px + 20px);
+}
+
+.community-page .jarr-container {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .jarr-container {
+    padding: 0;
+    margin-left: -12px;
+  }
+}

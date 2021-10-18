@@ -1,0 +1,62 @@
+.modal .create-token-modal {
+  padding: 35px 30px !important;
+  align-items: flex-start;
+  /* margin-left: 20%; */
+  margin-top: 50px;
+  height: 82vh;
+  overflow-y: auto;scrollbar-width: none;
+  overflow-x: hidden;
+  width: 52%;
+  align-items: center
+}
+
+.modal .create-token-modal .general-info,
+.modal .create-token-modal .fund-token,
+.modal .create-token-modal .fund-management,
+.modal .create-token-modal .users {
+  width: 100%;
+  padding: 0px 30px;
+  margin-bottom: 10px;
+}
+
+.modal .create-token-modal .fund-management,
+.modal .create-token-modal .users {
+  background-color: rgba(238, 241, 244, 1);
+}
+
+.modal .create-token-modal .dragImageHereCreatePod {
+  width: auto;
+}
+
+.modal .create-token-modal .textAreaCreatePod {
+  width: calc(350px - 24px);
+}
+
+.modal .create-token-modal .adminsMailLabel {
+  width: 400px;
+}
+
+.modal .create-token-modal .adminsMailLabel div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.modal .create-token-modal .adminsMailLabel img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.modal .create-token-modal .tokenLabel {
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-management {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: rgba(238, 241, 244, 1);
+}

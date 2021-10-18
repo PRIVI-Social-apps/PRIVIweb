@@ -1,0 +1,211 @@
+@media only screen and (min-width: 1280px) {
+  .digital_info_wrapper {
+    width: 50%;
+    display: inline-block;
+  }
+
+  .digital_collection_wrapper {
+    width: 50%;
+    display: inline-block;
+  }
+}
+
+.digital_container {
+  display: flex;
+  align-items: center;
+}
+
+.digital_info_wrapper {
+  font-family: Agrandir;
+
+  h1 {
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+
+  .description {
+    font-size: 22px;
+    max-width: 650px;
+  }
+
+  .fractional_info {
+    display: flex;
+    align-items: center;
+    .fractional_info_percent {
+      color: #fff;
+      background: linear-gradient(97.4deg, #FF79D1 14.43%, #DB00FF 79.45%);
+      border-radius: 36px;
+      padding: 7px 9px;
+      font-size: 18px;
+      font-weight: 800;
+      margin-right: 27px;
+    }
+    .fractional_info_views {
+      color: #949BAB;
+      font-size: 14px;
+      display: flex;
+      img {
+        margin-right: 8px;
+      }
+    }
+  }
+
+  .owner_rates_wrapper {
+    display: flex;
+    h2 {
+      font-weight: 400;
+      font-size: 18px;
+      color: #181818;
+    }
+    .owner_wrapper {
+      margin-right: 50px;
+    }
+    .rates_wrapper {
+      display: flex;
+      flex-direction: column;
+      .padding_top {
+        padding-top: 15px;
+      }
+      .rate_info {
+        display: flex;
+        border-bottom: 1px solid #949BAB;
+        .rate_data {
+          margin-right: 30px;
+          margin-left: 3px;
+          flex: 1;
+          min-width: 185px;
+
+          h3 {
+            font-size: 30px;
+            font-weight: 400;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .creators_ownership_wrapper {
+    display: flex;
+    margin-top: 50px;
+    h2 {
+      font-weight: 400;
+      font-size: 18px;
+      color: #181818;
+      margin-bottom: 0;
+    }
+    .creators_wrapper {
+      margin-right: 50px;
+      .creators {
+        width: 100%;
+        margin-left: -20px;
+        padding: 18px 20px 0px 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        margin-bottom: 15px;
+      }
+      span {
+        font-size: 11px;
+        background: #fff;
+        margin-left: -20px;
+        z-index: 99;
+        border-radius: 8px;
+        padding: 5px;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+      }
+      .user_image {
+        width: 48px;
+        min-width: 48px;
+        min-height: 48px;
+        height: 30px;
+        background-color: #656e7e;
+        border: 2px solid white;
+        border-radius: 50%;
+        margin-left: -10px;
+        &:last-child {
+          margin-left: 0px;
+        }
+      }
+      .btn_view_all {
+        font-size: 14px;
+        color: #23D0C6;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+    }
+    .owner_distribution {
+      width: 100%;
+    }
+    .owner_chart {
+      display: flex;
+      align-items: center;
+      .owner_chart_description {
+        margin-top: 30px;
+        width: 100%;
+        max-width: 280px;
+      }
+      .owner_chart_data {
+        display: flex;
+        align-items: center;
+        font-size: 11px;
+        color: #181818;
+        border-bottom: 1px solid #e7e7e7;
+        padding-bottom: 15px;
+        padding-top: 10px;
+
+        .colorBox {
+          width: 15px;
+          height: 18px;
+          margin-right: 5px;
+        }
+        span {
+          margin-left: auto;
+        }
+      }
+    }
+  }
+}
+
+.digital_collection_wrapper {
+  font-family: Agrandir;
+  max-width: 552px;
+  .collection_img {
+    border-radius: 20px;
+    width: 100%;
+    max-width: 552px;
+    height: 500px;
+    margin-top: 35px;
+  }
+  p {
+    color: #181818;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .collection_info {
+    display: flex;
+    align-items: center;
+    img {
+      width: 74px;
+      border-radius: 6px;
+    }
+    div {
+      margin-left: 23px;
+      display: flex;
+      flex-direction: column;
+      span {
+        color: #949BAB;
+        font-size: 14px;
+      }
+      .view_collection {
+        color: #23D0C6;
+        cursor: pointer;
+        text-decoration: underline;
+        font-size: 14px;
+        margin-top: 5px;
+      }
+    }
+  }
+}

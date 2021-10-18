@@ -1,0 +1,43 @@
+.stake-modal .flexRowInputs {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.stake-modal .flexRowInputs p {
+  margin: 0;
+}
+
+.stake-modal .flexRowInputs button {
+  margin-bottom: 36px;
+  height: 45.27px;
+  margin-left: 10px;
+  margin-right: 0;
+  width: max-content;
+}
+
+.stake-modal .flexRowInputs label {
+  width: calc(100%) !important;
+}
+.stake-modal .flexRowInputs label span {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #656e7e;
+}
+
+.stake-modal .buttons {
+  justify-content: center;
+}
+
+.stake-modal .swap-option {
+  margin-top: 15px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 16px rgba(101, 112, 129, 0.06);
+  display: flex;
+  padding: 10px;
+  width: calc(100% - 20px);
+  justify-content: center;
+}
+.stake-modal .swap-option button {
+  margin-left: 15px;
+}

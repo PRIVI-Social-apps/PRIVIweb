@@ -1,0 +1,175 @@
+.trenidng-pod-card {
+  width: 298px;
+  height: 433px;
+  margin-right: 20px;
+  background: #ffffff;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+  border: 4px solid transparent;
+  border-radius: 24px;
+  position: relative;
+  background-clip: padding-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.trenidng-pod-card:hover {
+  cursor: pointer;
+}
+
+.trenidng-pod-card::after {
+  position: absolute;
+  content: "";
+  top: -4px;
+  bottom: -4px;
+  left: -4px;
+  right: -4px;
+  background: linear-gradient(97.4deg, #ff79d1, #db00ff);
+  z-index: -1;
+  border-radius: 24px;
+}
+
+.trenidng-pod-card p,
+.trenidng-pod-card span,
+.trenidng-pod-card h4 {
+  color: white;
+}
+
+.trenidng-pod-card .pod-card-image {
+  height: 198px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  background: linear-gradient(180deg, rgb(64, 75, 88) 0%, rgba(8, 24, 49) 100%);
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  left: -4px;
+}
+
+.trenidng-pod-card .pod-card-image .pod-image {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
+.trenidng-pod-card .pod-card-image .avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  border: 2px solid #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+  transform: translate(0, 50%);
+  background-color: white;
+}
+
+.trenidng-pod-card .bottom-info .social {
+  color: white;
+}
+
+.trenidng-pod-card .bottom-info .social h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.trenidng-pod-card .pod-card-image .social-actions {
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+  background: #181818;
+  border: 2px solid #ffffff;
+  border-radius: 18px;
+  padding: 4px 9px;
+  position: absolute;
+  bottom: 0;
+  right: 16px;
+  transform: translate(0, 50%);
+}
+
+.pod-card-image .social-actions img {
+  width: 17px;
+  height: 17px;
+}
+
+.trenidng-pod-card .pod-card-image .pod-status {
+  background: linear-gradient(97.4deg, #ff79d1 14.43%, #db00ff 79.45%);
+  border-radius: 24px;
+  padding: 8px 18px;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  text-transform: capitalize;
+}
+
+.trenidng-pod-card .pod-card-info {
+  margin-top: 198px;
+  padding: 24px 0;
+  flex-grow: 1;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.trenidng-pod-card .pod-card-info .name {
+  font-weight: 800;
+  font-size: 18px;
+  color: black;
+  margin-top: 5px;
+  padding: 0 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.trenidng-pod-card .pod-card-info .media-buttons {
+  display: flex;
+  column-gap: 5px;
+  padding: 8px 16px;
+  border-top: 1px solid #0000000c;
+  border-bottom: 1px solid #0000000c;
+}
+
+.trenidng-pod-card .pod-card-info .media-buttons span {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+  color: #949bab;
+  font-size: 11px;
+  padding: 6px 11px;
+  border: 1px solid #949bab;
+  border-radius: 14px;
+}
+
+.trenidng-pod-card .pod-card-info .media-buttons img {
+  width: 14px;
+  height: 17px;
+}
+
+.trenidng-pod-card .pod-card-info .main-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  margin-top: 20px;
+}
+
+.trenidng-pod-card .pod-card-info .main-info span {
+  font-size: 14px;
+  color: #949bab;
+}
+
+.trenidng-pod-card .pod-card-info .main-info p {
+  font-size: 18px;
+  color: #181818;
+}
+
+.trenidng-pod-card .pod-card-info .invest-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

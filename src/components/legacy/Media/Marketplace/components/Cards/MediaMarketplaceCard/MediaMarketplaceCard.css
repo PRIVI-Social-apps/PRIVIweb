@@ -1,0 +1,127 @@
+.media-marketplace-card.media-card .content {
+  padding-bottom: 0;
+}
+
+.media-marketplace-card .tags .price-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  border: none;
+  border: none;
+  padding: unset;
+}
+
+.media-marketplace-card .tags .price {
+  font-size: 14px;
+  line-height: 120%;
+  color: #949bab;
+  padding: 0;
+  text-align: end;
+}
+
+/*------------------------- FOOTER: PRICE AND BID --------------------*/
+
+.media-marketplace-card .footer {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.media-marketplace-card .footer .price {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.media-marketplace-card .footer .price span {
+  margin-left: 0px;
+}
+
+.media-marketplace-card .footer .price .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.media-marketplace-card .footer .price .col:first-child {
+  margin-right: 20px;
+}
+
+.media-marketplace-card .footer .price .col span:first-child {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 104.5%;
+  color: #707582;
+  margin-bottom: 6.5px;
+}
+
+.media-marketplace-card .footer .price .col span:last-child {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 104.5%;
+  color: #181818;
+  margin-bottom: 6px;
+}
+
+.media-marketplace-card .footer .price .col span:last-child img {
+  margin-right: 10px;
+}
+
+.media-marketplace-card .footer .bid {
+  width: calc(100% + 16px * 2);
+  display: flex;
+  align-items: center;
+  background: linear-gradient(97.4deg, #23d0c6 14.43%, #00cc8f 85.96%);
+  border-radius: 0px 0px 20px 20px;
+  padding: 15px 16px 12px;
+}
+
+.media-marketplace-card .footer .bid span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 104.5%;
+  color: #ffffff;
+}
+
+.media-marketplace-card .footer .bid > span:last-child {
+  display: flex;
+  margin-left: 28px;
+}
+
+.media-marketplace-card .footer .bid span:last-child > span {
+  margin-left: 8px;
+  display: flex;
+}
+
+.media-marketplace-card .footer .bid span:last-child > span b {
+  margin: 0;
+  font-size: 16px;
+}
+
+.media-marketplace-card .footer .price .amount {
+  color: #181818;
+  font-size: 21px;
+}
+
+.media-marketplace-card .footer .price .placeNewBidLink {
+  color: #23d0c6;
+  font-size: 14px;
+  margin: 7px 0px 0px 0px;
+  cursor: pointer;
+}
+
+.media-marketplace-card .footer .price .spreadInfo {
+  font-size: 14px;
+  color: #707582;
+  margin: 7px 0px 0px 0px;
+}

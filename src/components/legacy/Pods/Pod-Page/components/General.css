@@ -1,0 +1,254 @@
+/** Pod Data > Charts **/
+
+.pod-page .pod-data .general .charts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 40px;
+  height: 350px;
+}
+
+/** Pod Data > Charts > Charts Container **/
+
+.pod-page .pod-data .general .charts .charts-container {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  height: 350px;
+}
+
+/*** Pod Data > Charts > Charts Container > Chart ***/
+
+.pod-page .pod-data .general .charts .charts-container .chart {
+  background-color: white;
+  border-radius: 20px;
+  width: 50%;
+  padding: 18px;
+  margin-right: 19px;
+}
+
+.pod-page .pod-data .general .charts .charts-container .chart p {
+  margin: 0px 0px 6px 0px;
+}
+
+.pod-page .pod-data .general .charts .charts-container .chart span {
+  color: #656e7e;
+  font-size: 10px;
+}
+
+/*** Pod Data > Charts > Ad Container ***/
+
+.pod-page .pod-data .general .charts .ad-container {
+  background-color: #656e7e;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  flex-grow: 1;
+  height: 320px;
+}
+
+.pod-page .pod-data .general .charts .ad-container p {
+  color: white;
+}
+
+/** Pod Data > Wall **/
+
+.pod-page .pod-data .general .wall {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+}
+
+.pod-page .pod-data .general .wall .title {
+  margin: 0px 0px 16px 0px;
+  align-self: self-start;
+}
+
+.pod-page .pod-data .general .wall button {
+  margin-left: 18px;
+}
+
+.pod-page .pod-data .general .wall .wall-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px 0px;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+  margin-right: -40px;
+}
+
+.pod-page .pod-data .general .wall .wall-item {
+  width: calc(100% / 4 - 55px);
+  min-width: calc(100% / 4 - 55px);
+  max-width: calc(100% / 4 - 55px);
+  height: 100%;
+  margin-bottom: 20px;
+  min-height: 250px;
+  max-height: 250px;
+}
+
+.pod-page .pod-data .general .wall .wall-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.pod-page .pod-data .general .wall .wall-item .gradient-container-top {
+  width: calc(100% + 40px);
+  margin-left: -20px;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(8, 24, 49, 1) 0%,
+    rgba(0, 212, 255, 0) 30%
+  );
+  border-radius: 20px;
+}
+
+.pod-page .pod-data .general .wall .wall-item .gradient-container-bottom {
+  width: calc(100% - 30px);
+  height: 230px;
+  padding: 20px 15px;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 0) 50%,
+    rgba(8, 24, 49, 1) 100%
+  );
+  border-radius: 20px;
+  min-height: 230px;
+  max-height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pod-page .pod-data .general .wall .wall-item .menuWallItem {
+  padding: 0;
+  color: white;
+  margin-bottom: -35px;
+}
+
+.pod-page .pod-data .general .wall .wall-item h3,
+.pod-page .pod-data .general .wall .wall-item p,
+.pod-page .pod-data .general .wall .wall-item span {
+  color: white;
+}
+
+.pod-page .pod-data .general .wall .wall-item .bottom-items {
+  flex-grow: 1;
+  height: 100%;
+  align-items: flex-end;
+}
+
+.pod-page .pod-data .general .wall .wall-item-favourite .gradient-container-top,
+.pod-page
+  .pod-data
+  .general
+  .wall
+  .wall-item-favourite
+  .gradient-container-bottom {
+  background: none !important;
+}
+
+.pod-page .pod-data .general .disabled {
+  border: hsla(218, 11%, 45%, 0.3) 1px solid;
+  border-radius: 15px;
+  background-color: transparent;
+  color: #656e7e;
+  font-weight: normal;
+  padding: 12px 15px;
+}
+
+.pod-page .pod-data .general .disabled:hover {
+  border: hsla(218, 11%, 45%, 0.3) 1px solid;
+  border-radius: 15px;
+  background-color: transparent;
+  color: #656e7e;
+  cursor: default;
+  font-weight: normal;
+}
+
+/** Pod Data > Lower Section **/
+
+.pod-page .pod-data .general .lower-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.pod-page .pod-data .general .lower-section .title,
+.pod-page .pod-data .general .lower-section .title {
+  height: 42px;
+  min-height: 42px;
+  margin: 0px 0px 26px 0px;
+}
+
+.pod-page .pod-data .general .lower-section .title h3 {
+  margin: 0px;
+}
+
+.pod-page .pod-data .general .lower-section .title img {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.pod-page .pod-data .general .lower-section .title button {
+  margin: 0px 0px 0px 20px;
+}
+
+.pod-page .pod-data .general .lower-section .discussions,
+.pod-page .pod-data .general .lower-section .voting,
+.pod-page .pod-data .general .lower-section .trading-history {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+}
+
+.pod-page
+  .pod-data
+  .general
+  .lower-section
+  .discussions
+  .bodyHeaderPriviEcosystem {
+  margin-top: 8px;
+  margin-bottom: 26px;
+}
+
+.pod-page
+  .pod-data
+  .general
+  .lower-section
+  .discussions
+  .bodyHeaderPriviEcosystem
+  button {
+  margin: 0;
+}
+
+.pod-page .pod-data .general .lower-section div:last-child {
+  margin-right: 0;
+}
+
+.pod-page .pod-data .general .lower-section div:last-child .content {
+  height: 512px;
+  max-height: 512px;
+  padding: 0;
+}
+
+.pod-page .pod-data .general .lower-section .content {
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  background-color: white;
+  height: 492px;
+  max-height: 492px;
+  border-radius: 20px;
+  padding: 20px 24px 0 24px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  scrollbar-width: none;
+}

@@ -1,0 +1,160 @@
+.select-wallet {
+  border-radius: 16px;
+  background-color: black;
+  margin-left: 8px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-wallet .MuiSelect-select {
+  border: 0;
+  padding-left: 10px;
+  color: white;
+}
+
+.square-container {
+  background-color: rgb(238, 241, 244);
+  border-radius: 15px;
+  height: calc(100px);
+  width: calc(100% - 40px);
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.square-container-bottom {
+  padding-top: 20px;
+}
+
+.square-container .left-item {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.square-container .left-item-no-label {
+  margin-top: 32px;
+}
+
+.square-container .left-item .select-wrapper {
+  border-radius: 16px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square-container .disabled {
+  border: #cfcfcfd3 1px solid;
+}
+
+.square-container .disabled input {
+  border: 0;
+  background-color: white;
+}
+
+.square-container .left-item .select-wrapper .img,
+.square-container .left-item .select-wrapper img {
+  min-width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  background-color: white;
+  padding-left: 0 !important;
+}
+
+.square-container .left-item .select-wrapper select {
+  height: 50px;
+  background-color: transparent;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 0;
+}
+
+.square-container .left-item .balance {
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgb(66, 73, 85);
+}
+
+.square-container .right-item {
+  flex-grow: 1;
+}
+
+.square-container .label {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(66, 73, 85);
+  margin-bottom: 8px;
+  margin-top: 6px;
+}
+
+.square-container .right-item .input-wrapper {
+  border-radius: 16px;
+  background-color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.square-container .right-item .input-wrapper input {
+  width: 100%;
+  min-width: 100%;
+  border: 0px !important;
+  outline: none;
+}
+
+.modal-content .estimateGasFeeAddLiquidityModal {
+  width: 100%;
+}
+
+.iconModalSwapDiv img {
+  width: 80px;
+  height: 80px;
+  background-color: #64c89e;
+}
+
+.modal .buy-send-tokens-modal .select-tokens {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.select-tokens {
+  width: 100%;
+}
+
+.select-tokens button {
+  background-color: white;
+  padding: 27px 0;
+  border: 1px solid #000;
+  width: calc(23%);
+  margin: 0;
+  margin-right: 10px;
+  color: #424955;
+  font-weight: normal;
+}
+
+.modal .buy-send-tokens-modal .select-tokens button:last-child {
+  margin-right: 0px;
+}
+
+.modal .buy-send-tokens-modal .select-tokens .disabled {
+  border: 1px solid hsla(212, 25%, 60%, 0.2);
+  color: hsla(217, 72%, 11%, 0.5);
+}

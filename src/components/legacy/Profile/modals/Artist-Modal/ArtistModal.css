@@ -1,0 +1,299 @@
+.modal .artist-modal {
+  max-width: 85vw;
+  width: 950px;
+  max-height: 85vh;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.modal .artist-modal .exit {
+  margin-bottom: -35px !important;
+  z-index: 1;
+}
+
+.modal .artist-modal .exit img {
+  margin-top: -10px;
+}
+
+/*ARTIST INFO*/
+.modal .artist-modal .artist-tab {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.modal .artist-modal .artist-tab .left,
+.modal .artist-modal .artist-tab .right {
+  display: flex;
+  width: fit-content;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 350px;
+  max-height: 450px;
+  height: fit-content;
+}
+
+.modal .artist-modal .artist-tab .right {
+  align-items: center;
+}
+
+.modal .artist-modal .artist-tab .right .user-info {
+  display: flex;
+  width: 100%;
+}
+
+.modal .artist-modal .artist-tab .right .user-image {
+  width: 350px;
+  height: 350px;
+  border-radius: 275px;
+  background-color: #656e7e;
+}
+
+.modal .artist-modal .sns {
+  margin-top: 10px;
+  display: flex;
+}
+
+.modal .artist-modal .sns a:last-child img {
+  margin-right: 0;
+}
+
+.modal .artist-modal .artist-info {
+  font-size: 12px;
+  margin-top: 20px;
+  color: #081831;
+}
+
+.modal .artist-modal .artist-tab .left {
+  align-items: flex-start;
+  margin-right: 15px;
+  width: 100%;
+  max-width: calc(100% - 350px - 30px);
+}
+
+.modal .artist-modal .artist-tab .left .title {
+  padding-left: 20px;
+  border-left: 3px solid #64c89e;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: flex-start;
+  width: 55%;
+  margin-bottom: 20px;
+}
+
+.modal .artist-modal .artist-tab .left .title p:first-child {
+  font-size: 80px;
+  word-break: break-all;
+  margin: 0;
+}
+
+.modal .artist-modal .artist-tab .left .title p:nth-child(2) {
+  font-size: 14px;
+  margin: -5px 0px 10px 0px;
+  color: #656e7e;
+}
+
+.modal .artist-modal .artist-tab .left .title p:nth-child(3) {
+  padding: 10px;
+  font-size: 14px;
+  align-self: flex-end;
+  font-weight: 400;
+  background-color: hsl(155, 48%, 59%, 0.1);
+  letter-spacing: 0;
+  line-height: 20px;
+  max-height: 80px;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: justify;
+  white-space: pre-line;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 10px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.modal .artist-modal .artist-tab .left h4 {
+  margin: 10px 0px 10px 30px;
+}
+
+.modal .artist-modal .carousel {
+  display: flex;
+  align-items: center;
+}
+
+.modal .artist-modal .carousel button {
+  margin: 0;
+  height: fit-content;
+}
+
+.modal .artist-modal .carousel button img {
+  height: 25px;
+}
+
+.modal .artist-modal .artist-tab .left .artist-top-media {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  margin: 0px 10px;
+  overflow-x: hidden;
+}
+
+.modal .artist-modal .artist-tab .left .artist-top-media .top-media-card {
+  display: flex;
+  align-items: center;
+  width: calc(100% / 2 - 10px);
+  margin-right: 10px;
+  background-color: rgb(101, 110, 126, 0.1);
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 15px;
+  min-width: 150px;
+  height: 130px;
+}
+
+.modal .artist-modal .artist-tab .left .artist-top-media .top-media-card .media-image {
+  width: calc(100% + 30px);
+  margin-top: -15px;
+  height: 110px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #656e7e;
+}
+
+.modal .artist-modal .artist-tab .left .artist-top-media .top-media-card p {
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.modal .artist-modal .artist-tab .bottom-info {
+  align-self: flex-end;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+/*COLLAB TAB*/
+
+.modal .artist-modal .collab-tab {
+  width: 100%;
+}
+
+.modal .artist-modal .collab-tab .carousel {
+  align-items: center;
+}
+
+.modal .artist-modal .collab-tab .collab-users {
+  scroll-behavior: smooth;
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  margin: 0px 10px;
+  overflow-x: hidden;
+}
+
+.modal .artist-modal .collab-tab .collab-card {
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  padding: 0px 20px;
+}
+
+.modal .artist-modal .collab-tab .collab-card .user-image {
+  width: 180px;
+  height: 180px;
+  border-radius: 90px;
+  background-color: #656e7e;
+  transition: 0.25s ease-in;
+}
+.modal .artist-modal .collab-tab .collab-card .user-image.small {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  transition: 0.25s ease-in;
+}
+
+.modal .artist-modal .collab-tab .collab-card p:first-child {
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  transition: 0.25s ease-in;
+}
+
+.modal .artist-modal .collab-tab .collab-card p:first-child.small {
+  font-size: 18px;
+  transition: 0.25s ease-in;
+}
+
+.modal .artist-modal .collab-tab .collab-card p:nth-child(2) {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.modal .artist-modal .collab-tab .collab-card .carousel {
+  transition: 0.25s ease-in;
+  width: calc(100% + 30px);
+}
+
+.modal .artist-modal .collab-tab .collab-card .carousel.small {
+  transition: 0.25s ease-in;
+  max-height: 50px;
+  opacity: 0;
+}
+
+.modal .artist-modal .collab-tab .collab-card .carousel .collab-top-media {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  margin: 0px 10px;
+  overflow-x: hidden;
+  margin-top: 10px;
+}
+
+.modal .artist-modal .collab-tab .collab-card .carousel .collab-top-media .top-media-card {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  background-color: rgb(101, 110, 126, 0.1);
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 5px;
+  min-width: 80px;
+  height: 80px;
+  transition: 0.25s ease-in;
+}
+
+.modal .artist-modal .collab-tab .collab-card .carousel.small .collab-top-media .top-media-card {
+  height: 10px;
+  transition: 0.25s ease-in;
+}
+
+.modal .artist-modal .collab-tab .collab-card .carousel .collab-top-media .top-media-card .media-image {
+  width: calc(100% + 10px);
+  margin-top: -15px;
+  height: 110px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #656e7e;
+}
+
+.modal .artist-modal .collab-tab .collab-top-media .top-media-card p {
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.modal .artist-modal .rainBowText {
+  font-size: 14px;
+  margin: -5px 0px 10px 0px;
+  color: #656e7e;
+  background: linear-gradient(90deg, #ff79d1 0%, #db00ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

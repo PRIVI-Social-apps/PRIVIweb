@@ -1,0 +1,40 @@
+.digitalArtImageContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.digitalArtImage {
+  border-radius: 14px;
+  max-height: 60%;
+  max-width: 60%;
+}
+
+.digitalArtDisplayModal {
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: "none";
+}
+
+.modalExitContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+  padding-right: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.modalImageContainer {
+  width: 600px;
+  max-width: 95vw;
+  max-height: 95vh;
+}
+
+.modalImage {
+  width: 100%;
+  border-radius: 20px;
+}

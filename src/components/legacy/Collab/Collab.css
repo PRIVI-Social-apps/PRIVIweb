@@ -1,0 +1,250 @@
+@media screen and (min-width: 992px ) {
+  .collab-page {
+    margin-left: 75px;
+    width: 92% !important;
+    padding: 0 !important;
+  }
+}
+
+.collab-page .title {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* content */
+
+.collab-page .content {
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  height: calc(100vh - 80px) !important;
+  min-height: calc(100vh - 80px) !important;
+  max-height: calc(100vh - 80px) !important;
+}
+
+.collab-page .header {
+  margin-right: 72px;
+}
+
+.collab-page .content .title {
+  padding: 0 !important;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  margin-top: 45px;
+  align-items: center;
+}
+
+.collab-page .content .title button {
+  margin-left: 10px;
+}
+
+.collab-page .mycollab-cards,
+.collab-page .collab-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media screen and (max-width: 992px ) {
+  .collab-page .collab-cards {
+    padding: 0 4%;
+  }
+  .collab-page .trending {
+    margin-left: 4%;
+  }
+  .collab-page {
+    padding: 0 !important;
+  }
+}
+
+/** collabs > Trending **/
+
+.collab-page .trending .title h3 {
+  margin-left: 0.8rem;
+}
+
+.collab-page .trending .mycollab-cards,
+.collab-page .trending .collab-cards {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 10px 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: fit-content;
+  /*margin: 0px 10px;*/
+}
+
+/*.collab-page .trending .mycollab-cards .project-card,*/
+/*.collab-page .trending .collab-cards .project-card {*/
+/*  margin-right: 20px;*/
+/*}*/
+
+/*.collab-page .trending .mycollab-cards card:last-child,*/
+/*.collab-page .trending .collab-cards card:last-child {*/
+/*  margin-right: 0;*/
+/*}*/
+/** collabs > All */
+
+.collab-page .all .collabs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.collab-page .collabs .title {
+  margin-bottom: 10px;
+  margin-top: 45px;
+}
+
+.collab-page .collabs .title h3 {
+  margin-right: 1rem;
+}
+
+.collab-page .loaderDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.collab-page .collab-cards > div {
+  width: 100%;
+  padding: 0 5px 15px 5px;
+}
+
+.collab-page .mycollab-cards .cards-grid,
+.collab-page .collab-cards .cards-grid {
+  display: flex;
+  width: 100%;
+}
+
+.collab-page .mycollab-cards .cards-grid .column,
+.collab-page .collab-cards .cards-grid .column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+  align-self: flex-start;
+}
+
+/*** Communities > All > Display Filter **/
+
+.display-filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 18px;
+}
+
+.display-filter p {
+  color: #656e7e;
+  font-weight: 600;
+}
+
+.display-filter .select-filter {
+  border-bottom: 2px solid #64c89e;
+  margin-left: 10px;
+}
+
+/*** Communities > All > Filters ***/
+
+.filters {
+  justify-content: space-between;
+  padding: 5px 10px;
+  background-color: white;
+  border-radius: 20px;
+  width: calc(100% - 20px);
+  display: flex;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  align-items: center;
+  overflow-x: auto;scrollbar-width: none;
+  overflow-y: hidden;
+  margin-bottom: 20px;
+}
+
+.filters h4 {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.filters .divider {
+  color: #656e7e;
+}
+
+.filters label {
+  border: 1px solid hsla(218, 11%, 45%, 0.3);
+  border-radius: 20px;
+  background-color: hsla(210, 30%, 85%, 0.2);
+  padding: 10px;
+  flex-grow: 0.25;
+  min-width: 150px;
+  width: 250px;
+}
+
+.filters p {
+  margin: 0;
+}
+
+.filters label,
+.filters .dropdown {
+  border: 0;
+  margin: 0px 10px;
+}
+
+.filters label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.filters label img {
+  width: 20px;
+  margin-right: 9px;
+}
+
+.filters label input {
+  background-color: transparent;
+  border: 0;
+  width: 100%;
+}
+
+.filters label input:focus,
+.display-filter select:focus,
+.filters select:focus {
+  outline: none;
+}
+
+.filters .labels {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filters .dropdown {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.filters .dropdown p {
+  white-space: nowrap;
+  margin-right: 5px;
+  color: #656e7e;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}

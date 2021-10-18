@@ -1,0 +1,187 @@
+.modalCreatePost {
+  height: 1225px;
+  width: 892px;
+  border-radius: 16px;
+  max-width: 85vw;
+  max-height: 85vh;
+  overflow-y: auto;
+  scrollbar-width: none;
+  padding: 40px;
+}
+
+.modalCreatePost .flexRowInputsImgTitleDesc {
+  align-items: center;
+}
+
+.modalCreatePost .infoIconImgTitleDesc {
+  width: 14px;
+  height: 14px;
+  margin: 0px;
+  margin-left: 3px;
+}
+
+.modalCreatePost .titleCommunitiesModal {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 104.5%;
+  margin-bottom: 24px;
+}
+
+.modal-content.modalCreatePost .exit {
+  border-radius: 0;
+  overflow: initial;
+  margin-right: -20px;
+  width: calc(100% + 20px);
+}
+
+.modalCreatePost .textAreaImgTitleDesc {
+  height: 130px;
+}
+
+.modalCreatePost .DraftEditor-editorContainer {
+  height: 450px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.modalCreatePost .hashtagsRowCreatePod {
+  flex-wrap: wrap;
+  height: auto !important;
+  overflow-y: auto !important;
+  scrollbar-width: none;
+}
+
+.modalCreatePost .hashtagsRowCreatePod .flexRowInputs {
+  flex-wrap: wrap;
+}
+
+.modalCreatePost .hashtagsRowCreatePod .hashtagLabel,
+.modalCreatePost .hashtagsRowCreatePod .createHashtagButton {
+  margin-bottom: 5px;
+}
+
+.modalCreatePost .removeImageButtonSquareImgTitle {
+  right: 10px;
+}
+
+.textAreaImgTitleDesc,
+.textFieldImgTitleDesc,
+.inputPost,
+.addImagePost {
+  border: 1px solid #bfbdbd !important;
+}
+
+.modalCreatePost .firstRowPost {
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+.gridSecondRowCreatePost {
+  margin-bottom: 35px !important;
+}
+.squareFormatPost {
+  border-radius: 16px;
+  border: 1px solid 1px solid hsla(212, 25%, 60%, 0.3);
+  background-color: rgba(227, 233, 239, 0.3);
+  width: 200px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.squareOptionsIconLabel {
+  border: 1px solid hsla(212, 25%, 60%, 0.3);
+}
+.selectedFormatPost {
+  border: 2px solid rgb(60, 175, 212) !important;
+  background-color: rgb(247, 249, 251) !important;
+  cursor: auto;
+}
+.imageIconFormatPost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 86px;
+  margin-bottom: 7px;
+}
+.labelFormatPost {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(66, 73, 85);
+}
+
+#commentsButtonCreatePod {
+  margin-right: 0 !important;
+}
+#noCommentsButtonCreatePod {
+  margin-left: 0 !important;
+}
+.addVideoButton {
+  background: rgb(101 110 126);
+  color: #fff;
+  border-radius: 8px;
+  padding: 9px 10px 9px 18px;
+  overflow: hidden;
+  line-height: 20px;
+  margin-top: 10px;
+}
+.addVideoButton:hover {
+  background: #99a2b3;
+}
+
+.addVideoButton .infoHeaderCommunitiesModal {
+  color: #fff;
+  float: left;
+  margin-right: 10px;
+}
+.addVideoButton svg {
+  position: relative;
+  font-size: 20px;
+  cursor: pointer;
+  top: -1px;
+}
+
+.modalCreatePost .option-buttons {
+  background-color: rgb(227, 233, 239);
+  border-radius: 20px;
+  margin-top: 8px;
+  width: 126px !important;
+  height: 40px;
+}
+.modalCreatePost .option-buttons button {
+  border-radius: 17px !important;
+  background-color: rgb(227, 233, 239) !important;
+  color: rgb(101, 110, 126) !important;
+  margin: 3px;
+  height: 34px;
+  width: 60px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0 !important;
+}
+.modalCreatePost .option-buttons button:hover {
+  background-color: rgb(230, 230, 230) !important;
+}
+
+.modalCreatePost .option-buttons button:focus {
+  outline: none;
+}
+
+.modalCreatePost .option-buttons .selected {
+  background-color: #64c89e !important;
+  color: white !important;
+  font-weight: bold !important;
+  width: 60px;
+}
+
+.modalCreatePost .option-buttons .selected:hover {
+  background-color: #56ad89 !important;
+}
+
+.textFieldImgTitleDesc:focus,
+.textAreaImgTitleDesc:focus {
+  outline: none;
+  background: rgb(101 112 129 / 6%);
+}

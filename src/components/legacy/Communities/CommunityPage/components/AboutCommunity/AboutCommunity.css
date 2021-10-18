@@ -1,0 +1,151 @@
+.about-community .about-community-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.about-community .about-community-content .description {
+  width: 50%;
+  margin-right: 100px;
+  margin-top: 0;
+  margin-bottom: 75px;
+  line-height: 1.5rem;
+  white-space: pre-line;
+  font-size: 14px;
+  font-weight: 400;
+  color: #707582;
+}
+
+.about-community .about-community-content .right {
+  width: 100%;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-community .about-community-content .right .row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.about-community .about-community-content .right .row .element {
+  margin-right: 50px;
+}
+
+.about-community .about-community-content .right .row .element:last-child {
+  margin-right: 0px;
+}
+
+.about-community .about-community-content .right .row .element p {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #181818;
+}
+
+.about-community .about-community-content .right .column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  width: 100%;
+  border-bottom: 1px solid #cccccc;
+}
+
+.about-community .about-community-content .right .span-title {
+  margin-bottom: 15px;
+}
+
+.about-community .about-community-content .right span {
+  color: #707582;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.about-community .about-community-content .right p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.about-community .about-community-content .right .user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.about-community .about-community-content .right .user .user-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  margin-right: 15px;
+  background-color: #656e7e;
+}
+
+.about-community .about-community-content .right .social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+.about-community .about-community-content .right .social:last-child {
+  margin-right: 0px;
+}
+
+.about-community .about-community-content .right .social img {
+  margin-right: 10px;
+  max-height: 30px;
+}
+.about-community.startDate {
+  width: 100%;
+  margin-left: 10px;
+}
+@media screen and (max-width: 768px) {
+  .startDate img {
+    height: 15px;
+    margin-bottom: 8px;
+  }
+
+  .expectedDate img {
+    height: 15px;
+    margin-bottom: 8px;
+  }
+
+  .about-community .about-community-content .right .social {
+    padding-left: 0;
+  }
+
+  .about-community .about-community-content .right .row {
+    flex-wrap: wrap;
+  }
+
+  .about-community .about-community-content .right .row .element {
+    margin-bottom: 12px;
+  }
+
+  .about-community .about-community-content .right .row .element p {
+    margin-top: 4px;
+  }
+
+  .about-community .about-community-content .right .user .user-image {
+    width: 48px;
+    height: 48px;
+  }
+
+  .about-community .about-community-content .description {
+    margin-right: 10px;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 375px) {
+    .about-community .about-community-content .right {
+      margin-left: 0px;
+    }
+  }
+}

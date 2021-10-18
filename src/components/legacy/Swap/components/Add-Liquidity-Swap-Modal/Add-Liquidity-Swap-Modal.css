@@ -1,0 +1,290 @@
+.addLiquiditySwapModal {
+  width: 610px;
+  background-color: white;
+  padding: 30px 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.iconModalSwapDiv {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+.plusMiddleIconModalSwap {
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  border: 10px solid white;
+}
+.headerAddLiquidityModal {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.labelHeaderAddLiquidityModal {
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(8, 24, 49);
+  text-align: left;
+}
+.balancePaperHeaderAddLiquidityModalDiv {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.balancePaperHeaderAddLiquidityModal {
+  border-radius: 20px;
+  background-color: rgb(101, 110, 126);
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0px 20px;
+}
+
+.balancePaperHeaderAddLiquidityModal div {
+  color: white;
+}
+
+.appBarTabsTokensSwapModal {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  margin-bottom: 20px;
+}
+.appBarTabsTokensSwapModal .Mui-selected {
+  min-width: auto !important;
+  color: rgb(8, 24, 49) !important;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: none;
+  border-bottom: 3px solid rgb(100, 200, 158);
+  z-index: 100;
+}
+.appBarTabsTokensSwapModal .MuiTab-root {
+  min-width: auto !important;
+  color: #656e7e;
+  text-transform: none;
+}
+.appBarTabsTokensSwapModal .MuiTab-root:hover {
+  background-color: transparent !important;
+}
+.squareTokenQuantitySwap {
+  background-color: rgb(238, 241, 244);
+  border-radius: 15px;
+  height: calc(155px - 40px);
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.tokenColAddLiquidityModal {
+  width: 50%;
+  margin-right: 10px;
+}
+.labelTokenAddLiquidityModal {
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 8px;
+  margin-top: 6px;
+}
+.squareTokenAddLiquidityModal {
+  border-radius: 16px;
+  background-color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quantityColAddLiquidityModal {
+  width: 50%;
+}
+.addLiquiditySwapModal .squareQuantityAddLiquidityModal {
+  border-radius: 10px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #949BAB!important;
+}
+.inputQualityAddLiquidityModal {
+  width: 100%;
+  min-width: 100%;
+  border: 0px !important;
+  outline: none;
+}
+
+.commentAddLiquidityModal {
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgb(66, 73, 85);
+}
+.infoIconAddLiquidityModal {
+  height: 12px;
+  width: 12px;
+  margin-bottom: 4px;
+  margin-left: 4px;
+}
+
+.selectorTokenAddLiquidityModal {
+  color: rgb(8, 24, 49);
+  border: none;
+  width: calc(100% - 70px);
+}
+.selectorTokenAddLiquidityModal .MuiFormControl-root {
+  width: 100%;
+}
+.selectTokenAddLiquidityModal {
+  height: 50px;
+  background-color: transparent;
+  color: rgb(8, 24, 49) !important;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+  font-size: 14px !important;
+  font-weight: 400;
+  width: 100% !important;
+}
+.selectorTokenAddLiquidityModal .MuiInput-underline:before {
+  border: 0 !important;
+}
+.selectorTokenAddLiquidityModal .MuiInput-underline:after {
+  border: 0 !important;
+}
+.selectorTokenAddLiquidityModal .MuiSelect-icon {
+  padding-right: 15px;
+}
+
+.footerAddLiquidityModal {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.imgSelectorTokenAddLiquidityModal {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.firstColFooterAddLiquidityModal {
+  width: calc(60%);
+  padding-right: 10px;
+}
+.secondColFooterAddLiquidityModal {
+  display: flex;
+  justify-content: flex-end;
+}
+.estimateGasFeeAddLiquidityModal {
+  height: 50px;
+  border-radius: 20px;
+  border: 1px solid hsla(212, 25%, 60%, 0.3);
+  background-color: rgba(227, 233, 239, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(101, 110, 126);
+}
+.estimateGasFeeLabelAddLiquidityModal {
+  width: calc(50% - 20px);
+  text-align: left;
+  padding-left: 20px;
+}
+.estimateGasFeeValueAddLiquidityModal {
+  width: calc(50% - 20px);
+  text-align: right;
+  padding-right: 20px;
+}
+
+.appBarTabsTokensSwapModal .Mui-selected {
+  border: 0;
+}
+
+/* Swap Modal - Transactions backlog */
+
+.tx_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 40px;
+  font-size: 18px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  border-color: royalblue;
+  margin: 10px;
+}
+
+.tx_row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tx_item {
+  color: black;
+  font-size: 15px;
+  margin: 0 5px 0 5px;
+}
+
+.spinner {
+  /* transform: rotate(180deg); */
+  height: 26px;
+  object-fit: scale-down;
+}
+
+.rotate {
+  animation: rotation 5s infinite linear;
+}
+
+.bridge_button:hover {
+  background-color: cornflowerblue;
+}
+
+.bridge_text {
+  color: black;
+  font-size: 15px;
+}
+
+.approval_button_green {
+  background-color: green;
+  opacity: 0.7;
+}
+
+.bridge_button_disabled {
+  border-radius: 25px;
+  background-color: rgb(8, 24, 49) !important;
+  color: white;
+  height: 50px;
+  margin: 0 !important;
+  font-weight: 700;
+  font-size: 16px;
+  width: 180px;
+  margin-right: 10px !important;
+  background-color: gray !important;
+  padding: 0px 15px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

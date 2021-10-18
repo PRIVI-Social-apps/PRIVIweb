@@ -1,0 +1,13 @@
+.root {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 6.848276138305664px 0px #fd70d5;
+          box-shadow: 0px 0px 6.848276138305664px 0px #fd70d5;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+/*# sourceMappingURL=UserAvatar.module.css.map */

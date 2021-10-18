@@ -1,0 +1,87 @@
+.card {
+  position: relative;
+  margin-right: 20px;
+  border-radius: 10px;
+  padding: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 192px;
+  min-width: 162px;
+  width: 162px;
+  height: 192px;
+  background: #ffffff;
+  -webkit-box-shadow: 2.28276px 2.28276px 13.6966px rgba(0, 0, 0, 0.1);
+          box-shadow: 2.28276px 2.28276px 13.6966px rgba(0, 0, 0, 0.1);
+  border-radius: 28.5345px;
+}
+
+.card .userImageContainer {
+  min-width: 98px;
+  width: 98px;
+  min-height: 98px;
+  height: 98px;
+  border-radius: 50%;
+  background: linear-gradient(97.4deg, #ff79d1 14.43%, #db00ff 79.45%);
+  -webkit-box-shadow: 0px 0px 6.84828px #fd70d5;
+          box-shadow: 0px 0px 6.84828px #fd70d5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card .userImageContainer .userImage {
+  min-width: 90px;
+  width: 90px;
+  min-height: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #c4c4c4;
+}
+
+.card .userName {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 104.5%;
+  color: #6b6b6b;
+}
+
+.card .tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card .tags .tag {
+  border-radius: 45px;
+  padding: 10px 11px;
+  color: white;
+  background: linear-gradient(97.4deg, #29e8dc 14.43%, #03eaa5 79.45%);
+  margin-right: 10px;
+}
+
+.card .tags .tag.purple {
+  background: linear-gradient(97.4deg, #ff79d1 14.43%, #db00ff 79.45%);
+}
+
+.card .tags .tag:last-child {
+  margin-right: 0;
+}
+/*# sourceMappingURL=index.module.css.map */

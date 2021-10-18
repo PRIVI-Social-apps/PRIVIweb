@@ -1,0 +1,7 @@
+.bookmark-share-like {
+  width: 200px;
+}
+
+.bookmark-share-like > div > div {
+  z-index: 1;
+}

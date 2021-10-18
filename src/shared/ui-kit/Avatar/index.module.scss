@@ -1,0 +1,18 @@
+.avatar {
+  img {
+    border-radius: 16px;
+  }
+
+  &.circle {
+    background-color: #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &.bordered {
+    img {
+      border: 3px solid white;
+    }
+  }
+}

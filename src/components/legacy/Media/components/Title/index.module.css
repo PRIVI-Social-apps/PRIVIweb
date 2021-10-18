@@ -1,0 +1,35 @@
+.title {
+  margin-right: 130px;
+  margin-bottom: 70px;
+}
+
+.title h1 {
+  color: black;
+  font-size: 100px;
+  font-weight: 400;
+  margin-top: 40px;
+  margin-bottom: 35px;
+  font-weight: normal;
+}
+
+.title h3 {
+  color: black;
+  font-size: 40px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.title .ellipse {
+  /*to be edited*/
+  margin-left: 530px;
+  margin-top: -150px;
+  height: 101.79px;
+  width: 359.46px;
+  border: 3px solid #27e8d9;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transform: rotate(-6.84deg);
+          transform: rotate(-6.84deg);
+  border-radius: 50%;
+}
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,44 @@
+body .iconButton {
+  border-radius: 18px;
+  background: #f3f3f3;
+}
+
+body .iconButton.rounded {
+  border-radius: 50%;
+}
+
+body .iconButton.withTitle {
+  border-radius: 10px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+}
+
+body .iconButton.withTitle .title {
+  opacity: 0;
+  position: absolute;
+  top: -25px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  font-size: 14px;
+  text-align: left;
+  letter-spacing: 0.05em;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+  background: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+body .iconButton.withTitle:hover .title {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+/*# sourceMappingURL=index.module.css.map */

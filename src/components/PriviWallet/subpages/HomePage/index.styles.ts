@@ -1,0 +1,220 @@
+import { makeStyles } from "@material-ui/core";
+import { Color } from "shared/ui-kit";
+
+export const homepageStyles = makeStyles(theme => ({
+  container: {
+    padding: theme.spacing(5),
+    height: `calc(100vh - 80px)`,
+    paddingBottom: "40px",
+    [theme.breakpoints.down("md")]: {
+      padding: "45px 24px 100px",
+    },
+    [theme.breakpoints.down("sm")]: {
+      padding: "45px 17px 67px",
+    },
+  },
+  subContainer: {
+    width: "100%",
+    overflowY: "auto",
+    scrollbarWidth: "none",
+    height: "calc(100vh - 80px)",
+    paddingBottom: "80px",
+  },
+  flexBox: {
+    display: "flex",
+    alignItems: "center",
+  },
+  totalBalanceBox: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    background: "linear-gradient(250.77deg, #FFFFFF 5.09%, rgba(255, 255, 255, 0) 171.95%)",
+    boxShadow: "0px 6px 36px -11px rgba(0, 0, 0, 0.02)",
+    borderRadius: "12px",
+    padding: "18px",
+    width: "100%",
+    marginRight: "12px",
+    "& > div": {
+      display: "flex",
+      flexDirection: "column",
+      "& button": {
+        width: "188px",
+        marginLeft: "0px !important",
+      },
+      "& button:first-child": {
+        background: Color.MusicDAODark,
+        marginBottom: "7px",
+      },
+    },
+  },
+  walletTopBox: {
+    background: "linear-gradient(180deg, #F0CFDA 0%, #EFCED9 100%)",
+    padding: theme.spacing(2),
+    height: "110px",
+    borderRadius: "12px",
+    position: "relative",
+    width: "510px",
+    "& img": {
+      marginLeft: "-16px",
+    },
+  },
+  topHeaderLabel: {
+    fontSize: 18,
+    lineHeight: "21px",
+    fontFamily: "Agrandir Grandlight",
+    fontWeight: 400,
+    background: `linear-gradient(270.47deg, #D66DB2 -3.25%, #BB34D1 93.45%)`,
+    WebkitBackgroundClip: "text",
+    WebkitTextFillColor: "transparent",
+  },
+  headerTotalBalanceTitle: {
+    color: "#4218B5",
+    fontSize: 18,
+    fontWeight: 400,
+    fontFamily: "Agrandir",
+    marginBottom: "10px",
+  },
+  headerTotalBalanceValue: {
+    fontSize: 32,
+    fontWeight: 900,
+    color: Color.MusicDAODark,
+    fontFamily: "Agrandir GrandLight",
+  },
+  startNowSection: {
+    marginLeft: "-40px",
+    padding: 10,
+  },
+  closeButton: {
+    width: 8,
+    height: 8,
+    position: "absolute",
+    top: 8,
+    right: 10,
+    cursor: "pointer",
+  },
+  closeIcon: {
+    width: 8,
+    height: 8,
+  },
+  header1: {
+    fontSize: 20,
+    fontWeight: 400,
+    color: "#181818",
+  },
+  header2: {
+    fontSize: 14,
+    fontWeight: 400,
+    color: "#707582",
+  },
+  header3: {
+    fontSize: 22,
+    fontWeight: 400,
+    color: "#181818",
+  },
+  flexBoxHeader: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    padding: `${theme.spacing(1)}px ${theme.spacing(1)}px`,
+    marginBottom: 32,
+  },
+  graphBox: {
+    display: "flex",
+    flexDirection: "column",
+    padding: theme.spacing(2.5),
+    borderRadius: theme.spacing(2),
+    position: "relative",
+    background: "white",
+    width: "100%",
+    height: "100%",
+  },
+  mediaFilters: {
+    display: "flex",
+    alignItems: "center",
+    padding: "3.5px",
+    backgroundColor: "#F0F5F8",
+    borderRadius: "68px",
+  },
+  mediaFilter: {
+    padding: "10px 17px",
+    marginRight: "14px",
+    color: "#181818",
+    fontFamily: "Montserrat",
+    fontSize: "14px",
+    fontWeight: 500,
+    cursor: "pointer",
+    "&:last-child": {
+      marginRight: 0,
+    },
+  },
+  selectedMediaFilter: {
+    backgroundColor: "#6E6CE4",
+    borderRadius: "77px",
+    color: "#FFFFFF",
+    fontWeight: 600,
+  },
+  timeFilters: {
+    display: "flex",
+    alignItems: "center",
+    padding: "0",
+    height: "38px",
+    borderRadius: "8px",
+    border: "1px solid #F0F5F8",
+  },
+  timeFilter: {
+    cursor: "pointer",
+    padding: "10px 12px",
+    color: "#181818",
+    fontFamily: "Montserrat",
+    fontSize: "14px",
+    fontWeight: 500,
+  },
+  selectedTimeFilter: {
+    backgroundColor: Color.MusicDAODark,
+    borderRadius: "8px",
+    color: "#FFFFFF",
+    fontWeight: 600,
+  },
+  label: {
+    fontFamily: "Montserrat",
+    marginBottom: "8px",
+    color: "#707582",
+    fontSize: "14px",
+    fontWeight: 500,
+    lineHeight: "104.5%",
+  },
+  value: {
+    fontFamily: "Agrandir GrandLight",
+    color: Color.MusicDAODark,
+    gontSize: "16px",
+    fontWeight: 800,
+    lineHeight: "104.5%",
+  },
+
+  valueBox: {
+    position: "absolute",
+    left: "60px",
+    top: "70px",
+    padding: theme.spacing(1.5),
+    borderRadius: theme.spacing(1),
+    boxShadow: `2px 2px 12px rgba(0, 0, 0, 0.1)`,
+    background: "white",
+  },
+  select: {
+    "& > div": {
+      paddingBottom: "11px",
+      minWidth: "120px",
+    },
+  },
+  transactionSection: {
+    margin: "60px 0",
+  },
+  transactionTitle: {
+    fontSize: 18,
+    fontWeight: 700,
+    color: "#181818",
+  },
+  transactionDate: {
+    width: 200,
+  },
+}));

@@ -1,0 +1,563 @@
+.insurance-pool-page {
+  width: calc(100vw - 80px) !important;
+  min-width: calc(100vw - 80px) !important;
+  max-width: calc(100vw - 80px) !important;
+  height: 100vh !important;
+  min-height: 100vh !important;
+  max-height: 100vh !important;
+  background: rgb(227, 233, 239);
+  background: linear-gradient(
+    180deg,
+    rgba(227, 233, 239, 1) 470px,
+    rgba(238, 241, 244, 1) 470px,
+    rgba(238, 241, 244, 1) 100%
+  );
+}
+
+.insurance-pool-page .title {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Header */
+
+.insurance-pool-page .header {
+  padding: 0px 30px 0 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  max-height: 80px;
+  min-width: 80px;
+  border-bottom: 1px #cfdae5 solid;
+}
+
+.insurance-pool-page .header .main-info,
+.insurance-pool-page .header .main-info div,
+.insurance-pool-page .header .connections,
+.insurance-pool-page .header .buttons,
+.insurance-pool-page .header .buttons button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/**Header > Main Info **/
+/*** Header > Main Info > Coverage ***/
+
+.insurance-pool-page .header .coverage {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 4px 6px;
+  margin: 0 13px;
+}
+
+.insurance-pool-page .header .coverage img {
+  height: 12px;
+  margin-right: 6px;
+}
+
+.insurance-pool-page .header .coverage span {
+  font-size: 14px;
+  color: #081831;
+  font-weight: bold;
+}
+
+/*** Header > Main Info > Private ***/
+
+.insurance-pool-page .header .private {
+  background-color: #d7dfe7;
+  border-radius: 20px;
+  padding: 4px 6px;
+}
+
+.insurance-pool-page .header .private img {
+  height: 14px;
+  margin-right: 6px;
+}
+
+.insurance-pool-page .header .private span {
+  font-size: 14px;
+  color: #081831;
+}
+
+/** Header > Connections **/
+
+.insurance-pool-page .header .connections p {
+  font-weight: normal;
+  margin-right: 20px;
+  color: #656e7e;
+}
+
+.insurance-pool-page .header .connections span {
+  color: #081831;
+  font-weight: bold;
+  margin-left: 9px;
+}
+
+/** Header > Buttons **/
+
+.insurance-pool-page .header .buttons .chat {
+  background-color: #656e7e;
+  font-weight: bold;
+  margin: 0px 10px 0px 0px;
+}
+
+.insurance-pool-page .header .buttons .chat:hover {
+  background-color: #5b6372;
+}
+
+.insurance-pool-page .header .buttons .chat img {
+  height: 16px;
+  margin-right: 8px;
+}
+
+/* Pool Data */
+
+.insurance-pool-page .pool-data {
+  overflow-y: auto;
+  scrollbar-width: none;
+  overflow-x: hidden;
+  height: calc(100vh - 80px) !important;
+  min-height: calc(100vh - 80px) !important;
+  max-height: calc(100vh - 80px) !important;
+  padding: 0px 40px 0 70px;
+}
+
+.insurance-pool-page .pool-data .main-info,
+.insurance-pool-page .pool-data .main-info .pool-info .top,
+.insurance-pool-page .pool-data .main-info .pool-info .perc,
+.insurance-pool-page .pool-data .main-info .pool-info .scores,
+.insurance-pool-page .pool-data .main-info .pool-info .bottom,
+.insurance-pool-page .pool-data .main-info .pool-info .bottom .right,
+.insurance-pool-page .pool-data .main-info .insured-pod,
+.insurance-pool-page .pool-data .main-info .insured-pod .pod-container,
+.insurance-pool-page .pool-data .main-info .premium div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/** Pool Data > Main info **/
+
+.insurance-pool-page .pool-data .main-info {
+  margin: 32.5px 0 30px 0;
+}
+
+.insurance-pool-page .pool-data .main-info .pool-image {
+  width: 170px;
+  min-width: 170px;
+  min-height: 170px;
+  height: 170px;
+  border-radius: 16px;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+}
+
+.insurance-pool-page .pool-data .main-info p {
+  color: #656e7e;
+  white-space: nowrap;
+}
+
+.insurance-pool-page .pool-data .main-info h3 {
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.insurance-pool-page .pool-data .main-info h2 {
+  white-space: nowrap;
+}
+
+/*** Pool Data > Main info > Pool Info ***/
+
+.insurance-pool-page .pool-data .main-info .pool-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 40px;
+  justify-content: space-between;
+  min-height: 172px;
+  height: 172px;
+  width: 100%;
+}
+
+.insurance-pool-page .pool-data .main-info .pool-info h3,
+.insurance-pool-page .pool-data .main-info .pool-info h2 {
+  margin: 0px;
+}
+
+/**** Pool Data > Main info > Pool Info > Top ****/
+
+.insurance-pool-page .pool-data .main-info .pool-info .top p {
+  margin: 0px 0px 9px 0px;
+}
+
+.insurance-pool-page .pool-data .main-info .pool-info .top,
+.insurance-pool-page .pool-data .main-info .pool-info .bottom {
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.insurance-pool-page .pool-data .main-info .pool-info .top .pool-detail {
+  align-items: flex-start;
+}
+
+/***** Pool Data > Main info > Pool Info > Top > Scores *****/
+
+.insurance-pool-page .pool-data .main-info .pool-info .perc .pool-detail {
+  margin-right: 40px;
+}
+
+.insurance-pool-page .pool-data .main-info .pool-info .scores .pod-detail {
+  margin-left: 40px;
+}
+
+.insurance-pool-page .pool-data .main-info .pool-info .scores span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.insurance-pool-page .pool-data .main-info .pool-info .scores span img {
+  margin-right: 9px;
+}
+
+/***** Pool Data > Main info > Pool Info > Top > Buttons *****/
+
+.insurance-pool-page .pool-data .main-info .pool-info .buttons {
+  align-self: center;
+}
+
+.insurance-pool-page .pool-data .main-info .pool-info .buttons .invest {
+  background-color: #081831;
+}
+
+.insurance-pool-page .pool-data .main-info .pool-info .buttons .invest:hover {
+  background-color: #061225;
+}
+
+/****** Pool Data > Main info > Pool Info > Top > Invest Modal ******/
+.pool_modal_content {
+  position: absolute;
+  width: 300px;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px 10px 20px 10px;
+}
+.pool_modal_select {
+  width: fit-content;
+}
+.pool_modal_balance {
+  align-items: center;
+}
+.pool_modal_balance_input {
+  display: block;
+  flex: 1;
+  padding: 10px;
+}
+.pool_modal_balance_input p {
+  color: black;
+  margin: 5px;
+}
+.pool_modal_amount {
+  width: 100%;
+}
+.pool_modal_amount label {
+  width: 100%;
+  border: none;
+}
+.pool_modal_amount input {
+  flex: 1;
+}
+.pool_modal_fee {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.pool_modal_fee p {
+  color: black;
+  margin-top: 0px;
+}
+.pool_modal_conntect_button {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.pool_modal_other_button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.pool_modal_other_button button {
+  background-color: black;
+  color: white;
+}
+
+/**** Pool Data > Main info > Pool Info > Bottom ****/
+/***** Pool Data > Main info > Pool Info > Bottom > Description *****/
+
+.insurance-pool-page .pool-data .main-info .pool-info .bottom .description {
+  max-height: 64px;
+  max-width: 390px;
+  align-self: center;
+}
+
+.insurance-pool-page .pool-data .main-info .pool-info .bottom .description p {
+  margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: normal;
+  height: 64px;
+  max-height: 64px;
+}
+
+/***** Pool Data > Main info > Pool Info > Bottom > Insured Pod *****/
+
+.insurance-pool-page .pool-data .main-info .pool-info .bottom .pod-container {
+  padding: 18px;
+  background-color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  align-items: end;
+  justify-content: space-between;
+  margin: 0 20px;
+  width: 320px;
+}
+
+.insurance-pool-page
+  .pool-data
+  .main-info
+  .pool-info
+  .bottom
+  .pod-container
+  .left {
+  display: flex;
+}
+
+.insurance-pool-page
+  .pool-data
+  .main-info
+  .pool-info
+  .bottom
+  .pod-container
+  .pod-image {
+  border-radius: 10px;
+  height: 60px;
+  min-height: 60px;
+  width: 90px;
+  min-width: 90px;
+  margin-right: 15px;
+}
+
+.insurance-pool-page
+  .pool-data
+  .main-info
+  .pool-info
+  .bottom
+  .pod-container
+  h3 {
+  font-weight: normal;
+}
+
+.insurance-pool-page .pool-data .main-info .pool-info .bottom .pod-container p {
+  margin: 0px 0px 5px 0px;
+}
+
+/***** Pool Data > Main info > Pool Info > Bottom > Premium *****/
+
+.insurance-pool-page .pool-data .main-info .pool-info .bottom .premium {
+  display: flex;
+  flex-direction: column;
+  padding: 18px 30px 20px 30px;
+  border: hsla(218, 11%, 45%, 0.2) solid 1px;
+  border-radius: 20px;
+  height: 60px;
+  justify-content: space-between;
+}
+
+.insurance-pool-page .pool-data .main-info .pool-info .bottom .premium p {
+  margin: 0px 16px 0px 0px;
+}
+
+.insurance-pool-page .pool-data .main-info .pool-info .bottom .premium div h3 {
+  margin-right: 24px;
+  font-size: 14px;
+}
+
+/** Pool Data > Charts **/
+
+.insurance-pool-page .pool-data .charts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 40px;
+  height: 350px;
+}
+
+/** Pool Data > Charts > Charts Container **/
+
+.insurance-pool-page .pool-data .charts .charts-container {
+  width: 85%;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+}
+
+/*** Pool Data > Charts > Charts Container > Chart ***/
+
+.insurance-pool-page .pool-data .charts .charts-container .chart {
+  background-color: white;
+  border-radius: 20px;
+  width: 50%;
+  padding: 18px;
+  margin-right: 19px;
+}
+
+.insurance-pool-page .pool-data .charts .charts-container .chart p {
+  margin: 0px 0px 6px 0px;
+}
+
+.insurance-pool-page .pool-data .charts .charts-container .chart span {
+  color: #656e7e;
+  font-size: 10px;
+}
+
+/*** Pool Data > Charts > Ad Container ***/
+
+.insurance-pool-page .pool-data .charts .ad-container {
+  background-color: #656e7e;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  flex-grow: 1;
+  height: 320px;
+}
+
+.insurance-pool-page .pool-data .charts .ad-container p {
+  color: white;
+}
+
+/** Pool Data > Wall **/
+
+.insurance-pool-page .pool-data .wall {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 58px;
+}
+
+.insurance-pool-page .pool-data .wall .title {
+  margin: 0px 0px 16px 0px;
+  align-self: self-start;
+}
+
+.insurance-pool-page .pool-data .wall button {
+  margin-left: 18px;
+}
+
+.insurance-pool-page .pool-data .wall .wall-content {
+  display: flex;
+  flex-direction: row;
+  width: calc(100vw - 80px - 70px - 20px);
+  padding: 10px 0px;
+  overflow-x: auto;scrollbar-width: none;
+  overflow-y: hidden;
+  margin-right: -40px;
+}
+
+.insurance-pool-page .pool-data .disabled {
+  border: hsla(218, 11%, 45%, 0.3) 1px solid;
+  border-radius: 15px;
+  background-color: transparent;
+  color: #656e7e;
+  font-weight: normal;
+  padding: 12px 15px;
+}
+
+.insurance-pool-page .pool-data .disabled:hover {
+  border: hsla(218, 11%, 45%, 0.3) 1px solid;
+  border-radius: 15px;
+  background-color: transparent;
+  color: #656e7e;
+  cursor: default;
+  font-weight: normal;
+}
+
+/** Pool Data > Lower Section **/
+
+.insurance-pool-page .pool-data .lower-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.insurance-pool-page .pool-data .lower-section .title,
+.insurance-pool-page .pool-data .lower-section .title {
+  height: 42px;
+  min-height: 42px;
+  margin: 0px 0px 26px 0px;
+}
+
+.insurance-pool-page .pool-data .lower-section .title h3 {
+  margin: 0px;
+}
+
+.insurance-pool-page .pool-data .lower-section .title img {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.insurance-pool-page .pool-data .lower-section .title button {
+  margin: 0px 0px 0px 20px;
+}
+
+.insurance-pool-page .pool-data .lower-section .active-claims,
+.insurance-pool-page .pool-data .lower-section .claims-history,
+.insurance-pool-page .pool-data .lower-section .buying-history {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+}
+
+.insurance-pool-page .pool-data .lower-section .buying-history {
+  margin-right: 0;
+}
+
+.insurance-pool-page .pool-data .lower-section .buying-history .content {
+  min-height: 500px;
+  padding: 0;
+}
+
+.insurance-pool-page .pool-data .lower-section .content {
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  background-color: white;
+  height: 492px;
+  max-height: 492px;
+  border-radius: 20px;
+  padding: 20px 24px 0 24px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.insurance-pool-page .pool-data .lower-section .less-padding {
+  padding: 10px 10px 0 10px;
+}

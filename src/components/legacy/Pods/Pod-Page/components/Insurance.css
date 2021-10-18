@@ -1,0 +1,242 @@
+.pod-page .pod-insurance .claims {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.pod-page .pod-insurance .claims .row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.pod-page .pod-insurance .claims .row .create-claim,
+.pod-page .pod-insurance .claims .row .voting,
+.pod-page .pod-insurance .claims .row .claim-results {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 3);
+  margin-right: 20px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: white;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  height: 380px;
+  justify-content: space-between;
+}
+
+.pod-page .pod-insurance .claims .row .header {
+  height: auto;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.pod-page .pod-insurance .claims .row .subheader {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.pod-page .pod-insurance .claims .row .header .symbol,
+.pod-page .pod-insurance .claims .row .subheader .symbol {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+  margin-right: 15px;
+}
+
+.pod-page .pod-insurance .claims .row .header p,
+.pod-page .pod-insurance .claims .row .subheader p {
+  color: #081831;
+  margin: 0;
+}
+
+.pod-page .pod-insurance .claims .row .subheader p {
+  font-size: 16px;
+}
+
+.pod-page .pod-insurance .claims .row .create-claim .header {
+  border: 1px solid rgba(100, 118, 200, 0.7);
+  justify-content: flex-start;
+  margin-bottom: 25px;
+}
+
+.pod-page .pod-insurance .claims .row .create-claim .symbol {
+  background-color: #6477c8;
+}
+
+.pod-page .pod-insurance .claims .row .voting .header {
+  border: 1px solid rgba(60, 174, 212, 0.7);
+  justify-content: flex-start;
+  margin-bottom: 25px;
+}
+
+.pod-page .pod-insurance .claims .row .voting .symbol {
+  background-color: #3cafd4;
+}
+
+.pod-page .pod-insurance .claims .row .claim-results .header {
+  border: 1px solid rgba(102, 111, 127, 0.7);
+  justify-content: flex-start;
+  margin-bottom: 25px;
+}
+
+.pod-page .pod-insurance .claims .row .claim-results .symbol {
+  background-color: #656e7e;
+}
+
+.pod-page .pod-insurance .claims .row h4 {
+  margin: 0px;
+}
+
+.pod-page .pod-insurance .claims .row p {
+  color: #656e7e;
+}
+
+.pod-page .pod-insurance button {
+  background-color: #99a2b3;
+  justify-self: flex-end;
+}
+
+.pod-page .pod-insurance button:hover {
+  background-color: #9099aa;
+}
+
+.pod-page .pod-insurance .claims .row .info-row {
+  display: flex;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+}
+
+.pod-page .pod-insurance .claims .row .info-row div {
+  margin-right: 20px;
+}
+
+.pod-page .pod-insurance .claims .row .info-row div:last-child {
+  margin-right: 0;
+}
+
+.pod-page .pod-insurance .claims .row .info-row div h4 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.pod-page .pod-insurance .claims .row .claim-results .message {
+  margin-left: 10px;
+}
+
+.pod-page .pod-insurance .claims .row .claim-results button {
+  background-color: #d46c3c;
+  width: calc(100% - 15px);
+  margin-bottom: 10px;
+}
+
+.pod-page .pod-insurance .claims .row .claim-results button:hover {
+  background-color: #c56639;
+}
+
+.pod-page .pod-insurance .claims .row .claim-results .pending p {
+  color: #656e7e;
+}
+
+.pod-page .pod-insurance .claims .row .results {
+  margin-top: 25px;
+}
+
+.pod-page .pod-insurance .claims .row .results .answers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pod-page .pod-insurance .claims .row .results .answers p {
+  font-weight: 500;
+}
+
+.pod-page .pod-insurance .claims .row .results .area-container {
+  background-color: #eef1f4;
+  width: 100%;
+}
+
+.pod-page .pod-insurance .claims .row .results .answers {
+  margin-bottom: 10px;
+}
+
+.pod-page .pod-insurance .claims .row .results .area-container,
+.pod-page .pod-insurance .claims .row .results .claims-history-area .green-area,
+.pod-page .pod-insurance .claims .row .results .claims-history-area .red-area {
+  height: 18px;
+  min-height: 18px;
+  max-height: 18px;
+  border-radius: 9.5px;
+}
+
+.pod-page
+  .pod-insurance
+  .claims
+  .row
+  .results
+  .claims-history-area
+  .green-area {
+  background-color: #64c89e;
+  background-image: linear-gradient(
+    135deg,
+    #64c89e 25%,
+    #83d3b1 25%,
+    #83d3b1 50%,
+    #64c89e 50%,
+    #64c89e 75%,
+    #83d3b1 75%,
+    #83d3b1 100%
+  );
+  background-size: 20px 20px;
+}
+
+.pod-page .pod-insurance .claims .row .results .claims-history-area .red-area {
+  background-color: #c76b64;
+  background-image: linear-gradient(
+    135deg,
+    #c76b64 25%,
+    #d38983 25%,
+    #d38983 50%,
+    #c76b64 50%,
+    #c76b64 75%,
+    #d38983 75%,
+    #d38983 100%
+  );
+  background-size: 20px 20px;
+  margin-left: 2px;
+}
+
+@keyframes barberpole {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 60px 30px;
+  }
+}
+
+.pod-page
+  .pod-insurance
+  .claims
+  .row
+  .results
+  .claims-history-area
+  .green-area:hover,
+.pod-page
+  .pod-insurance
+  .claims
+  .row
+  .results
+  .claims-history-area
+  .red-area:hover {
+  animation: barberpole 1.5s linear infinite;
+}

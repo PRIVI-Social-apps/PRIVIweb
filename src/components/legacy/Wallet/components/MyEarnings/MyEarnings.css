@@ -1,0 +1,328 @@
+.my-earnings {
+  width: calc(100vw - 80px) !important;
+  min-width: calc(100vw - 80px) !important;
+  max-width: calc(100vw - 80px) !important;
+  height: 100vh !important;
+  min-height: 100vh !important;
+  max-height: 100vh !important;
+  background: white;
+  padding: 0px 78px 0 74px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.my-earnings .loaderDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.my-earnings .title {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/*------------------------------------- HEADER ---------------------------------------*/
+
+.my-earnings > .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 88px;
+  max-height: 88px;
+  margin-left: 0px;
+  border-bottom: none;
+}
+
+.my-earnings > .header .title {
+  font-size: 18px;
+  color: black;
+  font-style: italic;
+}
+/*------------------------------------- PAGE TITLE ---------------------------------------*/
+
+.my-earnings .page-title {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 18px;
+}
+
+.my-earnings .page-title h2 {
+  font-size: 30px;
+  color: #949bab;
+  margin-top: 0;
+  width: 35%;
+  display: flex;
+  font-weight: normal;
+  flex-wrap: wrap;
+}
+
+.my-earnings .page-title h2 b {
+  color: black;
+  margin-left: 10px;
+}
+
+.backButton {
+  color: #707582;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.backButton svg {
+  width: 12px;
+  height: 12px;
+  margin-top: -5px;
+}
+
+.my-earnings .page-title .text {
+  margin-left: 32px;
+  width: calc(65% - 32px);
+}
+
+.my-earnings .page-title .text h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+.my-earnings .page-title .text h3 span {
+  color: #ff79d1;
+  font-style: italic;
+}
+
+.my-earnings .page-title .text p {
+  line-height: 26px;
+  color: black;
+  max-width: 700px;
+}
+
+/*------------------------------------- CONTENT ---------------------------------------*/
+.my-earnings > .content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.my-earnings > .content > .row {
+  display: flex;
+  align-items: stretch;
+}
+
+.my-earnings .row {
+  display: flex;
+  align-items: center;
+}
+
+.my-earnings .col {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-earnings .row .content-box {
+  background: #ffffff;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 20px 18px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.my-earnings .row .content-box .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 0px;
+  border-bottom: none;
+}
+
+.my-earnings .row .content-box .row {
+  width: 100%;
+}
+
+.my-earnings .row .content-box .header h5 {
+  font-family: "Agrandir";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.my-earnings > .content > .row > .content-box:first-child {
+  width: 30%;
+}
+
+.my-earnings > .content > .row > .content-box:last-child {
+  margin-left: 32px;
+  width: calc(70% - 32px);
+}
+
+.my-earnings > .content > .row > .content-box {
+  margin-bottom: 32px;
+}
+
+.my-earnings > .content > .row:last-child > .content-box {
+  height: 350px;
+}
+
+.my-earnings .row .content-box .MuiInput-root {
+  background: #ffffff;
+  /* Shadow level 3 */
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 6.5px 12px;
+}
+
+.my-earnings .row .content-box .MuiSelect-selectMenu {
+  font-weight: normal !important;
+}
+
+.my-earnings .row .content-box .MuiCheckbox-root {
+  padding: 0px;
+  margin-right: 8px;
+}
+
+.my-earnings > .content > .row > .content-box h6 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #949bab;
+  margin: 0px;
+}
+
+/*---------------------- FIRST BOX ----------------*/
+.my-earnings > .content > .row:first-child > .content-box:first-child {
+  justify-content: space-between;
+}
+
+.my-earnings > .content > .row:first-child > .content-box:first-child > .row {
+  justify-content: space-between;
+}
+
+.my-earnings > .content > .row:first-child > .content-box:first-child .earnings {
+  margin-left: 10px;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  word-break: break-all;
+}
+
+/*---------------------- SECOND BOX ----------------*/
+.my-earnings > .content > .row:first-child > .content-box:last-child .title h5 {
+  min-width: 150px;
+  margin-right: 25px;
+}
+
+.my-earnings .content > .row:first-child > .content-box:last-child .title .row .row {
+  margin-right: 12px;
+}
+
+/*---------------------- THIRD BOX ----------------*/
+.my-earnings > .content > .row:last-child > .content-box:first-child h6 {
+  margin-top: 36px;
+}
+
+.my-earnings .content > .row:last-child > .content-box:first-child .title .row .row {
+  margin-right: 12px;
+}
+
+.my-earnings > .content > .row:last-child > .content-box:first-child .labels {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.my-earnings > .content > .row:last-child > .content-box:first-child .labels label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  display: flex;
+  margin: 0;
+  font-weight: bold;
+  flex-direction: column;
+  text-align: right;
+}
+
+.my-earnings > .content > .row:last-child > .content-box:first-child .labels label:last-child {
+  color: #949bab;
+}
+
+.my-earnings > .content > .row:last-child > .content-box:first-child .labels label span {
+  font-weight: normal;
+}
+
+.my-earnings > .content > .row:last-child > .content-box:first-child .bar-container {
+  background: #eff2f8;
+  border-radius: 40px;
+  height: 8px;
+  width: 100%;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.my-earnings > .content > .row:last-child > .content-box:first-child .bar-container .color-bar {
+  background: linear-gradient(97.4deg, #ff79d1 14.43%, #db00ff 79.45%);
+  border-radius: 4px;
+  height: 8px;
+}
+
+.my-earnings > .content > .row:last-child > .content-box:first-child .bar-container .pointer {
+  margin-left: -8px;
+  background: #ffffff;
+  min-width: 15px;
+  height: 15px;
+  border-radius: 8px;
+  border: 3px solid #ffffff;
+  box-shadow: 0px 0px 10px rgba(219, 0, 255, 0.5);
+}
+
+/*---------------------- FOURTH BOX ----------------*/
+.my-earnings > .content > .row:last-child > .content-box:last-child .table {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+}
+
+.my-earnings > .content > .row:last-child > .content-box:last-child .table .MuiTable-root {
+  margin-right: 22px;
+}
+
+.my-earnings > .content > .row:last-child > .content-box:last-child .table .MuiTableCell-root {
+  padding: 18px 10px;
+}
+
+.my-earnings > .content > .row:last-child > .content-box:last-child .table .MuiTableCell-head {
+  padding: 10px !important;
+}
+
+/* Track */
+.my-earnings ::-webkit-scrollbar-track {
+  background: #eff2f8;
+}
+
+/* Handle */
+.my-earnings ::-webkit-scrollbar-thumb {
+  background: linear-gradient(97.4deg, #ff79d1 14.43%, #db00ff 79.45%);
+}
+
+/* Handle on hover */
+.my-earnings ::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(97.4deg, #ff79d1 14.43%, #db00ff 79.45%);
+}

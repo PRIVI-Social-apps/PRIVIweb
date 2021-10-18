@@ -1,0 +1,58 @@
+.stake-modal {
+  background-color: #eef1f4 !important;
+}
+
+.stake-modal .desc {
+  align-self: flex-start;
+}
+
+.stake-modal label {
+  width: 65% !important;
+  align-self: flex-start;
+}
+
+.stake-modal input,
+.stake-modal select {
+  background-color: white !important;
+  border: none !important;
+}
+
+.stake-modal label .disabled {
+  background-color: hsla(210, 27%, 91%, 0.3) !important;
+  border: hsla(212, 25%, 60%, 0.3) 1px solid !important;
+}
+
+.stake-modal .inputs-row-two label {
+  align-self: flex-end;
+  width: auto;
+}
+
+.stake-modal .buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stake-modal .buttons .disabled {
+  width: 100%;
+}
+
+.stake-modal .disabled {
+  color: #656e7e;
+}
+
+.stake-modal .buttons p {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: hsla(210, 27%, 91%, 0.3);
+  border: hsla(212, 25%, 60%, 0.3) 1px solid;
+  border-radius: 16px;
+  flex-grow: 1;
+  color: #656e7e;
+}
+
+.stake-modal .buttons button {
+  height: 48px;
+  border-radius: 24px;
+}

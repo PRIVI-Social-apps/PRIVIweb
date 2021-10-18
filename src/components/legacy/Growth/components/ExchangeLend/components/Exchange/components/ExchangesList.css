@@ -1,0 +1,77 @@
+.growth-page .exchange-lend .list {
+  margin: 20px 0;
+}
+
+.growth-page .exchange-lend .list .header {
+  margin: 0;
+  height: auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 15px;
+}
+
+.growth-page .exchange-lend .list .header p {
+  font-size: 10px;
+  color: #656e7e;
+}
+
+.growth-page .exchange-lend .list .header p:first-child {
+  width: 80px;
+  text-align: right;
+}
+
+.growth-page .exchange-lend .list .row {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 15px;
+  height: calc(70px - 30px);
+}
+
+.growth-page .exchange-lend .exchange-tab .list .row {
+  cursor: pointer;
+}
+
+.growth-page .exchange-lend .list .row p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.growth-page .exchange-lend .list .row .name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80px;
+  margin-right: 10px;
+}
+
+.growth-page .exchange-lend .list .row .name div {
+  min-width: 30px;
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  border-radius: 15px;
+}
+
+.growth-page .exchange-lend .list .address {
+  width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.growth-page .exchange-lend .list p {
+  width: 90px;
+  margin-right: 10px;
+}
+
+.growth-page .exchange-lend .list .row p:last-child,
+.growth-page .exchange-lend .list .header p:last-child {
+  text-align: right;
+}

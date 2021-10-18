@@ -1,0 +1,594 @@
+.priviDataPage {
+  height: 100vh;
+  max-width: calc(100vw - 80px);
+  width: calc(100vw - 80px);
+  background-color: rgb(238, 241, 244);
+}
+
+.priviDataPage .header-wrapper {
+  background: white;
+}
+
+.headerPriviData {
+  width: 100%;
+  height: 79px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(227, 233, 239);
+  border-bottom: 1px solid rgb(207, 218, 229);
+}
+.headerOptionsPriviData {
+  width: calc(50% - 30px);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+}
+.headerLabelPriviData {
+  padding-left: 70px;
+  font-weight: 700;
+  font-size: 24px;
+  color: rgb(8, 24, 49);
+  width: calc(50% - 70px);
+}
+
+.privi-data-content {
+  min-width: calc(100vw - 80px);
+  max-width: calc(100vw - 80px);
+  width: calc(100vw - 80px);
+  overflow-y: auto;scrollbar-width: none;
+  height: calc(100vh - 80px);
+}
+
+.subHeaderData {
+  padding-left: 70px;
+  padding-right: 70px;
+  height: 368px;
+}
+.firstRowSubHeaderData {
+  width: 100%;
+  height: 50px;
+  padding-top: 33px;
+  margin-bottom: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondRowSubHeaderData {
+  width: 100%;
+  height: 307px;
+  align-items: center;
+  display: flex;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.firstColumnSubHeaderData {
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.secondColumnSubHeaderData {
+  width: 30%;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.headerFirstRowSubHeaderData {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(101, 110, 126);
+  margin-bottom: 3px;
+}
+.mainValueFirstRowSubHeaderData {
+  font-weight: 700;
+  font-size: 24px;
+  color: rgb(8, 24, 49);
+}
+.valueFirstRowSubHeaderData {
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(8, 24, 49);
+}
+.columnValuesSubHeaderData {
+  width: calc(100% / 3);
+}
+.buttonSubHeaderData {
+  border-radius: 20px;
+  background-color: rgb(8, 24, 49) !important;
+  color: white;
+  height: 50px;
+  width: 198px;
+  padding: 0 !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+  margin: 0 !important;
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addLiquidityButtonSubHeaderData {
+  width: 180px;
+  margin-right: 10px !important;
+  background-color: rgb(100, 200, 158) !important;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swapButtonSubHeaderData {
+  width: 86px;
+}
+.paperGraphPriviData {
+  height: 367px;
+  background-color: white;
+  border-radius: 20px;
+  padding-left: 20px;
+  width: 50%;
+}
+.marginLeftPaperGraph {
+  margin-right: 20px;
+}
+.rowPaperGraphPriviData {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 105px;
+  padding-left: 10px;
+}
+.valuesColPaperGraphPriviData {
+  width: 70%;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.selectorColPaperGraphPriviData {
+  width: 30%;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.selectorPaperGraphPriviData {
+  height: 50px;
+  width: calc(150px - 20px);
+  min-width: 130px;
+  margin-right: 20px;
+  /* padding-right: 20px; */
+  border-radius: 16px;
+  background-color: rgba(192, 201, 209, 0.2);
+  border: 1px solid rgb(128, 152, 179);
+  margin-top: 20px;
+}
+.selectedFirstGraphsOptions {
+  width: 100px;
+  height: 82px;
+  border-top: 5px solid rgb(100, 200, 158);
+}
+.firstGraphsOptions {
+  width: 100px;
+  height: 87px;
+  opacity: 60%;
+  padding-top: 5px;
+  cursor: pointer;
+}
+.titleSelectedFirstGraphsOptions {
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(8, 24, 49);
+}
+.valueSelectedFirstGraphsOptions {
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 25px;
+  color: rgb(8, 24, 49);
+}
+.positiveSelectedPerCentValue {
+  margin-top: 2px;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgb(54, 177, 145);
+}
+.negativeSelectedPerCentValue {
+  margin-top: 2px;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgb(151, 3, 3);
+}
+
+.selectorPaperGraphPriviData .MuiFormControl-root {
+  width: 100%;
+}
+.selectTimeGraphDataModal {
+  height: 50px;
+  background-color: transparent;
+  color: rgb(8, 24, 49) !important;
+  padding-left: 15px;
+  font-size: 14px !important;
+  font-weight: 400;
+  width: 100% !important;
+}
+.selectorPaperGraphPriviData .MuiInput-underline:before {
+  border: 0 !important;
+}
+.selectorPaperGraphPriviData .MuiInput-underline:after {
+  border: 0 !important;
+}
+.selectorPaperGraphPriviData .MuiSelect-icon {
+  padding-right: 5px;
+}
+.graphPriviData .pod-graph {
+  height: 230px !important;
+  width: 100% !important;
+}
+.selectedSecondGraphPriviData {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(8, 24, 49);
+  margin-left: 20px;
+}
+.labelSecondGraphPriviData {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(153, 162, 179);
+  margin-left: 20px;
+  cursor: pointer;
+}
+.secondGraphColsPriviData {
+  width: 50%;
+  height: 69px;
+  padding-right: 20px;
+}
+.alignRightFlexPriviData {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end !important;
+}
+.smallSquaresValuesPriviData {
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+  height: 140px;
+  margin-top: 150px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.smallSquarePriviData {
+  width: 25%;
+  height: 140px;
+  background-color: white;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+.bodyPriviDataPage {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 84px;
+}
+
+.labelTitlePriviData {
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(8, 24, 49);
+}
+.appBarPriviData {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  margin-top: 40px;
+  margin-bottom: 45px;
+}
+.appBarPriviData .Mui-selected {
+  min-width: auto !important;
+  color: rgb(8, 24, 49) !important;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: none;
+  border-bottom: 3px solid rgb(100, 200, 158);
+  z-index: 100;
+}
+.appBarPriviData .MuiTab-root {
+  min-width: auto !important;
+  color: #656e7e;
+  text-transform: none;
+}
+.appBarPriviData .MuiTab-root:hover {
+  background-color: transparent !important;
+}
+.squaresCampaignPriviData {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.squareCampaignPriviData {
+  height: 464px;
+  background-color: white;
+  width: 392px;
+  box-shadow: 0px 3px 16px rgba(101, 112, 129, 0.06);
+  border-radius: 20px;
+  margin-bottom: 70px;
+  margin-right: 22px;
+}
+.headerSquareCampaignPriviData {
+  height: calc(150px - 15px);
+  padding-top: 15px;
+  background-color: rgb(101, 110, 126);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.firstColHeaderSquareCampaignPriviData {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.secondColHeaderSquareCampaignPriviData {
+  width: 70%;
+}
+.photoHeaderSquareCampaignPriviData {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: white;
+}
+.rowSecondColHeaderSquareCampaignPriviData {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 20px;
+}
+.nameSecondColHeaderSquareCampaignPriviData {
+  width: 70%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  margin-top: 4px;
+}
+.buttonEditSecondColHeaderSquareCampaignPriviData {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 4px;
+}
+.editIconSquareCampaignPriviData {
+  width: 20px;
+  height: 20px;
+}
+.colRowSecondColHeaderSquareCampaignPriviData {
+  width: 50%;
+}
+.dateCampaignsSquareCampaignPriviData {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  margin-top: 11px;
+}
+.labelDateCampaignsSquareCampaignPriviData {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.pauseIconSquareCampaignPriviData {
+  margin-top: 18px;
+  width: 30px;
+  height: 30px;
+}
+.statusSquareCampaignPriviData {
+  margin-top: 18px;
+  margin-left: 10px;
+  height: 30px;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.headerSmallSquarePriviData {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.titleSmallSquarePriviData {
+  margin-top: 15px;
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(101, 110, 126);
+  width: 70%;
+}
+.valueTitleSmallSquarePriviData {
+  font-size: 14px;
+  margin-top: 15px;
+  font-weight: 600;
+  color: rgb(8, 24, 49);
+  margin-right: 20px;
+  width: 30%;
+  text-align: right;
+}
+.valueSmallSquarePriviData {
+  margin-top: 22px;
+  margin-left: 20px;
+  font-size: 26px;
+  font-weight: 500;
+  color: rgb(8, 24, 49);
+}
+.tokenRowSmallSquarePriviData {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgb(101, 110, 126);
+  margin-top: 4px;
+}
+.iconTokenRowSmallSquarePriviData {
+  width: 17px;
+  height: 17px;
+  margin-left: 20px;
+  margin-right: 4px;
+}
+.levelRowSmallSquarePriviData {
+  margin-top: 22px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 47px !important;
+}
+.labelValueRowSmallSquarePriviData {
+  margin-right: 20px;
+  font-size: 26px;
+  font-weight: 500;
+  color: rgb(8, 24, 49);
+  width: 30%;
+  height: 47px !important;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.hexagonsRowSmallSquarePriviData {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 47px !important;
+}
+
+.heaxgonLevelPriviData .emptyHexagon {
+  width: 47px;
+  margin-right: 8px;
+}
+
+.heaxgonLevelPriviData .hex {
+  display: flex;
+  position: relative;
+  width: 47px;
+  height: 53.2px;
+  margin-right: 8px;
+  background-color: #424242;
+  -webkit-clip-path: polygon(
+    50% 0%,
+    100% 25%,
+    100% 75%,
+    50% 100%,
+    0% 75%,
+    0% 25%
+  );
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.heaxgonLevelPriviData .hex:first-child {
+  grid-row-start: 1;
+  grid-column: 2 / span 2;
+}
+
+.heaxgonLevelPriviData .hex:nth-child(2) {
+  grid-row-start: 1;
+  grid-column: 4 / span 2;
+}
+
+.heaxgonLevelPriviData .hex:nth-child(3) {
+  grid-row-start: 1;
+  grid-column: 6 / span 2;
+}
+
+.heaxgonLevelPriviData .hex:nth-child(4) {
+  grid-row-start: 2;
+  grid-column: 1 / span 2;
+}
+
+.heaxgonLevelPriviData .hex:nth-child(5) {
+  grid-row-start: 2;
+  grid-column: 3 / span 2;
+}
+
+.heaxgonLevelPriviData .hex:nth-child(6) {
+  grid-row-start: 2;
+  grid-column: 5 / span 2;
+}
+
+.heaxgonLevelPriviData .hex:nth-child(7) {
+  grid-row-start: 2;
+  grid-column: 7 / span 2;
+}
+
+.heaxgonLevelPriviData .hex:nth-child(8) {
+  grid-row-start: 3;
+  grid-column: 2 / span 2;
+}
+
+.heaxgonLevelPriviData .hex:nth-child(9) {
+  grid-row-start: 3;
+  grid-column: 4 / span 2;
+}
+
+.heaxgonLevelPriviData .hex:nth-child(10) {
+  grid-row-start: 3;
+  grid-column: 6 / span 2;
+}
+
+.heaxgonLevelPriviData .hexagonPhoto {
+  object-fit: cover;
+  width: 50px;
+}
+.graphSmallSquarePriviData .pod-graph {
+  height: 90px !important;
+}
+.marginRightPlusIconData {
+  margin-right: 12px;
+}
+.rowBodySquareCampaignPriviData {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.itemBodySquareCampaignPriviData {
+  width: 25%;
+}
+.labelBodySquareCampaignPriviData {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(101, 110, 126);
+}
+.valueBodySquareCampaignPriviData {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(8, 24, 49);
+}
+.graphBodySquareCampaignPriviData .pod-graph {
+  height: 230px !important;
+}
+.modalCampaign {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow-y: auto;scrollbar-width: none;
+}
+.tooltipHeaderInfo {
+  vertical-align: top;
+  margin-left: 2px;
+  width: 14px;
+  height: 14px;
+  transform: translateY(-5px);
+}

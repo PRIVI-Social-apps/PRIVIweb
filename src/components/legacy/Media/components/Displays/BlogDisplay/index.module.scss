@@ -1,0 +1,225 @@
+.BlogHeader {
+  position: relative;
+  .title {
+    display: flex;
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #181818;
+    margin-bottom: 40px;
+  }
+  .closeButton {
+    background: none;
+    color: gray;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    padding: 0px;
+    svg {
+      height: 24px;
+      width: 24px;
+    }
+  }
+}
+
+.blogDisplay {
+  position: relative;
+  margin-right: 130px;
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    .status {
+      flex: 1;
+      padding: 0px 5px;
+    }
+  }
+}
+
+.blogMain {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  .tagRow {
+    padding: 20px 0px 50px 0px;
+    .tag {
+      border: 1px solid gray;
+      border-radius: 22px;
+      padding: 10px 20px;
+      margin: 0px 20px 0px 0px;
+    }
+  }
+  .subtitle {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 31.35px;
+    width: 75%;
+  }
+}
+
+.moreButton {
+  padding: 0px;
+  width: 40px;
+  height: 40px;
+  padding-top: 3px;
+  margin-bottom: 10px;
+}
+.buyToUnlock {
+  filter: none !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*width: 155px;*/
+  min-height: 40px;
+  height: auto;
+  background: black;
+}
+.blogContent {
+  position: relative;
+  column-count: 1;
+  padding-right: 30px;
+  column-gap: 30px;
+
+  @media (max-width: 1024px) {
+    columns: unset;
+  }
+  &.disabled {
+    filter: blur(4px);
+    user-select: none;
+    img {
+      -webkit-user-drag: none;
+    }
+  }
+
+  img {
+    border-radius: 14px;
+    width: 408.69px;
+    margin-bottom: 24px;
+  }
+  .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    b {
+      font-weight: 600;
+    }
+  }
+}
+
+.creatorPanel {
+  display: flex;
+  .creatorInfo {
+    padding-left: 15px;
+    padding-top: 10px;
+    p {
+      font-size: 22px;
+      font-weight: bold;
+      margin: 0px;
+      margin-bottom: 10px;
+    }
+    .otherInfo {
+      display: flex;
+      align-items: center;
+      span:first-child {
+        background-color: #ff79d1;
+        background-image: linear-gradient(to right, #ff79d1, #db00ff);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .SpecialIcon {
+        width: 21px;
+        height: 20px;
+        padding: 0px 5px;
+      }
+      .level {
+        border: 1px solid #949bab;
+        border-radius: 15px;
+        padding: 1px 10px;
+        font-size: 12px;
+      }
+    }
+  }
+  .creatorAvatar {
+    width: 72px;
+    height: 72px;
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.1);
+    background: none;
+    background-size: 72px;
+    div {
+      width: 10px;
+      height: 10px;
+      background: #23d0c6;
+      border-radius: 50%;
+      border: 2px solid white;
+      z-index: 5;
+      position: absolute;
+      top: 76%;
+      left: 76%;
+    }
+  }
+}
+.posR {
+  position: relative;
+  overflow-y: auto;
+  max-height: 500px;
+  padding: 0px 50px;
+  display: flex;
+  flex-direction: column;
+
+  &::-webkit-scrollbar-thumb {
+    background: #707582 !important;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #eff2f8 !important;
+  }
+
+  &.disabled {
+    .title,
+    > img,
+    > button {
+      filter: blur(4px);
+      user-select: none;
+    }
+  }
+
+  .buttonFullscreen {
+    padding: 12px;
+    align-self: flex-end;
+
+    img {
+      border-radius: 0;
+      margin: 0 !important;
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 104.5%;
+    color: #181818;
+    margin: 0px 0px 30px;
+  }
+
+  > img {
+    width: 100%;
+    border-radius: 14px;
+    margin-bottom: 38px;
+  }
+}
+
+button:focus {
+  outline: none;
+}

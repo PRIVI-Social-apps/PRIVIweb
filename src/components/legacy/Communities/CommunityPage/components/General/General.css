@@ -1,0 +1,608 @@
+/* First row */
+.community-page .general .first-row,
+.community-page .general .second-row,
+.community-page .general .third-row {
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.community-page .general .third-row {
+  padding-top: 40px;
+}
+
+.community-page .general .generalHeaderBox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 34px;
+  font-size: 22px;
+}
+
+.community-page .general .generalColumnContainer {
+  display: flex;
+  overflow-x: auto;
+  margin-bottom: 62px;
+  padding-bottom: 10px;
+}
+
+.community-page .general .column.generalColumnContainer {
+  display: inherit;
+}
+
+.community-page .general .generalColumnContainer .generalColumnItem {
+  margin-right: 20px;
+  min-width: 320px;
+}
+
+.community-page .general .generalHeaderBox b {
+  margin-right: 15px;
+}
+
+.community-page .general .contribution-cards {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  padding: 0px;
+}
+
+.community-page .general .first-row {
+  padding-top: 0px;
+}
+
+.new_button {
+  background: linear-gradient(97.4deg, #ff79d1 14.43%, #db00ff 79.45%);
+  border-radius: 30px;
+}
+
+.follow_button {
+  background: linear-gradient(97.4deg, #23d0c6 14.43%, #00cc8f 85.96%);
+  border-radius: 16px;
+  padding: 8px 16px 8px 16px;
+  height: 30px;
+  font-size: 14px;
+  line-height: 100.5%;
+}
+
+.community-page .general .first-row .images {
+  max-height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.community-page .general .first-row .images img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  margin-right: 20px;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+}
+
+.community-page .general .first-row .token-info {
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px;
+}
+
+.community-page .general .first-row .token-info .token-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.community-page .general .first-row .token-info .data {
+  margin-right: 15px;
+}
+
+.community-page .general .first-row .token-info .data span {
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #656e7e;
+}
+
+.community-page .general .first-row .token-info p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/*Second row*/
+.community-page .general .second-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+/*Second row*/
+.community-page .general .second-row .wall {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  /*overflow-y: auto;*/
+}
+
+.community-page .general .second-row .ad-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #656e7e;
+  width: calc(25% - 20px);
+  flex-shrink: 1;
+  height: 100%;
+  border-radius: 20px;
+  cursor: pointer;
+  min-height: 270px;
+  max-height: 270px;
+}
+
+.community-page .wall-item {
+  width: calc(100% / 4 - 55px);
+  min-width: calc(100% / 4 - 55px);
+  max-width: calc(100% / 4 - 55px);
+  height: 100%;
+  margin-bottom: 20px;
+  min-height: 250px;
+  max-height: 250px;
+}
+
+.community-page .wall-item .gradient-container-top {
+  width: calc(100% + 40px);
+  margin-left: -20px;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(8, 24, 49, 1) 0%, rgba(0, 212, 255, 0) 30%);
+  border-radius: 20px;
+}
+
+.community-page .wall-item .gradient-container-bottom {
+  width: calc(100% - 30px);
+  height: 230px;
+  padding: 20px 15px;
+  background: linear-gradient(180deg, rgba(2, 0, 36, 0) 50%, rgba(8, 24, 49, 1) 100%);
+  border-radius: 20px;
+  min-height: 230px;
+  max-height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.community-page .wall-item .menuWallItem {
+  padding: 0;
+  color: white;
+  margin-bottom: -35px;
+}
+
+.community-page .wall-item h3,
+.community-page .wall-item p,
+.community-page .wall-item span {
+  color: white;
+}
+
+.community-page .wall-item .bottom-items {
+  flex-grow: 1;
+  height: 100%;
+  align-items: flex-end;
+}
+
+.community-page .wall-item-favourite .gradient-container-top,
+.community-page .wall-item-favourite .gradient-container-bottom {
+  background: none !important;
+}
+
+/*second row wall item*/
+.wall-item-short {
+  min-width: calc((100% / 3) - 60px);
+  width: calc((100% / 3) - 60px);
+  min-height: 220px;
+  height: 220px;
+  max-height: 220px;
+  border-radius: 20px;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  background-color: white;
+  padding: 18px 20px 17px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.wall-item-short:last-child {
+  margin-right: 0px;
+}
+
+.wall-item-short p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.wall-item-short h3 {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.wall-item-short img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.wall-item-short .top-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.wall-item-short p {
+  color: #656e7e;
+}
+
+.wall-item-short .bottom-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wall-item-short .bottom-items span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.wall-item-short .user-image {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 15px;
+  background-color: #656e7e;
+}
+
+.wall-item-image p,
+.wall-item-image h3 {
+  color: white;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+}
+
+/*rows content*/
+.community-page .general .container {
+  background-color: white;
+  -webkit-box-shadow: -2px 7px 30px -9px rgba(148, 148, 148, 0.66);
+  -moz-box-shadow: -2px 7px 30px -9px rgba(148, 148, 148, 0.66);
+  box-shadow: -2px 7px 30px -9px rgba(148, 148, 148, 0.66);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.community-page .general .container .headerCommunityPageCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #eef1f4;
+  padding: 40px 0px 22.5px 0px;
+  width: calc(100% - 40px);
+  height: auto;
+  min-height: auto;
+  box-shadow: none;
+}
+
+.community-page .general .container .headerCommunityPageCards b,
+.community-page .general .container .headerCommunityPageCards span {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 104.5%;
+}
+
+.community-page .general .container .headerCommunityPageCards span {
+  color: #656e7e;
+}
+
+.community-page .general .container .scrollable {
+  overflow-y: auto !important;
+  scrollbar-width: none;
+}
+
+.community-page .general .projects .scrollable {
+  overflow-y: hidden !important;
+  overflow-x: auto !important;
+}
+
+.community-page .general .container .container-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  max-height: 300px;
+  height: 300px;
+  overflow-y: auto;
+  scrollbar-width: none;
+  padding-top: 20px;
+  overflow-x: hidden;
+  width: calc(100% - 40px);
+}
+
+/*third row*/
+.community-page .general .third-row .container {
+  margin-right: 20px;
+}
+
+.community-page .general .third-row .calendar {
+  margin-right: 20px;
+}
+
+.community-page .general.founders .container {
+  margin-right: 0;
+  max-height: 630px;
+  min-height: 0;
+  height: auto;
+}
+
+.community-page .general.founders .third-row .container {
+  margin-bottom: 20px;
+}
+
+.community-page .general.founders .container.messages > div {
+  overflow-y: auto;
+}
+
+.community-page .general.founders .container.messages > div .column > div {
+  margin-bottom: 20px;
+}
+
+.community-page .general.founders .container .container-content {
+  height: auto;
+  min-height: 0;
+  max-height: none;
+}
+
+.community-page .general.founders .container .bottom {
+  margin: 20px 0px 20px;
+  width: 100%;
+  padding: 0px 12px;
+}
+
+.community-page .general.founders .container .bottom button {
+  width: 100%;
+}
+
+.community-page .general.founders .create_button {
+  color: transparent;
+  background: linear-gradient(97.4deg, #23d0c6 14.43%, #00cc8f 85.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0;
+  min-height: 0;
+  height: auto;
+  margin: 0;
+  font-size: 14px;
+  border-radius: 0;
+}
+
+.community-page .general.founders .create_button_white {
+  color: white;
+  background: transparent;
+  padding: 0;
+  min-height: 0;
+  height: auto;
+  margin: 0;
+  font-size: 14px;
+  border-radius: 0;
+}
+
+.community-page .general.founders .container.proposals {
+  max-height: none;
+}
+
+.community-page .general.founders .container.proposals .container-content {
+  height: auto;
+  max-height: none;
+}
+
+.community-page .general.founders .container.proposals .headerCommunityPageCards {
+  border: none;
+}
+
+.community-page .general.founders .container.proposals {
+  background: linear-gradient(90deg, #ff79d1 14.43%, #db00ff 79.45%),
+    linear-gradient(white 100%, white 100%) no-repeat border-box;
+  background-size: 100% 194px, 100% 100%;
+  background-repeat: no-repeat;
+  background-origin: padding-box, padding-box;
+}
+
+.community-page .general.founders .container.proposals b {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/**third row calendar**/
+
+.community-page .general .calendar {
+  width: calc(100% - 40px);
+  margin: auto;
+}
+.community-page .general .calendar-item {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.community-page .general .calendar-item h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.community-page .general .calendar-item p {
+  color: transparent;
+  margin-top: 0;
+  margin-bottom: 20px;
+  width: 100%;
+  background: linear-gradient(97.4deg, #23d0c6 14.43%, #00cc8f 85.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.community-page .general .container .bottom {
+  width: calc(100%);
+  margin-left: -20px;
+  padding-bottom: 40px;
+  margin-top: -105px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.community-page .general .container .bottom p {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+/**third-row voting content**/
+.community-page .general .voting-content {
+  padding-bottom: 15px;
+  border-bottom: 2px solid #eef1f4;
+  margin-bottom: 15px;
+}
+
+.community-page .general .voting-content .answers .answer,
+.community-page .voting-tab .voting-content .answers .answer {
+  padding: 0px;
+  margin-bottom: 0px;
+  width: calc(100% - 20px);
+  display: flex;
+}
+
+.community-page .general .voting-content h3,
+.community-page .voting-tab .voting-content h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.community-page .general .voting-content .bottom-items button,
+.community-page .voting-tab .voting-content .bottom-items button {
+  margin-top: 20px;
+}
+
+/**third-row proposal**/
+.community-page .general .third-row .proposal {
+  margin-bottom: 20px;
+}
+
+.community-page .general .third-row .proposal:last-child {
+  margin-bottom: -20px;
+}
+
+.community-page .general .proposal h3,
+.community-page .voting-tab .proposal h3 {
+  font-size: 16px;
+  margin-top: 0;
+}
+.community-page .general .proposal p,
+.community-page .voting-tab .proposal p {
+  margin: 20px 0px 40px 0px;
+}
+
+.community-page .general .proposal .bottom,
+.community-page .voting-tab .proposal .bottom {
+  width: calc(100%);
+  padding: 0 20px;
+  margin-top: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.community-page .general .proposal .bottom p,
+.community-page .voting-tab .proposal .bottom p {
+  margin-top: 0;
+}
+
+.community-page .general .proposal .bottom p:last-child,
+.community-page .voting-tab .proposal .bottom p:last-child {
+  font-size: 12px;
+  color: #656e7e;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.community-page .general .proposal .bar-container,
+.community-page .voting-tab .proposal .bar-container {
+  background-color: hsla(218, 11%, 45%, 0.2);
+  border-radius: 5px;
+  height: 10px;
+  width: 100%;
+}
+
+.community-page .general .proposal .bar-container .bar,
+.community-page .voting-tab .proposal .bar-container .bar {
+  background-color: #64c89e;
+  border-radius: 5px;
+  height: 10px;
+}
+
+.community-page .general .proposal .creator {
+  width: 100%;
+  margin: 50px 0px 20px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.community-page .general .proposal .creator p {
+  margin: 0;
+}
+
+.community-page .general .proposals .headerCommunityPageCards button {
+  margin: -10px 0;
+}
+
+.community-page .general .third-row .polls .headerCommunityPageCards button {
+  margin: -10px 0;
+}
+
+.community-page .general .proposal .creator .user-image {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #656e7e;
+}
+
+.community-page .general .back-button {
+  cursor: pointer;
+  width: fit-content;
+}
+
+.community-page .general .back-button h4 {
+  margin-left: 12px;
+}

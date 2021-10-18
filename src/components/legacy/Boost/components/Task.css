@@ -1,0 +1,201 @@
+.boost-page .tasks .task-container {
+  cursor: pointer;
+  width: calc(100% / 3 - 13.5px);
+  max-width: calc(100% / 3 - 13.5px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+}
+
+.boost-page .tasks .task-container:nth-child(3n) {
+  margin-right: 0;
+}
+
+.boost-page .tasks .task {
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: calc(450px - 40px);
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.boost-page .tasks .task .top,
+.boost-page .tasks .task .bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.boost-page .tasks .task .top .header {
+  border-radius: 10px;
+  background-color: #64a8c8;
+  width: calc(100%);
+  padding: 10px;
+  margin-left: -10px;
+  margin-top: -10px;
+  height: 70px;
+  max-height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.boost-page .tasks .task .top .header.info {
+  background-color: #656e7e;
+  height: 40px;
+  max-height: 40px;
+}
+
+.boost-page .tasks .task .top .header.noImage {
+  height: 40px !important;
+  max-height: 40px !important;
+}
+
+.boost-page .tasks .task .top .header.ongoing {
+  background-color: #64c89e;
+}
+.boost-page .tasks .task .top .header.completed {
+  background-color: #656e7e;
+}
+.boost-page .tasks .task .top .header .ongoing-sign {
+  background-color: #081831;
+  color: white;
+  border-radius: 12px;
+  width: 72px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  padding: 5px;
+}
+
+.boost-page .tasks .task .top .header .points-reward {
+  display: flex;
+  color: white;
+  font-size: 14px;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.boost-page .tasks .task .top .header.ongoing.noImage .points-reward,
+.boost-page .tasks .task .top .header.completed.noImage .points-reward {
+  margin-top: -15px !important;
+  margin-bottom: 15px;
+}
+
+.boost-page .tasks .task .top .header.ongoing .points-reward,
+.boost-page .tasks .task .top .header.completed .points-reward {
+  margin-top: 0px !important;
+}
+
+.boost-page .tasks .task .top .header.info .points-reward,
+.boost-page .tasks .task .top .header.noImage .points-reward {
+  margin-top: 8px;
+}
+
+.boost-page .tasks .task .top .header .points-reward img {
+  margin-right: 10px;
+}
+
+.boost-page .tasks .task .top .header .points-reward {
+  margin-top: 22px;
+}
+
+.boost-page .tasks .task .top .image {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: 10px solid white;
+  background-color: white;
+  margin-top: -30px;
+}
+
+.boost-page .tasks .task .top .badges {
+  align-self: flex-end;
+  margin-top: -30px;
+  display: flex;
+  align-content: center;
+}
+
+.boost-page .tasks .task .top .badges.noImage {
+  margin-top: 10px !important;
+}
+
+.boost-page .tasks .task .top .badges span {
+  color: #656e7e;
+  font-size: 14px;
+  margin-right: 10px;
+  vertical-align: middle;
+  margin-top: 2px;
+}
+
+.boost-page .tasks .task .top p {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  line-height: 25px;
+}
+
+.boost-page .tasks .task .top p:last-child {
+  font-size: 14px;
+  margin: 0;
+  color: #656e7e;
+  line-height: 20px;
+}
+
+.boost-page .tasks .task .bottom .row {
+  align-items: center;
+}
+
+.boost-page .tasks .task .bottom .row img {
+  margin-right: 10px;
+}
+
+.boost-page .tasks .task .bottom .bar-container {
+  width: 100%;
+  height: 10px;
+  background-color: #eef1f4;
+  border-radius: 5px;
+  margin: 10px 0px 20px 0px;
+}
+
+.boost-page .tasks .task .bottom .bar-container .color-bar {
+  height: 10px;
+  background-color: #64c89e;
+  border-radius: 5px;
+}
+
+.boost-page .tasks .task .bottom .users {
+  border-top: #eef1f4 1px solid;
+  width: 100%;
+  margin-left: -20px;
+  padding: 18px 20px 0px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.boost-page .tasks .task .bottom .users .user-image {
+  width: 30px;
+  min-width: 30px;
+  min-height: 30px;
+  height: 30px;
+  border: 2px solid white;
+  background-color: #656e7e;
+  border-radius: 16px;
+  margin-left: -10px;
+}
+
+.boost-page .tasks .task .bottom .users .user-image:last-child {
+  margin-left: 0px;
+}
+
+.boost-page .tasks .task .bottom .users span {
+  margin-left: 10px;
+}

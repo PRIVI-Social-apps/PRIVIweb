@@ -1,0 +1,111 @@
+.growth-news .article-item {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  width: calc(100% - 40px);
+  height: 160px;
+  max-height: 160px;
+  margin-bottom: 10px;
+}
+
+.growth-news .article-item:last-child {
+  margin-bottom: 30px;
+}
+
+.growth-news .article-item:hover {
+  cursor: pointer;
+}
+
+.growth-news .article-item .article-image {
+  width: 260px;
+  min-width: 260px;
+  max-width: 260px;
+  height: 160px;
+  max-height: 160px;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.growth-news .article-item .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.growth-news .article-item h3 {
+  max-height: 65px;
+  margin-top: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.growth-news .article-item .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.growth-news .article-item .row:last-child {
+  align-items: center;
+}
+
+.growth-news .article-item .row span {
+  color: #656e7e;
+  font-size: 14px;
+  margin-left: 20px;
+  min-width: 100px;
+  text-align: right;
+}
+
+.growth-news .article-item .right {
+  padding: 10px 10px 10px 0px;
+}
+
+.growth-news .article-item .right .row:first-child {
+  flex-grow: 1;
+}
+
+.growth-news .article-item .row .user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.growth-news .article-item .row .user p {
+  margin: 0;
+}
+
+.growth-news .article-item .row .user .user-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 10px;
+  background-color: #656e7e;
+}
+
+.growth-news .article-item .row button {
+  background-color: #656e7e;
+  margin: 0;
+  padding: 10px 15px;
+}
+
+.growth-news .article-item .row button:hover {
+  background-color: #555c69;
+}
+
+.growth-news .article-item .right .row:last-child p:last-child {
+  font-weight: bold;
+  text-align: right;
+  align-items: center;
+  display: flex;
+}
+.growth-news .article-item .right .row:last-child p:last-child svg {
+  margin-right: 5px;
+}

@@ -1,0 +1,553 @@
+.modalTerms {
+  width: 600px;
+  max-height: 85vh;
+  background-color: white;
+  border-radius: 20px !important;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  overflow-y: auto;
+  scrollbar-width: none;
+  padding: 24.5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modalTerms .loaderDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.modalTerms .table-wrapper {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.modalTerms .exit {
+  align-self: flex-end;
+}
+
+.modalTerms > .cards-options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.modalTerms > .cards-options > h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+  color: #181818;
+}
+
+.modalTerms > .cards-options .buttonsMediaTermsBorder {
+  border-bottom: 1.5px solid #707582;
+  width: calc(100% - 25px);
+  margin-left: 10px;
+}
+
+.modalTerms > .cards-options > .buttonsMediaTerms {
+  margin-top: -16px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.modalTerms > .cards-options > .buttonsMediaTerms > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% / 4);
+  color: #707582;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.modalTerms > .cards-options > .buttonsMediaTerms > div:first-child {
+  align-items: flex-start;
+}
+
+.modalTerms > .cards-options > .buttonsMediaTerms > div:first-child button {
+  margin-left: 10px;
+}
+
+.modalTerms > .cards-options > .buttonsMediaTerms > div:nth-child(2) {
+  margin-right: 8%;
+}
+
+.modalTerms > .cards-options > .buttonsMediaTerms > div:last-child {
+  align-items: flex-end;
+}
+
+.modalTerms > .cards-options > .buttonsMediaTerms > div:last-child button {
+  margin-right: 15px;
+}
+
+.modalTerms > .cards-options > .buttonsMediaTerms > div.selected {
+  font-size: 14px;
+  line-height: 120%;
+  color: #181818;
+}
+
+.modalTerms > .cards-options > .buttonsMediaTerms > div button {
+  background: #ffffff;
+  border: 1.5px solid #707582;
+  box-sizing: border-box;
+  color: #707582;
+  margin-block-end: 12px;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.modalTerms > .cards-options > .buttonsMediaTerms > div.selected button {
+  background: linear-gradient(97.4deg, #23d0c6 14.43%, #00cc8f 85.96%);
+  color: white;
+  border: none;
+}
+
+.modalTerms > h4 {
+  font-size: 22px;
+  margin-block-end: 20px;
+}
+
+.modalTerms .exit {
+  margin-left: 22px;
+}
+
+.flexCenterCenterRowTerms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.flexEndCenterRowTerms {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.modalTerms .flexEndCenterRowTerms > div button {
+  background: white;
+  color: black;
+  border: 2px solid #949bab;
+}
+
+.modalTerms .buttonsMediaTerms .tooltipHeaderInfo {
+  vertical-align: unset;
+  width: 10px;
+  height: 10px;
+  transform: none;
+  margin-bottom: 0;
+  margin-left: 4px;
+}
+
+.modalTerms .tooltipHeaderInfo,
+.modalTerms .infoIconCreatePod,
+.modalTerms .infoIconImgTitleDesc {
+  vertical-align: top;
+  margin-left: 3px;
+  width: 12px;
+  height: 12px;
+  transform: none;
+  margin-bottom: 10px;
+}
+
+.modalTerms .infoHeaderCreateCampaign {
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+}
+
+.modalTerms .buttonsMediaTerms button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalTerms .selectorMoreThanLabel {
+  white-space: nowrap;
+}
+
+.modalTerms .collab-users-media {
+  padding: 10px 0px;
+}
+
+.modalTerms input {
+  font-family: "Agrandir" !important;
+}
+
+.modalTerms .collab-card {
+  background: #ffffff;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 10px 20px;
+  height: 260px;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.modalTerms .collab-card .userImage {
+  min-width: 72px;
+  width: 72px;
+  min-height: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #c4c4c4;
+  border: 2px solid white;
+  filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.12));
+  margin-bottom: 20px;
+}
+
+.modalTerms .collab-card p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  font-style: normal;
+  color: black;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+
+.modalTerms .collab-card .userName {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  color: #ff79d1;
+  max-height: 15px;
+  width: 100%;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: pre-line;
+}
+
+.modalTerms .collab-card .rowShareCollab {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.modalTerms .collab-card .rowShareCollab .infoHeaderCreatePod {
+  font-size: 12px;
+}
+
+.modalTerms .collab-card .rowShareCollab > div:last-child {
+  display: flex;
+}
+
+.modalTerms .collab-card .rowShareCollab input {
+  margin-bottom: 0px;
+  margin-right: 5px;
+}
+
+.modalTerms .collab-card button {
+  margin-top: 8px;
+  height: 46px;
+  font-size: 12px;
+}
+
+.modalTerms .term-control {
+  background: #f7f8fa;
+  border: 1px solid #99a1b3;
+  height: 60px;
+}
+
+.collab-counts .flexRowInputs {
+  flex-wrap: nowrap;
+  margin-right: 15px;
+}
+
+.collab-user {
+  margin-top: 20px;
+}
+
+.collab-user .selector-with-token {
+  max-width: unset;
+}
+
+.modalTerms .collab-user .selector-with-token .MuiInputBase-root {
+  width: 100% !important;
+}
+
+.modalTerms .collab-counts .selector-with-token {
+  margin-bottom: unset;
+}
+
+.modalTerms .collab-counts .selector-with-token.term-control input {
+  background: transparent;
+  width: calc(100% - 12px);
+}
+
+.mediaTermsPaymentRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.modalTerms .titlePayment {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 104.5%;
+  margin: 0;
+  color: #181818;
+  margin-block-end: 14px;
+}
+
+.mediaTermsPaymentRow .option-buttons {
+  background-color: transparent;
+}
+
+.modalTerms .mediaTermsPaymentRow .option-buttons.payment-type {
+  background: transparent;
+  box-shadow: none;
+}
+
+.modalTerms .mediaTermsPaymentRow .option-buttons.payment-type button {
+  font-size: 14.5px;
+  text-align: center;
+  color: #707582;
+  background: white;
+  border: 1px solid #707582;
+  box-sizing: border-box;
+  border-radius: 36px;
+  margin-right: 6.5px;
+}
+
+.modalTerms .mediaTermsPaymentRow .option-buttons.payment-type button.selected {
+  background: #181818;
+  border-color: black;
+  color: white;
+}
+
+.modalTerms .textFieldEdit {
+  border: none;
+}
+
+.modalTerms .textFieldCreateCampaign {
+  background-color: #f6f6f6;
+  border: 1px solid #99a1b3;
+  border-radius: 8px;
+  width: 100%;
+  padding: 0px 8px;
+}
+
+.MuiFormControl-root input {
+  font-family: "Agrandir";
+  color: #4f4f4f;
+}
+
+.modalTerms .select-tokens {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.modalTerms .selector-with-token,
+.modalTerms .term-control {
+  height: 56px;
+}
+
+.modalTerms input {
+  border-radius: 10px;
+}
+
+.modalTerms .selector-with-token {
+  border: 2px solid #707582;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: white;
+}
+
+.modalTerms .selector-with-token .infoHeaderCreatePod,
+.modalTerms h4 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 104.5%;
+  color: #181818;
+}
+
+.modalTerms .row {
+  align-items: center;
+}
+
+.modalTerms .infoHeaderCreatePod {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 104.5%;
+  color: #181818;
+}
+
+.modalTerms .select-tokens button {
+  height: auto;
+  flex-grow: 1;
+  width: calc(25%);
+  margin: 0;
+  margin-right: 8px;
+  font-weight: normal;
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  background: #000000;
+  border-radius: 57px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.modalTerms .select-tokens button:last-child {
+  margin-right: 0px;
+}
+
+.modalTerms .collab-counts .selector-with-token {
+  background: #f7f9fe;
+  border: 1px solid #e0e4f3;
+  box-sizing: border-box;
+  border-radius: 10px;
+  height: 56px;
+}
+
+.modalTerms .select-tokens .disabled {
+  border: 1px solid #707582;
+  color: #707582;
+  background-color: white;
+}
+
+.modalTerms .rewardsRow {
+  justify-content: space-between;
+  margin: 20px 0px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.modalTerms .rewardsRow label {
+  width: 50%;
+}
+
+.modalTerms .rewardsRow label:first-child {
+  margin-right: 20px;
+  width: calc(50% - 20px);
+}
+
+.modalTerms .rewardsRow label input {
+  width: 100%;
+  height: 56px;
+}
+
+.modalTerms .rewardsRow label .selector-with-token {
+  height: 56px;
+}
+
+.modalTerms .rewardsRow label .selector-with-token .MuiFormControl-root {
+  width: 200px;
+}
+
+.modalTerms .rewardsRow label .selector-with-token .MuiFormControl-root .MuiInputBase-root {
+  width: 100% !important;
+}
+
+.modalTerms .rewardsRow .createHashtagButton {
+  margin-left: 10px;
+  margin-top: 40px;
+  min-width: 40px;
+}
+
+.modalTerms .rewardsRow .under-info {
+  color: rgb(101, 110, 126);
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+.modalTerms .exclusiveRow {
+  align-items: flex-end;
+  width: calc(100% + 16px);
+  margin: -8px;
+}
+
+.modalTerms .exclusiveRow label {
+  width: calc(100% / 3);
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.modalTerms .exclusiveRow label input {
+  width: 100%;
+}
+
+.modalTerms .selector-with-token.no-width .MuiInputBase-root {
+  width: unset !important;
+}
+
+.modalTerms .exclusiveRow label .selectorFormControlCreatePod,
+.modalTerms .exclusiveRow label .selector-with-token,
+.modalTerms .exclusiveRow label .selector-with-token div:last-child {
+  color: rgb(101, 110, 126);
+  width: 100%;
+}
+.modalTerms .exclusiveRow label .selector-with-token div:first-child {
+  color: rgb(101, 110, 126);
+  font-weight: normal;
+}
+
+.modalTerms .exclusiveRow label .selectorFormControlCreatePod {
+  margin-bottom: 0;
+}
+
+.modalTerms .exclusiveRow label:nth-child(2) .selector-with-token .selectorFormControlCreatePod {
+  margin-bottom: 0px;
+}
+
+.stepsMediaTermsHeaders {
+  color: #99a1b3;
+  font-family: Agrandir;
+  font-style: normal;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 767px) {
+  .modalTerms {
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  .modalTerms .flexEndCenterRowTerms > div {
+    flex-wrap: wrap;
+    align-items: flex-start !important;
+  }
+  .modalTerms .flexEndCenterRowTerms > div button {
+    padding: 9px;
+  }
+  .modalTerms .flexEndCenterRowTerms > div button:first-child {
+    margin-bottom: 16px;
+  }
+  .modalTerms .rewardsRow {
+    flex-direction: column;
+  }
+  .modalTerms .rewardsRow label {
+    width: 100% !important;
+  }
+  .modalTerms .mediaTermsPaymentRow .option-buttons.payment-type button {
+    padding: 8px 16px;
+  }
+}

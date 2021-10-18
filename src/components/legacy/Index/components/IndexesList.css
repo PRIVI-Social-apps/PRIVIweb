@@ -1,0 +1,86 @@
+.index-page .indexes-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.index-page .indexes-list .header {
+  width: 90%;
+  margin: 0;
+  padding: 0px 10px;
+  height: auto;
+  border: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.index-page .indexes-list p {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.index-page .indexes-list .header p {
+  font-size: 10px;
+  color: #656e7e;
+}
+
+.index-page .indexes-list .row {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.index-page .indexes-list .row .main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.index-page .indexes-list .row .main p {
+  font-size: 12px;
+}
+
+.index-page .indexes-list .name {
+  width: 120px !important;
+}
+
+.index-page .indexes-list .assets {
+  width: 140px;
+  min-width: 140px;
+  margin-right: 20px;
+}
+
+.index-page .indexes-list .button button {
+  flex-grow: 1;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+.index-page .indexes-list .assets {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.index-page .indexes-list .assets .asset-image {
+  min-width: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 5px;
+  color: #656e7e;
+  background-color: rgb(227, 233, 239);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

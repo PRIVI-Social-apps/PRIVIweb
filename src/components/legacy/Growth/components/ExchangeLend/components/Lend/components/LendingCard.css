@@ -1,0 +1,85 @@
+.growth-page .exchange-lend .lend-tab .lending-card {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 3 - 47px);
+  margin-right: 10px;
+  padding: 15px 20px;
+  min-height: 120px;
+  border-radius: 20px;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  background-color: white;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.growth-page .exchange-lend .lend-tab .lending-card:nth-child(3n) {
+  margin-right: 0;
+}
+
+.growth-page .exchange-lend .lend-tab .lending-card .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.growth-page .exchange-lend .lend-tab .lending-card .row .column span {
+  font-size: 14px;
+  margin: 0;
+}
+
+.growth-page .exchange-lend .lend-tab .lending-card .row .column p {
+  font-size: 26px;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.growth-page .exchange-lend .lend-tab .lending-card .row button {
+  margin: 0;
+}
+
+.growth-page .exchange-lend .lend-tab .lending-card .row button.payed {
+  background-color: #656e7e !important;
+  cursor: default;
+}
+
+.growth-page .exchange-lend .lend-tab .lending-card .bottom {
+  width: 95%;
+}
+
+.growth-page .exchange-lend .lend-tab .lending-card .bottom .column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 5px;
+  justify-content: space-between;
+}
+
+.growth-page .exchange-lend .lend-tab .lending-card .bottom .row .column span {
+  color: #656e7e;
+  font-size: 14px;
+}
+
+.growth-page .exchange-lend .lend-tab .lending-card .bottom .row .column p {
+  font-size: 18px;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.growth-page .exchange-lend .lend-tab .lending-card .bottom .bar-container {
+  margin-top: 10px;
+  background-color: #eef1f4;
+  height: 6px;
+  border-radius: 3px;
+}
+
+.growth-page .exchange-lend .lend-tab .lending-card .bottom .color-bar {
+  background-color: #64c89e;
+  height: 6px;
+  border-radius: 3px;
+}

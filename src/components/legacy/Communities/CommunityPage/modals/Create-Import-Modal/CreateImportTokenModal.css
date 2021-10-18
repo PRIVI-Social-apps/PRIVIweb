@@ -1,0 +1,165 @@
+.modal .create-community-token-modal {
+  align-items: flex-start;
+  margin-top: 50px;
+  max-height: calc(85vh - 50px);
+  overflow-y: auto;
+  scrollbar-width: none;
+  overflow-x: hidden;
+  min-height: auto;
+}
+
+.modal .create-community-token-modal .create-token,
+.modal .create-community-token-modal .import-token {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.modal .create-community-token-modal .import-token .dragImageHereCreatePod {
+  height: 265px;
+}
+
+.modal .create-community-token-modal .selectCreatePod,
+.modal .create-community-token-modal .textFieldCreatePod {
+  margin-bottom: 20px;
+}
+
+.modal .create-community-token-modal .option-buttons {
+  align-self: center;
+  width: fit-content !important;
+  padding: 0px 2px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+
+.modal .create-community-token-modal .selector-with-token,
+.modal .create-community-token-modal .selectCreatePod {
+  background-color: white;
+}
+
+.modal .create-community-token-modal .option-buttons button {
+  width: auto !important;
+  white-space: nowrap !important;
+  padding: 0px 15px !important;
+  background-color: white !important;
+  font-size: 16px;
+}
+
+.modal .create-community-token-modal .option-buttons .selected {
+  background-color: #64c89e !important;
+}
+
+.modal .create-community-token-modal .imageCreatePod,
+.modal .create-community-token-modal .dragImageHereCreatePod {
+  width: 400px;
+}
+
+.modal .create-community-token-modal .collateral-options {
+  align-items: flex-end;
+}
+
+.modal .create-community-token-modal .collateral-options input {
+  margin-right: 10px;
+}
+
+.modal .create-community-token-modal .price-directions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px 0px;
+}
+
+.modal .create-community-token-modal .price-direction-container {
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  background-color: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 140px;
+  flex-grow: 1;
+  min-width: 180px;
+  max-width: 250px;
+  border-radius: 16px;
+  border: 1px solid #8097b34d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.modal .create-community-token-modal .price-direction-container:last-child {
+  margin-right: 0px;
+}
+
+.modal .create-community-token-modal .price-directions .selected {
+  border: 2px solid #3cafd4;
+}
+
+.modal .create-community-token-modal .price-directions .graph {
+  max-height: 100px;
+}
+
+.modal .create-community-token-modal .buttonCreatePod {
+  align-self: center;
+  margin-bottom: 10px !important;
+}
+
+.modal .create-community-token-modal .selector-with-token {
+  margin-right: 10px;
+}
+
+.modal .create-community-token-modal .selector-with-token .selectCreatePod {
+  margin-bottom: 0px;
+}
+
+.create-community-token-modal .disabled.textFieldCreatePod {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  width: 355px;
+}
+
+.create-community-token-modal .flexRowInputs {
+  align-items: center;
+}
+
+.create-community-token-modal .flexRowInputs .option-buttons {
+  margin: 0px 0px 0px 20px;
+}
+
+.create-community-token-modal .imageCreatePodDiv {
+  border-radius: 16px;
+  background-color: rgb(227, 233, 239);
+  width: 360px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.create-community-token-modal .removeImageButton {
+  right: 10px;
+}
+
+.flexRowInputs {
+  display: flex;
+  margin-top: 10px;
+}
+
+.create-import-token-modal-header {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}
+
+.option-buttons {
+  display: flex;
+  align-content: space-between;
+  align-self: center;
+}

@@ -1,0 +1,93 @@
+.modalOpenPosition{
+    width: 720px;
+    background-color: white !important;
+    border-radius: 20px !important;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.firstPartOpenPosition{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.applicationsPartOpenPosition{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(238, 241, 244);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.headerOpenPosition{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(8, 24, 49);
+    margin-bottom: 50px;
+}
+.infoColOpenPosition{
+    width: 130px;
+}
+.titleOpenPosition{
+    font-weight: 500;
+    font-size: 12px;
+    color: rgb(101, 110, 126);
+    margin-bottom: 3px;
+}
+.valueOpenPosition{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(8, 24, 49);
+}
+.gridAuthorDescOpenPosition{
+    margin-top: 38px !important;
+    margin-bottom: 30px !important;
+}
+.authorPhotoOpenPosition{
+    width: 35px;
+    height: 35px;
+    background-color: grey;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+.authorNameOpenPosition{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgb(8, 24, 49);
+}
+.requirementsOpenPosition{
+    border: 1px solid rgba(101, 110, 126, 0.2);
+    border-radius: 20px;
+    height: calc(120px - 36px);
+    width: calc(100% - 30px);
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.requirementsHeaderOpenPosition{
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(25, 40, 63);
+    margin-bottom: 20px;
+}
+.applicationsHeaderOpenPosition{
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(8, 24, 49);
+    margin-bottom: 25px;
+}
+.whiteRowOpenPosition{
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    width: calc(100% - 20px);
+    padding-left: 10px;
+    padding-right: 10px;
+}

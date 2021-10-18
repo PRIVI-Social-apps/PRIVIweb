@@ -1,0 +1,33 @@
+.myFeedProfile {
+  padding: 45px 0;
+}
+.myFeedProfile .loaderDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.myFeedProfile .firstRowMyFeed {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.myFeedProfile .headerMyFeed {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(8, 24, 49);
+}
+.myFeedProfile .profileStoriesRow {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: hidden;
+  overflow-x: auto;scrollbar-width: none;
+}
+.myFeedProfile .feed-items {
+  width: 100%;
+}

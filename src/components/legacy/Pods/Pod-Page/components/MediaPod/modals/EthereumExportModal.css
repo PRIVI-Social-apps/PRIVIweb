@@ -1,0 +1,186 @@
+.modal .ethereum-modal {
+  background: white;
+  min-height: 415px;
+  max-height: 90vh;
+  width: 535px;
+  max-width: 85vw;
+  border-radius: 20px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal .ethereum-modal > section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.modal .ethereum-modal > section::-webkit-scrollbar-thumb {
+  background: #eff2f8;
+}
+
+.modal .ethereum-modal section img {
+  width: 50px;
+  height: 50px;
+}
+
+.modal .ethereum-modal h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 104.5%;
+  text-align: center;
+  color: #181818;
+  margin: 0;
+  margin-top: 32px;
+}
+
+.modal .ethereum-modal h6 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 104.5%;
+  text-align: center;
+  color: #707582;
+  margin-top: 10px;
+  margin-bottom: 38px;
+}
+
+.modal .ethereum-modal input {
+  font-family: "Agrandir";
+  background: #f7f9fe;
+  border: 1px solid #e0e4f3;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-size: 14px;
+  height: 40px;
+  padding-left: 18px;
+  color: #707582;
+  display: flex;
+  align-items: center;
+  width: 168px;
+}
+
+.modal .ethereum-modal input::placeholder {
+  color: #abb3c4;
+}
+
+.modal .ethereum-modal .first input {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 18px;
+  height: auto;
+  border-radius: 0;
+}
+
+.modal .ethereum-modal .collabsTable {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: auto;
+  scrollbar-width: none;
+  max-height: calc(90vh - 40px - 250px);
+  margin-bottom: 20px;
+}
+
+.modal .ethereum-modal .collabsTable table {
+  width: 100%;
+}
+
+.modal .ethereum-modal .collabsTable .MuiTableCell-root {
+  padding: 18px 0px;
+  padding-right: 8px;
+  font-family: "Agrandir";
+  font-size: 14px;
+  border-bottom: 1px solid hsla(223, 7%, 47%, 0.2);
+}
+
+.modal .ethereum-modal .collabsTable .MuiTableCell-head.MuiTableCell-root {
+  color: #707582;
+  border: none;
+  padding: 0;
+  padding-right: 8px;
+}
+
+.modal .ethereum-modal .collabsTable::-webkit-scrollbar-thumb {
+  background: #707582;
+  border-radius: 100px;
+}
+
+.modal .ethereum-modal .collabsTable::-webkit-scrollbar-track {
+  background: #eff2f8;
+}
+
+.modal .ethereum-modal .collabsTable .avatar {
+  border: 1.5px solid #ffffff;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.2));
+  margin-right: 12px;
+  background: #c4c4c4;
+}
+
+.modal .ethereum-modal p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 104.5%;
+  text-align: center;
+  color: #707582;
+  margin: 15px 0px;
+}
+
+.modal .ethereum-modal label {
+  flex-direction: row;
+  align-items: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 104.5%;
+  color: #181818;
+  margin-bottom: 34px;
+}
+
+.modal .ethereum-modal label input {
+  width: inherit !important ;
+  color: black;
+}
+
+.modal .ethereum-modal label svg {
+  color: black;
+}
+
+.modal .ethereum-modal button:disabled {
+  opacity: 0.3;
+}
+
+.modal .buttonsFlexRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 767px) {
+  .modal .ethereum-modal {
+    width: 90%;
+    margin: 0px;
+    max-width: 90%;
+    padding: 32px 16px;
+  }
+  .modal .ethereum-modal input {
+    width: 100%;
+  }
+  .modal .ethereum-modal label {
+    text-align: center;
+  }
+  .modal .buttonsFlexRow button {
+    padding: 9px;
+  }
+}

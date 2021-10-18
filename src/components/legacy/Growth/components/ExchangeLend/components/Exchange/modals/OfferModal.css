@@ -1,0 +1,140 @@
+.modal .modal-content .offer-data {
+  background-color: white;
+  display: flex;
+  width: calc(100% - 40px);
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 14px 0px 30px 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal .modal-content .offer-data .image {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+
+.modal .modal-content .offer-data .column {
+  margin-right: 20px;
+}
+
+.modal .modal-content .offer-data .column:last-child {
+  margin-right: 0px;
+}
+
+.modal .modal-content .offer-data .column span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #656e7e;
+}
+.modal .modal-content .offer-data .column p {
+  margin: 0;
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+.modal .offer-create-modal .selector-with-token {
+  background-color: white;
+  margin-right: 20px;
+}
+
+.modal .offer-create-modal .createHashtagButton {
+  align-self: center;
+  margin-top: 10px;
+}
+
+.modal .offer-create-modal .disabled {
+  width: calc(100% - 40px);
+  padding: 15px 20px;
+  border-radius: 16px;
+  border: 1px solid rgba(128, 151, 179, 0.2);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.modal .offer-create-modal .disabled span {
+  color: #656e7e;
+  font-size: 14px;
+}
+
+.modal .offer-create-modal .footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.modal .offer-create-modal .footer .disabled {
+  margin: 0;
+}
+
+.modal .offer-create-modal .footer button {
+  width: max-content;
+  min-width: 30%;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.modal .offer-create-modal .offers {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -10px;
+  padding-bottom: 20px;
+}
+
+.modal .offer-create-modal .item-card {
+  align-items: center;
+}
+
+.modal .offer-create-modal .item-card img {
+  padding: 0;
+}
+
+.modal .offer-create-modal .item-card span {
+  margin-left: 10px;
+  white-space: nowrap;
+}
+
+.modal .offer-create-modal .offers-users {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.modal .offer-create-modal .offers-users .offer-item {
+  background-color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 40px);
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.modal .offer-create-modal .offers-users .offer-item span {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.modal .offer-create-modal .offers-users .offer-item .user {
+  display: flex;
+  align-items: center;
+}
+
+.modal .offer-create-modal .offers-users .offer-item .user-image {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #656e7e;
+}
+
+.modal .offer-create-modal h3 {
+  align-self: flex-start;
+  margin-bottom: 25px;
+  margin-top: 5px;
+}

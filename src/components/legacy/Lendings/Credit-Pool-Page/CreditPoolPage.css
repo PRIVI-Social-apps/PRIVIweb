@@ -1,0 +1,642 @@
+.credit-pool-page {
+  width: calc(100vw - 80px) !important;
+  min-width: calc(100vw - 80px) !important;
+  max-width: calc(100vw - 80px) !important;
+  height: 100vh !important;
+  min-height: 100vh !important;
+  max-height: 100vh !important;
+  background: rgb(227, 233, 239);
+  background: linear-gradient(
+    180deg,
+    rgba(227, 233, 239, 1) 470px,
+    rgba(238, 241, 244, 1) 470px,
+    rgba(238, 241, 244, 1) 100%
+  );
+}
+
+.credit-pool-page .modalCreatePost {
+  width: 920px;
+  background-color: white !important;
+  border-radius: 20px !important;
+  min-height: 70vh;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* padding-top: 40px; */
+  /* padding-bottom: 100px; */
+}
+
+.credit-pool-page .title {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Header */
+
+.credit-pool-page .header {
+  padding: 0px 30px 0 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  max-height: 80px;
+  min-width: 80px;
+  border-bottom: 1px #cfdae5 solid;
+}
+
+.credit-pool-page .header .main-info,
+.credit-pool-page .header .main-info div,
+.credit-pool-page .header .connections,
+.credit-pool-page .header .buttons,
+.credit-pool-page .header .buttons button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.credit-pool-page .header .title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.credit-pool-page .header .title h2 {
+  margin: 0;
+}
+
+.credit-pool-page .header .title span {
+  color: #656e7e;
+  font-size: 14px;
+}
+
+/**Header > Main Info **/
+/*** Header > Main Info > Coverage ***/
+
+.credit-pool-page .header .coverage {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 4px 6px;
+  margin: 0 13px;
+}
+
+.credit-pool-page .header .coverage img {
+  height: 12px;
+  margin-right: 6px;
+}
+
+.credit-pool-page .header .coverage span {
+  font-size: 14px;
+  color: #081831;
+  font-weight: bold;
+}
+
+/*** Header > Main Info > Private ***/
+
+.credit-pool-page .header .private {
+  background-color: #d7dfe7;
+  border-radius: 20px;
+  padding: 4px 6px;
+}
+
+.credit-pool-page .header .private img {
+  height: 14px;
+  margin-right: 6px;
+}
+
+.credit-pool-page .header .private span {
+  font-size: 14px;
+  color: #081831;
+}
+
+/** Header > Connections **/
+
+.credit-pool-page .header .connections p {
+  font-weight: normal;
+  margin-right: 20px;
+  color: #656e7e;
+}
+
+.credit-pool-page .header .connections span {
+  color: #081831;
+  font-weight: bold;
+  margin-left: 9px;
+}
+
+/** Header > Buttons **/
+
+.credit-pool-page .header .buttons .chat {
+  background-color: #656e7e;
+  font-weight: bold;
+  margin: 0px 10px 0px 0px;
+}
+
+.credit-pool-page .header .buttons .chat:hover {
+  background-color: #5b6372;
+}
+
+.credit-pool-page .header .buttons .chat img {
+  height: 16px;
+  margin-right: 8px;
+}
+
+/* Pool Data */
+
+.credit-pool-page .pool-data {
+  overflow-y: auto;
+  scrollbar-width: none;
+  overflow-x: hidden;
+  height: calc(100vh - 80px) !important;
+  min-height: calc(100vh - 80px) !important;
+  max-height: calc(100vh - 80px) !important;
+  padding: 0px 40px 0 70px;
+}
+
+.credit-pool-page .pool-data .main-info,
+.credit-pool-page .pool-data .main-info .pool-info .top,
+.credit-pool-page .pool-data .main-info .pool-info .perc,
+.credit-pool-page .pool-data .main-info .pool-info .scores,
+.credit-pool-page .pool-data .main-info .pool-info .bottom,
+.credit-pool-page .pool-data .main-info .pool-info .bottom .right,
+.credit-pool-page .pool-data .main-info .insured-pod,
+.credit-pool-page .pool-data .main-info .insured-pod .pod-container,
+.credit-pool-page .pool-data .main-info .premium div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/** Pool Data > Main info **/
+
+.credit-pool-page .pool-data .main-info {
+  margin: 32.5px 0 30px 0;
+}
+
+.credit-pool-page .pool-data .main-info .pool-image {
+  width: 170px;
+  min-width: 170px;
+  min-height: 170px;
+  height: 170px;
+  border-radius: 16px;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  background-color: white;
+}
+
+.credit-pool-page .pool-data .main-info p {
+  color: #656e7e;
+  white-space: nowrap;
+}
+
+.credit-pool-page .pool-data .main-info h3 {
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.credit-pool-page .pool-data .main-info h2 {
+  white-space: nowrap;
+}
+
+/*** Pool Data > Main info > Pool Info ***/
+
+.credit-pool-page .pool-data .main-info .pool-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 40px;
+  justify-content: space-between;
+  min-height: 172px;
+  height: 172px;
+  width: 100%;
+}
+
+.credit-pool-page .pool-data .main-info .pool-info h3,
+.credit-pool-page .pool-data .main-info .pool-info h2 {
+  margin: 0px;
+}
+
+/**** Pool Data > Main info > Pool Info > Top ****/
+
+.credit-pool-page .pool-data .main-info .pool-info .top p {
+  margin: 0px 0px 9px 0px;
+}
+
+.credit-pool-page .pool-data .main-info .pool-info .top,
+.credit-pool-page .pool-data .main-info .pool-info .bottom {
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.credit-pool-page .pool-data .main-info .pool-info .top .pool-detail {
+  align-items: flex-start;
+}
+
+/***** Pool Data > Main info > Pool Info > Top > Scores *****/
+
+.credit-pool-page .pool-data .main-info .pool-info .perc .pool-detail {
+  margin-right: 40px;
+}
+
+.credit-pool-page .pool-data .main-info .pool-info .scores .pod-detail {
+  margin-left: 40px;
+}
+
+.credit-pool-page .pool-data .main-info .pool-info .scores span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.credit-pool-page .pool-data .main-info .pool-info .scores span img {
+  margin-right: 9px;
+}
+
+/***** Pool Data > Main info > Pool Info > Top > Buttons *****/
+
+.credit-pool-page .pool-data .main-info .pool-info .buttons {
+  align-self: center;
+}
+
+.credit-pool-page .pool-data .main-info .pool-info .buttons .invest {
+  background-color: #081831;
+}
+
+.credit-pool-page .pool-data .main-info .pool-info .buttons .invest:hover {
+  background-color: #061225;
+}
+
+/****** Pool Data > Main info > Pool Info > Top > Invest Modal ******/
+.pool_modal_content {
+  position: absolute;
+  width: 300px;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px 10px 20px 10px;
+}
+.pool_modal_select {
+  width: fit-content;
+}
+.pool_modal_balance {
+  align-items: center;
+}
+.pool_modal_balance_input {
+  display: block;
+  flex: 1;
+  padding: 10px;
+}
+.pool_modal_balance_input p {
+  color: black;
+  margin: 5px;
+}
+.pool_modal_amount {
+  width: 100%;
+}
+.pool_modal_amount label {
+  width: 100%;
+  border: none;
+}
+.pool_modal_amount input {
+  flex: 1;
+}
+.pool_modal_fee {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.pool_modal_fee p {
+  color: black;
+  margin-top: 0px;
+}
+.pool_modal_conntect_button {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.pool_modal_other_button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.pool_modal_other_button button {
+  background-color: black;
+  color: white;
+}
+
+/**** Pool Data > Main info > Pool Info > Bottom ****/
+/***** Pool Data > Main info > Pool Info > Bottom > Description *****/
+
+.credit-pool-page .pool-data .main-info .pool-info .bottom .description {
+  max-height: 64px;
+  max-width: 390px;
+  align-self: center;
+}
+
+.credit-pool-page .pool-data .main-info .pool-info .bottom .description p {
+  margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: normal;
+  height: 64px;
+  max-height: 64px;
+}
+
+/***** Pool Data > Main info > Pool Info > Bottom > White info *****/
+
+.credit-pool-page .pool-data .main-info .pool-info .bottom .white-info {
+  padding: 18px;
+  background-color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  justify-content: space-between;
+  margin: 0 20px;
+  display: flex;
+  min-height: 50px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.credit-pool-page .pool-data .main-info .pool-info .bottom .tokens .pool-image {
+  border-radius: 10px;
+  height: 60px;
+  min-height: 60px;
+  width: 90px;
+  min-width: 90px;
+  margin-right: 30px;
+}
+
+.credit-pool-page .pool-data .main-info .pool-info .bottom .white-info span {
+  margin-right: 30px;
+  font-size: 14px;
+}
+
+.credit-pool-page
+  .pool-data
+  .main-info
+  .pool-info
+  .bottom
+  .white-info
+  .collaterals
+  span {
+  margin-right: 0;
+}
+
+.credit-pool-page .pool-data .main-info .pool-info .bottom .white-info p {
+  margin-top: 0;
+  margin-right: 15px;
+}
+
+.credit-pool-page
+  .pool-data
+  .main-info
+  .pool-info
+  .bottom
+  .white-info
+  p:last-child {
+  margin-right: 0px;
+}
+
+/** Pool Data > Charts **/
+
+.credit-pool-page .pool-data .charts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 40px;
+  justify-content: stretch;
+}
+
+/** Pool Data > Charts > Charts Container **/
+
+.credit-pool-page .pool-data .charts .charts-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+/*** Pool Data > Charts > Charts Container > Chart ***/
+
+.credit-pool-page .pool-data .charts .charts-container .chart {
+  background-color: white;
+  border-radius: 20px;
+  width: 50%;
+  padding: 18px;
+  margin-right: 19px;
+  height: 50%;
+}
+
+.credit-pool-page .pool-data .charts .charts-container .chart p {
+  margin: 0px 0px 6px 0px;
+}
+
+.credit-pool-page .pool-data .charts .charts-container .chart span {
+  color: #656e7e;
+  font-size: 10px;
+}
+
+/*** Pool Data > Charts > Ad Container ***/
+
+.credit-pool-page .pool-data .charts .ad-container {
+  width: 200px;
+  background-color: #656e7e;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14.5% 18px;
+}
+
+.credit-pool-page .pool-data .charts .ad-container p {
+  color: white;
+}
+
+/** Pool Data > Wall **/
+
+.credit-pool-page .pool-data .wall {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 58px;
+}
+
+.credit-pool-page .pool-data .wall .title {
+  margin: 0px 0px 16px 0px;
+  align-self: self-start;
+}
+
+.credit-pool-page .pool-data .wall button {
+  margin-left: 18px;
+}
+
+.credit-pool-page .pool-data .wall .wall-content {
+  display: flex;
+  flex-direction: row;
+  width: calc(100vw - 80px - 70px - 20px);
+  padding: 10px 0px;
+  overflow-x: auto;scrollbar-width: none;
+  overflow-y: hidden;
+  margin-right: -40px;
+}
+
+.credit-pool-page .pool-data .disabled {
+  border: hsla(218, 11%, 45%, 0.3) 1px solid;
+  border-radius: 15px;
+  background-color: transparent;
+  color: #656e7e;
+  font-weight: normal;
+  padding: 12px 15px;
+}
+
+.credit-pool-page .pool-data .disabled:hover {
+  border: hsla(218, 11%, 45%, 0.3) 1px solid;
+  border-radius: 15px;
+  background-color: transparent;
+  color: #656e7e;
+  cursor: default;
+  font-weight: normal;
+}
+/** Pool Data > Lower Section **/
+
+.credit-pool-page .bodyHeaderPriviEcosystem {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.credit-pool-page .pool-data .lower-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.credit-pool-page .pool-data .lower-section .title,
+.credit-pool-page .pool-data .lower-section .title {
+  height: 42px;
+  min-height: 42px;
+  margin: 0px 0px 26px 0px;
+}
+
+.credit-pool-page .pool-data .lower-section .title h3 {
+  margin: 0px;
+}
+
+.credit-pool-page .pool-data .lower-section .title img {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.credit-pool-page .pool-data .lower-section .title button {
+  margin: 0px 0px 0px 20px;
+}
+
+.credit-pool-page .pool-data .lower-section .discussions,
+.credit-pool-page .pool-data .lower-section .voting,
+.credit-pool-page .pool-data .lower-section .buying-history {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+}
+
+.credit-pool-page .pool-data .lower-section .buying-history {
+  margin-right: 0;
+}
+
+.credit-pool-page .pool-data .lower-section .buying-history .content {
+  padding: 0;
+  min-height: 510px;
+}
+
+.credit-pool-page .pool-data .lower-section .content {
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  background-color: white;
+  height: 492px;
+  max-height: 492px;
+  border-radius: 20px;
+  padding: 20px 24px 0 24px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.credit-pool-page .pool-data .lower-section .less-padding {
+  padding: 10px 10px 0 10px;
+}
+
+.pool-data .content {
+  height: calc(100vh - 178px);
+}
+
+.pool-data .appbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pool-data .appbar-container .create {
+  background-color: #656e7e;
+  flex-grow: 0;
+  height: 40px;
+  margin-top: 5px;
+  margin-right: 40px;
+}
+
+.pool-data .appBarTabsToken {
+  margin-left: 0;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  max-width: 920px;
+}
+
+.pool-data .appBarTabsToken .Mui-selected {
+  min-width: auto !important;
+  color: rgb(8, 24, 49) !important;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: none;
+  z-index: 100;
+}
+.pool-data .appBarTabsToken .MuiTab-root {
+  min-width: auto !important;
+  color: #656e7e;
+  text-transform: none;
+  padding: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: 'Agrandir';
+}
+.pool-data .appBarTabsToken .MuiTab-root:first-child {
+  margin-left: 0;
+}
+.pool-data .appBarTabsToken .MuiTab-root:hover {
+  background-color: transparent !important;
+}
+
+.content-voting {
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  background-color: white;
+  height: 512px;
+  max-height: 512px;
+  border-radius: 20px;
+  padding: 0 24px 0 24px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  scrollbar-width: none;
+}

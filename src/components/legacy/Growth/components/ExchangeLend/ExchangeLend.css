@@ -1,0 +1,50 @@
+.growth-page .exchange-lend {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  min-height: calc(100vh - 152px - 10px);
+}
+
+.growth-page .exchange-lend .title {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.growth-page .exchange-lend .title h3 {
+  width: calc(50% - 100px);
+}
+
+.growth-page .exchange-lend .title .option-buttons {
+  background-color: white;
+  border-radius: 25px;
+}
+
+.growth-page .exchange-lend .title .option-buttons button {
+  background-color: transparent;
+  color: #656e7e;
+  -webkit-box-shadow: 0px 0px 0px 0px white;
+  -moz-box-shadow: 0px 0px 0px 0px white;
+  box-shadow: 0px 0px 0px 0px white;
+  padding: 10px 12px;
+}
+
+.growth-page .exchange-lend .title .option-buttons .selected {
+  background-color: #64c89e;
+  color: white;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+}
+
+.growth-page .exchange-lend .content-wrapper {
+  width: calc(100% - 30px - 320px);
+  min-width: auto;
+  max-width: calc(100% - 30px - 320px);
+  margin-top: 10px;
+}
+
+.growth-page .exchange-lend .appBarTabsToken {
+  padding-left: 0;
+}

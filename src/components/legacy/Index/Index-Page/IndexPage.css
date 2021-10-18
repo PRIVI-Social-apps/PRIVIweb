@@ -1,0 +1,210 @@
+.index-page {
+  width: calc(100vw - 80px) !important;
+  min-width: calc(100vw - 80px) !important;
+  max-width: calc(100vw - 80px) !important;
+  height: 100vh !important;
+  min-height: 100vh !important;
+  max-height: 100vh !important;
+  background: rgb(227, 233, 239);
+  background: linear-gradient(
+    180deg,
+    rgba(227, 233, 239, 1) 470px,
+    rgba(238, 241, 244, 1) 470px,
+    rgba(238, 241, 244, 1) 100%
+  );
+}
+
+.index-page .title {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Header */
+
+.index-page .header {
+  padding: 0px 30px 0 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  max-height: 80px;
+  min-width: 80px;
+  border-bottom: 1px #cfdae5 solid;
+}
+
+.index-page .header .main-info,
+.index-page .header .buttons,
+.index-page .header .buttons button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/** Header > Buttons **/
+
+.index-page .header .buttons .connect {
+  background-color: #656e7e;
+  font-weight: bold;
+  margin: 0px 10px 0px 0px;
+}
+
+.index-page .header .buttons .connect:hover {
+  background-color: #5b6372;
+}
+
+.index-page .header .buttons .connect img {
+  height: 16px;
+  margin-right: 8px;
+}
+
+/* Index Data */
+
+.index-page .index-data {
+  overflow-y: auto;
+  scrollbar-width: none;
+  overflow-x: hidden;
+  height: calc(100vh - 80px) !important;
+  min-height: calc(100vh - 80px) !important;
+  max-height: calc(100vh - 80px) !important;
+  padding: 0px 40px 0 70px;
+}
+
+.index-page .index-data .main-info,
+.index-page .index-data .main-info .index-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/** Index Data > Main info **/
+
+.index-page .index-data .main-info {
+  margin: 20px 0 30px 0;
+}
+
+.index-page .index-data .main-info p {
+  color: #656e7e;
+  white-space: nowrap;
+}
+
+.index-page .index-data .main-info h3 {
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.index-page .index-data .main-info h2 {
+  white-space: nowrap;
+}
+
+/*** Index Data > Main info > Index Info ***/
+
+.index-page .index-data .main-info .index-info {
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+}
+
+.index-page .index-data .main-info .index-info h3,
+.index-page .index-data .main-info .index-info h2 {
+  margin: 0px;
+}
+
+.index-page .index-data .main-info .assets {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.index-page .index-data .main-info .assets .asset-image {
+  min-width: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 5px;
+  color: #656e7e;
+  background-color: rgba(238, 241, 244, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/***** Index Data > Main info > Index Info > Top > Buttons *****/
+
+.index-page .index-data .main-info .index-info .buttons {
+  align-self: center;
+}
+
+/** Index Data > Charts **/
+
+.index-page .index-data .charts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 40px;
+  height: 350px;
+}
+
+/** Index Data > Charts > Charts Container **/
+
+.index-page .index-data .charts .charts-container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 350px;
+}
+
+/*** Index Data > Charts > Charts Container > Chart ***/
+
+.index-page .index-data .charts .charts-container .chart {
+  background-color: white;
+  border-radius: 20px;
+  width: 50%;
+  padding: 18px;
+  margin-right: 19px;
+}
+
+.index-page .index-data .charts .charts-container .chart p {
+  margin: 0px 0px 6px 0px;
+}
+
+.index-page .index-data .charts .charts-container .chart span {
+  color: #656e7e;
+  font-size: 10px;
+}
+
+/*** Index Data > Charts > Right Content ***/
+
+.index-page .index-data .charts .right-content {
+  margin-left: 15px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 350px;
+}
+
+.index-page .index-data .charts .right-content p {
+  color: #656e7e;
+}
+
+.index-page .index-data .charts .right-content div {
+  background-color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  width: 100%;
+  padding: 15px;
+  flex-grow: 1;
+  margin-bottom: 15px;
+}
+
+.index-page .index-data .charts .right-content div:last-child {
+  margin-bottom: 0px;
+}
+
+/** Index Data > Lower Section **/

@@ -1,0 +1,251 @@
+.swapMainPage {
+  height: 100vh;
+  max-width: calc(100vw - 80px);
+  width: calc(100vw - 80px);
+  background-color: rgb(238, 241, 244);
+}
+
+.swapMainPage .header-wrapper {
+  padding-left: 72px;
+  padding-right: 72px;
+  background: white;
+}
+
+.headerLabelPriviSwap {
+  padding-left: 70px;
+  font-weight: 700;
+  font-size: 24px;
+  color: rgb(8, 24, 49);
+  width: calc(50% - 70px);
+}
+.subHeaderSwapMain {
+  padding-left: 70px;
+  padding-right: 70px;
+  width: calc(100% - 140px);
+  height: 368px;
+  background-color: rgb(227, 233, 239);
+  overflow-y: visible;
+}
+.firstRowSubHeaderSwapMain {
+  width: 100%;
+  height: 50px;
+  padding-top: 33px;
+  margin-bottom: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondRowSubHeaderSwapMain {
+  width: 100%;
+  height: 307px;
+  align-items: center;
+  display: flex;
+}
+
+.firstColumnSubHeaderSwapMain {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.secondColumnSubHeaderSwapMain {
+  width: 20%;
+}
+.thirdColumnSubHeaderSwapMain {
+  width: 30%;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.headerFirstRowSubHeaderSwapMain {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(101, 110, 126);
+  margin-bottom: 3px;
+}
+.mainValueFirstRowSubHeaderSwapMain {
+  font-weight: 700;
+  font-size: 24px;
+  color: rgb(8, 24, 49);
+}
+.valueFirstRowSubHeaderSwapMain {
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(8, 24, 49);
+}
+.columnValuesSubHeaderSwapMain {
+  width: calc(100% / 3);
+}
+
+.buttonSubHeaderSwapMain {
+  border-radius: 25px;
+  background-color: rgb(8, 24, 49) !important;
+  color: white;
+  height: 50px;
+  padding: 0px 15px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+}
+.addLiquidityButtonSubHeaderSwapMain {
+  width: 180px;
+  margin-right: 10px !important;
+  padding: 0px 15px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swapButtonSubHeaderSwapMain {
+  width: 86px;
+}
+.paperGraphPriviSwapMain {
+  width: 35%;
+  height: calc(307px - 32px);
+  border-radius: 20px;
+  background-color: white;
+  padding: 17px 20px 15px;
+  margin-right: 20px;
+}
+.papersValuesPriviSwapMainDiv {
+  width: 30%;
+}
+.paperValuesPriviSwapMain {
+  height: calc(140px - 15px);
+  border-radius: 20px;
+  background-color: white;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.marginBottomPaperValues {
+  margin-bottom: 27px;
+}
+.paperValuesPriviSwapMain .headerLabelPaperValues {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(101, 110, 126);
+}
+.paperValuesPriviSwapMain .valueLabelPaperValues {
+  font-weight: 500;
+  font-size: 25px;
+  color: rgb(8, 24, 49);
+  margin-top: 12px;
+}
+
+.swap-content {
+  max-width: calc(100vw - 80px);
+  width: calc(100vw - 80px);
+  max-height: calc(100vh - 80px);
+  height: calc(100vh - 80px);
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.bodySwapMain {
+  padding: 147px 70px 60px;
+  width: calc(100vw - 240px);
+  max-width: calc(100vw - 240px);
+}
+.labelTitleSwapMain {
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(8, 24, 49);
+}
+.appBarTabsTokens {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  margin-top: 10px;
+}
+.appBarTabsTokens .Mui-selected {
+  min-width: auto !important;
+  color: rgb(8, 24, 49) !important;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: none;
+  z-index: 100;
+}
+.appBarTabsTokens .MuiTab-root {
+  min-width: auto !important;
+  color: #656e7e;
+  text-transform: none;
+  padding: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.appBarTabsToken .MuiTab-root:first-child {
+  margin-left: 0px;
+}
+.appBarTabsTokens .MuiTab-root:hover {
+  background-color: transparent !important;
+}
+
+.headerTableAllTokensSwapMain {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  font-weight: bold;
+  color: rgba(101, 110, 126, 0.5);
+}
+.bodyTableAllTokensSwapMain {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 0px 3px 16px rgba(101, 112, 129, 0.06);
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(8, 24, 49);
+}
+.bodyTableAllTokensSwapMain .smallColTableSwapMain,
+.headerTableAllTokensSwapMain .smallColTableSwapMain {
+  width: 10%;
+}
+.bodyTableAllTokensSwapMain .mediumColTableSwapMain,
+.headerTableAllTokensSwapMain .mediumColTableSwapMain {
+  width: 15%;
+}
+.bodyTableAllTokensSwapMain .bigColTableSwapMain,
+.headerTableAllTokensSwapMain .bigColTableSwapMain {
+  width: 30%;
+}
+
+.alignTableRightSwapMain {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttonTableSwapMain {
+  border-radius: 25px;
+  background-color: rgb(8, 24, 49) !important;
+  color: white;
+  height: 50px;
+  width: 100px;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-weight: 700;
+  font-size: 16px;
+  margin-right: 10px !important;
+}
+
+.iconTokenSwapMain {
+  height: 40px;
+  width: auto;
+  margin-left: 20px;
+}
+.pointerCursorSwapMain {
+  cursor: pointer;
+}
+.addLiquidityIconSwap {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.graphPriviSwap {
+  height: 270px;
+}

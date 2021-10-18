@@ -1,0 +1,83 @@
+.wallet-graph {
+  width: 300px;
+  background: #ffffff;
+  box-shadow: 0px 1.25066px 5.00264px rgba(0, 0, 0, 0.12);
+  border-radius: 8.1293px;
+  padding: 12px 22px 20px 22px;
+}
+
+.wallet-graph .title {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #949bab;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.wallet-graph .title .MuiInput-root {
+  background: #ffffff;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 2px 12px;
+  height: 30px;
+  z-index: 0;
+}
+
+.wallet-graph .title .MuiSelect-select {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.wallet-graph .content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.wallet-graph .content .radial-chart {
+  max-width: 110px;
+  height: 110px;
+  margin-right: 12px;
+}
+
+.wallet-graph .content .legend {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.wallet-graph .content .legend .row {
+  display: flex;
+  padding: 10px 0px;
+  border-bottom: 0.7px solid #949bab;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wallet-graph .content .legend .row :first-child {
+  padding-top: 0px;
+}
+
+.wallet-graph .content .legend .row:last-child {
+  border-bottom: 0px;
+}
+
+.wallet-graph .content .legend .row .colorBox {
+  border-radius: 2.5px;
+  margin-right: 7.5px;
+  height: 11.8px;
+  min-width: 11.8px;
+  width: 11.8px;
+}
+
+.wallet-graph .content .legend .row span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+}

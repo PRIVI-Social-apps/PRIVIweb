@@ -1,0 +1,416 @@
+.communities-page {
+  padding: 0px 72px;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 84px) !important;
+  min-height: calc(100vh - 84px) !important;
+  max-height: calc(100vh - 84px) !important;
+  background: white;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.communities-page .title {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 32px;
+}
+
+.communities-page h2 {
+  position: relative;
+  font-size: 56px;
+  font-family: "Agrandir GrandLight";
+  margin: 56px 0 0;
+  font-weight: 300;
+}
+
+.communities-page .header-description {
+  color: black;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22.99px;
+}
+
+.communities-page h2 span {
+  font-size: 22px;
+  font-weight: 400;
+  display: block;
+}
+
+.communities-page h2 img {
+  cursor: pointer;
+  vertical-align: top;
+  width: 14px;
+  height: 14px;
+}
+
+.communities .user span,
+.communities .user p {
+  color: #656e7e;
+  text-shadow: none;
+  padding-left: 1px;
+}
+
+.communities-page h3 {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.communities-page .community-card h3 {
+  color: white;
+  text-shadow: 2px 2px 2px rgb(8 24 49 / 35%);
+  white-space: nowrap;
+  font-size: 18px;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+
+.communities-page .header .main-info,
+.communities-page .header .buttons,
+.communities-page .header .buttons button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/** Header > Buttons **/
+
+.communities-page .header .buttons .connect {
+  background-color: #081831;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.communities-page .header .buttons .connect:hover {
+  background-color: #5b6372;
+}
+
+/* Communities */
+
+.communities-page .communities {
+  height: 100%;
+}
+
+/** Communities > Trending **/
+
+.communities-page .trending .title {
+  margin-top: 40px;
+  margin-bottom: 13px;
+}
+
+.communities-page .trending .title h3 {
+  margin-left: 0.8rem;
+}
+
+.communities-page .trending .community-cards {
+  flex-wrap: nowrap;
+  padding: 10px 0px 50px;
+  overflow: hidden;
+  width: fit-content;
+  flex-grow: 1;
+  background: transparent;
+}
+/** Communities > All */
+
+.communities-page .all .Communities-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.communities-page .communities .title h3 {
+  margin: 0 1rem 0 0;
+  font-weight: 500;
+}
+
+/*** Communities > All > Display Filter **/
+
+.communities-page .all .display-filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 18px;
+}
+
+.communities-page .all .display-filter p {
+  color: #656e7e;
+  font-weight: 600;
+}
+
+.communities-page .all .display-filter .select-filter {
+  border-bottom: 2px solid #64c89e;
+  margin-left: 10px;
+}
+
+/*** Communities > All > Filters ***/
+
+.communities-page .filters {
+  justify-content: flex-start;
+  padding: 5px 0px;
+  background-color: white;
+  border-radius: 20px;
+  width: 100%;
+  display: flex;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  align-items: center;
+  overflow-x: auto;
+  scrollbar-width: none;
+  overflow-y: hidden;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.communities-page .filters h4 {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.communities-page .filters .divider {
+  color: #656e7e;
+}
+
+.communities-page .title label {
+  border: 1px solid #707582;
+  border-radius: 10px;
+  background: #f7f9fe;
+  flex-grow: 0.25;
+  min-width: 150px;
+  width: 200px;
+}
+
+.communities-page .filters p {
+  margin: 0;
+}
+
+.communities-page .title label,
+.communities-page .filters .dropdown {
+  margin: 0px 10px;
+  margin-right: 50px;
+}
+
+.communities-page .title label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 0;
+}
+
+.communities-page .title label img {
+  width: 20px;
+  margin-right: 9px;
+}
+
+.communities-page .title label input {
+  background-color: transparent;
+  border: 0;
+  width: 100%;
+}
+
+.communities-page .title label input:focus,
+.communities-page .all .display-filter select:focus,
+.communities-page .filters select:focus {
+  outline: none;
+}
+
+.communities-page .title .labels {
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 10px;
+  flex-grow: 0.25;
+  min-width: 150px;
+  width: 250px;
+  border: 1px solid #656e7e !important;
+}
+
+.communities-page .filters .dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.communities-page .filters .dropdown p {
+  white-space: nowrap;
+  margin-right: 8px;
+  color: #081831;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.communities-page .loaderDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding-bottom: 16px;
+}
+
+.communities-page .community-cards .cards-grid {
+  display: flex;
+  width: 100%;
+}
+
+.communities-page .community-cards .cards-grid .column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+  margin-right: 20px;
+  align-self: flex-start;
+}
+
+.communities-page .community-cards .cards-grid .column:last-child {
+  margin-right: 0 !important;
+}
+
+.communities-page .community-cards .cards-grid .community-card {
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
+  margin-right: 0;
+  flex-grow: 0;
+  min-height: 200px;
+  display: inline-block;
+  height: auto;
+}
+
+.communities-page button.connect {
+  background: #081831;
+  font-weight: normal;
+}
+
+.button.search-button,
+.button.settings-button {
+  background: transparent;
+}
+
+.MuiDialog-paperWidthMd {
+  max-width: 1200px;
+}
+
+button.btn-primary {
+  background: #081831;
+  color: #fff;
+  margin-right: 10px;
+}
+
+button.btn-default {
+  background: #081831;
+}
+.btn-secondary {
+  background: rgb(178, 93, 245);
+  background: linear-gradient(90deg, rgba(234, 106, 169, 1) 0%, rgba(178, 93, 245, 1) 100%);
+}
+.communities-page button.connect-mobile {
+  display: none;
+}
+.communities-page .trending-communities {
+  display: flex;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .communities-page {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .communities-page .communities h2 {
+    padding: 40px 0 0 0;
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: unset;
+  }
+
+  .communities-page .communities h2 span {
+    font-size: 18px;
+    line-height: 104.5%;
+    letter-spacing: unset;
+  }
+
+  .communities-page .communities .trending .title h3 {
+    margin-left: 0;
+    font-size: 18px;
+  }
+
+  .communities-page .communities .trending .ticker .community-cards {
+    padding-top: 0;
+  }
+
+  .communities-page .communities .display-filter {
+    margin: 0;
+  }
+
+  .communities-page .communities .display-filter .filters {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .communities-page .filters .dropdown {
+    margin: 0 10px 0 0;
+  }
+
+  .communities-page .filters .dropdown p {
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .communities-page {
+    padding: 0px 16px;
+  }
+
+  .communities-page h2 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 110%;
+  }
+
+  .communities-page h2 span {
+    text-align: left;
+    padding-bottom: 16px;
+  }
+
+  .communities-page button.connect {
+    display: none;
+  }
+
+  .communities-page button.connect-mobile {
+    display: block;
+    font-size: 14px;
+    line-height: 14.63px;
+    font-weight: 800;
+    background: #181818;
+    border: 1.5px solid #181818;
+    box-sizing: border-box;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .communities-page .trending-communities {
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 16px;
+  }
+  .communities-page .communities .trending .title h3 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 104.5%;
+    text-align: justify;
+  }
+  .communities-page .filters .dropdown {
+    font-size: 11px;
+    line-height: 104.5%;
+  }
+}

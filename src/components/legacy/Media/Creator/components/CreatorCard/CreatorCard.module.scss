@@ -1,0 +1,238 @@
+.card {
+  position: relative;
+  // margin: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  min-height: 350px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 2.28276px 2.28276px 13.6966px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+
+  .userImageContainer {
+    min-width: 86px;
+    width: 100%;
+    min-height: 86px;
+    height: 162px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background: white;
+    filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.12));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .userImage {
+      min-width: 80px;
+      width: 80px;
+      min-height: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: #c4c4c4;
+      border: 2px solid #fff;
+      position: absolute;
+      left: 25px;
+      bottom: -40px;
+    }
+
+    .shareContainer {
+      padding: 7px 15px;
+      background: #181818;
+      border: 2px solid #fff;
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      position: absolute;
+      right: 27px;
+      bottom: -20px;
+
+      span {
+        display: flex;
+        align-items: center;
+      }
+
+      .shareBtn {
+        margin-right: 14px;
+      }
+
+      img {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+
+  .userInfo {
+    padding: 50px 27px 15px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(24, 24, 24, 0.1);
+    flex-wrap: wrap;
+
+    .userName {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      font-style: normal;
+      color: black;
+      font-weight: bold;
+      max-width: 50%;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+  }
+
+  .userBio {
+    font-size: 14px;
+    color: #949bab;
+    margin-top: 18px;
+  }
+
+  .userSlugWrapper {
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+
+    .online {
+      margin-top: -25px;
+      background: linear-gradient(97.4deg, #23d0c6 14.43%, #00cc8f 85.96%);
+      border: 2px solid #ffffff;
+      box-sizing: border-box;
+      filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.12));
+      height: 18.5px;
+      width: 18.5px;
+      z-index: 1;
+      margin-left: calc(86px / 2);
+      border-radius: 50%;
+    }
+
+    .userSlug {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      color: #ff79d1;
+      color: -webkit-linear-gradient(97.4deg, #ff79d1 14.43%, #db00ff 79.45%);
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
+    .tags {
+      display: flex;
+      display: flex;
+      margin-left: 10px;
+
+      .tag {
+        border-radius: 45px;
+        padding: 3px 12px;
+        color: #949bab;
+        background: transparent;
+        margin-right: 5px;
+        font-size: 11px;
+        border: 1px solid #949bab;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+
+      .hide {
+        display: none;
+      }
+
+      img.tag {
+        width: 18px;
+        height: 18px;
+        padding: 0 !important;
+        border: none !important;
+      }
+    }
+  }
+
+  .userBody {
+    padding: 27px 27px 20px;
+    font-size: 14px;
+    color: #949bab;
+
+    div {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+
+      div {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        justify-content: flex-start;
+
+        img {
+          margin-right: 10px;
+          width: 22px;
+        }
+      }
+
+      span {
+        color: #181818;
+        margin-left: 5px;
+      }
+    }
+  }
+
+  .userFooter {
+    padding: 0px 27px 15px;
+
+    &.externalUser {
+      border-top: 1px solid rgba(24, 24, 24, 0.1);
+      padding-top: 15px;
+    }
+
+    .awardsWrapper {
+      display: flex;
+      flex-direction: row;
+
+      div {
+        margin-right: 15px;
+      }
+
+      span {
+        font-size: 14px;
+        color: #949bab;
+      }
+
+      h4 {
+        font-size: 22px;
+        color: #181818;
+        margin: 4px 0;
+      }
+
+      .badges {
+        display: flex;
+        align-items: center;
+
+        div:first-child {
+          margin-left: 0;
+        }
+        div {
+          margin-left: "-8px";
+          margin-right: 0;
+        }
+        span {
+          background: linear-gradient(90deg, #ff79d1 0%, #db00ff 100%);
+          margin: 0px;
+          margin-left: -8px;
+          font-style: normal;
+          color: white;
+          padding: 0 4px;
+          border-radius: 8px;
+          z-index: 1;
+        }
+      }
+    }
+  }
+}

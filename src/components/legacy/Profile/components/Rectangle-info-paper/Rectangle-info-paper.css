@@ -1,0 +1,29 @@
+.rectangleInfoPaper {
+  min-width: 110px;
+  width: calc(185px - 26px);
+  height: calc(100px - 26px);
+  border-radius: 20px;
+  background: #ffffff;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 13px;
+  filter: drop-shadow(2px 2px 12px rgba(0, 0, 0, 0.1));
+}
+.valueInfoPaper {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+}
+.labelInfoPaper {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+}
+.labelInfoPaper img {
+  width: 12px;
+  min-width: 12px;
+  margin-left: 2px;
+}

@@ -1,0 +1,76 @@
+.digital_chart_table {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin-right: 30px;
+  margin-left: 3px;
+  margin-bottom: 80px;
+
+  .digital_chart_title {
+    display: flex;
+    align-items: baseline;
+    .view_all {
+      margin-left: 10px;
+      color: #23D0C6;
+      font-size: 14px;
+    }
+  }
+
+
+  .flexRowInputs .infoHeaderCreatePod {
+    font-size: 18px;
+    color: black;
+  }
+
+  .digital_table {
+    margin-top: 30px;
+    table {
+      background: #FFFFFF;
+      box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.08);
+      border-radius: 14px;
+      color: #949BAB;
+      font-size: 14px;
+      width: 100%;
+      border-collapse: collapse;
+
+      thead {
+        background: #F7F9FE;
+        border-radius: 14px 14px 0px 0px;
+        color: #181818;
+        text-align: left;
+
+        th {
+          background: #F7F9FE;
+          padding: 10px;
+          font-weight: 400;
+          &:first-of-type {
+            border-top-left-radius: 10px;
+          }
+          &:last-of-type {
+            border-top-right-radius: 10px;
+          }
+        }
+
+      }
+      tbody {
+        td {
+          padding: 10px;
+        }
+        tr {
+          border-bottom: 1px solid #E7E7E7;
+          &:last-of-type {
+            border-bottom: none;
+          }
+        }
+      }
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+
+  .action_btn {
+    cursor: pointer;
+  }
+}

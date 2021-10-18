@@ -1,0 +1,14 @@
+.growth-page .growth-activity {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  min-height: calc(100vh - 152px - 10px);
+}
+
+.growth-page .growth-activity .content-wrapper {
+  width: calc(100% - 30px - 320px);
+  min-width: auto;
+  max-width: calc(100% - 30px - 320px);
+  margin-top: 10px;
+}

@@ -1,0 +1,46 @@
+.buySendTokensModal .buy-send-tokens-modal {
+  width: 768px;
+  min-width: 380px;
+}
+
+.buySendTokensModal .loaderDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.buySendTokensModal .buy-send-tokens-modal .selector-with-token {
+  background-color: white;
+  width: 100%;
+  height: 47.44px;
+}
+
+.buySendTokensModal .buy-send-tokens-modal .selector-with-token .img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+.buySendTokensModal .buy-send-tokens-modal .selector-with-token .white-select {
+  background-color: transparent;
+  width: calc(100% - 60px);
+  margin-top: 0;
+  padding-left: 10px;
+}
+
+.buySendTokensModal .buy-send-tokens-modal .disabled span {
+  color: hsla(217, 72%, 11%, 0.5);
+}
+
+.buySendTokensModal .buy-send-tokens-modal .balance {
+  color: #656e7e;
+}
+
+.buySendTokensModal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

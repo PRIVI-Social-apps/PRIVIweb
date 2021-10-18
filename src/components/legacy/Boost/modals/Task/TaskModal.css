@@ -1,0 +1,260 @@
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal .task {
+  width: 100%;
+}
+
+.modal .task-modal .exit {
+  margin-bottom: 15px !important;
+  margin-top: -19px !important;
+  overflow: visible;
+}
+
+.modal .task-modal {
+  max-height: 85vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+
+.modal .task .top,
+.modal .task .bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal .task .level {
+  background-color: #eef1f4;
+  border-radius: 12px;
+  font-size: 10px;
+  color: #08173080;
+  padding: 6px 12px;
+  width: 50px;
+}
+
+.modal .task .top .header {
+  border-radius: 10px;
+  background-color: #64a8c8;
+  width: calc(100%);
+  padding: 10px;
+  margin-left: -10px;
+  margin-top: -10px;
+  height: 70px;
+  max-height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.modal .task .top .header.info {
+  background-color: #656e7e;
+  height: 60px;
+  max-height: 60px;
+}
+.modal .task .top .header.ongoing {
+  background-color: #64c89e;
+}
+.modal .task .top .header.completed {
+  background-color: #656e7e;
+}
+.modal .task .top .header .ongoing-sign {
+  background-color: #081831;
+  color: white;
+  border-radius: 12px;
+  width: 72px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  padding: 5px;
+}
+
+.modal .task .top .header .row {
+  align-self: flex-end;
+  margin-top: 10px;
+  width: 100%;
+  justify-content: flex-end;
+  max-width: calc(100% - 80px);
+  margin-top: 10px;
+}
+
+.modal .task .top .header.ongoing .row,
+.modal .task .top .header.completed .row {
+  margin-top: -10px !important;
+}
+
+.modal .task .top .header.info .row {
+  margin-top: 5px;
+}
+
+.modal .task .top .header .row .share-box {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 13.333px;
+  max-width: 200px;
+  padding: 8px 10px;
+  color: #656e7e;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+  width: 100%;
+}
+
+.modal .task .top .header .row .share-box:last-child {
+  margin-right: 0px;
+}
+
+.modal .task .top .header .row .share-box img {
+  height: 34px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.modal .task .top .image {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: 10px solid white;
+  background-color: white;
+  margin-top: -30px;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+}
+
+.modal .task .top .badges {
+  align-self: flex-end;
+  display: flex;
+  align-content: center;
+  margin-top: 10px;
+}
+
+.modal .task .top .badges span {
+  color: #656e7e;
+  font-size: 14px;
+  margin-right: 10px;
+  vertical-align: middle;
+  margin-top: 2px;
+}
+
+.modal .task .top .badges .hex {
+  width: 22px;
+  height: 24px;
+}
+
+.modal .task .top .title {
+  font-size: 22px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.modal .task .top .desc {
+  font-size: 14px;
+  margin: 0;
+  line-height: 20px;
+  color: #656e7e;
+  margin-bottom: 25px;
+}
+
+.modal .task .row {
+  display: flex;
+  align-items: center;
+}
+
+.modal .task .top .row {
+  display: flex;
+  align-items: flex-start;
+}
+
+.modal .task .top .row .column {
+  margin-right: 40px;
+}
+
+.modal .task span {
+  color: #656e7e;
+}
+
+.modal .task .top .row p {
+  color: #081831;
+  font-size: 18px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.modal .task .bottom .column {
+  margin-top: 30px;
+}
+
+.modal .task .bottom .column .row {
+  margin-bottom: 15px;
+}
+
+.modal .task .bottom .row img {
+  margin-right: 10px;
+}
+
+.modal .task .bottom .bar-container {
+  width: 100%;
+  height: 10px;
+  background-color: #eef1f4;
+  border-radius: 5px;
+  margin: 10px 0px 10px 0px;
+}
+
+.modal .task .bottom .bar-container .color-bar {
+  height: 10px;
+  background-color: #64c89e;
+  border-radius: 5px;
+}
+
+.modal .task .bottom .users-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.modal .task .bottom .users {
+  border: none;
+  width: 100%;
+  margin-left: -20px;
+  padding: 0px 20px 0px 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 250px;
+  overflow-y: auto;scrollbar-width: none;
+  margin-bottom: -20px;
+  margin-top: 20px;
+}
+
+.modal .task .bottom .users .user {
+  background-color: #eef1f4;
+  width: calc(100% - 18px);
+  padding: 9px;
+  border-radius: 15px;
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.modal .task .bottom .users .user:last-child {
+  margin-bottom: 0;
+}
+
+.modal .task .bottom .users .user-image {
+  width: 30px;
+  min-width: 30px;
+  min-height: 30px;
+  height: 30px;
+  background-color: #656e7e;
+  border-radius: 16px;
+}
+
+.modal .task .bottom .users span {
+  margin-left: 10px;
+}

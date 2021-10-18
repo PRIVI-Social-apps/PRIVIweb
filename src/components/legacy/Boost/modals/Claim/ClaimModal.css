@@ -1,0 +1,181 @@
+.modal .claim-modal {
+  max-height: 80vh;
+  overflow-y: auto;
+  scrollbar-width: none;
+  width: 70vw;
+}
+
+.modal .claim-modal h3 {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.modal .claim-modal .claim-spin {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.modal .claim-modal .claim-spin button {
+  border-radius: 30px;
+  font-size: 24px;
+  padding: 16px 50px;
+  margin-top: 50px;
+  align-self: center;
+}
+
+.modal .claim-modal .row {
+  display: flex;
+  width: 100%;
+}
+
+.modal .claim-modal .row .column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.modal .claim-modal .row .column span {
+  color: #656e7e;
+  font-size: 14px;
+}
+
+.modal .claim-modal .row .column p {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.modal .claim-modal .roulette {
+  margin-top: 15px;
+  align-self: center;
+}
+
+.modal .claim-modal .row button {
+  margin: 0;
+  margin-top: 55px;
+  padding: 30px;
+}
+
+.modal .claim-modal .roulette .eSwYtm {
+  /* content: url('assets/icons/arrow_roulette.png'); */
+  content: none;
+  -webkit-user-drag: none;
+  position: absolute;
+  z-index: 5;
+  top: -10px;
+  right: calc(50% - 30px);
+  height: 60px;
+  width: 55px;
+}
+
+.modal .claim-modal .roulette.prize0 div div {
+  transform: rotate(240deg);
+}
+.modal .claim-modal .roulette.prize1 div div {
+  transform: rotate(180deg);
+}
+.modal .claim-modal .roulette.prize2 div div {
+  transform: rotate(120deg);
+}
+.modal .claim-modal .roulette.prize3 div div {
+  transform: rotate(60deg);
+}
+.modal .claim-modal .roulette.prize4 div div {
+  transform: rotate(0deg);
+}
+.modal .claim-modal .roulette.prize5 div div {
+  transform: rotate(-60deg);
+}
+
+.modal .reward {
+  background-image: none;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.modal .claim-modal .claim-reward {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.modal .claim-modal .hex-result {
+  background-image: none;
+  width: 310px;
+  height: 346px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.modal .claim-modal .hex-result span {
+  max-width: 193px;
+}
+
+.modal .claim-modal .hex-result span:first-child {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 44px;
+}
+
+.modal .claim-modal .hex-result span:last-child {
+  color: #081831;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.modal .claim-modal .claim-reward h2 {
+  font-size: 36px;
+}
+
+.modal .claim-modal .claim-reward span {
+  color: #656e7e;
+  font-size: 15px;
+}
+
+.modal .claim-modal .claim-reward button {
+  padding: 16px 34px;
+  margin-top: 38px;
+  margin-bottom: 50px;
+  border-radius: 30px;
+  font-size: 24px;
+}
+
+.modal .claim-modal .claim-reward .row {
+  justify-content: center;
+}
+
+.modal .claim-modal .claim-reward .row .share-box {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 13.333px;
+  max-width: 200px;
+  padding: 8px 10px;
+  color: #656e7e;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+  width: 100%;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+}
+
+.modal .claim-modal .claim-reward .row .share-box:last-child {
+  margin-right: 0px;
+}
+
+.modal .claim-modal .claim-reward .row .share-box img {
+  height: 32px;
+  width: 30px;
+  margin-right: 10px;
+}

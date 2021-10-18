@@ -1,0 +1,66 @@
+.blogSnapPreview h3.subtitle {
+  display: flex;
+  font-size: 30px;
+  width: calc(100% - 130px);
+  padding-bottom: 30px;
+  border-bottom: 1px solid #181818;
+  margin-bottom: 40px;
+  margin-right: 130px;
+}
+
+.blogSnapPreview .card {
+  position: relative;
+  margin-right: 20px;
+  border-radius: 10px;
+  padding: 14px;
+  display: flex;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 2.28276px 2.28276px 13.6966px rgba(0, 0, 0, 0.1);
+  border-radius: 28.5345px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.blogSnapPreview .sidePreview {
+  float: left;
+  width: 325px;
+  height: 300px;
+}
+
+.blogSnapPreview .mainPreview {
+  float: left;
+  width: 900px;
+  height: 300px;
+}
+
+.blogSnapPreview {
+  min-height: 600px;
+}
+
+.blogSnapPreview .cardTitle {
+  font-size: 14px;
+  color: #949bab;
+  display: block;
+}
+.blogSnapPreview .card-left {
+  float: left;
+  width: 133px;
+  border-right: 1px solid #949bab;
+  margin-right: 25px;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+.blogSnapPreview .card-right {
+  float: left;
+  padding-top: 10px;
+}
+.blogSnapPreview .cardHelper {
+  display: block;
+  color: #949bab;
+  font-size: 18px;
+}
+
+.btn.btn-squared {
+  background: #181818;
+}

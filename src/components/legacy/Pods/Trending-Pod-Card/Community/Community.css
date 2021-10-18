@@ -1,0 +1,103 @@
+.communityDiv{
+    min-height: 89vh !important;
+    padding: 20px 40px 40px;
+}
+.communityPaperHeader{
+    /*height: 80px;*/
+    padding: 10px;
+}
+.communityPaperHeader label {
+    border-bottom: 0;
+    margin: 0px;
+}
+.communityPaperHeader form {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.filtersInsideGridCommunity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    margin-top: 10px;
+}
+.filtersInsideDivCommunity{
+    width: 80%;
+}
+.trustScore{
+    color: black;
+    margin-top: 0;
+}
+.sliderValues{
+    color: black;
+}
+.endorsementScoreWeb{
+    color: black;
+    margin-top: 0;
+}
+.endorsementScoreMobile{
+    color: black;
+    margin-top: 0;
+}
+.inputNameUserGridCommunity {
+    height: 80px;
+    display: flex;
+}
+
+.communityPaperList{
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-height: 80vh;
+}
+.listUsersCommunity{
+    overflow-y: auto;
+    scrollbar-width: none;
+    height: 75vh;
+    max-height: 75vh;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.noUsersLabelCommunity{
+    text-align: center;
+    margin-top: 20px;
+}
+.searchCommunityButton{
+    background-color: black !important;
+    color: white !important;
+}
+.searchButtonGrid{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.textFieldSearcherUser{
+    margin-top: 0 !important;
+}
+.gridProfilePhotoCommunity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 960px) {
+    .gridProfilePhotoCommunity {
+        height: 80px;
+    }
+    .profilePhotoItem {
+        width: 60px;
+        height: 60px;
+    }
+    .listUsersCommunity{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .communityDiv {
+        padding: 20px 10px 20px;
+    }
+}

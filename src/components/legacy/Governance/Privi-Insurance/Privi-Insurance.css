@@ -1,0 +1,217 @@
+.priviEcosystem {
+  background-color: rgb(238, 241, 244);
+  overflow-y: auto;
+  scrollbar-width: none;
+  height: calc(100vh - 80px);
+  max-width: 100%;
+}
+.headerPriviEcosytem {
+  background-color: rgb(227, 233, 239);
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 20px;
+}
+.firstRowPriviEcosytem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  padding-top: 32px;
+}
+.firstColumnPriviEcosystem {
+  width: 30%;
+}
+.secondColumnPriviEcosystem {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.thirdColumnPriviEcosystem {
+  width: 30%;
+  text-align: right;
+}
+.headerFirstRowPriviEcosystem {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(101, 110, 126);
+  margin-bottom: 3px;
+}
+.mainValueFirstRowPriviEcosystem {
+  font-weight: 700;
+  font-size: 24px;
+  color: rgb(8, 24, 49);
+}
+.valueFirstRowPriviEcosystem {
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(8, 24, 49);
+}
+.columnValuesPriviEcosystem {
+  width: calc(100% / 3);
+}
+.buttonBlackPriviEcosystem {
+  border-radius: 20px;
+  background-color: rgb(8, 24, 49) !important;
+  color: white;
+  height: 40px;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.stakeButtonPriviEcosystem {
+  width: 102px;
+  margin-right: 10px !important;
+}
+.unstakeButtonPriviEcosystem {
+  width: 121px;
+}
+.secondRowPriviEcosytem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 267px;
+  margin-top: 27px;
+}
+.governanceUpdatesGraphPriviEcosystem {
+  width: 30%;
+  height: calc(267px - 50px);
+  border-radius: 20px;
+  background-color: rgb(101, 110, 126);
+  padding: 30px 20px 20px;
+}
+.returnsGraphPriviEcosystem {
+  width: 35%;
+  height: calc(267px - 50px);
+  border-radius: 20px;
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 30px 20px 20px;
+}
+.stakingAmountGraphPriviEcosystem {
+  width: 35%;
+  height: calc(267px - 50px);
+  border-radius: 20px;
+  background-color: white;
+  padding: 30px 20px 20px;
+}
+.gridBodyPriviEcosystem {
+  margin-top: 20px !important;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.labelBodyPriviEcosystem {
+  height: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(8, 24, 49);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+}
+.iconLabelBodyPriviEcosystem {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 4px;
+}
+.paperBodyPriviEcosystem {
+  width: calc(100% - 30px);
+  height: 540px;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0px 3px 16px rgba(101, 112, 129, 0.06);
+  margin-bottom: 64px;
+  overflow-y: auto;
+  scrollbar-width: none;
+  overflow-x: hidden;
+}
+.headerLabelGraph {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(8, 24, 49);
+}
+.subheaderLabelGraph {
+  font-weight: 400;
+  font-size: 10px;
+  color: rgb(101, 110, 126);
+  margin-top: 9px;
+}
+.rowGovernanceUpdates {
+  height: 20px;
+  padding-top: 16px;
+  padding-bottom: 14px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.labelRowGovernanceUpdates {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.valueRowGovernanceUpdates {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  width: 30%;
+  text-align: right;
+}
+.iconRowGovernanceUpdates {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.graphPriviEcosystem {
+  padding-top: 10px;
+  height: calc(220px - 40px);
+}
+.dividerPriviEcosystem {
+  background-color: rgb(207, 218, 229) !important;
+}
+.commentIssuesProposalsItem {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgb(101, 110, 126);
+  margin-bottom: 10px;
+}
+
+.createButtonIssuesProposals {
+  height: 34px !important;
+  background-color: rgb(100, 200, 158) !important;
+  color: white !important;
+  font-size: 14px !important;
+  text-transform: none !important;
+  border-radius: 20px;
+  font-weight: bold !important;
+  border: 0;
+  margin: 0 !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  margin-right: 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bodyHeaderPriviEcosystem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 34px !important;
+  margin-bottom: 20px;
+}
+.buttonBodyPriviEcosystem {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

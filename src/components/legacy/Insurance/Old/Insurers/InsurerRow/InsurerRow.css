@@ -1,0 +1,45 @@
+.insurer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between !important;
+}
+
+.insurer-row {
+  margin: 0 5% !important;
+  width: 90% !important;
+  border-bottom: gray solid 1px;
+}
+
+.insurer-row .grid-insurer-photo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  margin: 0%;
+}
+
+.insurer-row .grid-insurer-item {
+  height: 120px;
+  min-width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.insurer-row .plus {
+  padding: 0;
+  border-radius: 20px;
+  margin-left: 10px !important;
+}
+
+.insurer-row .buttons {
+  min-width: 180px;
+}
+
+.insurer-row .followers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

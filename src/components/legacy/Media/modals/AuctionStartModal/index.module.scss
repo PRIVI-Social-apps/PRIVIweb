@@ -1,0 +1,49 @@
+.modal {
+  padding: 25px 20px;
+  width: 545px !important;
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  h2 {
+    margin: 0;
+    margin-bottom: 64px;
+  }
+  h5 {
+    margin: 0;
+    margin-bottom: 3px;
+  }
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.auctionMainInfo {
+  display: flex;
+  margin-bottom: 20px;
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 14px;
+    margin-right: 20px;
+  }
+}
+
+.actionButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+
+.priceInput {
+  width: 100%;
+  background: #F7F9FE;
+}

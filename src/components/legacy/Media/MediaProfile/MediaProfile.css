@@ -1,0 +1,95 @@
+.profilePage.mediaProfile {
+  background-color: white;
+  padding-left: 38px;
+  padding-right: 38px;
+}
+
+/*--------------------------- USER INFO BOX -----------------------*/
+.profilePage.mediaProfile .user-info {
+  margin-top: 35px;
+  margin-bottom: 60px;
+  display: flex;
+  width: 100%;
+  margin-right: 0px;
+  box-shadow: 3.79621px 3.79621px 22.7773px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  background-color: white;
+  padding: 40px;
+  align-items: center;
+}
+
+.profilePage.mediaProfile .user-info .info {
+  width: 100%;
+}
+
+.profilePage.mediaProfile .user-info .follow-pills,
+.profilePage.mediaProfile .user-info .info .main-info {
+  width: 50%;
+}
+
+.profilePage.mediaProfile .user-info .info .main-info {
+  display: flex;
+  margin-left: 5px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profilePage.mediaProfile .user-info .info .main-info h2 {
+  max-width: calc(100% - 60px);
+}
+
+.profilePage.mediaProfile .user-info .info .main-info h2,
+.profilePage.mediaProfile .user-info .info .main-info h4 {
+  white-space: pre-wrap; /* CSS3 */
+  white-space: -moz-pre-wrap; /* Firefox */
+  white-space: -pre-wrap; /* Opera <7 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* IE */
+}
+
+.profilePage.mediaProfile .user-info .info .main-info h4 {
+  font-size: 30px;
+}
+
+.profilePage.mediaProfile .user-info .follow-pills {
+  align-items: center;
+  margin-bottom: -25px;
+}
+
+/*--------------------- MEDIA CARDS -----------------------*/
+.mediaProfile .label-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #181818;
+  padding-bottom: 16px;
+}
+
+.mediaProfile .label-container > .label {
+  font-weight: normal;
+  color: #000000;
+  font-weight: 800;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.mediaProfile .label-container > .label img {
+  height: 18px !important;
+  width: 18px !important;
+  margin-left: 10px !important;
+  margin-bottom: 3px;
+}
+
+.mediaProfile .profile-cards {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.user-follower-btn {
+  background: transparent;
+  border: 2px solid #707582;
+  color: black;
+}

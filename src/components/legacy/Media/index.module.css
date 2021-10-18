@@ -1,0 +1,143 @@
+.container {
+  margin: 0px 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: calc(100vw - 130px);
+  height: 100vh !important;
+  min-height: 100vh !important;
+  max-height: 100vh !important;
+  position: relative;
+  background: white;
+  overflow-y: auto;
+  scrollbar-width: none;
+  /*Scroll bar*/
+  /* Handle */
+  /* Handle on hover */
+}
+
+.container .mainContainer {
+  overflow-y: auto;
+  height: 100%;
+  scrollbar-width: none;
+}
+
+.container .mainContainer button {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.container .mainContainer nav {
+  color: #99a1b3;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.container .mainContainer .pretitle {
+  margin: 0;
+  color: black;
+  font-size: 20px;
+  margin-top: 22px;
+}
+
+.container .mainContainer .title {
+  margin-right: 130px;
+  margin-bottom: 70px;
+}
+
+.container .mainContainer .title h1 {
+  color: black;
+  font-size: 100px;
+  font-weight: 400;
+  margin-top: 40px;
+  margin-bottom: 35px;
+  font-weight: normal;
+}
+
+.container .mainContainer .title h3 {
+  color: black;
+  font-size: 40px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.container .mainContainer .title .ellipse {
+  /*to be edited*/
+  margin-left: 530px;
+  margin-top: -150px;
+  height: 101.79px;
+  width: 359.46px;
+  border: 3px solid #27e8d9;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transform: rotate(-6.84deg);
+  transform: rotate(-6.84deg);
+  border-radius: 50%;
+}
+
+.container .mainContainer .subtitle {
+  font-size: 30px;
+  margin-bottom: 22px;
+}
+
+.container ::-webkit-scrollbar-thumb {
+  background: #e3e9ef;
+  border-radius: 10px;
+}
+
+.container ::-webkit-scrollbar-thumb:hover {
+  background: #e3e9ef;
+}
+
+.modalPreviewPost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.modalBlogPayment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.modalBlogDiv {
+  background-color: white !important;
+  width: 280px;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=index.module.css.map */

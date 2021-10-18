@@ -1,0 +1,92 @@
+.actions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 16px;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.dividerDashed {
+  border: none;
+  border-bottom: 1px dotted #949BAB;
+  opacity: 0.2;
+  margin: 16px 0;
+}
+
+.exit {
+  position: relative;
+  top: 0;
+  right: calc(-100% + 14px);
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  .priceInput {
+    width: calc(70% - 8px);
+    height: 46px;
+    margin-right: 8px;
+    background: #F7F9FE;
+    border: 1px solid #727F9A;
+    box-sizing: border-box;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 12px;
+  }
+
+  & > div {
+    width: 30%;
+  }
+
+  & > span {
+    margin-left: 4px;
+    margin-top: 6px;
+  }
+}
+
+.hint {
+  font-size: 14px;
+  color: #707582;
+  margin-top: 8px;
+}
+
+.bidStatus {
+  display: flex;
+  justify-content: space-between;
+
+  .topBid {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      color: #181818;
+      font-size: 22px;
+    }
+  }
+
+  .auctionEnding {
+    display: flex;
+    flex-direction: column;
+
+    .auctionDateCount {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+
+      span {
+        color: #181818;
+        font-size: 30px;
+      }
+    }
+  }
+
+  .auctionTitle {
+    font-size: 18px;
+    color: #707582;
+    width: 100%;
+    padding-bottom: 8px;
+  }
+}

@@ -1,0 +1,133 @@
+.growth-page .exchange-lend .auction-tab .acution-card {
+  display: flex;
+  flex-direction: row;
+  width: calc(50% - 25px);
+  margin-right: 10px;
+  padding: 10px;
+  min-height: 110px;
+  border-radius: 20px;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.growth-page .exchange-lend .auction-tab .acution-card:nth-child(2n) {
+  margin-right: 0;
+}
+
+.growth-page .exchange-lend .auction-tab .acution-card .image {
+  height: 100%;
+  width: 140px;
+  border-radius: 14px;
+  margin-right: 20px;
+}
+
+.growth-page .exchange-lend .auction-tab .acution-card .card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.growth-page .exchange-lend .auction-tab .acution-card .card-content .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.growth-page
+  .exchange-lend
+  .auction-tab
+  .acution-card
+  .card-content
+  .row:first-child
+  p {
+  font-size: 16px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.growth-page
+  .exchange-lend
+  .auction-tab
+  .acution-card
+  .card-content
+  .row
+  button {
+  margin: 0;
+}
+
+.growth-page .exchange-lend .auction-tab .acution-card .card-content .bottom {
+  width: 95%;
+}
+
+.growth-page
+  .exchange-lend
+  .auction-tab
+  .acution-card
+  .card-content
+  .bottom
+  .column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 5px;
+  justify-content: space-between;
+}
+
+.growth-page
+  .exchange-lend
+  .auction-tab
+  .acution-card
+  .card-content
+  .bottom
+  .row
+  .column
+  span {
+  color: #656e7e;
+  font-size: 14px;
+}
+
+.growth-page
+  .exchange-lend
+  .auction-tab
+  .acution-card
+  .card-content
+  .bottom
+  .row
+  .column
+  p {
+  font-size: 18px;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.growth-page
+  .exchange-lend
+  .auction-tab
+  .acution-card
+  .card-content
+  .bottom
+  .bar-container {
+  margin-top: 10px;
+  background-color: #eef1f4;
+  height: 6px;
+  border-radius: 3px;
+}
+
+.growth-page
+  .exchange-lend
+  .auction-tab
+  .acution-card
+  .card-content
+  .bottom
+  .color-bar {
+  background-color: #64c89e;
+  height: 6px;
+  border-radius: 3px;
+}

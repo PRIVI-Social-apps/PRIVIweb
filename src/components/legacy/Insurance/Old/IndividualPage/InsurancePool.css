@@ -1,0 +1,142 @@
+/*.insurance-pool-page-container {
+  height: calc(100vh - 60px) !important;
+  min-height: calc(100vh - 60px) !important;
+  overflow-y: auto;
+}
+
+.insurance-pool-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.insurance-pool-page .buttons {
+  align-self: flex-end;
+  margin: 0 10%;
+  margin-top: 10px;
+}
+
+.insurance-pool-page p {
+  color: black;
+  text-align: left;
+}
+
+.insurance-pool-page h3 {
+  margin-left: 10px;
+}
+
+.insurance-pool-page .top-container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 10%;
+}
+
+.insurance-pool-page .graph-container,
+.insurance-pool-page .transaction-table-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 10%;
+  background-color: rgba(235, 235, 235);
+  border-radius: 15px;
+  box-shadow: 6px 6px 35px -20px #585858;
+}
+
+.insurance-pool-page .top-container .insurer,
+.insurance-pool-page .top-container .pod {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.insurance-pool-page .main-info,
+.insurance-pool-page .data {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.insurance-pool-page .top-container .insurer {
+  margin-right: 10px;
+}
+
+.insurance-pool-page .top-container .pod {
+  margin-left: 10px;
+}
+
+.insurance-pool-page .main-info,
+.insurance-pool-page .data {
+  margin: 10px 0px;
+  padding: 5px;
+  background-color: rgba(235, 235, 235);
+  border-radius: 15px;
+  box-shadow: 6px 6px 35px -20px #585858;
+  justify-content: center;
+}
+
+.insurance-pool-page .top-container .main-info {
+  padding: 10px;
+  align-items: center;
+  max-height: 122px;
+  height: 122px;
+}
+
+.insurance-pool-page .top-container .main-info h3 {
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.insurance-pool-page .top-container .main-info .image {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.insurance-pool-page .top-container .data {
+  margin-left: 10px;
+}
+
+.insurance-pool-page .data p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
+}
+
+.insurance-pool-page .transaction-table-container {
+  width: 80%;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.insurance-pool-page .transaction-table {
+  width: 100%;
+  margin: 10px;
+}
+
+@media (max-width: 1070px) {
+  .insurance-pool-page .graph-container,
+  .insurance-pool-page .transaction-table-container,
+  .insurance-pool-page .top-container {
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  .insurance-pool-page .buttons {
+    align-self: center;
+  }
+
+  .insurance-pool-page .top-container .insurer,
+  .insurance-pool-page .top-container .pod {
+    flex-direction: column;
+  }
+
+  .insurance-pool-page .top-container .data {
+    margin-left: 0;
+  }
+}
+*/

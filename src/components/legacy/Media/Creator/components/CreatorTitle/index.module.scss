@@ -1,0 +1,25 @@
+.title {
+  margin-right: 130px;
+  margin-bottom: 70px;
+  position: relative;
+
+  h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    font-weight: normal;
+    font-family: 'Agrandir';
+    position: relative;
+    z-index: 99;
+  }
+
+  img {
+    transform: rotate(174.42deg);
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 260px;
+  }
+}

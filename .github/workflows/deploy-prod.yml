@@ -1,0 +1,65 @@
+# This is the build and deploy prod branch CI 
+name: Deploy prod CI
+# Controls when the action will run. 
+on:
+ # Triggers the workflow on push or pull request events
+  push:
+     branches: [ prod ]
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: macos-10.15
+    #runs-on: ubuntu-20.04
+
+    strategy:
+      matrix:
+        node-version: [14.16]
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Cache dependencies
+      uses: actions/cache@v2
+      with:
+        path: |
+          **/node_modules
+        key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+        # personal access token with repo scope on repo A and B
+        #token: ${{ secrets.GITHUB_TOKEN }} 
+        token: ${{ secrets.API_TOKEN_GITHUB }}
+
+    - name: Build Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: export NODE_OPTIONS=--max_old_space_size=8192
+    # - run: yarn install
+    # - run: yarn build
+    - run: rm package-lock.json
+    - run: npm install
+    - run: npm run build
+      env:
+          NODE_OPTIONS: '--max_old_space_size=8192'
+          CI: false
+    - run: ls -a
+    - run: rm -fr .git/
+
+
+    - name: clone repo B, build output, and push to repo B
+      run: |
+        git clone https://${{ secrets.API_TOKEN_GITHUB }}@github.com/Cache2020/PRIVIwebProdBuild  
+        cd PRIVIwebProdBuild/ 
+        git rm -r  .
+        git add . && git commit -m 'remove all'
+        git push
+        cd ../
+        cp -r build/* PRIVIwebProdBuild/  
+        cd PRIVIwebProdBuild/  
+        date > date.txt
+        ls -a  
+        #git checkout prod  
+        git add . && git commit -m "Add changes and Deploy prod"  
+        git push

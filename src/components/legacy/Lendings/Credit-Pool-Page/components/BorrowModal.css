@@ -1,0 +1,47 @@
+.modal-content .h {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  width: 100%;
+}
+
+.modal-content .h button {
+  margin: 10px 0px 0px 10px;
+  background-color: #656e7e;
+  height: 40px;
+  width: 40px;
+  border-radius: 16px;
+}
+
+.modal-content .h .MuiInput-root {
+  margin-top: 8px;
+  padding: 14px;
+  background-color: hsla(210, 27%, 91%, 0.3);
+  border: hsla(212, 25%, 60%, 0.3) 1px solid;
+  border-radius: 16px;
+  width: 100%;
+}
+
+.modal-content .h .MuiInput-root .MuiSelect-select {
+  padding: 0px;
+}
+
+.modal-content .item-card {
+  background-color: #e3e9ef;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.modal-content .item-card .clickable {
+  color: #656e7e;
+  margin-left: 15px;
+}
+
+.modal-content .collaterals {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

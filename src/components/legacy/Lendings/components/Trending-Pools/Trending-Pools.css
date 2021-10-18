@@ -1,0 +1,33 @@
+.trendingPools{
+    width: calc(100% - 140px);
+    /*height: 430px;*/
+    background-color: rgb(227, 233, 239);
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.rowTrendingPoolsItems{
+    /*height: 310px !important;*/
+    padding-bottom: 25px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.headerTrendingPools{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 24.5px;
+    padding-top: 30px;
+}
+.trendingIconPools{
+    width: 18px;
+}
+.trendingLabelPools{
+    margin-left: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(8, 24, 49);
+}

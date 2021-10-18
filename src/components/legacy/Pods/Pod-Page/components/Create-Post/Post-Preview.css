@@ -1,0 +1,13 @@
+.postPreviewContainer .content {
+  line-height: 23px;
+  min-height: 400px;
+}
+.postPreviewContainer {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+.flexCenterFullScreenIcon{
+  display: flex;
+  justify-content: flex-end;
+}

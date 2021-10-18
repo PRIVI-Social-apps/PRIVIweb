@@ -1,0 +1,130 @@
+.auctionInfo {
+  margin: -24px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 32px;
+}
+
+.actions button {
+  padding: 0px 32px;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.dividerDashed {
+  border: none;
+  border-bottom: 1px dotted #949bab;
+  opacity: 0.2;
+  margin: 16px 0;
+}
+
+.exit {
+  position: relative;
+  top: 0;
+  right: calc(-100% + 14px);
+}
+
+.price {
+  .priceInput {
+    width: calc(70% - 8px);
+    height: 46px;
+    margin-right: 8px;
+    background: #f7f9fe;
+    border: 1px solid #727f9a;
+    box-sizing: border-box;
+    border-radius: 6px;
+    outline: none;
+  }
+
+  & > div {
+    width: 30%;
+  }
+}
+
+.hint {
+  font-size: 14px;
+  color: #707582;
+  margin-top: 8px;
+}
+
+.bidStatus {
+  display: flex;
+  justify-content: space-between;
+
+  .topBid {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      color: #181818;
+      font-size: 30px;
+    }
+  }
+
+  .auctionEnding {
+    display: flex;
+    flex-direction: column;
+
+    .auctionDateCount {
+      display: flex;
+      justify-content: space-between;
+      gap: 32px;
+
+      span {
+        color: #181818;
+        font-size: 30px;
+      }
+    }
+  }
+
+  .auctionTitle {
+    font-size: 18px;
+    color: #707582;
+    width: 100%;
+    padding-bottom: 8px;
+  }
+}
+
+.biddingToken {
+  display: flex;
+  width: 100%;
+  align-items: center;
+
+  img {
+    width: 18px;
+    margin: 0 8px 4px 0;
+    border-radius: 50%;
+  }
+}
+
+.auctionDates {
+  display: flex;
+  justify-content: space-between;
+
+  & > div {
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin: 0 8px 4px 0;
+    }
+  }
+}
+
+.offers {
+  .offerTitle {
+    color: #707582;
+    font-size: 18px;
+    margin: 40px 0 20px;
+  }
+}
+
+.appbar {
+  margin-bottom: 48px;
+}

@@ -1,0 +1,29 @@
+.postFullScreenPreviewContainer {
+  position: absolute;
+  background: #fff;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  padding-top: 100px;
+}
+
+.postFullScreenPreviewContainer .content {
+  line-height: 23px;
+  min-height: 400px;
+  width: 900px;
+}
+.postFullScreenPreviewContainer {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.lgksPe {
+  position: absolute;
+  right: 188px;
+  z-index: 10;
+}
+.iLquPE {
+  position: absolute;
+  left: 188px;
+  z-index: 10;
+}

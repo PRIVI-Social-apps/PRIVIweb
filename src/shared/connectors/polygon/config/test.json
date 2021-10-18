@@ -1,0 +1,8 @@
+{
+  "PROVIDER_SOCKET": "wss://rpc-mumbai.maticvigil.com/ws",
+  "CONTRACT_ADDRESSES": {
+    "MEDIA_MANAGER": "0xAc191C2CC7851222E6b6D44524857c6EC2d9d3c0",
+    "pDAI": "0x055DF778d99e147657CeA05254deF1fdBee04A95",
+    "pUSDT": "0x6cbC0a9d98a573e0dbF8315eE3038A4454eca031"
+  }
+}

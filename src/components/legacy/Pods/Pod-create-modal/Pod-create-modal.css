@@ -1,0 +1,790 @@
+.modalCreatePodFullDiv {
+  width: 920px;
+  background-color: white;
+  border-radius: 20px !important;
+  min-height: 75vh;
+  /* margin-top: 60px; */
+  margin-bottom: 60px;
+}
+
+.buttonCreatePodRow .loaderDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.modalScrollCreatePod {
+  /*height: 50vh;
+    max-height: 50vh;*/
+  padding-right: 20px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.modalHeaderCreatePod {
+  color: rgb(8, 24, 49);
+  font-weight: bold;
+  font-size: 24px;
+}
+.modalSubHeaderCreatePod {
+  color: rgb(8, 24, 49);
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.dragImageHereCreatePod {
+  border-radius: 16px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background: #f6f6f6;
+  border: 1px dashed #b6b6b6;
+  box-sizing: border-box;
+  margin-top: 8px;
+}
+.dragImageHereIcon {
+  width: 40px;
+  height: 32px;
+  margin-bottom: 16px;
+}
+.dragImageHereLabel {
+  font-weight: 400;
+  color: rgba(101, 110, 126, 0.719);
+  font-size: 14px;
+}
+.buttonCreatePodRow {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.infoCreateProfileGrid {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.textFieldCreateModal {
+  padding-right: 20px !important;
+  width: 95%;
+  margin-bottom: 20px !important;
+}
+.textAreaFieldProfile {
+  margin-top: -5px !important;
+  width: 94%;
+  margin-left: 25px !important;
+}
+.formControlSelectorAge {
+  width: 95%;
+  margin-top: -10px !important;
+  padding-right: 20px !important;
+}
+.datePickerProfileAbout .MuiFormControl-root {
+  width: 95% !important;
+  margin-top: -10px;
+}
+.editProfileButtonGrid {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.editProfileButton {
+  background-color: black !important;
+  color: white !important;
+}
+.collateralRowCreatePod {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.item-card-create-pod {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.item-item-card-create-pod {
+  width: 33%;
+  text-align: center;
+}
+.profilePhotoPodGrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profilePhotoPod {
+  background-color: grey;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px !important;
+  justify-content: center;
+  align-items: center;
+}
+.flexRowInputs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.infoHeaderCreatePod {
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+}
+.infoHeaderCreatePod .flexRowInputs {
+  margin-top: 0;
+}
+.infoIconCreatePod {
+  width: 12px;
+  height: 12px;
+  margin-left: 3px;
+  margin-top: -3px;
+}
+.inputHeaderCreatePod {
+  width: 398px;
+  height: 50px;
+  background-color: rgba(227, 233, 239, 0.3);
+  border-radius: 16px;
+  border: 1px solid rgba(128, 151, 179, 0.3);
+  margin-top: 12px;
+}
+.textFieldCreatePod {
+  height: 46px;
+  background-color: #f6f6f6;
+  border-radius: 16px;
+  border: 1px solid #b6b6b6;
+  margin-top: 8px;
+  color: rgb(101, 110, 126);
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 20px;
+  margin-bottom: 19px;
+}
+.textFieldCreatePod:focus {
+  outline: none;
+}
+
+.textFieldCreatePod::placeholder {
+  outline: none;
+  color: rgba(101, 110, 126, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+.textAreaCreatePod {
+  font-family: "Agrandir";
+  width: 100%;
+  height: 140px;
+  padding-top: 17px;
+  background-color: #f6f6f6;
+  border-radius: 16px;
+  border: 1px solid #b6b6b6;
+  margin-top: 8px;
+  color: rgb(101, 110, 126);
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 20px;
+  text-transform: none;
+}
+.textAreaCreatePod:focus {
+  outline: none;
+}
+
+.textAreaCreatePod::placeholder {
+  outline: none;
+  color: rgba(101, 110, 126, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: none;
+}
+.dividerCreatePod {
+  color: rgb(238, 241, 244);
+  height: 1px;
+  width: 107% !important;
+  margin-top: 21px !important;
+  margin-bottom: 32px !important;
+  margin-left: -30px !important;
+}
+.marginTopFieldCreatePod {
+  margin-top: 20px;
+}
+
+.appBarTabsInsurers {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  margin-bottom: 23px;
+}
+.appBarTabsInsurers .Mui-selected {
+  min-width: auto !important;
+  color: rgb(8, 24, 49) !important;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: none;
+  z-index: 100;
+}
+.appBarTabsInsurers .MuiTab-root {
+  min-width: auto !important;
+  color: #656e7e;
+  text-transform: none;
+  padding: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.appBarTabsInsurers .MuiTab-root:first-child {
+  margin-left: 0px;
+}
+.appBarTabsInsurers .MuiTab-root:hover {
+  background-color: transparent !important;
+}
+/* Privacy */
+.modalCreatePodFullDiv .option-buttons {
+  background: #f7f8fa;
+  border-radius: 20px;
+  margin-top: 8px;
+  width: 155px !important;
+  height: 40px;
+}
+.modalCreatePodFullDiv .option-buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f7f8fa;
+  border-radius: 17px;
+  color: #333333 !important;
+  margin: 3px;
+  height: 34px;
+  width: 74px;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 !important;
+}
+.modalCreatePodFullDiv .option-buttons button:hover {
+  background-color: rgb(230, 230, 230) !important;
+}
+
+.modalCreatePodFullDiv .option-buttons button:focus {
+  outline: none;
+}
+
+.modalCreatePodFullDiv .option-buttons .selected {
+  background: linear-gradient(97.4deg, #29e8dc 14.43%, #03eaa5 79.45%);
+  border-radius: 17px;
+  color: white !important;
+  font-weight: bold !important;
+  width: 75px;
+}
+
+.modalCreatePodFullDiv .option-buttons .selected:hover {
+  background-color: #56ad89 !important;
+}
+
+#publicButtonCreatePod {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#privateButtonCreatePod {
+  margin-left: 0 !important;
+}
+
+#podTypeOptions {
+  width: 256px !important;
+}
+#FTButtonCreatePod {
+  width: 50px !important;
+  margin-right: 0 !important;
+}
+#PNFTButtonCreatePod {
+  width: 105px !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+#DNFTButtonCreatePod {
+  width: 95px !important;
+  margin-left: 0 !important;
+}
+#openAdvOptions {
+  /* width: 74px !important; */
+}
+#openAdvTrueButtonCreatePod {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 34px !important; */
+  margin-right: 0 !important;
+}
+#openAdvFalseButtonCreatePod {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 34px !important; */
+  margin-left: 0 !important;
+}
+.modalCreatePodFullDiv .option-buttons .selectedFalse {
+  background-color: rgb(101, 110, 126) !important;
+  border-radius: 20px;
+  color: #ffff !important;
+}
+.modalCreatePodFullDiv .option-buttons .selectedFalse:hover {
+  background-color: rgb(101, 110, 126) !important;
+}
+.insurersCreatePod {
+  margin-bottom: 40px;
+}
+.insurerRowCreatePod {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 263px;
+  height: 50px;
+  background-color: rgb(227, 233, 239);
+  border-radius: 16px;
+  margin-bottom: 10px;
+  padding: 0px 5px;
+}
+.photoInsurerRow {
+  margin: 5px !important;
+  width: 35px;
+  height: 35px;
+  background-color: rgb(101, 110, 126);
+  border-radius: 50%;
+}
+.nameInsurerRow {
+  margin-left: 9px !important;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(8, 24, 49);
+  width: 160px;
+  padding-right: 10px;
+}
+.closeButtonInsurerRow {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+  height: 16px;
+  width: 16px;
+  color: rgb(101, 110, 126);
+  cursor: pointer;
+}
+
+.hashtagLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 51.4576px;
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10.0056px 20.0113px 8.57627px;
+  margin-right: 10px;
+}
+.hashtagLabelMain {
+  height: auto;
+  background: #ffffff;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 51.4576px;
+  color: #4f4f4f;
+  padding: 10.0056px 20.0113px 8.57627px;
+}
+.createHashtagButton {
+  border-radius: 16px;
+  background-color: #333333 !important;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.createHashtagButton {
+  display: flex;
+  color: white;
+  align-items: center;
+  cursor: pointer;
+}
+.createHashtagButton .createHashtagButton-inner__text {
+  background: #181818;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 11px 26px 8px 22px;
+  white-space: nowrap;
+}
+.createHashtagButtonInput {
+  border-radius: 17px;
+  background-color: #f6f6f6;
+  height: 40px;
+  width: 180px;
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  border: 1px #b6b6b6;
+  box-sizing: border-box;
+}
+.createHashtagInput:focus {
+  outline: none;
+}
+
+.createHashtagInput::placeholder {
+  outline: none;
+  color: rgba(101, 110, 126, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+.createHashtagInput {
+  background-color: transparent;
+  border: 0;
+  color: black;
+  width: 100px;
+  padding-left: 5px;
+}
+.hashtagsRowCreatePod {
+  display: flex;
+  height: 40px;
+  min-height: 40px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+.mainHashtagLabel {
+  display: none !important;
+  background-color: white;
+  border-radius: 9px;
+  padding: 0px 5px;
+  height: 18px;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  color: rgb(101, 110, 126);
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.83px;
+  margin-right: 10px;
+}
+.createHashtagButtonIcon {
+  width: 14px;
+  height: 14px;
+}
+.removePodButton {
+  padding: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 !important;
+  color: white !important;
+  background-color: transparent !important;
+  margin-left: 16px !important;
+}
+.removePodButton:focus {
+  background-color: transparent !important;
+  color: white !important;
+}
+.userManagementCreatePod {
+  /* background-color: rgba(238, 241, 244, 0.5); */
+}
+.collateralSelector {
+  height: 75px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: 10px;
+  margin-bottom: 19px;
+}
+.selectCreatePod {
+  height: 50px;
+  background-color: rgb(227, 233, 239);
+  border-radius: 16px;
+  /* margin-top: 8px; */
+  color: rgb(8, 24, 49) !important;
+  padding-left: 20px;
+  font-size: 14px !important;
+  font-weight: 400;
+  border: none;
+}
+.selectorFormControlCreatePod .MuiInput-underline:before {
+  border: 0 !important;
+}
+.selectorFormControlCreatePod .MuiInput-underline:after {
+  border: 0 !important;
+}
+.selectorFormControlCreatePod .MuiSelect-icon {
+  padding-right: 15px;
+}
+.textFieldCreatePod .MuiFormControl-root {
+  width: 100%;
+}
+.textFieldCreatePod .MuiInput-root {
+  height: 47px;
+}
+.textFieldCreatePod .MuiInput-underline:before {
+  border-bottom: 0;
+}
+.textFieldCreatePod .MuiInput-underline.Mui-error:after:before {
+  border-bottom: 0 !important;
+}
+.textFieldCreatePod .MuiInput-underline:after {
+  border-bottom: 0 !important;
+}
+.textFieldCreatePod .MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: 0 !important;
+}
+.textFieldCreatePod .MuiFormHelperText-root {
+  margin-top: 0 !important;
+}
+.textFieldCreatePod .MuiIconButton-root {
+  background-color: transparent !important;
+}
+.textFieldCreatePod .MuiIconButton-root:hover {
+  background-color: transparent !important;
+}
+.textFieldCreatePod .MuiIconButton-root:focus {
+  background-color: transparent !important;
+}
+.smallMarginLeftCreatePod {
+  margin-left: 10px;
+}
+.marginTopAddTokensCreatePod {
+  margin-top: 15px;
+}
+.marginBottomInterestCreatePod {
+  margin-bottom: 19px;
+}
+.modalCreatePodFullDiv .MuiSelect-select.MuiSelect-select {
+  color: rgb(8, 24, 49);
+}
+.adminsMailLabel {
+  margin-bottom: 19px;
+  display: flex;
+}
+.adminsNameMailLabel {
+  padding-left: 20px;
+  padding-right: 15px;
+  height: 40px;
+  border-radius: 16px;
+  background-color: rgb(227, 233, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 14px;
+  color: rgb(8, 24, 49);
+  font-weight: 600;
+}
+.adminsStatusLabel {
+  border-radius: 16px;
+  height: 40px;
+  background-color: rgb(227, 233, 239);
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(101, 110, 126);
+}
+.pendingStatusLabel {
+  background-color: rgb(100, 200, 158) !important;
+  color: white !important;
+  cursor: pointer;
+}
+.imageCreatePodDiv {
+  position: relative;
+  margin-top: 8px;
+}
+.imageCreatePod {
+  width: 100% !important;
+  height: calc(200px - 17px) !important;
+  border-radius: 16px;
+}
+.removeImageButton {
+  position: absolute;
+  top: 10px;
+  right: 80px;
+  font-size: 18px;
+  cursor: pointer;
+  color: rgb(100, 200, 158) !important;
+}
+
+.publicPrivateGrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hashtagsDivFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addPodButton {
+  padding: 0 !important;
+  margin: 0 0 20px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addPodButton svg {
+  padding: 0 !important;
+}
+.removePodButton svg {
+  padding: 0 !important;
+}
+.buttonAddCollateral {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 !important;
+  margin-left: 10px !important;
+}
+.buttonAddCollateral svg {
+  padding: 0 !important;
+}
+.hashtagItemLabel {
+  margin-right: 5px;
+}
+.datePickerCreatePod .MuiFormControl-root {
+  width: 100%;
+}
+.containerCreateModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flexColumnInputs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.margin-right {
+  margin-right: 10px !important;
+}
+.AMMGraph {
+  background-color: rgb(227, 233, 239);
+  margin: 10px 20px 10px 0px;
+  border-radius: 20px;
+  height: 250px;
+  justify-self: center;
+}
+
+.modalCreatePodFullDiv div.exit {
+  display: flex;
+  justify-content: flex-end;
+  width: 101%;
+  margin: -15px -20px 10px 0px;
+}
+
+.modalCreatePodFullDiv .exit img {
+  margin-right: -10px;
+}
+
+.modalCreatePodFullDiv .exit img:hover {
+  cursor: pointer;
+}
+
+.modalCreatePodFullDiv .error {
+  margin-bottom: 10px;
+}
+
+.modalCreatePodFullDiv .collaterals {
+  display: flex;
+}
+
+.modalCreatePodFullDiv .collaterals .item-card-create-pod {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 960px) {
+  .modalCreatePodFullDiv {
+    width: 600px;
+  }
+  .textAreaFieldProfile {
+    width: 100%;
+    margin-left: 0px !important;
+  }
+
+  .textFieldProfile {
+    width: 100%;
+  }
+  .formControlSelectorAge {
+    width: 100%;
+  }
+  .datePickerProfileAbout .MuiFormControl-root {
+    width: 100% !important;
+  }
+
+  .modalScrollCreatePod {
+    overflow-y: auto;
+    scrollbar-width: none;
+    height: 60vh;
+    max-height: 60vh;
+    padding-right: 20px;
+  }
+
+  .AMMGraph {
+    width: 400px;
+  }
+
+  .advanced .textFieldCreatePod {
+    width: calc(400px - 24px) !important;
+  }
+  .advanced .selectCreatePod {
+    width: calc(400px) !important;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .modalCreatePodFullDiv {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .modalCreatePodFullDiv {
+    width: 450px;
+  }
+  .profilePhotoPod {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 5px !important;
+  }
+  .textFieldCreateModal {
+    width: 100%;
+  }
+  .modalCreatePodFullDiv {
+    padding: 15px !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .modalCreatePodFullDiv {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .modalCreatePodFullDiv {
+    width: 350px;
+  }
+}
+
+.sizedBoxV10 {
+  height: 10px;
+}

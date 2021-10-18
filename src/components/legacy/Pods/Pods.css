@@ -1,0 +1,613 @@
+.privi-pods {
+  width: calc(100vw - 75px) !important;
+  /*padding-top: 100px;*/
+  padding-left: 75px;
+  position: relative;
+}
+
+.privi-pods p {
+  margin: 0;
+}
+
+/* Header */
+
+.privi-pods .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin: 0 88px 0 88px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding-top: 30px;
+  border-bottom: 1px solid #99a1b3;
+}
+
+.privi-pods .pods .pods-title {
+  margin-top: 56px;
+  font-weight: 400;
+}
+
+.privi-pods .pods .pods-title .pods-title-header {
+  position: relative;
+  display: inline-block;
+  font-size: 56px;
+  font-family: "Agrandir GrandLight";
+  margin: 0;
+  font-weight: 300;
+}
+
+.privi-pods .pods .pods-title .pods-title-header img {
+  cursor: pointer;
+  vertical-align: top;
+  width: 14px;
+  height: 14px;
+}
+
+.privi-pods .pods .pods-title .pods-title-description {
+  color: black;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22.99px;
+}
+
+/** Header > Options */
+
+.privi-pods .option-buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 24px;
+  background-color: white;
+  margin-top: 55px;
+}
+
+.privi-pods .option-buttons input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #949bab;
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding: 0 17px;
+}
+
+.privi-pods .option-buttons input:focus {
+  outline: none;
+}
+
+.privi-pods .option-buttons .search-action {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+}
+
+.privi-pods .option-buttons img {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  transform: translate(0, -50%);
+}
+
+.privi-pods .option-buttons button {
+  border-radius: 16px !important;
+  color: white;
+  padding: 16px 24px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  height: 55px;
+  font-size: 18px;
+  min-width: 170px;
+}
+
+.privi-pods .option-buttons button:last-child {
+  min-width: 220px;
+}
+
+.privi-pods .option-buttons button:focus {
+  outline: none;
+}
+
+.privi-pods .option-buttons .selected {
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+}
+
+/** Header > buttons **/
+
+.privi-pods .buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Pods */
+
+.privi-pods .pods {
+  height: calc(100vh - 100px);
+  overflow-y: auto;
+  scrollbar-width: none;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.privi-pods .pods .title {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #181818;
+  padding-bottom: 22px;
+}
+
+.privi-pods .pods .title h3 {
+  font-family: "Agrandir";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 104.5%;
+  color: #000000;
+}
+
+.privi-pods .pod-cards {
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.privi-pods .pod-cards .cards-grid {
+  display: flex;
+  width: 100%;
+}
+
+.privi-pods .pod-cards .cards-grid .column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: fit-content;
+  align-self: flex-start;
+}
+
+.privi-pods .pod-cards .cards-grid .pod-card {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  margin-right: 0;
+  min-height: 200px;
+}
+
+/** Pods > Trending **/
+.privi-pods .trending {
+  margin-right: 75px;
+}
+
+.privi-pods .trending .pods-cards {
+  flex-wrap: nowrap;
+  overflow: hidden;
+  width: fit-content;
+  flex-grow: 1;
+  background: transparent;
+  height: 434px;
+  display: flex;
+}
+
+.privi-pods .trending .claimable-pods-cards {
+  flex-wrap: nowrap;
+  overflow: hidden;
+  width: fit-content;
+  flex-grow: 1;
+  background: transparent;
+  height: 445px;
+  display: flex;
+}
+
+.privi-pods .trending .title {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  margin-bottom: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #181818;
+  padding-bottom: 22px;
+  margin-top: 85px;
+}
+
+.privi-pods .trending .title .buttons {
+  display: flex;
+}
+
+.privi-pods .trending .title .buttons button {
+  margin-left: 50px;
+  background: transparent;
+  padding: 0;
+  outline: none;
+}
+.privi-pods .trending .title .buttons button:first-child img {
+  transform: rotate(180deg);
+}
+
+.privi-pods .trending .title .buttons button img {
+  width: 8px;
+  height: 16px;
+}
+
+.privi-pods .trending .trending-content {
+  display: flex;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.privi-pods .trending .trending-content .trenidng-pod-card {
+  min-width: 298px;
+}
+
+.privi-pods .trending .trending-content .trenidng-pod-card {
+  min-width: 298px;
+}
+
+.privi-pods img.info-logo {
+  width: 12px;
+  height: 12px;
+  margin-left: 11px;
+}
+
+.privi-pods .trending .title h3 {
+  font-family: "Agrandir";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 104.5%;
+  color: #000000;
+}
+
+.privi-pods .trending .title .trending-logo {
+  width: 32px;
+  height: 45px;
+}
+
+.privi-pods .trending .title h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 39px;
+  margin: 0;
+  position: relative;
+}
+
+.privi-pods .trending .pod-cards {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 10px 0px;
+  overflow-x: hidden;
+}
+/** Pods > All */
+.privi-pods .pod-scroll {
+  margin-right: 88px;
+}
+
+.privi-pods .pods .all .title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 78px;
+  margin-bottom: -10px;
+  padding-bottom: 22px;
+}
+
+.privi-pods .pods .all .title h3 {
+  margin-right: 1rem;
+  color: #081831;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+.privi-pods .pods .all .title button {
+  padding: 16px 24px;
+  height: 55px;
+  font-size: 18px;
+}
+
+.privi-pods .pods .all .title .title-button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.privi-pods .pods .all .mobile-button-layout {
+  display: none;
+}
+
+.privi-pods .pods .all .title .title-button button {
+  font-size: 14px;
+  padding: 8px 16px;
+  font-weight: 800;
+  height: auto;
+}
+
+.privi-pods .search-and-create {
+  display: flex;
+  align-items: center;
+  margin-right: 75px;
+  margin-top: 50px;
+}
+
+.privi-pods .search-and-create button {
+  margin-left: 25px;
+  font-size: 16px;
+  min-width: 240px;
+}
+
+.privi-pods .search-and-create input {
+  padding: 13px 19px 10px;
+  width: 100%;
+  font-size: 14px;
+  background: #f7f9fe;
+  border: 1px solid #e0e4f3;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.privi-pods .search-and-create input:focus {
+  outline: none;
+}
+
+.privi-pods .search-and-create .search-input-box {
+  position: relative;
+  width: 100%;
+}
+
+.privi-pods .search-and-create .search-input-box img {
+  position: absolute;
+  top: 50%;
+  right: 17px;
+  transform: translate(0, -50%);
+}
+
+/*** Pods > All > Filters ***/
+
+.privi-pods .display-filter {
+  height: auto;
+  margin-top: 36px;
+  justify-content: space-between;
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  /* width: 100%; */
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  overflow-x: auto;
+  scrollbar-width: none;
+  overflow-y: hidden;
+  column-gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.privi-pods .filtersPodType {
+  justify-content: flex-end;
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  scrollbar-width: none;
+  overflow-y: hidden;
+  column-gap: 10px;
+}
+
+.privi-pods .filtersPodType .selected {
+  border: 2px solid #99a1b3;
+  border-radius: 57px;
+  background-color: black;
+  color: white;
+}
+
+.privi-pods .filtersPodType .unselected {
+  border: 2px solid #99a1b3;
+  border-radius: 57px;
+  background-color: white;
+  color: #99a1b3;
+}
+
+.privi-pods .filters h4 {
+  width: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.privi-pods .filters .divider {
+  color: #656e7e;
+}
+
+.privi-pods .filters label {
+  border: 1px solid hsla(218, 11%, 45%, 0.3);
+  border-radius: 20px;
+  background-color: hsla(210, 30%, 85%, 0.2);
+  padding: 10px;
+  min-width: 150px;
+  width: 250px;
+  flex-grow: 0.25;
+}
+
+.privi-pods .filters label,
+.privi-pods .filters .dropdown,
+.privi-pods .filters .slider {
+  border: 0;
+  margin: 0px 10px;
+}
+
+.privi-pods .filters .slider {
+  margin: 10px 10px 0px 10px;
+  display: flex;
+  grid-column-gap: 10px;
+}
+
+.privi-pods .filters label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.privi-pods .filters {
+  justify-content: flex-start;
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  scrollbar-width: none;
+  overflow-y: hidden;
+  border-radius: 0;
+  margin: 0;
+  height: auto;
+
+  background-color: transparent;
+  border-radius: 0px;
+  box-shadow: none;
+  align-items: center;
+  overflow-x: auto;
+  scrollbar-width: none;
+  overflow-y: hidden;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.privi-pods .filtersPodType {
+  display: flex;
+  align-items: center;
+}
+.privi-pods .filtersPodType button {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14.5px;
+  color: #707582;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  padding: 0px 12px;
+  border: 1px solid #707582;
+  box-sizing: border-box;
+  border-radius: 36px;
+  margin-right: 8.5px;
+  background-color: white;
+  white-space: nowrap;
+}
+
+.privi-pods .filtersPodType button.selected {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+
+.privi-pods .loaderDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+/*For displaying "no content" info*/
+
+.centered-info {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalCreateModal {
+  display: flex;
+  /* align-items: flex-start; */
+  justify-content: center;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.modalCreateNFTMediaModal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+/*appbar*/
+.privi-pods > .pods > .appbar-container {
+  border-bottom: 3px solid #e0e4f3;
+  margin-right: 75px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .privi-pods {
+    width: 100% !important;
+    padding: 16px !important;
+    box-sizing: border-box;
+  }
+
+  .privi-pods .trending,
+  .privi-pods .pod-scroll,
+  .privi-pods .search-and-create,
+  .privi-pods > .pods > .appbar-container {
+    margin-right: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .privi-pods .pods .all .title .title-button button {
+    display: none;
+  }
+  .privi-pods .pods .all .mobile-button-layout {
+    display: flex;
+    margin-top: 24px;
+  }
+  .privi-pods .pods .all .mobile-button-layout button {
+    font-size: 14px;
+    padding: 8px 16px;
+    font-weight: 800;
+    height: auto;
+  }
+  .privi-pods .search-and-create .search-input-box {
+    width: 100%;
+    max-width: 300px;
+  }
+  .privi-pods .search-and-create input {
+    min-width: -webkit-fill-available;
+  }
+  .privi-pods .search-and-create button {
+    min-width: fit-content;
+  }
+  .privi-pods .pods .pods-title {
+    margin-top: 36px;
+  }
+  .privi-pods .filters label,
+  .privi-pods .filters .dropdown,
+  .privi-pods .filters .slider {
+    margin: 0px;
+  }
+  .privi-pods .filtersPodType button {
+    padding: 0px 10px;
+    margin-right: 4px;
+  }
+}

@@ -1,0 +1,80 @@
+/** Pod Data > Offers **/
+
+.pod-page .pod-data .offers {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  justify-content: stretch;
+  width: 100%;
+}
+
+.loaderDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.pod-page .pod-data .offers .title {
+  margin: 0px 0px 30px 0px;
+  align-self: flex-start;
+}
+
+.pod-page .pod-data .offers .title h3 {
+  margin: 0;
+  margin-right: 20px;
+}
+
+.pod-page .pod-data .offers .title button {
+  width: max-content;
+}
+
+.pod-page .pod-data .offers .offers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: stretch;
+  width: 50%;
+}
+
+.pod-page .pod-data .offers .offers-container .offers-content {
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  width: calc(100% - 2.5px);
+  background-color: white;
+  border-radius: 20px;
+  height: 300px;
+  max-height: 300px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.pod-page .pod-data .offers .offers-content img {
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-left: 20px;
+}
+
+.pod-page .pod-data .offers .selling-offers {
+  margin-left: 20px;
+}
+
+.pod-page .pod-data .offers button {
+  margin: 0px;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.pod-page .pod-data .offers .delete {
+  background-color: #656e7e;
+  margin-top: 5px;
+}
+
+.pod-page .pod-data .offers .delete:hover {
+  background-color: #585f6d;
+}

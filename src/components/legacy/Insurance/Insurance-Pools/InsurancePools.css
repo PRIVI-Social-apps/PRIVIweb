@@ -1,0 +1,123 @@
+/* Pools */
+
+.insurance .pools {
+  overflow-y: auto;
+  scrollbar-width: none;
+  overflow-x: hidden;
+  height: calc(100vh - 80px) !important;
+  min-height: calc(100vh - 80px) !important;
+  max-height: calc(100vh - 80px) !important;
+  padding: 0px 40px 0 70px;
+}
+
+.insurance .pools .title {
+  padding: 0 !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.insurance .pool-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/** Pools > Trending **/
+
+.insurance .trending .title h3 {
+  margin-left: 0.8rem;
+}
+
+.insurance .trending .pool-cards {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 10px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/** Pools > All */
+
+.insurance .all .pools-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.insurance .pools .all .title {
+  margin-top: 20px;
+}
+
+.insurance .pools .all .title h3 {
+  margin-right: 1rem;
+}
+
+/*** Pools > All > Filters ***/
+
+.insurance .all .pools-container .filters {
+  width: 290px;
+  min-width: 290px;
+  max-height: 480px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  margin-bottom: 20px;
+}
+
+.insurance .all .pools-container .filters h4 {
+  padding: 0 1.2rem;
+  font-size: 14px;
+  margin: 2.1rem 0;
+}
+
+.insurance .all .pools-container .filters label,
+.insurance .all .pools-container .filters .slider {
+  border: 0;
+  border-top: #eef1f4 1px solid;
+  padding: 1.2rem;
+}
+
+.insurance .all .pools-container .filters .slider {
+  padding-bottom: 0.5rem;
+}
+
+.insurance .all .pools-container .filters label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.insurance .all .pools-container .filters label img {
+  width: 20px;
+  margin-right: 9px;
+}
+
+.insurance .all .pools-container .filters label input {
+  border: 0;
+}
+
+.insurance .all .pools-container .filters label input:focus {
+  outline: none;
+}
+
+.insurance .all .pools-container .filters .labels {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.insurance .loaderDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}

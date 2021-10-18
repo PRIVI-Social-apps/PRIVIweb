@@ -1,0 +1,115 @@
+.postFullScreenPreviewContainer {
+  position: absolute;
+
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  padding-top: 100px;
+  background: rgba(24, 24, 24, 0.8);
+  /* Modals background blur */
+
+  backdrop-filter: blur(20px);
+  /* Note: backdrop-filter has minimal browser support */
+}
+
+.postFullScreenPreviewContainer .content {
+  line-height: 23px;
+  min-height: 400px;
+  width: 940px;
+  background: #fff;
+  padding: 20px;
+  position: relative;
+}
+.postFullScreenPreviewContainer {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.lgksPe {
+  position: absolute;
+  right: 188px;
+  z-index: 10;
+}
+.iLquPE {
+  position: absolute;
+  left: 188px;
+  z-index: 10;
+}
+.backtoEditorModal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+}
+
+.flexCenterPreviewScreenIcon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rec.rec-arrow-right,
+.rec.rec-arrow-right:focus,
+.rec.rec-arrow-right:hover {
+  box-shadow: 0 0 0 0 !important;
+  border-radius: 11px;
+  background: #ffffff !important;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+.rec.rec-arrow-left,
+.rec.rec-arrow-left:focus,
+.rec.rec-arrow-left:hover {
+  box-shadow: 0 0 0 0 !important;
+  border-radius: 11px;
+  background: #ffffff !important;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.slides {
+  width: 1148px;
+  margin: 0 auto;
+}
+
+.slider-pagination-input {
+  background: #f7f9fe;
+  border: 1px solid #949bab;
+  box-sizing: border-box;
+  border-radius: 11.36px;
+  height: 36px;
+  text-align: center;
+  width: 43px;
+}
+
+.slider-pagination {
+  color: #fff;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.exit-full-screen {
+  font-weight: 500;
+  background: transparent !important;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+
+  z-index: 2;
+  display: flex;
+  align-items: center;
+}
+
+.exit-full-screen svg {
+  margin: 0px 7px 2px;
+}
+.modalCreatePost input::-webkit-outer-spin-button,
+.modalCreatePost input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.modalCreatePost input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}

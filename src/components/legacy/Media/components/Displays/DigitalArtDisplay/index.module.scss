@@ -1,0 +1,586 @@
+.DigitalArtWrapper {
+  margin-right: 72px;
+}
+
+.DigitalArtHeader {
+  position: relative;
+  .title {
+    display: flex;
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #181818;
+    margin-bottom: 40px;
+  }
+  .likes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #181818;
+    border: 2px solid #ffffff;
+    border-radius: 18px;
+    height: 32px;
+    min-width: calc(100px - 30px);
+    width: calc(100px - 30px);
+    justify-content: space-evenly;
+    padding: 0px 15px;
+    margin-top: -56px;
+    button,
+    div {
+      color: white;
+      margin-right: 5px;
+      display: flex;
+      align-items: center;
+      outline: none;
+      position: inherit !important;
+      background: transparent;
+      padding: 0;
+      border: none;
+      border-radius: 0;
+    }
+    button:last-child {
+      margin-right: 0;
+    }
+    img {
+      height: 16.5px;
+    }
+  }
+  .closeButton {
+    background: none;
+    color: gray;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 0px;
+    svg {
+      height: 24px;
+      width: 24px;
+    }
+  }
+}
+
+.accordion {
+  margin: 0 !important;
+  border: none;
+  box-shadow: none !important;
+  border-top: 1px solid #99a1b3;
+}
+
+.accordionSummary {
+  border-bottom: 1px solid #99a1b3;
+  padding: 0;
+  margin: 0;
+  color: #99a1b3;
+  min-height: 0;
+  max-height: 58px;
+
+  .MuiAccordionSummary-content {
+    margin: 0 !important;
+  }
+}
+
+.mediaWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.creatorInfo {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  img {
+    width: 72px;
+    height: 72px;
+    border-radius: 36px;
+    border: 2px solid #fff;
+  }
+
+  div.personalInfo {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+
+    .creatorFullName {
+      margin-bottom: 4px;
+      color: "#181818";
+      font-family: "Agrandir";
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 23px;
+    }
+
+    .creatorOtherInfo {
+      display: flex;
+      align-items: center;
+
+      .creatorAlias {
+        color: #db00ff;
+        font-family: Agrandir;
+        font-weight: 400;
+        font-size: 14px;
+      }
+
+      .userVerified {
+        margin-left: 4px;
+        width: 20px;
+        height: 20px;
+      }
+
+      .userLevel {
+        margin-left: 4px;
+        padding: 2px 8px 0px;
+        font-size: 11px;
+        line-height: 12px;
+        font-weight: 400;
+        border: 1px solid #707582;
+        border-radius: 9px;
+        height: 18px;
+      }
+    }
+  }
+}
+
+div.followSection {
+  display: flex;
+
+  .followArtist {
+    cursor: pointer;
+    margin-right: 4px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #707582;
+    color: #151414;
+    font-weight: 800;
+  }
+
+  .chatWithCreator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #707582;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    img {
+      width: 18px;
+      height: 18px;
+    }
+  }
+}
+
+.dashDivider {
+  margin: 14px 0px;
+  border: 1px dashed #707582;
+}
+
+.descWrapper {
+  display: flex;
+  flex-direction: column;
+
+  .contentTitle {
+    color: #707582;
+    font-family: Agrandir;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .contentDescription {
+    color: #707582;
+    font-family: Agrandir;
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+.commentWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .newComment {
+    display: flex;
+    flex-direction: column;
+
+    .myInfo {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+
+      .avatar {
+        margin-right: 16px;
+        border: 1.5px solid #fff;
+        border-radius: 16px;
+        width: 32px;
+        height: 32px;
+      }
+
+      .myInfoName {
+        color: #181818;
+        font-weight: 700;
+        font-size: 14px;
+        font-family: Agrandir;
+      }
+    }
+
+    .commentInputWrapper {
+      display: flex;
+      margin-top: 18px;
+      margin-bottom: 6px;
+
+      .commentInput {
+        margin-right: 8px;
+        flex-grow: 1;
+        background: #f7f9fe;
+        border: 1px solid #707582;
+        box-sizing: border-box;
+        border-radius: 12px;
+        font-family: Agrandir;
+        padding: 0 16px;
+      }
+
+      .btnAddComment {
+        width: 124px;
+        min-width: 124px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: #181818;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .commentRow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    .commentLeftWrapper {
+      display: flex;
+
+      .commentRowAvatar {
+        margin-right: 16px;
+        border: 1.5px solid #fff;
+        border-radius: 16px;
+        width: 32px;
+        height: 32px;
+      }
+
+      .commentRowInfo {
+        display: flex;
+        flex-direction: column;
+
+        .commentRowName {
+          font-size: 14px;
+          font-weight: bold;
+          color: #181818;
+          font-family: Agrandir;
+        }
+
+        .commentRowComment {
+          margin-top: 8px;
+          font-family: Agrandir;
+          font-size: 14px;
+          color: #707582;
+        }
+      }
+    }
+
+    .commentDate {
+      display: flex;
+      align-items: center;
+      font-family: Agrandir;
+      font-size: 14px;
+      color: #707582;
+    }
+  }
+}
+
+.ratingWrapper {
+  display: flex;
+
+  div {
+    .feedback {
+      color: #000;
+      font-weight: 400;
+      font-family: Agrandir;
+      font-size: 14px;
+    }
+
+    .rateIcon {
+      margin-right: 4px;
+      background: linear-gradient(97.4deg, #ff79d1 14.43%, #db00ff 79.45%);
+      width: 12px;
+      height: 12px;
+      border-radius: 6px;
+    }
+
+    .emptyRateIcon {
+      margin-right: 4px;
+      width: 12px;
+      height: 12px;
+      background: #eff2f8;
+      border: 1px solid #707582;
+      box-sizing: border-box;
+      border-radius: 6px;
+    }
+  }
+}
+
+.collectionWrapper {
+  display: flex;
+  flex-direction: column;
+
+  .collectionContainer {
+    display: flex;
+    flex-direction: row;
+
+    img {
+      margin-right: 24px;
+      width: 80px;
+      height: 80px;
+      border-radius: 6px;
+    }
+
+    .collectionDesc {
+      display: flex;
+      flex-direction: column;
+
+      span {
+        font-family: Agrandir;
+        font-size: 14px;
+        font-weight: 400;
+        color: #707582;
+      }
+
+      .btnViewCollection {
+        margin-top: 12px;
+        color: #20d0bf;
+        font-size: 14px;
+        font-weight: 400;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.statWrapper {
+  margin-top: 28px;
+
+  div {
+    img {
+      width: 16px;
+      height: 16px;
+    }
+
+    div {
+      margin-top: 14px;
+      color: #181818;
+      font-size: 30px;
+      font-family: Agrandir;
+    }
+  }
+}
+
+.priceWrapper {
+  width: 100%;
+
+  .assetPrice {
+    font-weight: 400;
+    font-size: 30px;
+    font-family: Agrandir;
+    color: #181818;
+  }
+
+  .statCategoryWrapper {
+    width: 100%;
+
+    div {
+      .statCategory {
+        font-weight: 600;
+        font-size: 14px;
+        font-family: Agrandir;
+      }
+
+      .statCategoryVal {
+        font-weight: 400;
+        font-size: 14px;
+        font-family: Agrandir;
+      }
+    }
+  }
+}
+
+.btnPlaceBid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #181818;
+  color: white;
+  border-radius: 10px;
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Agrandir;
+  text-align: center;
+}
+
+.btnMoreDetails {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #181818;
+  background: white;
+  color: #181818;
+  border-radius: 10px;
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Agrandir;
+  text-align: center;
+}
+
+.display {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  transition: all 0.8s;
+  height: 100%;
+  min-height: 300px;
+  padding: 15px;
+  background-color: transparent;
+  width: calc(100% - 30px);
+  transform: translateY(0px);
+  opacity: 1;
+  background-color: #dee5ec;
+
+  &.hide {
+    height: 0;
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+  .album {
+    min-width: 70px;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: #6868682f;
+  }
+
+  .player {
+    outline: none;
+    width: calc(100% - 70px) !important;
+    height: 50px !important;
+    background-color: transparent;
+  }
+}
+
+.artTitle {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.horizonLine {
+  height: 1px;
+  background-color: black;
+}
+
+.digitalArtContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.contentLeft {
+  max-width: 500px;
+  min-width: 300px;
+}
+
+.contentTitle {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.descriptionCard {
+  margin-left: 2px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2.28276px 2.28276px 13.6966px rgba(0, 0, 0, 0.1);
+}
+
+.contentMiddle {
+  flex: 1 1;
+  min-width: 500px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.digitalArtImage {
+  border-radius: 20px;
+}
+
+.contentRight {
+  min-width: 400px;
+  margin-right: 15px;
+}
+
+.statsCard {
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  box-shadow: 2.28276px 2.28276px 13.6966px rgba(0, 0, 0, 0.1);
+}
+.digitalArtDisplay {
+  height: 100%;
+  max-height: 400px;
+  width: auto;
+}
+
+.digitalArtDisplayModal {
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalDigitalArtPayment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalDigitalArtDiv {
+  background-color: white !important;
+  width: 280px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+}

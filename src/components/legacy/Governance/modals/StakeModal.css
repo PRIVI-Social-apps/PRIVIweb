@@ -1,0 +1,8 @@
+.stake-modal button {
+  align-self: flex-end;
+}
+
+.stake-modal .select-wallet div {
+  padding-left: 5px;
+  color: white;
+}

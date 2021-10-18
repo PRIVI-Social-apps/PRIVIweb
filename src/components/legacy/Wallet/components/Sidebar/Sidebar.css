@@ -1,0 +1,460 @@
+.wallet-sidebar-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background: rgba(24, 24, 24, 0.2);
+  backdrop-filter: blur(6px);
+  width: calc(100vw - 80px);
+  height: 100vh;
+  transition: visibility 0s, opacity 0.25s;
+  z-index: 1000;
+}
+
+.wallet-sidebar-container.hidden {
+  opacity: 0;
+  backdrop-filter: blur(0);
+  width: 0;
+  left: 100vw;
+}
+
+.wallet-sidebar-container.hidden .wallet-sidebar {
+  width: 0;
+  opacity: 0;
+  margin-right: -90px;
+}
+
+.wallet-sidebar-container .wallet-sidebar {
+  width: 800px;
+  height: 100%;
+  background: #f7f9fe;
+  border-radius: 10px 0px 0px 0px;
+  transition: all 0.25s;
+  padding: 50px 30px 0px 60px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+/*------------------ TITLE --------------*/
+.wallet-sidebar-container .wallet-sidebar .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.wallet-sidebar-container .wallet-sidebar .title button {
+  outline: none;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 22px;
+}
+
+.wallet-sidebar-container .wallet-sidebar .title button img {
+  width: 5px;
+  height: 10px;
+  transform: rotate(180deg);
+}
+
+.wallet-sidebar-container .wallet-sidebar h4 {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+/*------------------ SUMMARY --------------*/
+.wallet-sidebar-container .wallet-sidebar .summary {
+  background: #edf0f7;
+  border-radius: 10px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  display: flex;
+  width: calc(100% - 30px - 22px);
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px 22px 22px;
+  margin-bottom: 32px;
+}
+
+.wallet-sidebar-container .wallet-sidebar h5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.wallet-sidebar-container .wallet-sidebar .balance {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 43.5484px;
+  display: flex;
+  align-items: center;
+  order: 1;
+  flex-grow: 0;
+  margin-top: 10px;
+}
+
+.wallet-sidebar-container .wallet-sidebar .apply {
+  width: 200px;
+  height: 62px;
+  background: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #949bab;
+  margin: 0px;
+  cursor: pointer;
+}
+
+.wallet-sidebar-container .wallet-sidebar .apply .wallet-image-container {
+  min-width: 68px;
+  width: 68px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 16px;
+  margin-left: -10px;
+  filter: drop-shadow(0px 1.80421px 7.21686px rgba(0, 0, 0, 0.12));
+}
+
+.wallet-sidebar-container .wallet-sidebar .apply .wallet-image-container .wallet-image {
+  width: 48px;
+  height: 48px;
+  mix-blend-mode: multiply;
+  transform: rotate(-0.53deg);
+}
+
+/*------------------ CONTENT --------------------------*/
+.wallet-sidebar-container .wallet-sidebar .content {
+  display: flex;
+}
+
+.wallet-sidebar-container .wallet-sidebar .content section:first-child {
+  margin-right: 40px;
+}
+
+.wallet-sidebar-container .wallet-sidebar .content section:first-child button:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 28px 48px;
+  width: 237px;
+  height: 128px;
+  border: 1.5px dashed #949bab;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  background-color: transparent;
+  color: #949bab;
+  margin-top: 0px;
+}
+
+.wallet-sidebar-container .wallet-sidebar .content section:first-child button:first-child img {
+  margin-bottom: 12px;
+}
+
+.wallet-sidebar-container .wallet-sidebar .content section:first-child button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  width: 237px;
+  height: 88.67px;
+  background: #ffffff;
+  border: 1px solid #eff2f8;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #151414;
+}
+
+.wallet-sidebar-container .wallet-sidebar .content section:last-child {
+  width: 100%;
+}
+
+.wallet-sidebar-container .wallet-sidebar .content section:last-child .wallets {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  scrollbar-width: none;
+  margin-top: 22px;
+  padding-right: 16px;
+  max-height: calc(622px - 24px - 20px - 8px);
+}
+
+.wallet-sidebar-container .wallet-sidebar .content section:last-child .wallets .wallet-tile {
+  background: #ffffff;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  margin-bottom: 12px;
+  padding: 22px 14px 22px 24px;
+  display: flex;
+  width: calc(100%);
+}
+
+.wallet-sidebar-container .wallet-sidebar .content section:last-child .wallets .wallet-tile .left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.wallet-sidebar-container .wallet-sidebar .content section:last-child .wallets .wallet-tile .left .icon {
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wallet-sidebar-container .wallet-sidebar .content section:last-child .wallets .wallet-tile .left .activation {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: #949bab;
+}
+
+.wallet-sidebar-container .wallet-sidebar .content section:last-child .wallets .wallet-tile .left .activation .buttons {
+  background: linear-gradient(97.4deg, #23d0c6 73.68%, #00cc8f 85.96%);
+  width: 30px;
+  height: 17px;
+  padding: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-left: 8px;
+}
+
+.wallet-sidebar-container
+  .wallet-sidebar
+  .content
+  section:last-child
+  .wallets
+  .wallet-tile
+  .left
+  .activation
+  div.buttonInactive {
+  background: #ccc;
+  width: 30px;
+  height: 17px;
+  padding: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-left: 8px;
+}
+
+.wallet-sidebar-container
+  .wallet-sidebar
+  .content
+  section:last-child
+  .wallets
+  .wallet-tile
+  .left
+  .activation
+  div
+  button {
+  padding: 0px;
+  background-color: transparent;
+  width: 12px;
+  height: 15px;
+  outline: none;
+}
+
+.wallet-sidebar-container
+  .wallet-sidebar
+  .content
+  section:last-child
+  .wallets
+  .wallet-tile
+  .left
+  .activation
+  div
+  button.selected {
+  background-color: white;
+  width: 15px;
+  height: 15px;
+}
+
+.wallet-sidebar-container .wallet-sidebar .content section:last-child .wallets .wallet-tile .content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wallet-sidebar-container .wallet-sidebar .content section:last-child .wallets .wallet-tile .content .top {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.wallet-sidebar-container
+  .wallet-sidebar
+  .content
+  section:last-child
+  .wallets
+  .wallet-tile
+  .content
+  .top
+  .info
+  .balance {
+  margin-top: 4px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: #949bab;
+}
+
+.wallet-sidebar-container .wallet-sidebar .content section:last-child .wallets .wallet-tile .content .top .info p {
+  margin-top: 4px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #949bab;
+  width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.wallet-sidebar-container .wallet-sidebar .content section:last-child .wallets .wallet-tile .content .top .info p.main-account {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.wallet-sidebar-container .wallet-sidebar .content section:last-child .wallets .wallet-tile .content .top .buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.wallet-sidebar-container
+  .wallet-sidebar
+  .content
+  section:last-child
+  .wallets
+  .wallet-tile
+  .content
+  .top
+  .buttons
+  button {
+  padding: 4px 22.5px;
+  height: auto;
+}
+.wallet-sidebar-container
+  .wallet-sidebar
+  .content
+  section:last-child
+  .wallets
+  .wallet-tile
+  .content
+  .top
+  .buttons
+  .disconnect {
+  color: #949bab;
+  border: 1px solid #949bab;
+  background-color: white;
+  margin-top: 4px;
+}
+
+.wallet-sidebar-container .wallet-sidebar .content section:last-child .wallets .wallet-tile .content .bottom {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.wallet-sidebar-container .wallet-sidebar .content section:last-child .wallets .wallet-tile .content .bottom .balance {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.wallet-sidebar-container
+  .wallet-sidebar
+  .content
+  section:last-child
+  .wallets
+  .wallet-tile
+  .content
+  .bottom
+  .balance
+  span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  color: #949bab;
+}
+
+.wallet-sidebar-container
+  .wallet-sidebar
+  .content
+  section:last-child
+  .wallets
+  .wallet-tile
+  .content
+  .bottom
+  .balance
+  span:first-child {
+  margin-bottom: 4px;
+}
+
+.wallet-sidebar-container .wallet-sidebar .content section:last-child .wallets .wallet-tile .content .bottom .copy {
+  display: flex;
+  align-items: center;
+}
+
+.wallet-sidebar-container
+  .wallet-sidebar
+  .content
+  section:last-child
+  .wallets
+  .wallet-tile
+  .content
+  .bottom
+  .copy
+  span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  text-decoration-line: underline;
+  color: #949bab;
+  cursor: pointer;
+}
+
+.wallet-sidebar-container .wallet-sidebar .content section:last-child .wallets .wallet-tile .content .bottom .copy img {
+  width: 18px;
+  height: 8px;
+  margin-left: 10px;
+}

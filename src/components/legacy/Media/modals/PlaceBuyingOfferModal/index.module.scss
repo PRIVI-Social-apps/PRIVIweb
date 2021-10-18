@@ -1,0 +1,97 @@
+.modal {
+  padding: 25px 20px;
+  width: 545px !important;
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  h2 {
+    margin: 0;
+    margin-bottom: 64px;
+    color: #181818;
+    font-size: 22px;
+  }
+  .nftInfoHeader {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #181818;
+    padding-bottom: 3px;
+  }
+  .offerInputWrapper {
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    span {
+      flex: 1;
+      font-size: 14px;
+      color: #181818;
+    }
+    .inputPrice {
+      margin-right: 18px;
+    }
+    .tokenSelect {
+      width: 126px;
+    }
+  }
+  .nftInfo {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    img {
+      width: 75px;
+      height: 75px;
+      border-radius: 6px;
+      margin-right: 26px;
+    }
+    h2 {
+      margin: 0;
+      flex: 1;
+    }
+    .flexCol {
+      align-items: flex-end;
+      h5 {
+        font-size: 18px;
+        color: #181818;
+        margin: 0;
+      }
+      span {
+        font-size: 14px;
+        color: #707582;
+      }
+    }
+  }
+  .divider {
+    width: 100%;
+    height: 1px;
+    opacity: 0.1;
+    background: #181818;
+  }
+  .nftDesc {
+    font-size: 14px;
+    color: #707582;
+    margin-top: 26px;
+    margin-bottom: 26px;
+  }
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.actionButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  button {
+    padding: 0 26px;
+  }
+}

@@ -1,0 +1,268 @@
+.SnapContent {
+  margin-bottom: 20px;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+.SnapPageContainer {
+  position: relative;
+  padding: 10px 20%;
+  height: 600px;
+  overflow-y: auto;
+}
+.SnapPage {
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  &.disabled {
+    filter: blur(4px);
+    user-select: none;
+    img {
+      -webkit-user-drag: none;
+    }
+  }
+}
+
+.buyToUnlock {
+  position: absolute;
+  /*width: 155px;*/
+  min-height: 40px;
+  height: auto;
+  background: black;
+  top: calc(50% - 56px / 2);
+  left: calc(50% - 236px / 2);
+}
+
+.SnapSide {
+  flex: 2;
+  .firstColumn {
+    border-right: 1px solid #949bab;
+    padding-right: 10px;
+  }
+}
+.paginationButtons2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.paginationButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paginationButtons,
+.paginationButtons2 {
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    margin: 0px 5px;
+  }
+  button:disabled {
+    background-color: rgb(150, 150, 150);
+  }
+  .prevButton {
+    img {
+      filter: invert(1);
+      transform: rotate(180deg);
+    }
+  }
+  .nextButton {
+    img {
+      filter: invert(1);
+    }
+  }
+  .currentPage {
+    background: #f7f9fe;
+    border: 1px solid #949bab;
+    color: #181818;
+  }
+  .moreButton {
+    margin-left: 15px;
+  }
+}
+
+.buttonFullscreen {
+  padding: 12px;
+  align-self: flex-end;
+
+  img {
+    border-radius: 0;
+    margin: 0 !important;
+    width: 16px;
+    height: 16px;
+  }
+
+  &.disabled {
+    filter: blur(4px);
+    user-select: none;
+  }
+}
+
+.buyModal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .buyModalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 3%;
+    outline: none;
+
+    .buyButton {
+      width: 100%;
+      text-align: center;
+    }
+    .activeWallet {
+      border-color: #23d0c6;
+    }
+    .walletCard {
+      padding: 10px 27px;
+      border-radius: 22px;
+      border: 1px solid #949bab;
+      margin-bottom: 10px;
+      .disconnect {
+        padding: 3px 7px;
+        border: 1px solid #949bab;
+        border-radius: 20px;
+      }
+      .walletAddress {
+        display: flex;
+        align-items: center;
+        margin-bottom: 12px;
+        img {
+          width: 30px;
+          height: 30px;
+          padding: 0px 5px;
+        }
+      }
+      .actionButtons {
+        font-size: 9px;
+        color: #949bab;
+        display: flex;
+        align-items: center;
+        svg {
+          padding: 0px 3px;
+        }
+      }
+      .radioButton {
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+
+    .walletCard.active {
+      border: 1px solid #23d0c6;
+    }
+    .buyModalHeading {
+      font-size: 30px;
+      font-family: "AGRANDIR";
+      margin: 0px;
+    }
+
+    .buyInfo {
+      display: flex;
+      .pageCount {
+        flex: 1;
+        padding: 10px;
+        p {
+          font-size: 22px;
+          font-weight: bold;
+        }
+        div {
+          display: flex;
+        }
+        button {
+          width: 40px;
+          height: 40px;
+          background: transparent;
+          border: 1px solid #949bab;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 5px;
+        }
+        .upArrow {
+          img {
+            transform: rotate(90deg);
+          }
+        }
+        .downArrow {
+          img {
+            transform: rotate(270deg);
+          }
+        }
+        .buyPageCount {
+          font-size: 14px;
+          color: #181818;
+          margin: 0px 10px;
+          background: #f7f9fe;
+        }
+      }
+
+      .totPrice {
+        flex: 1;
+        padding: 10px;
+        .totalHeading {
+          font-size: 22px;
+          font-weight: bold;
+        }
+        .totalPrice {
+          font-size: 25px;
+          margin: 7px 0px;
+        }
+      }
+    }
+  }
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.whiteButton {
+  background: transparent;
+  color: black;
+  padding: 3px 15px;
+  border: 1px solid #949bab;
+  border-radius: 7px;
+}
+
+.documentPage {
+  width: 16%;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.documentCurrentPage {
+  border: 1px solid #23d0c6;
+  border-radius: 4px;
+}
+
+.spaceBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+.itemsCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:focus {
+  outline: none;
+}
+
+.blankPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  font-weight: bold;
+}

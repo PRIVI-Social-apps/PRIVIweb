@@ -1,0 +1,116 @@
+import { makeStyles } from "@material-ui/core";
+
+export const individualBadgeModalStyles = makeStyles(theme => ({
+  root: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  badgeModalContent: {
+    width: 800,
+    backgroundColor: "white",
+    borderRadius: "16px !important",
+    padding: 40,
+    position: "relative",
+    outline: "none",
+  },
+  closeButton: {
+    position: "absolute",
+    top: 24,
+    right: 40,
+    cursor: "pointer",
+  },
+  badgeModalHeader: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "flex-start",
+    width: "100%",
+    marginBottom: 28,
+  },
+  hexagonSection: {
+    width: 64,
+    height: 64,
+    minWidth: 64,
+    minHeight: 64,
+    background: "#ff79d1",
+    "& -webkit-clip-path": "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
+    clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
+    boxShadow: "0px 0px 6px #fd70d5",
+  },
+  tokenImage: {
+    objectFit: "cover",
+    width: "100%",
+    height: "100%",
+    margin: 0,
+    borderRadius: 0,
+  },
+  badgeTitle: {
+    display: "block",
+    margin: "0 0 0 12px",
+    justifyContent: "flex-start",
+    "& h2": {
+      fontStyle: "normal",
+      fontWeight: 800,
+      fontSize: 18,
+      lineHeight: "104.5%",
+      color: "#000000",
+    },
+  },
+  badgeTitleType: {
+    border: "2px solid #949bab",
+    boxSizing: "border-box",
+    borderRadius: 36,
+    padding: "7px 12px 6px 12px",
+    color: "#949bab",
+    display: "inline-block",
+    marginLeft: 10,
+    fontSize: 11,
+  },
+  badgeModalBody: {},
+  badgeModalBodyTitle: {
+    "& h3": {
+      fontWeight: 400,
+      fontSize: 18,
+      lineHeight: "104.5%",
+      color: "#181818",
+      margin: 0,
+    },
+    "& p": {
+      fontWeight: 400,
+      fontSize: 14,
+      lineHeight: "120%",
+      color: "#99a1b3",
+    },
+  },
+  badgeModalBodyInfo: {
+    marginBottom: 48,
+    display: "flex",
+    justifyContent: "space-between",
+    width: "65%",
+    "& span": {
+      fontWeight: 400,
+      fontSize: 14,
+      lineHeight: "104.5%",
+      color: "#99a1b3",
+    },
+    "& h5": {
+      fontWeight: 400,
+      fontSize: 18,
+      lineHeight: "104.5%",
+      color: "#000000",
+      margin: "8px 0",
+    },
+  },
+  badgeOwnerList: {
+    display: "flex",
+    flexWrap: "wrap",
+  },
+  socialContent: {
+    display: "flex",
+    alignItems: "center",
+    "& img": {
+      width: 18,
+      height: 18,
+    },
+  },
+}));

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@font-face {
+  font-family: "Agrandir";
+  src: local("Agrandir"), url(assets/fonts/Agrandir/Agrandir\ Variable.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Agrandir GrandLight";
+  src: local("Agrandir GrandLight"), url(assets/fonts/Agrandir/Agrandir-GrandLight.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "Agrandir WideBlackItalic";
+  src: local("Agrandir WideBlackItalic"),
+    url(assets/fonts/Agrandir/Agrandir-WideBlackItalic.otf) format("truetype");
+}
+
+html {
+  overflow-y: auto;
+}
+
+body {
+  margin: 0;
+  font-family: "Agrandir", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div.exit,
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.promise-loading {
+  position: absolute;
+  background-color: #000000a6;
+  top: 0%;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .promise-loading {
+    width: 100vw !important;
+    left: 0 !important;
+  }
+}

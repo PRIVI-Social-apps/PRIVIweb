@@ -1,0 +1,371 @@
+.governancePage {
+  height: calc(100vh - 80px);
+  max-width: calc(100vw - 80px);
+  width: calc(100vw - 80px);
+  padding: 0px 70px 120px;
+  overflow-y: auto;
+}
+
+.governancePage .header-wrapper {
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
+.headerPriviGovernance {
+  width: 100%;
+  overflow-y: auto;
+  scrollbar-width: none;
+  height: calc(100vh - 80px);
+  padding-bottom: 40px;
+}
+
+.headerGovernanceBox {
+  padding: 16px 10px;
+  background: linear-gradient(97.4deg, #ff79d1 14.43%, #db00ff 79.45%);
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  color: white;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.headerFirstBox {
+  display: flex;
+  align-items: center;
+}
+
+.headerSecondBox {
+  padding: 10px 10px;
+  background: linear-gradient(97.4deg, #dc01ff 14.43%, #7826ff 85.96%, #7826ff 85.96%);
+  border-radius: 20px;
+}
+
+.headerLabel1 {
+  font-family: Agrandir GrandLight;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 26.4px;
+  margin-bottom: 15px;
+}
+
+.headerLabel2 {
+  font-family: Agrandir GrandLight;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26.4px;
+  margin-bottom: 15px;
+}
+
+.headerLabel3 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.4px;
+  margin-bottom: 15px;
+}
+
+.headerLabel4 {
+  font-size: 12px;
+  color: grey;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.headerLabel5 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.stackBox {
+  display: flex;
+}
+
+.stackSubBox {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+  color: black;
+  justify-content: space-between;
+}
+
+.stackSubBox .subImg {
+  width: 40px;
+  margin-right: 0px;
+}
+
+.headerGovernanceBox img {
+  width: 120px;
+  object-fit: contain;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.headerSelectedTabPriviGovernance {
+  font-weight: 700;
+  font-size: 24px;
+  color: rgb(8, 24, 49);
+  width: calc(30% - 70px);
+  line-height: 33.44px;
+}
+
+.governancePage .headerLabel {
+  font-size: 56px;
+  margin-bottom: 16px;
+  line-height: 56.37px;
+}
+
+.headerDaoPriviGovernance {
+  display: flex;
+  align-items: center;
+  font-family: Agrandir GrandLight;
+  font-weight: 800;
+  font-size: 24px;
+  color: rgb(8, 24, 49);
+  line-height: 33.44px;
+  margin-top: 70px;
+  margin-bottom: 38px;
+  margin-right: 22px;
+}
+
+.headerDaoPriviGovernance button,
+.headerSmallDaoPriviGovernance button {
+  margin-left: 22px;
+  font-family: Agrandir;
+}
+
+.headerSmallDaoPriviGovernance {
+  display: flex;
+  align-items: center;
+  font-family: Agrandir;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 104.5%;
+  display: flex;
+  align-items: center;
+  color: #181818;
+  margin-top: 70px;
+}
+
+.daoContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.daoBox {
+  height: 340px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  position: relative;
+  width: 250px;
+  cursor: pointer;
+}
+
+.daoBox > div:first-of-type {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  color: white;
+}
+
+.daoBox .artBox {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  border-top: 1px solid white;
+  padding-top: 8px;
+}
+
+.daoBox .artBox > div:first-of-type {
+  margin-left: 12px;
+}
+
+.daoBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.daoBox .artCircle {
+  background: linear-gradient(97.4deg, #23d0c6 14.43%, #00cc8f 85.96%);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.commingBox {
+  border-radius: 20px;
+  border: 2px solid #c0c6dc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 340px;
+  width: 250px;
+  background: #eff2f8;
+}
+
+.viewAllButton {
+  color: transparent;
+  background: linear-gradient(97.4deg, #23d0c6 14.43%, #00cc8f 85.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0;
+  min-height: 0;
+  height: auto;
+  margin: 0;
+  font-size: 14px;
+  border-radius: 0;
+}
+
+.governaceFlexBox {
+  display: flex;
+  align-items: center;
+}
+
+.governaceFlexBoxSpaceBetween {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.globalNumberContainer {
+  border-bottom: 1px dashed #18181822;
+  padding-bottom: 10px;
+}
+
+.globalNumberBox {
+  margin-right: 40px;
+}
+
+.borderBottomContainer {
+  border-bottom: 1px solid grey;
+  margin-bottom: 22px;
+}
+
+.governancePage .category-tab {
+  color: #707582;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 24px 11px;
+  border: 1px solid #707582;
+  box-sizing: border-box;
+  border-radius: 57px;
+  margin-right: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.governancePage .category-tab.selected {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+
+.headerTabsPriviGovernance {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerOptionsPriviCredit {
+  width: calc(30% - 30px);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+}
+
+/*Privi Credit Tabs*/
+.headerTabsPriviGovernance .option-buttons {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 3px 16px rgba(101, 112, 129, 0.06);
+  border-radius: 20px;
+  width: 354px !important;
+  height: 40px;
+}
+.headerTabsPriviGovernance .option-buttons button {
+  border-radius: 17px !important;
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(101, 110, 126) !important;
+  margin: 3px;
+  height: 34px;
+  width: 116px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0 !important;
+  box-shadow: none;
+}
+.headerTabsPriviGovernance .option-buttons button:hover {
+  background-color: rgb(255, 255, 255) !important;
+}
+.headerTabsPriviGovernance .option-buttons button:focus {
+  outline: none;
+}
+.headerTabsPriviGovernance .option-buttons .selected {
+  background-color: #64c89e !important;
+  color: white !important;
+  font-weight: bold !important;
+  width: 116px;
+}
+.headerTabsPriviGovernance .option-buttons .selected:hover {
+  background-color: #56ad89 !important;
+}
+#priviEcosystemTab {
+  margin-right: 0 !important;
+}
+#priviInsuranceTab {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+#priviDataTab {
+  margin-left: 0 !important;
+}
+
+.headerGovernanceTradeBox {
+  display: flex;
+  flex-direction: row;
+  height: 180px;
+  padding: 16px 10px;
+  background: linear-gradient(97.4deg, #ff79d1 14.43%, #db00ff 79.45%);
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  color: white;
+  justify-content: space-between;
+  margin-top: 108px;
+}
+
+.headerGovernanceTradeBox > img {
+  margin-left: 50px;
+  margin-top: -80px;
+}
+
+.headerGovernanceTradeBox .tokenSelectorBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.headerGovernanceTradeBox button {
+  margin-left: 24px;
+  height: 56px;
+}
+
+.headerGovernanceTradeBox .tokenSelectorBox .MuiInputBase-root {
+  height: 56px;
+}
+
+.headerGovernanceTradeBox .tokenSelectorBox .MuiFormControl-root {
+  margin-left: 10px;
+  width: 142px;
+}

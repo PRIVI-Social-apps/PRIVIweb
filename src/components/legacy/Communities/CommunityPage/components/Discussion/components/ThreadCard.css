@@ -1,0 +1,93 @@
+.thread-card {
+  display: flex;
+  flex-direction: row;
+  padding: 24px;
+  background-color: white;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+
+.thread-card .thread-card-left {
+  max-width: 345px;
+  min-width: 345px;
+  width: 345px;
+  display: flex;
+  align-items: center;
+  padding-right: 32px;
+  border-right: 1px solid #99a1b3;
+}
+
+.thread-card .avatar-container .avatar {
+  width: 86px;
+  height: 86px;
+  border-radius: 100%;
+  position: relative;
+  border: 2px solid #ffffff;
+  box-sizing: content-box;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.thread-card .avatar-container .avatar .online {
+  background: linear-gradient(97.4deg, #23d0c6 14.43%, #00cc8f 85.96%);
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 0px;
+  bottom: -1px;
+  border: 3px solid white;
+}
+
+.thread-card .avatar-container .avatar .offline {
+  color: gray;
+  font-size: 60px;
+  position: absolute;
+  right: 0px;
+  bottom: -14px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+}
+
+.thread-card .thread-info {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin-left: 22px;
+}
+
+.thread-card .thread-info .creator {
+  font-size: 18px;
+  font-weight: 400;
+  color: #181818;
+}
+
+.thread-card .thread-info .info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.thread-card .thread-info .creator-id {
+  color: #db00ff;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.thread-card .thread-info .level {
+  text-align: center;
+  border: 1px solid #707582;
+  border-radius: 38.6667px;
+  font-size: 11px;
+  color: #707582;
+  padding: 1px 10px 1px;
+  margin-left: 5px;
+}
+
+.thread-card .thread-text {
+  margin-left: 32px;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+}

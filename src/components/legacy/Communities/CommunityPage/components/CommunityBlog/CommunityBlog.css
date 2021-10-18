@@ -1,0 +1,219 @@
+.community-blog h3 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.community-blog .loaderDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.community-blog .posts {
+  display: flex;
+  flex-direction: column;
+}
+
+.community-blog .blog-item {
+  background-color: white;
+  border-radius: 32px;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.community-blog .blog-item .blog-image {
+  width: 100%;
+  min-height: 100px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  flex-grow: 1;
+  background-color: darkgray;
+}
+
+.community-blog .blog-item .users {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.community-blog .blog-item .continueReading {
+  display: flex;
+  align-items: center;
+}
+
+.community-blog .blog-item .continueReading .button {
+  background-color: black;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.community-blog .blog-item .right {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  position: relative;
+}
+
+.community-blog .blog-item .right .description {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.community-blog .blog-item .bottomRow {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.community-blog .blog-item .bottomRow .blogMark {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  border: 1px solid #29e8dc;
+  border-radius: 20px;
+}
+
+.community-blog .blog-item .bottomRow button {
+  border-radius: 16px;
+}
+
+.community-blog .blog-item .bottomToolContainer {
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 5px;
+  top: -5px;
+}
+
+.community-blog .blog-item .bottomToolContainer svg {
+  width: 17.5px;
+  height: 19px;
+}
+
+.community-blog .blog-item .bottomToolContainer .commonIcon:last-child svg {
+  margin-right: 3px;
+}
+
+.community-blog .blog-item .bottomToolContainer .listIcon {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 4px;
+  justify-content: center;
+}
+
+.community-blog .blog-item .bottomToolContainer .listIcon svg {
+  width: 13px;
+  height: 13px;
+}
+
+.community-blog .blog-item .bottomToolContainer .commonIcon {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.community-blog .blog-item .bottomToolContainer .commonIcon span {
+  margin-top: 2px;
+}
+
+.community-blog .blog-item .row:last-child {
+  align-items: center;
+}
+
+.community-blog .blog-item .row span {
+  color: #656e7e;
+  font-size: 14px;
+  margin-left: 20px;
+  min-width: 70px;
+}
+
+.community-blog .blog-item .row .user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.community-blog .blog-item .row .user p {
+  margin: 0;
+}
+
+.community-blog .blog-item .row .user .user-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 10px;
+  background-color: #656e7e;
+}
+
+.community-blog .blog-item .row button {
+  background-color: #656e7e;
+  margin: 0;
+  padding: 10px 15px;
+}
+
+.community-blog .blog-item .row button:hover {
+  background-color: #555c69;
+}
+
+.community-blog .create-blog {
+  margin-left: auto;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.community-blog .blog-item .rowNameDate {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.community-blog .blog-item .rowNameDate h3 {
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 0 !important;
+}
+.community-blog .blog-item .description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 104.5%;
+  color: #333333;
+  margin-bottom: 16px;
+}
+
+.community-blog .blog-item .likesRowCommunityBlogItem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgb(8, 24, 49);
+  margin-bottom: 110px;
+}

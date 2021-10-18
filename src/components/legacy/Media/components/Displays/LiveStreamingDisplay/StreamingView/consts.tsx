@@ -1,0 +1,9 @@
+export enum STREAM_STATE {
+  IDLE,
+  CREATING,
+  JOINING,
+  JOINED,
+  LEAVING,
+  DROPING,
+  ERROR,
+}

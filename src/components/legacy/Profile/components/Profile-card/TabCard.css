@@ -1,0 +1,79 @@
+.profile-cards .cards-options {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 10px 0px;
+  width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.create-community-modal .dragImageHereCreatePod {
+  background-color: #f7f8fa;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='16' ry='16' stroke='%2399A1B3FF' stroke-width='4' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+  border-radius: 16px;
+}
+
+.cards-options {
+  scroll-behavior: smooth;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cards-options_title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+}
+.cards-options_sub-title {
+  margin-top: 0;
+}
+.wrapper-btn__community {
+  margin: 10px;
+}
+.cards-options .row,
+.profile-cards .row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.cards-options .tab-card {
+  /* background-color: hsl(217, 72%, 11%, 0.3); */
+  background: linear-gradient(97.4deg, #ff79d1 14.43%, #db00ff 79.45%);
+  border-radius: 30px;
+  height: 80px;
+  min-width: calc(320px - 45px);
+  border-radius: 30px;
+  margin-right: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.tab-card.selected {
+  background: #f7f9fe;
+  border: 1px solid #e0e4f3;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.cards-options .tab-card:last-child {
+  margin: 0;
+}
+
+.cards-options .tab-card p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+}
+
+.cards-options .tab-card span {
+  font-weight: normal;
+  font-size: 25px;
+  color: white;
+}

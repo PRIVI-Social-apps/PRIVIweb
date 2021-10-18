@@ -1,0 +1,549 @@
+.createCampaignModal {
+  width: 920px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  height: calc(85vh - 60px);
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.modalHeaderCreateCampaign {
+  color: rgb(8, 24, 49);
+  font-weight: bold;
+  font-size: 24px;
+}
+.modalSubHeaderCreateCampaign {
+  color: rgb(8, 24, 49);
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.dragImageHereCreateCampaign {
+  border-radius: 16px;
+  background-color: rgb(227, 233, 239);
+  width: 360px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.createCampaignModal .dragImageHereIcon {
+  width: 40px;
+  height: 32px;
+  margin-bottom: 16px;
+}
+.createCampaignModal .dragImageHereLabel {
+  font-weight: 400;
+  color: rgb(101, 110, 126);
+  font-size: 14px;
+}
+.buttonCreateCampaignRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonCreateCampaign {
+  width: 150px !important;
+  height: 50px !important;
+  background-color: rgb(100, 200, 158) !important;
+  color: white !important;
+  font-size: 16px !important;
+  text-transform: none !important;
+  border-radius: 25px;
+  font-weight: bold !important;
+  border: 0;
+  margin: 0 !important;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.buttonCreateCampaign:before {
+  border: 0 !important;
+}
+.buttonCreateCampaign:after {
+  border: 0 !important;
+}
+
+.infoCreateProfileGrid {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.createCampaignModal .textFieldCreatePod {
+  min-height: 46px;
+}
+.textFieldCreateModal {
+  padding-right: 20px !important;
+  width: 95%;
+  margin-bottom: 20px !important;
+}
+.textAreaFieldProfile {
+  margin-top: -5px !important;
+  width: 94%;
+  margin-left: 25px !important;
+}
+.formControlSelectorAge {
+  width: 95%;
+  margin-top: -10px !important;
+  padding-right: 20px !important;
+}
+.datePickerProfileAbout .MuiFormControl-root {
+  width: 95% !important;
+  margin-top: -10px;
+}
+.editProfileButtonGrid {
+  display: flex;
+  align-items: center !important;
+  justify-content: flex-end !important;
+}
+.editProfileButton {
+  background-color: black !important;
+  color: white !important;
+}
+.collateralRowCreateCampaign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.item-card-create-campaign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.item-item-card-create-campaign {
+  width: 33%;
+  text-align: center;
+}
+.profilePhotoCampaignGrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profilePhotoCampaign {
+  background-color: grey;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px !important;
+  justify-content: center;
+  align-items: center;
+}
+.flexRowInputs {
+  display: flex;
+}
+.infoHeaderCreateCampaign {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(101, 110, 126);
+}
+.infoIconCreateCampaign {
+  width: 12px;
+  height: 12px;
+  margin-left: 3px;
+  margin-top: -3px;
+}
+.inputHeaderCreateCampaign {
+  width: 398px;
+  height: 50px;
+  background-color: rgba(227, 233, 239, 0.3);
+  border-radius: 16px;
+  border: 1px solid rgb(128, 152, 179);
+  margin-top: 12px;
+}
+.textFieldCreateCampaign {
+  height: 46px;
+  background-color: rgba(227, 233, 239, 0.3);
+  border-radius: 16px;
+  border: 1px solid rgb(128, 152, 179, 0.3);
+  margin-top: 8px;
+  color: rgb(101, 110, 126);
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 20px;
+  margin-bottom: 19px;
+}
+.textFieldCreateCampaign:focus {
+  outline: none;
+}
+
+.textFieldCreateCampaign::placeholder {
+  outline: none;
+  color: rgba(101, 110, 126, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+.textAreaCreateCampaign {
+  font-family: "Agrandir";
+  width: calc(400px - 24px);
+  height: 110px;
+  padding-top: 17px;
+  background-color: rgba(227, 233, 239, 0.3);
+  border-radius: 16px;
+  border: 1px solid rgb(128, 152, 179);
+  margin-top: 8px;
+  color: rgb(101, 110, 126);
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 20px;
+  margin-bottom: 19px;
+  text-transform: none;
+}
+.textAreaCreateCampaign:focus {
+  outline: none;
+}
+
+.textAreaCreateCampaign::placeholder {
+  outline: none;
+  color: rgba(101, 110, 126, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.appBarTabsCreateCampaigns {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  margin-bottom: 23px;
+}
+.appBarTabsCreateCampaigns .Mui-selected {
+  min-width: auto !important;
+  color: rgb(8, 24, 49) !important;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: none;
+  border-bottom: 3px solid rgb(100, 200, 158);
+  z-index: 100;
+}
+.appBarTabsCreateCampaigns .MuiTab-root {
+  min-width: auto !important;
+  color: #656e7e;
+  text-transform: none;
+}
+.appBarTabsCreateCampaigns .MuiTab-root:hover {
+  background-color: transparent !important;
+}
+
+.ItemCreateCampaign {
+  max-width: 500px;
+  width: 100%;
+  height: 160px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 25px;
+  border-radius: 20px;
+  box-shadow: 0px 3px 16px rgba(101, 112, 129, 0.13);
+  background-color: white;
+  cursor: pointer;
+}
+.ItemCreateCampaignSelected {
+  max-width: 500px;
+  width: 100%;
+  height: 160px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 25px;
+  border-radius: 20px;
+  box-shadow: 0px 3px 16px rgba(101, 112, 129, 0.13);
+  background-color: rgb(100, 200, 158) !important;
+}
+.leftPartItemCreateCampaign {
+  width: 60%;
+  height: calc(160px - 15px);
+  background-color: #081831;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 15px;
+}
+
+.leftPartItemCreateCampaign.withToken {
+  width: 50%;
+}
+
+.leftPartItemCreateCampaign .bottomItemCreateCampaign {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.rightPartItemCreateCampaign {
+  width: 40%;
+  height: calc(160px - 17px);
+  border-radius: 20px;
+  padding-top: 17px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.ItemCreateCampaign .rightPartItemCreateCampaign {
+  padding-top: 35px;
+}
+.rightPartItemCreateCampaign.withToken {
+  width: 50%;
+}
+.valuesRightPartItemCreateCampaign {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.valuesRightPartItemCreateCampaignNoScores {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.nameItemCreateCampaign {
+  height: 20px;
+  padding-left: 20px;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+  margin: 0;
+  font-size: 16px;
+  width: 100%;
+}
+.perCentItemCreateCampaign {
+  height: 20px;
+  margin-left: 10px;
+}
+.perCentBadgeItemCreateCampaign {
+  height: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 24px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconPerCentItemCreateCampaign {
+  height: 10px;
+  width: auto;
+  margin-right: 5px;
+  color: white;
+}
+.iconBlockItemCreateCampaign {
+  height: 20px;
+  padding-right: 20px;
+  padding-left: 10px;
+  text-align: right;
+}
+.lockIconItemCreateCampaign {
+  height: 14px;
+  width: auto;
+}
+.trustItemCreateCampaign {
+  width: 30%;
+}
+.endorsementItemCreateCampaign {
+  width: 50%;
+}
+.closeItemCreateCampaign {
+  text-align: right;
+  cursor: pointer;
+  margin-left: calc(100% - 20px);
+  width: auto;
+}
+.closeIconItemCreateCampaign {
+  height: 16px;
+}
+.closeIconItemCreateCampaignSelected {
+  height: 16px;
+  color: white;
+}
+.valueItemCreateCampaign {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(8, 24, 49);
+}
+.valueItemCreateCampaignSelected {
+  font-size: 14px;
+  font-weight: 400;
+  color: white !important;
+}
+.labelItemCreateCampaign {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(101, 110, 126);
+  margin-top: 2px;
+}
+.labelItemCreateCampaignSelected {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.69);
+  margin-top: 2px;
+}
+.photoItemCreateCampaign {
+  border-radius: 50%;
+  background-color: #5a5a5a;
+  height: 30px;
+  width: 30px;
+  margin-top: 60px;
+}
+.tokenImageItemCreateCampaign {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin-top: 20px;
+  margin-left: calc(50% - 40px);
+  justify-self: center;
+}
+.dividerCreateCampaign {
+  background-color: rgb(238, 241, 244);
+  margin-top: 45px !important;
+  width: 100%;
+}
+
+.textFieldCreateCampaign .MuiFormControl-root {
+  width: 100%;
+}
+.textFieldCreateCampaign .MuiInput-root {
+  height: 45px;
+}
+.textFieldCreateCampaign .MuiInput-underline:before {
+  border-bottom: 0;
+}
+.textFieldCreateCampaign .MuiInput-underline.Mui-error:after:before {
+  border-bottom: 0 !important;
+}
+.textFieldCreateCampaign .MuiInput-underline:after {
+  border-bottom: 0 !important;
+}
+.textFieldCreateCampaign .MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: 0 !important;
+}
+.textFieldCreateCampaign .MuiFormHelperText-root {
+  margin-top: 0 !important;
+}
+.textFieldCreateCampaign .MuiIconButton-root {
+  background-color: transparent !important;
+}
+.textFieldCreateCampaign .MuiIconButton-root:hover {
+  background-color: transparent !important;
+}
+.textFieldCreateCampaign .MuiIconButton-root:focus {
+  background-color: transparent !important;
+}
+
+.selectorFormControlCreateCampaign .MuiInput-underline:before {
+  border: 0 !important;
+}
+.selectorFormControlCreateCampaign .MuiInput-underline:after {
+  border: 0 !important;
+}
+.selectorFormControlCreateCampaign .MuiSelect-icon {
+  padding-right: 15px;
+}
+.selectCreateCampaign {
+  height: 46px;
+  background-color: rgb(227, 233, 239);
+  border-radius: 16px;
+  margin-top: 8px;
+  color: rgb(8, 24, 49) !important;
+  padding-left: 20px;
+  font-size: 14px !important;
+  font-weight: 400;
+  border: none;
+}
+.buySwapDataCreateCampaignRow {
+  min-height: 100px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0px 3px 26px rgba(101, 112, 129, 0.1);
+  margin-top: 14px;
+  margin-bottom: 33px;
+  padding-left: 20px;
+}
+.buttonBuyDataCreateCampaign {
+  border-radius: 25px;
+  height: 50px;
+  width: 150px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(100, 200, 158);
+  font-weight: bold;
+  font-size: 16px;
+}
+.buttonSwapDataCreateCampaign {
+  border-radius: 25px;
+  height: 50px;
+  width: 180px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(100, 200, 158);
+  font-weight: bold;
+  font-size: 16px;
+}
+.buttonCreateCampaignRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.imageCreateCampaignDiv {
+  position: relative;
+}
+.imageCreateCampaign {
+  width: 360px !important;
+  height: 250px !important;
+  border-radius: 16px;
+}
+.removeImageButtonCreateCampaign {
+  position: absolute;
+  top: 10px;
+  right: 100px;
+  font-size: 18px;
+  cursor: pointer;
+  color: rgb(100, 200, 158) !important;
+}
+
+.createCampaignModal .exit {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin: -25px 0px 10px 0px;
+}
+
+.createCampaignModal .exit img {
+  margin-right: -25px;
+}
+
+.createCampaignModal .exit img:hover {
+  cursor: pointer;
+}
+
+.createCampaignModal .collateralSelector {
+  height: 75px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: 10px;
+  margin-bottom: 19px;
+}

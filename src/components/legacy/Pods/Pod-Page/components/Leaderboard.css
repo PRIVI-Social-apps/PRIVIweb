@@ -1,0 +1,138 @@
+.pod-page .leaderboard .leaderboard-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.pod-page .leaderboard .loaderDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.pod-page .leaderboard .leaderboard-list .header {
+  width: calc(100% - 20px);
+  margin: 0;
+  padding: 10px 10px 0px 10px;
+  height: auto;
+  border: 0;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #eef1f4;
+}
+
+.pod-page .leaderboard .leaderboard-list p,
+.pod-page .leaderboard .leaderboard-list .user {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 75px;
+  margin-right: 20px;
+}
+
+.pod-page .leaderboard .leaderboard-list .user {
+  width: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.pod-page .leaderboard .leaderboard-list .row .user .user-image {
+  background-color: #656e7e;
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin: 0px 10px;
+}
+
+.pod-page .leaderboard .leaderboard-list .row .user p {
+  text-align: left !important;
+  width: 210px;
+  margin-right: 0 !important;
+}
+
+.pod-page .leaderboard .leaderboard-list .row .user p:first-child {
+  width: 15px;
+}
+
+.pod-page .leaderboard .leaderboard-list .header p:last-child,
+.pod-page .leaderboard .leaderboard-list .row div:last-child {
+  justify-self: flex-end;
+  margin-right: 0;
+  text-align: right;
+  width: 215px;
+}
+
+.pod-page .leaderboard .leaderboard-list .header p {
+  font-size: 10px;
+  color: #656e7e;
+}
+
+.pod-page .leaderboard .leaderboard-list .row:first-child .user p {
+  font-size: 20px;
+}
+
+.pod-page .leaderboard .leaderboard-list .row:first-child .user .user-image {
+  width: 46px;
+  height: 46px;
+  min-width: 46px;
+  border-radius: 23px;
+}
+
+.pod-page .leaderboard .leaderboard-list .row:nth-child(2) .user p {
+  font-size: 16px;
+}
+
+.pod-page .leaderboard .leaderboard-list .row:nth-child(2) .user .user-image {
+  width: 38px;
+  height: 38px;
+  min-width: 38px;
+  border-radius: 19px;
+}
+
+.pod-page .leaderboard .leaderboard-list .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 20px);
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #eef1f4;
+}
+
+.pod-page .leaderboard .leaderboard-list .row p {
+  font-size: 12px;
+}
+
+.pod-page .leaderboard .leaderboard-list .buttons button {
+  background-color: white;
+  border: 1px solid rgba(100, 201, 159, 0.3);
+  color: #64c89e;
+}
+
+.pod-page .leaderboard .leaderboard-list .buttons button:hover {
+  background-color: rgba(100, 201, 159, 0.1);
+}
+
+.pod-page .leaderboard .expand {
+  background-color: rgb(238, 241, 244, 0.3);
+  color: #656e7e;
+  padding: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% + 20px);
+  margin-left: -10px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  font-size: 14px;
+}

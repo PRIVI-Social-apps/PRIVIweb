@@ -1,0 +1,167 @@
+.community-page .rules_and_levels .top {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.community-page .rules_and_levels .top .left,
+.community-page .rules_and_levels .top .right {
+  width: calc((100% / 2));
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148, 148, 148, 0.66);
+  border-radius: 20px;
+  padding: 15px;
+  margin-right: 20px;
+  max-height: 240px;
+  justify-content: space-between;
+}
+
+.modal .create-community-modal .option-buttons {
+  width: fit-content !important;
+  padding: 0px 2px;
+  margin-bottom: 20px;
+}
+
+.modal .create-community-modal .option-buttons button {
+  width: auto !important;
+  white-space: nowrap !important;
+  padding: 0px 15px !important;
+}
+
+.flexRowBetween {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.JoiningRulesTitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60%;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.RulesTitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60%;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.LevelsTitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60%;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.buttonCreateTokenomics {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 40%;
+}
+
+.createRule {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 40%;
+}
+
+.community-page .rules_and_levels h3 {
+  margin: 0px;
+  margin-bottom: 30px;
+}
+
+.community-page .rules_and_levels .top .left .top-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.community-page .rules_and_levels .top .left .top-row .token-image {
+  width: 50px;
+  min-width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.community-page .rules_and_levels .top .left .top-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.community-page .rules_and_levels .top span {
+  font-size: 12px;
+  color: #656e7e;
+  margin: 0;
+}
+
+.community-page .rules_and_levels .top .left .volume-graph {
+  width: calc(100% + 30px);
+  margin-left: -15px;
+  margin-bottom: 40px;
+}
+
+.community-page .rules_and_levels .bottom-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.community-page .rules_and_levels .bottom-row div {
+  margin-right: 20px;
+}
+
+.community-page .rules_and_levels .bottom-row div:last-child {
+  margin-right: 0px;
+}
+
+.community-page .rules_and_levels .top .box span {
+  font-size: 12px;
+}
+
+.community-page .rules_and_levels .top .box h3 span {
+  font-size: 18px;
+  margin-left: 5px;
+  color: #081831;
+}
+
+.community-page .rules_and_levels .top .box h3 {
+  margin-top: 10px;
+}
+
+.community-page .rules_and_levels .bottom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.community-page .rules_and_levels .bottom .user-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: -10px;
+}
+
+.communityDescription {
+  color: #707582;
+  font-size: 14px;
+}

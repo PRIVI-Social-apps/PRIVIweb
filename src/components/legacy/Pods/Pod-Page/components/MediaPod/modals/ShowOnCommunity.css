@@ -1,0 +1,94 @@
+.show-on-community {
+  width: 535px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 32px;
+  color: #181818;
+
+}
+
+.show-on-community h3 {
+  font-weight: normal;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.show-on-community h4 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.show-on-community h5 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.show-on-community span {
+  font-size: 14px;
+  margin-top: 0;
+}
+.show-on-community .buttonLayout {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.show-on-community .buttonLayout .rightButtonLayout {
+  display: flex;
+  justify-content: space-between;
+}
+.show-on-community .secondary {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+
+.text-color-grey {
+  color: #707582;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.dash-border {
+  flex: 1;
+  height: 1px;
+  border: 1px dashed #707582;
+  margin-right: 10px;
+}
+
+.solid-border {
+  flex: 1;
+  height: 1px;
+  border: 1px solid #707582;
+  margin-bottom: 20px;
+}
+
+ul#show-community-searcher-popup > li {
+  padding: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .show-on-community {
+    width: 90% !important;
+    margin: 0 auto;
+    padding: 32px 16px;
+  }
+  .show-on-community .buttonLayout {
+    align-items: flex-end;
+    flex-wrap: wrap-reverse;
+  }
+  .show-on-community .buttonLayout div {
+    margin-top: 16px;
+  }
+}

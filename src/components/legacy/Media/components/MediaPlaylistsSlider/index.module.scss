@@ -1,0 +1,57 @@
+.carousel {
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  z-index: 1;
+
+  .subtitle {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #181818;
+    margin-bottom: 20px;
+
+    .buttons {
+      button {
+        margin-left: 50px;
+        background: transparent;
+        padding: 0px;
+        outline: none;
+        img {
+          width: 8px;
+          height: 16px;
+        }
+        &:first-child {
+          img {
+            transform: rotate(180deg);
+          }
+        }
+      }
+    }
+  }
+
+  .listContainer {
+    display: flex;
+    width: 96%;
+    margin-bottom: 20px;
+    .list {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow: auto;
+      align-items: center;
+      overflow: hidden;
+      padding: 20px 0px;
+      scroll-behavior: smooth;
+    }
+    .filterRight {
+      min-width: 150px;
+      min-height: 500px;
+      height: 500px;
+      margin-left: -150px;
+      background: linear-gradient(-90deg, white 0%, rgba(246, 246, 246, 0) 100%);
+      z-index: 2;
+    }
+  }
+}

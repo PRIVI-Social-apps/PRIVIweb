@@ -1,0 +1,109 @@
+.audit-modal {
+  background-color: #eef1f4 !important;
+}
+
+.audit-modal .desc,
+.audit-modal h3 {
+  align-self: flex-start;
+}
+
+.audit-modal .underwriters-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.audit-modal .underwriters-list .header {
+  width: calc(100% - 20px);
+  margin: 0;
+  padding: 0px 10px;
+  height: auto;
+  border: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.audit-modal .underwriters-list p,
+.audit-modal .underwriters-list .user {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 80px;
+  min-width: 80px;
+  margin-right: 20px;
+}
+
+.audit-modal .underwriters-list .header p:first-child,
+.audit-modal .underwriters-list .user {
+  width: 50%;
+}
+
+.audit-modal .underwriters-list .user .user-image {
+  background-color: #656e7e;
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.audit-modal .underwriters-list .user p {
+  text-align: left !important;
+  width: 100%;
+}
+
+.audit-modal .underwriters-list .header p {
+  font-size: 10px;
+  color: #656e7e;
+}
+
+.audit-modal .underwriters-list .row {
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 20px);
+  background-color: white;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.audit-modal .underwriters-list .row p {
+  font-size: 12px;
+}
+
+.audit-modal .underwriters-list .row div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.audit-modal .underwriters-list .row .circle {
+  width: 26px;
+  height: 26px;
+  min-width: 26px;
+  border-radius: 13px;
+  background-color: #eef1f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.audit-modal .underwriters-list .row .circle .filled {
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  border-radius: 8px;
+  background-color: #3cafd4;
+}
+
+.audit-modal button {
+  align-self: flex-end;
+}
+
+.audit-modal .underwriters-list .selected {
+  border: 2px solid #3cafd4;
+  background-color: #f7f9fb;
+}

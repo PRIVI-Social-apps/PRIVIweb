@@ -1,0 +1,89 @@
+.insurance {
+  width: calc(100vw - 80px) !important;
+  min-width: calc(100vw - 80px) !important;
+  max-width: calc(100vw - 80px) !important;
+  height: 100vh !important;
+  min-height: 100vh !important;
+  max-height: 100vh !important;
+  background: rgb(227, 233, 239);
+  background: linear-gradient(
+    180deg,
+    rgba(227, 233, 239, 1) 560px,
+    rgba(238, 241, 244, 1) 560px,
+    rgba(238, 241, 244, 1) 100%
+  );
+}
+
+.insurance p {
+  margin: 0;
+}
+
+/* Header */
+
+.insurance .header {
+  padding: 0px 30px 0 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  max-height: 80px;
+  min-width: 80px;
+  border-bottom: 1px #cfdae5 solid;
+}
+
+/** Header > Title **/
+
+.insurance .header h2 {
+  width: 180px;
+  margin: 0;
+}
+
+/** Header > Options */
+
+.insurance .header .option-buttons {
+  margin-left: calc(90px - 180px);
+  background-color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+}
+
+.insurance .header .option-buttons button {
+  border-radius: 17px !important;
+  background-color: white !important;
+  color: #656e7e !important;
+  margin: 3px;
+  padding: 4px 6px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.insurance .header .option-buttons button:hover {
+  background-color: rgb(230, 230, 230) !important;
+}
+
+.insurance .header .option-buttons button:focus {
+  outline: none;
+}
+
+.insurance .header .option-buttons .selected {
+  background-color: #64c89e !important;
+  padding: 6px 8px;
+  color: white !important;
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+}
+
+.insurance .header .option-buttons .selected:hover {
+  background-color: #56ad89 !important;
+}
+
+/** Header > buttons **/
+
+.insurance .header .buttons {
+  display: flex;
+  flex-direction: row;
+}

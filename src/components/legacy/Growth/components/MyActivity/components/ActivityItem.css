@@ -1,0 +1,49 @@
+.growth-page .growth-activity .content-wrapper .activity-items .activity-item {
+  width: calc(100% - 40px);
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.growth-page
+  .growth-activity
+  .content-wrapper
+  .activity-items
+  .activity-item
+  .user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #656e7e;
+  font-size: 14px;
+}
+
+.growth-page
+  .growth-activity
+  .content-wrapper
+  .activity-items
+  .activity-item
+  .user
+  .image {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 10px;
+  background-color: #656e7e;
+}
+
+.growth-page
+  .growth-activity
+  .content-wrapper
+  .activity-items
+  .activity-item
+  button {
+  margin: 0;
+  padding: 12px 20px;
+  font-size: 14px;
+}

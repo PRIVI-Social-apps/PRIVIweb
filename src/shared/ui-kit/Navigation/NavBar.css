@@ -1,0 +1,7 @@
+.chat-modal-container {
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  right: 40px;
+  z-index: 2;
+}

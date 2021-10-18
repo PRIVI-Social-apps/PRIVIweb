@@ -1,0 +1,173 @@
+.modalDaoProposal {
+  width: 720px;
+  background-color: white !important;
+  border-radius: 20px !important;
+  min-height: 70vh;
+  margin-top: 10px;
+}
+.modalDaoProposal .loaderDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.firstPartDaoProposal {
+  padding-top: 27px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 21px;
+}
+.secondPartDaoProposal {
+  background-color: rgb(238, 241, 244);
+  padding-top: 42px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 60px;
+  border-radius: 20px;
+}
+.squareWhiteDaoProposal {
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+}
+.nameDaoProposal {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: rgb(8, 24, 49);
+  margin-top: 20px !important;
+  margin-bottom: 15px !important;
+}
+.balanceDaoProposal {
+  background-color: rgb(101, 110, 126);
+  border-radius: 20px;
+  height: 40px;
+  width: 155px;
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.descriptionDaoProposal {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgb(8, 24, 49);
+  margin-bottom: 10px;
+}
+.headerSquareWhiteDaoProposal {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(131, 139, 152);
+  margin-bottom: 1px;
+}
+.valueSquareWhiteDaoProposal {
+  font-size: 26px;
+  font-weight: 700;
+  color: rgb(8, 24, 49);
+}
+.graphBarDaoProposalGrid {
+  margin-top: 30px !important;
+  margin-bottom: 10px !important;
+}
+.graphBarDaoProposal {
+  width: 100%;
+  height: 20px;
+  margin-bottom: 10px;
+  background-color: rgb(238, 241, 244);
+  border-radius: 9px;
+}
+.graphBarDaoProposalIn {
+  background-color: rgb(238, 241, 244);
+  border-radius: 9px;
+  height: 20px;
+}
+.valueGraphBarDaoProposal {
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(101, 110, 126);
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.selectDaoProposal {
+  height: 50px;
+  background-color: rgb(227, 233, 239);
+  border-radius: 16px;
+  margin-top: 8px;
+  color: rgb(8, 24, 49) !important;
+  padding-left: 20px;
+  font-size: 14px !important;
+  font-weight: 400;
+  border: none;
+}
+.selectorFormControlDaoProposal {
+  width: 100% !important;
+}
+.selectorFormControlDaoProposal .MuiInput-underline:before {
+  border: 0 !important;
+}
+.selectorFormControlDaoProposal .MuiInput-underline:after {
+  border: 0 !important;
+}
+.selectorFormControlDaoProposal .MuiSelect-icon {
+  padding-right: 15px;
+}
+
+.graphBarDaoProposal .red-area {
+  height: 18px;
+  min-height: 18px;
+  max-height: 18px;
+  border-radius: 9.5px;
+}
+
+.graphBarDaoProposal .green-area {
+  background-color: #64c89e;
+  background-image: linear-gradient(
+    135deg,
+    #64c89e 25%,
+    #83d3b1 25%,
+    #83d3b1 50%,
+    #64c89e 50%,
+    #64c89e 75%,
+    #83d3b1 75%,
+    #83d3b1 100%
+  );
+  background-size: 20px 20px;
+}
+
+.graphBarDaoProposal .red-area {
+  background-color: #c76b64;
+  background-image: linear-gradient(
+    135deg,
+    #c76b64 25%,
+    #d38983 25%,
+    #d38983 50%,
+    #c76b64 50%,
+    #c76b64 75%,
+    #d38983 75%,
+    #d38983 100%
+  );
+  background-size: 20px 20px;
+  margin-left: 2px;
+}
+
+@keyframes barberpole {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 60px 30px;
+  }
+}
+
+.graphBarDaoProposal .green-area:hover,
+.graphBarDaoProposal .red-area:hover {
+  animation: barberpole 1.5s linear infinite;
+}

@@ -1,0 +1,105 @@
+.modal .insurer-image {
+  background-color: #656e7e;
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
+  min-height: 30px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.modal h4 {
+  align-self: flex-start;
+}
+.create-credit-modal {
+  align-items: flex-start;
+  /* margin-left: 20%; */
+  margin-top: 50px;
+  height: 82vh;
+  overflow-y: auto;
+  scrollbar-width: none;
+  overflow-x: hidden;
+  width: 52%;
+}
+
+.user-management {
+  width: 100%;
+  padding: 0px 30px;
+}
+
+.create-credit-modal .imageCreatePodDiv,
+.create-credit-modal .dragImageHereCreatePod,
+.create-credit-modal .imageCreatePodDiv {
+  width: 400px;
+}
+
+.create-credit-modal .flexRowInputs {
+  display: flex;
+  padding-right: 16px;
+  align-items: flex-end;
+  padding-bottom: 16px;
+}
+
+.modal .selector-with-token {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(227, 233, 239);
+  border-radius: 16px;
+  height: 50px;
+  margin: 8px 0px 19px 0px;
+  align-self: start;
+  max-width: 400px;
+}
+
+.modal .selector-with-token img {
+  margin: 0px 10px 0px 10px;
+  padding: 0;
+}
+
+.modal .selector-with-token .selectCreatePod {
+  background-color: transparent;
+  padding: 0px;
+  margin: 0px 10px 0px 0px;
+}
+
+.create-credit-modal .error {
+  margin-bottom: 20px !important;
+}
+
+.item-card-create-pod {
+  background-color: rgb(227, 233, 239);
+  border-radius: 20px;
+  width: 120px;
+  max-width: 120px;
+  min-width: 120px;
+  padding: 10px 0px 10px 10px;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.item-card-create-pod img {
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
+  margin-right: 20px;
+}
+
+.create-credit-modal .exit img {
+  margin: 0 !important;
+}
+
+.create-credit-modal .collaterals {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 400px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding-bottom: 10px;
+  margin-top: 0px !important;
+}
+
+.create-credit-modal .no-left-padding {
+  padding-left: 0px !important;
+}

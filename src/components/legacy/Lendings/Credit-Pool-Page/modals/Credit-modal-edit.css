@@ -1,0 +1,213 @@
+.modalCreditEditFullDiv {
+  width: 920px;
+  background-color: white;
+  border-radius: 20px !important;
+  /* min-height: 70vh; */
+  /* margin-top: 60px; */
+  margin-bottom: 60px;
+}
+
+.flexDisplayCenterStart {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.modalCreditEditFullDiv .exit {
+  display: flex;
+  justify-content: flex-end;
+  width: 101%;
+  margin: -15px -20px 10px 0px;
+  cursor: pointer;
+}
+
+.modalScroll {
+  /*height: 50vh;
+    max-height: 50vh;*/
+  padding-right: 20px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+.modalHeaderEdit {
+  color: rgb(8, 24, 49);
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.infoProfileAboutGrid {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.textFieldProfile {
+  margin-top: -10px !important;
+  padding-right: 20px !important;
+  width: 100%;
+}
+.textAreaFieldProfile {
+  margin-top: -5px !important;
+  width: 94%;
+  margin-left: 25px !important;
+}
+.formControlSelectorAgeEditProfile {
+  width: 100%;
+  padding-right: 20px !important;
+}
+.datePickerProfileAbout .MuiFormControl-root {
+  width: 100% !important;
+  margin-top: -10px;
+}
+.editProfileButtonGrid {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.editProfileButton {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.infoHeaderModalEdit {
+  font-size: 14px;
+  font-weight: bold;
+  color: grey;
+}
+.textFieldModalEdit {
+  padding-right: 20px !important;
+  width: 100%;
+  margin-bottom: 10px !important;
+}
+.datePickerProfileAbout {
+  margin-top: 10px;
+}
+
+.infoHeaderEdit {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(101, 110, 126);
+}
+
+.infoIconEdit {
+  width: 12px;
+  height: 12px;
+  margin-left: 3px;
+  margin-top: -3px;
+}
+
+.textFieldEdit {
+  height: 46px;
+  background-color: rgba(227, 233, 239, 0.3);
+  border-radius: 16px;
+  border: 1px solid hsla(212, 25%, 60%, 0.3);
+  margin-top: 8px;
+  color: rgb(101, 110, 126);
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 20px;
+  margin-bottom: 8px;
+  width: calc(100% - 24px);
+  display: flex;
+  align-items: center;
+}
+
+.textFieldEdit:focus {
+  outline: none;
+}
+
+.textFieldEdit::placeholder,
+.textAreaEdit::placeholder {
+  outline: none;
+  color: rgba(101, 110, 126, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+.textAreaEdit {
+  font-family: 'Agrandir';
+  width: calc(400px - 24px);
+  height: 110px;
+  padding-top: 17px;
+  background-color: rgba(227, 233, 239, 0.3);
+  border-radius: 16px;
+  border: 1px solid rgb(128, 152, 179, 0.3);
+  margin-top: 8px;
+  color: rgb(101, 110, 126);
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 20px;
+  margin-bottom: 19px;
+  text-transform: none;
+  width: calc(100% - 24px);
+}
+.textAreaEdit:focus {
+  outline: none;
+}
+.selectEdit {
+  height: 50px;
+  background-color: rgba(227, 233, 239, 0.3);
+  border-radius: 16px;
+  margin-top: 8px;
+  color: rgb(8, 24, 49) !important;
+  padding-left: 20px;
+  font-size: 14px !important;
+  font-weight: 400;
+  border: none;
+  width: calc(100%);
+}
+
+.textFieldEdit .MuiFormControl-root {
+  width: 100%;
+}
+
+.textFieldEdit .MuiInput-root {
+  background-color: transparent;
+  color: rgb(101, 110, 126);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 960px) {
+  .modalCreditEditFullDiv {
+    width: 600px;
+  }
+  .textAreaFieldProfile {
+    width: 100%;
+    margin-left: 0px !important;
+  }
+
+  .textFieldProfile {
+    width: 100%;
+  }
+  .formControlSelectorAgeEditProfile {
+    width: 100%;
+  }
+  .datePickerProfileAbout .MuiFormControl-root {
+    width: 100% !important;
+  }
+
+  .modalScroll {
+    overflow-y: auto;
+    scrollbar-width: none;
+    height: 60vh;
+    max-height: 60vh;
+    padding-right: 20px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .modalCreditEditFullDiv {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .modalCreditEditFullDiv {
+    width: 450px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .modalCreditEditFullDiv {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .modalCreditEditFullDiv {
+    width: 350px;
+  }
+}

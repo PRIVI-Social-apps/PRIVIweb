@@ -1,0 +1,239 @@
+.modal .issue-modal {
+  overflow-y: auto;
+  scrollbar-width: none;
+  max-height: 85vh;
+  width: 50%;
+}
+
+.modal .issue-modal .header {
+  width: 100%;
+}
+
+.modal .issue-modal .header .title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.modal .issue-modal .header .title h3 {
+  max-width: 60%;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.modal .issue-modal .header .title .select-wallet {
+  border-radius: 20px;
+  background-color: rgb(101, 110, 126);
+  height: 40px;
+  padding: 0px 20px;
+}
+
+.modal .issue-modal .header .title .select-wallet div {
+  color: white;
+  font-size: 14px;
+}
+
+.modal .issue-modal .header .tags {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.modal .issue-modal .header .tags .tag {
+  background-color: #656e7e;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.modal .issue-modal .bottom .user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.modal .issue-modal .bottom .user p {
+  margin: 0;
+}
+
+.modal .issue-modal .bottom .user .user-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 10px;
+  background-color: #656e7e;
+}
+
+.modal .issue-modal .bottom .bottom-area {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgba(238, 241, 244, 0.3);
+  padding: 20px 30px 30px 30px;
+  width: calc(100%);
+  margin-left: -30px;
+  margin-bottom: -35px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.modal .issue-modal .bottom .bottom-area h5 {
+  font-size: 18px;
+  align-self: flex-start;
+}
+
+.modal .issue-modal .bottom .bottom-area p {
+  white-space: pre-line;
+  margin: 0;
+  line-height: 1.5rem;
+}
+
+.modal .issue-modal .bottom .bottom-area .vote-area {
+  margin-top: 45px;
+  background-color: white;
+  padding: 0px 30px 30px 30px;
+  width: calc(100% - 60px);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal .issue-modal .bottom .bottom-area .vote-area .vote-info,
+.modal .issue-modal .bottom .bottom-area .vote-area .answers {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.modal .issue-modal .bottom .bottom-area .vote-area .vote-info .column {
+  margin-right: 50px;
+}
+
+.modal
+  .issue-modal
+  .bottom
+  .bottom-area
+  .vote-area
+  .vote-info
+  .column:last-child {
+  margin-right: 0px;
+}
+
+.modal .issue-modal .bottom .bottom-area .vote-area .vote-info .column span {
+  font-size: 14px;
+  color: #838b98;
+  font-weight: normal;
+}
+
+.modal .issue-modal .bottom .bottom-area .vote-area .vote-info .column h4 {
+  font-size: 26px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.modal .issue-modal .bottom .bottom-area .vote-area .answers {
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.modal .issue-modal .bottom .bottom-area .vote-area .answers .answer {
+  background-color: hsla(210, 27%, 91%, 0.3);
+  border: 1px solid hsla(212, 25%, 60%, 0.3);
+  height: calc(140px - 50px);
+  -webkit-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  -moz-box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  box-shadow: -2px 7px 75px -9px rgba(148,148,148,0.66);
+  width: calc(100% / 3);
+  border-radius: 16px;
+  margin-right: 15px;
+  padding: 25px 10px;
+}
+
+.modal .issue-modal .bottom .bottom-area .vote-area .answers .answer:hover {
+  cursor: pointer;
+}
+
+.modal
+  .issue-modal
+  .bottom
+  .bottom-area
+  .vote-area
+  .answers
+  .answer:last-child {
+  margin-right: 0;
+}
+
+.modal .issue-modal .bottom .bottom-area .vote-area .answers .answer p {
+  color: hsla(218, 13%, 30%, 0.8);
+  font-size: 14px;
+}
+.modal
+  .issue-modal
+  .bottom
+  .bottom-area
+  .vote-area
+  .answers
+  .answer
+  p:first-child {
+  margin-bottom: 15px;
+}
+
+.modal .issue-modal .bottom .bottom-area .vote-area .answers .selected {
+  border: 2px solid #3cafd4;
+}
+
+.modal .issue-modal .bottom .bottom-area .vote-area .answers .selected p {
+  color: #424955;
+  font-size: 14px;
+}
+
+.modal
+  .issue-modal
+  .bottom
+  .bottom-area
+  .vote-area
+  .answers
+  .selected
+  p:first-child {
+  font-weight: bold;
+}
+
+.modal .issue-modal .bottom .bottom-area .vote-area .submit-vote {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.modal .issue-modal .bottom .bottom-area .vote-area .submit-vote label {
+  width: 280px;
+  margin: 0;
+}
+
+.modal .issue-modal .bottom .bottom-area .vote-area .submit-vote label input {
+  height: calc(50px - 16px - 15px);
+  border: 1px solid hsla(212, 25%, 60%, 0.3) !important;
+  margin-top: 10px;
+}
+
+.modal .issue-modal .bottom .bottom-area .vote-area .submit-vote button {
+  height: 50px;
+  margin: 0;
+  margin-left: 50px;
+  border-radius: 25px;
+  padding: 0px 30px;
+}
+
+.modal .issue-modal .bottom .bottom-area .vote-area span {
+  color: #424955;
+  font-size: 14px;
+}

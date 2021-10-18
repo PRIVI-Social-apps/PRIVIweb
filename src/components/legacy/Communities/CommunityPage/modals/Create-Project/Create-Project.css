@@ -1,0 +1,152 @@
+.modalCreateProject{
+    width: 892px;
+    background-color: white !important;
+    border-radius: 20px !important;
+    overflow: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 26px;
+    padding-bottom: 48px;
+}
+.firstPartCreateProject .exit {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.firstPartCreateProject .titleCommunitiesModal {
+  font-size: 30px;
+  font-weight: normal;
+}
+.modalCreateProject .subTitleCommunitiesModal {
+  font-size: 18px;
+  font-weight: 800;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.modalCreateProject .subTitleCommunitiesModal div {
+  cursor: pointer;
+}
+
+.modalCreateProject .textFieldCommunitiesModal {
+  background: #F7F9FE;
+  border: 1px solid #E0E4F3;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 100%;
+}
+.modalCreateProject .selectorFormControlCreatePod {
+  width: 100%;
+}
+
+.modalCreateProject .textFieldCommunitiesModal .MuiInputBase-root input {
+  font-size: 14px;
+}
+.modalCreateProject .textFieldCommunitiesModal .MuiSelect-root {
+  color: rgb(101, 110, 126);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: start;
+}
+
+.modalCreateProject .infoHeaderCommunitiesModal {
+  font-family: "Agrandir";
+  font-weight: normal;
+  font-size: 18px;
+  color: black;
+}
+.modalCreateProject .textAreaImgTitleDesc {
+  background: #F7F9FE;
+  border-radius: 8px;
+  border: 1px solid #E0E4F3 !important;
+  padding-left: 16px;
+  margin-bottom: 0;
+}
+
+.firstRowCreateProject{
+    margin-top: 12px;
+}
+.firstRowCreateProject .textFieldImgTitleDesc {
+  height: 46px;
+  background: #F7F9FE;
+  border-radius: 8px;
+  border: 1px solid #E0E4F3 !important;
+  color: #4F4F4F;
+  padding-left: 16px;
+  margin-bottom: 16px;
+}
+
+.firstRowCreateProject .firstRowCreateProject {
+  height: 147px;
+}
+.firstRowCreateProject .dragImageHereImgTitleDesc {
+  background: #F7F9FE;
+  border: 1px dashed #E0E4F3 !important;
+  border-radius: 8px;
+}
+.collateralSelectorProject{
+    height: 75px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 10px;
+    margin-bottom: 19px;
+}
+.authorPhotoProject {
+    width: 35px;
+    height: 35px;
+    background-color: grey;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+.authorNameProject {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgb(8, 24, 49);
+}
+
+.datePickerVoting .MuiFormControl-root {
+    width: 95% !important;
+    margin-top: -10px;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+.modalCreateProject .thirdPartCreateProject .positions {
+  margin-bottom: 30px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid black;
+}
+
+.modalCreateProject .thirdPartCreateProject .positions:last-child {
+  border-bottom: none;
+}
+
+@media screen and (max-width: 768px) {
+  .modalCreateProject {
+    width: 576px;
+    padding: 26px 14px 48px 26px;
+  }
+
+  .firstPartCreateProject .titleCommunitiesModal {
+    font-size: 22px;
+  }
+
+  .modalCreateProject .subTitleCommunitiesModal {
+    font-size: 14px;
+  }
+
+  .dragImageHereLabelImgTitleDesc {
+    font-size: 14px;
+  }
+
+  .modalCreateProject .infoHeaderCommunitiesModal {
+    font-size: 16px;
+    padding-top: 8px;
+  }
+}

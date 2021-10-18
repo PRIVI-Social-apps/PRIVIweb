@@ -1,0 +1,45 @@
+.modalCreateBadge {
+  width: 920px;
+  border-radius: 20px !important;
+  background-color: white !important;
+}
+.partCreateBadge {
+  padding-top: 32px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.loaderCreateBadge {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.modalCreateBadge .partCreateBadge .row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.modalCreateBadge .partCreateBadge .row .badge-class {
+  width: calc(100% / 3);
+  margin-right: 10px;
+  border-radius: 16px;
+  border: 1px solid rgb(128, 152, 179);
+  background-color: rgba(227, 233, 239, 0.3);
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  color: rgb(66, 73, 85);
+  font-size: 14px;
+}
+
+.modalCreateBadge .partCreateBadge .row .selected {
+  border: 2px solid rgb(60, 175, 212) !important;
+  color: rgb(60, 175, 212) !important;
+  background-color: rgb(247, 249, 251) !important;
+}

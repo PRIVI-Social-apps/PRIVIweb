@@ -1,0 +1,90 @@
+.userPointsModal.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal .user-points-modal {
+  align-items: flex-start;
+}
+
+.modal .user-points-modal .exit {
+  width: calc(100% + 15px);
+}
+
+.modal .user-points-modal span {
+  color: #656e7e;
+  font-size: 14px;
+}
+
+.modal .user-points-modal .row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.modal .user-points-modal .row .column {
+  margin-right: 50px;
+}
+
+.modal .user-points-modal .row h2 {
+  margin: 0;
+  font-size: 64px;
+}
+
+.modal .user-points-modal .row h5 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.modal .user-points-modal .view-history {
+  color: #081831;
+  font-size: 14px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #64c89e;
+  font-weight: bold;
+}
+
+.modal .user-points-modal .user-points-list {
+  max-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 30px 30px 30px 30px;
+  overflow-y: auto;scrollbar-width: none;
+  background-color: #eef1f4;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-left: -30px;
+  margin-bottom: -35px;
+}
+
+.modal .user-points-modal .user-points-list .user-points-row {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 30px);
+  padding: 15px;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.modal .user-points-modal .user-points-list .user-points-row .left,
+.modal .user-points-modal .user-points-list .user-points-row .right {
+  display: flex;
+}
+
+.modal .user-points-modal .user-points-list .user-points-row .left {
+  flex-direction: column;
+}
+
+.modal .user-points-modal .user-points-list .user-points-row p {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.modal .user-points-modal .user-points-list .user-points-row .right span {
+  color: #081831;
+  margin-left: 35px;
+}

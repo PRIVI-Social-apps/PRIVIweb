@@ -1,0 +1,178 @@
+.payments .loaderDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.payments .payment-item {
+  padding: 5px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.payments .payment-item .payment-cell {
+  width: 100%;
+  border-left: 1px solid #e0e4f3;
+  padding: 5px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.payments {
+  padding: 10px 0px 5px 0px;
+}
+
+.payments .payment-item .payment-image {
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+  background-color: #656e7e;
+  border-radius: 50%;
+  border: 1px solid #ff79d1;
+}
+
+.payments .heading-balance .token-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+
+.payments .heading-balance {
+  margin-bottom: 30px;
+}
+
+.payments .balance-text > p {
+  margin: 0px;
+  margin-top: 24px;
+}
+
+.payments .history > h3 {
+  margin: 53px 0px 30px 0px;
+}
+
+.payments .history > div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.font3070 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.font3040 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.font2240 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.font1840 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.font1470 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #181818;
+}
+
+.grey {
+  color: #99a1b3;
+}
+
+.font1480 {
+  font-size: 14px;
+  font-weight: 800;
+  color: #181818;
+}
+
+.font1440 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.flex {
+  display: flex;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.card {
+  background-color: white;
+  border-left: 1px solid #e0e4f3;
+  padding-left: 60px;
+  margin-left: 60px;
+}
+
+.historyBox {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  -webkit-box-shadow: -2px 7px 25px -9px rgba(148, 148, 148, 0.66);
+  -moz-box-shadow: -2px 7px 25px -9px rgba(148, 148, 148, 0.66);
+  box-shadow: -2px 7px 25px -9px rgba(148, 148, 148, 0.66);
+  width: 100%;
+}
+
+.margin-right-73 {
+  margin-right: 73px;
+}
+
+.margin-top-12 {
+  margin: 0px;
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.token-action-buttons {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.payments .balance-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.payments .balance-text > p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 0;
+}

@@ -1,0 +1,79 @@
+.pod-page .secondary-market .market-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.pod-page .secondary-market .market-list .header {
+  width: 100%;
+  margin: 0;
+  padding: 0px 10px;
+  height: auto;
+  border: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.pod-page .secondary-market .market-list p,
+.pod-page .secondary-market .market-list .user {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 150px;
+  margin-right: 20px;
+}
+
+.pod-page .secondary-market .market-list .user .user-image {
+  background-color: #656e7e;
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.pod-page .secondary-market .market-list .user p {
+  text-align: left !important;
+}
+
+.pod-page .secondary-market .market-list .header p:last-child,
+.pod-page .secondary-market .market-list p:last-child {
+  justify-self: flex-end;
+  margin-right: 0;
+  text-align: right;
+}
+
+.pod-page .secondary-market .market-list .header p {
+  font-size: 10px;
+  color: #656e7e;
+}
+
+.pod-page .secondary-market .market-list .row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.pod-page .secondary-market .market-list .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.pod-page .secondary-market .market-list .row p {
+  font-size: 12px;
+}
+
+.pod-page .secondary-market .market-list .row div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

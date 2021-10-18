@@ -1,0 +1,438 @@
+.profile-card {
+  display: flex;
+  background-color: white;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 0px 15px 15px 15px;
+  min-width: 200px;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 8px;
+  height: fit-content;
+}
+
+/*----- CARD IMAGE ----*/
+
+.profile-card .card-image {
+  justify-self: center;
+  min-height: 100px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #081831;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.profile-card .card-image.with-image {
+  height: 200px;
+}
+
+.profile-card .profile-image {
+  width: calc(100% + 30px);
+  margin-left: -15px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  min-height: 100px;
+}
+
+.profile-card .profile-image .aspect-ratio-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.profile-card .profile-image .non-aspect-ratio-wrapper {
+  position: relative;
+  height: fit-content;
+}
+
+.profile-card .card-image .community-image,
+.profile-card .card-img {
+  margin-left: -15px;
+  width: calc(100% + 30px);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  min-height: 100px;
+}
+
+.profile-card .card-img {
+  min-height: 100px;
+  width: 100%;
+  margin: 0;
+}
+
+.profile-card .profile-image {
+  position: relative;
+}
+
+.profile-card .card-image .token-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  background-color: #656e7e;
+  margin: 20px 0;
+}
+
+.profile-card .card-image .hex {
+  height: 150px;
+  width: 135px;
+  background-color: #656e7e;
+}
+
+.profile-card .profile-image .avatar {
+  margin-left: 15px;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  border: 2px solid #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(0, 50%);
+  background-color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+  .profile-card .avatar {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.profile-card .badge {
+  margin-right: 15px;
+  background: linear-gradient(97.4deg, #ff79d1 14.43%, #db00ff 79.45%);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 36px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #ffffff;
+  padding: 7px 14px;
+  position: absolute;
+  top: 16px;
+  right: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .profile-card .badge {
+    font-size: 11px;
+  }
+}
+
+/*------ ACTIONS ------*/
+.profile-card .actions {
+  margin-right: 15px;
+  background: #181818;
+  border: 2px solid #ffffff;
+  border-radius: 18px;
+  height: 32px;
+  padding: 0px 15px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(0, 50%);
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+}
+
+.profile-card .actions span {
+  color: white;
+  margin-right: 5px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.profile-card .actions span:last-child {
+  margin-right: 0;
+}
+
+.profile-card .actions img {
+  height: 16.5px;
+}
+
+.profile-card .likes {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  align-self: flex-end;
+  text-align: right;
+  margin-top: 8px;
+  margin-bottom: -20px;
+  margin-right: 8px;
+}
+
+/*---- TITLE ----*/
+
+.profile-card p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  max-width: calc(100% - 140px);
+  color: #181818;
+  text-overflow: ellipsis;
+}
+
+/*---- TAGS ----*/
+
+.profile-card .tags {
+  margin-top: 8px;
+  padding: 16px;
+  margin-left: -15px;
+  margin-right: -15px;
+  display: flex;
+  width: calc(100% + 30px);
+  align-items: center;
+  border-top: 1px solid rgb(0, 0, 0, 0.05);
+}
+
+.tags > div {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  color: #949bab;
+  padding: 6px 11px;
+  margin-right: 5px;
+  border: 1px solid #949bab;
+  box-sizing: border-box;
+  border-radius: 14px;
+}
+
+/*----- INFO -----*/
+
+.profile-card .info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 8px 16px;
+  padding-bottom: 0;
+  margin-left: -15px;
+  margin-right: -15px;
+  width: calc(100% + 30px);
+  border-top: 1px solid rgb(0, 0, 0, 0.05);
+}
+
+.profile-card .info .price {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-card .info .price span {
+  font-size: 14px;
+  color: #949bab;
+  text-align: right;
+}
+
+@media only screen and (max-width: 1024px) {
+  .profile-card .info .price span {
+    font-size: 11px;
+  }
+}
+
+.profile-card .info .price .value {
+  font-size: 18px;
+  color: #181818;
+}
+
+@media only screen and (max-width: 1024px) {
+  .profile-card .info .price .value {
+    font-size: 16px;
+  }
+}
+
+.profile-card .info .main {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-card .info .main span:first-child {
+  font-size: 14px;
+  color: #949bab;
+}
+
+@media only screen and (max-width: 1024px) {
+  .profile-card .info .main span:first-child {
+    font-size: 11px;
+  }
+}
+
+.profile-card .info .main .change {
+  font-size: 18px;
+  color: #181818;
+}
+
+@media only screen and (max-width: 1024px) {
+  .profile-card .info .main .change {
+    font-size: 16px;
+  }
+}
+
+/*------ BOTTOM ------*/
+.profile-card .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-card .bottom span {
+  font-weight: normal;
+  font-size: 15px;
+  color: #99a1b3;
+}
+
+.profile-card .bottom .row {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+}
+
+.profile-card .bottom .row span {
+  margin-right: 5px;
+}
+.profile-card .bottom .row .eye svg {
+  font-weight: normal;
+  font-size: 15px;
+  color: #99a1b3;
+  margin-bottom: -2px;
+}
+
+.profile-card .profile-title {
+  font-weight: 800;
+  font-size: 18px;
+  color: #181818;
+  margin-top: 32px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 15px;
+  align-items: flex-start;
+}
+
+@media only screen and (max-width: 1024px) {
+  .profile-card .profile-title {
+    font-size: 16px;
+  }
+}
+
+.profile-card .card-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px !important;
+  margin-left: -15px;
+  margin-right: -15px;
+  display: flex;
+  width: calc(100% + 30px);
+  align-items: center;
+  border-top: 1px solid rgb(0, 0, 0, 0.05);
+}
+
+.profile-card .card-stats > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-card .card-stats .title {
+  font-size: 14px;
+  line-height: 120%;
+  color: #949bab;
+  padding: 0;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .profile-card .card-stats .title {
+    font-size: 11px;
+  }
+}
+
+.profile-card .card-stats .content {
+  font-size: 18px;
+  color: #181818;
+  margin-top: 3px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .profile-card .card-stats .content {
+    font-size: 16px;
+  }
+}
+
+.profile-card .fraction {
+  display: flex;
+  align-items: center;
+  padding: 16px 16px 0;
+  margin-left: -15px;
+  margin-right: -15px;
+  width: calc(100% + 30px);
+  border-top: 1px solid rgb(0, 0, 0, 0.05);
+}
+
+.profile-card .fraction button {
+  padding: 8px 16px;
+  line-height: 15px;
+  height: auto;
+}
+
+.community-card-user {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  top: -16px;
+  left: 10px;
+}
+
+.profile-community-card-members .member-image:first-child {
+  margin-left: 0;
+}
+
+.profile-community-card-members {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  transform: translate(0, 50%);
+  margin-left: 15px;
+  bottom: 0;
+  left: 0;
+}
+
+.profile-community-card-members .member-image {
+  width: 32px;
+  height: 32px;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: -10px;
+}
+
+.profile-community-card-members .community-card-member-numbers {
+  font-size: 11px;
+  font-weight: 400;
+  color: #6b6b6b;
+  text-shadow: none;
+  padding: 2px 6px;
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 25%);
+  border-radius: 8px;
+  background-color: #fff;
+  margin-left: -10px;
+}
+
+.popoverPaper {
+  width: 267px;
+  margin-right: -267px;
+  margin-left: -90px;
+  border-radius: 10px;
+  box-shadow: "0px 2px 20px rgba(0, 0, 0, 0.1)";
+  position: "inherit";
+}

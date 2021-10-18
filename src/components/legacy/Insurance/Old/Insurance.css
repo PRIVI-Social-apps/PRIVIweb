@@ -1,0 +1,30 @@
+.insurance {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  overflow: auto;
+  height: 100vh;
+  width: calc(100vw - 80px);
+  max-width: calc(100vw - 80px);
+}
+
+.insurance-subtitle {
+  margin: 15px 0 5px 15px;
+}
+
+.insurance .trending {
+  padding: 10px 0px;
+  background-color: whitesmoke;
+}
+
+.insurance .followers {
+  margin-top: 0;
+}
+
+@media (max-width: 670px) {
+  .insurance {
+    width: calc(100vw - 55px);
+    max-width: calc(100vw - 55px);
+  }
+}

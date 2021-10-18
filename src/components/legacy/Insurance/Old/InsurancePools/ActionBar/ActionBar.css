@@ -1,0 +1,35 @@
+.insurance .actionbar-container {
+  width: 100%;
+}
+
+.actionbar-container {
+  margin: 10px;
+}
+
+.actionbar-container .container {
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.actionbar-container .container label {
+  border-bottom: none;
+}
+
+.actionbar-container .container label input {
+  width: 100%;
+}
+
+.actionbar-container .container p {
+  margin: 5px 0px 0px 10px;
+  min-width: 90px;
+  align-self: flex-start;
+}
+
+.actionbar-container .container .slider {
+  margin: 0 10px;
+  flex-grow: 1;
+}
+
+.actionbar-container p {
+  color: black;
+}
